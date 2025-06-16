@@ -1,7 +1,10 @@
 ---
-type: book
-author: McKenzie Wark
+type: 'book'
+author: 'McKenzie Wark'
+title: 'A Hacker Manifesto'
+slug: 'a-hacker-manifesto'
 ---
+
 ---
 
 [[HM - Abstraction]]

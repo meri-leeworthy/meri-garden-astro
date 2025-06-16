@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'socialist planning'
+slug: 'socialist-planning'
 ---
+
 *problem of planned economies / organisation of production in any other way than the use of prices and markets*
 
 ### Stalinist central planning

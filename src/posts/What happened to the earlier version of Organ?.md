@@ -1,3 +1,8 @@
+---
+title: 'What happened to the earlier version of Organ?'
+slug: 'what-happened-to-the-earlier-version-of-organ'
+---
+
 In early 2024 I shared some early work on a **privacy-preserving social media network oriented around event organising** that I'm now calling `organ-social`. My work on this project was motivated by a desire to support activists and community organisers to become less reliant on corporate social media. I've since indefinitely suspended work on this project and wanted to share why. 
 
 The short story is that **1. building the proof of concept showed me that the design wasn't viable for privacy protection**, combined with me deciding somewhat late in the game that **2. privacy protections were a non-negotiable feature**. To add to this, I was (and still am) a relatively inexperienced developer, who had spent the better part of the previous four years working on what turned out to be a wildly overambitious passion project, having fallen victim to a combination of scope creep, naivety and a touch of righteousness.

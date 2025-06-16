@@ -1,8 +1,10 @@
 ---
-author:
-  - Szymon Mentel
-type: post
+author: 'Szymon Mentel'
+type: 'post'
+title: 'Multi-tenant apps with single-tenant SQLite databases in global Tigris buckets'
+slug: 'multi-tenant-apps-with-single-tenant-sqlite-databases-in-global-tigris-buckets'
 ---
+
 https://fly.io/javascript-journal/single-tenant-sqlite-in-tigris/
 
 We’re Fly.io, where apps run on Fly Machines—fast-starting VMs with a simple API—in 30+ regions around the world. This article is about Fly Machines storing their SQLite databases in a globally distributed [Tigris](https://www.tigrisdata.com/) bucket. If you haven’t tried Machines, take them for a spin! [It’s fast to get started.](https://fly.io/docs/speedrun/)

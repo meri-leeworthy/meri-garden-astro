@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Representation'
+slug: 'hm-representation'
 ---
+
 [[A Hacker Manifesto]]
 Prev: [[HM - Property]]
 Next: [[HM - Revolt]]

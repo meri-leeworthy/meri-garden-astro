@@ -1,3 +1,8 @@
+---
+title: 'Multiplication rule'
+slug: 'multiplication-rule'
+---
+
 #### 1.6. Multiplication rule (independent event)
 
 If an event is the intersection of two other events, events A and B must occur simultaneously. Then the multiplication rule is used.

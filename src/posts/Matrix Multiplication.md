@@ -1,3 +1,8 @@
+---
+title: 'Matrix Multiplication'
+slug: 'matrix-multiplication'
+---
+
 Matrix multiplication involves taking the dot product of rows and columns from two matrices. Here’s a step-by-step guide on how it’s calculated:
 
 1. **Dimensions**: Ensure the number of columns in the first matrix $(A)$ matches the number of rows in the second matrix $(B)$. If $(A)$ is an $(m \times n)$ matrix and $(B)$ is an $(n \times p)$ matrix, the resulting matrix $(C)$ will be an $(m \times p)$ matrix.

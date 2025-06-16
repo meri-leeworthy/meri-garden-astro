@@ -1,12 +1,11 @@
 ---
-title: What's Hard About Customising A CMS?
-isPublished: false
-publishDate: "2021-11-08T00:00:00.000Z"
-image: keystone.png
-alt: A screenshot of the Keystone UI
-tags:
-  - radical-directory
-  - projects
+title: 'What''s Hard About Customising A CMS?'
+isPublished: 'false'
+publishDate: '''Mon Nov 08 2021 11:00:00 GMT+1100 (Australian Eastern Daylight Time)'''
+image: 'keystone.png'
+alt: 'A screenshot of the Keystone UI'
+tags: 'radical-directory,projects'
+slug: 'whats-hard-about-customising-a-cms'
 ---
 
 I want to write about a task I’ve been struggling with and why I find it hard. I
@@ -51,7 +50,7 @@ scratch, and the functionality that Keystone provides for generating a full CRUD
 GraphQL API with minimal developer input is incredible. Still, it’s a lot to
 take in.
 
-![](../../../../meri-public/garden/be26799ee4db8dbce6827c291bf51249.png)
+![](https://static.meri.garden/be26799ee4db8dbce6827c291bf51249.png)
 
 Deploying your own instance of a pre-existing software package and trying to
 customise it is a strange way to approach learning about backend development.

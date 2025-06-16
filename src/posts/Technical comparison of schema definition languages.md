@@ -1,3 +1,8 @@
+---
+title: 'Technical comparison of schema definition languages'
+slug: 'technical-comparison-of-schema-definition-languages'
+---
+
 ## JSON Schema
 
 **Specification**: RFC-based standard (Draft 2020-12 is current) 

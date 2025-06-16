@@ -1,8 +1,11 @@
 ---
-type: paper
-year: "2024"
+type: 'paper'
+year: '2024'
+title: 'Practical Rateless Set Reconciliation'
+slug: 'practical-rateless-set-reconciliation'
 ---
-![](../../../../meri-public/garden/1e9779f42fae9e07321199a3db0f0d1a.pdf)
+
+![](https://static.meri.garden/1e9779f42fae9e07321199a3db0f0d1a.pdf)
 [[Set reconciliation]]
 
 [[Bloom filter]]

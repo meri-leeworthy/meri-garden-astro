@@ -1,3 +1,8 @@
+---
+title: 'Broadcast encryption'
+slug: 'broadcast-encryption'
+---
+
 [[Modular Design of Secure Group Messaging Protocols and the Security of MLS]]
 > TreeKEM is also related to schemes for (symmetric-key) **broadcast encryption** [ 16 , 18 ] and [[Multicast encryption]] [ 12 , 24 , 30 ]
 

@@ -1,3 +1,8 @@
+---
+title: 'Commodity fetishism'
+slug: 'commodity-fetishism'
+---
+
 [[Capital (Marx)]]
 
 commodities 'magically' seem to control humans into behaving in certain ways - because in the private property society, we need to exchange commodities to survive and meet our needs, we have to produce commodities or otherwise labour in a socially specific way, creating a social division of labour

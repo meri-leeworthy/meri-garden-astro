@@ -1,3 +1,8 @@
+---
+title: 'Muni Town Questions'
+slug: 'muni-town-questions'
+---
+
 How does Germ manage keys
 Roomy has key server, looks bad, centralised
 	you log in to ATProto and you have a Roomy key you can use
@@ -8,4 +13,3 @@ peer to peer? sync server?
 
 Research Beelay and Keyhive more
 talk to Brooklyn?
-

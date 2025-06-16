@@ -1,3 +1,8 @@
+---
+title: 'Public research notes'
+slug: 'public-research-notes'
+---
+
 I've decided to start publishing parts of my notes collection as a kind of personal wiki, or what is sometimes called a [digital garden](https://maggieappleton.com/garden-history) (this is why my site is meri.garden). I've so far mostly shared the parts that are not original work, but rather collected and sometimes annotated literature by others where I have an interest in citing their work as part of my own personal research and writing. There is a pretty comprehensive list of these books, essays etc here: [[Literature]]. Some of these pages include the entire text or pdf of the original work, or samples from it. The most comprehensively integrated is [[Designs for the Pluriverse]] by [[Arturo Escobar]]. There are also significant parts of [[Endnotes]] journal included.
 
 There are also topic pages and author pages which are generally serving as ways of linking between different texts, and sometimes as places to place relevant quotes, and occasionally some original thoughts. Many exist but are empty. Some somewhat fleshed out topic pages worth checking out are [[autonomy]], [[political ontology]] and [[development]]. There is also a decent amount of course material copied from my computer science degree - see, e.g., [[Calculus]], [[Software engineering]], [[Multi-layer feed-forward neural network]].

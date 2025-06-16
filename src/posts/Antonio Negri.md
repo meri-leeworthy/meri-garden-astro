@@ -1,3 +1,6 @@
 ---
-type: person
+type: 'person'
+title: 'Antonio Negri'
+slug: 'antonio-negri'
 ---
+

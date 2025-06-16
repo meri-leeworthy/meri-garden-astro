@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'Autonomous Design and the Politics of Relationality and the Communal'
+slug: 'autonomous-design-and-the-politics-of-relationality-and-the-communal'
 ---
+
 # 6: [[Autonomous Design]] and the Politics of Relationality and the Communal
 
  La tierra manda, el pueblo ordena, y el gobierno  obedece. Construyendo autonomía.  "The earth commands, the people order, and the  government obeys. Constructing autonomy."· Zapatista slogan

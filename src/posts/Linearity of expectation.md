@@ -1,3 +1,8 @@
+---
+title: 'Linearity of expectation'
+slug: 'linearity-of-expectation'
+---
+
 The **expected value of a constant** is the constant itself. $𝐸(𝑐)=𝑐 ; 𝑐$ is any constant. This can be verified by noting that:
 
 $$𝐸(𝑐)=\int_{−∞}^∞𝑐𝑓(𝑥)𝑑𝑥=𝑐\int_{−∞}^∞𝑓(𝑥)𝑑𝑥$$

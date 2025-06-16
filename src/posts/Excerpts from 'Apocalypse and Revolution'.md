@@ -1,8 +1,11 @@
 ---
-type: essay
-author: Giorgio Cesarano
-year: "1973"
+type: 'essay'
+author: 'Giorgio Cesarano'
+year: '1973'
+title: 'Excerpts from ''Apocalypse and Revolution'''
+slug: 'excerpts-from-apocalypse-and-revolution'
 ---
+
 ## I. Mortal Leap
 
 >“In a word: the revolution made progress, forged ahead, not by its immediate tragicomic achievements but, on the contrary, by the creation of a powerful, united counterrevolution, but the creation of an opponent in combat with whom the party of overthrow ripened into a really revolutionary party.”

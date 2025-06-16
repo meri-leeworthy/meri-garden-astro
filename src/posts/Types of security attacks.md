@@ -1,3 +1,8 @@
+---
+title: 'Types of security attacks'
+slug: 'types-of-security-attacks'
+---
+
 We have broadly learned the different classifications of security attacks that can happen and how an attacker seeks to carry them out on a system and why they are challenging to address completely. In this lesson, we will further explore each of the security attack classifications and examine how some of the various attacks are carried out on a system and why they are classified as such.
 
 ## Release of message contents

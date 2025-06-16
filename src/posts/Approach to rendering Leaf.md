@@ -1,3 +1,8 @@
+---
+title: 'Approach to rendering Leaf'
+slug: 'approach-to-rendering-leaf'
+---
+
 A render system can apply to any entity that has the required components. 
 
 A render system will take 1 input and return 1 output as text. 
@@ -38,4 +43,4 @@ List of potentially useful functions
 - dependency resolver
 	- takes an AST 
 	- returns the list of direct dependencies
-- 
+-

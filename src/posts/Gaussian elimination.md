@@ -1,3 +1,8 @@
+---
+title: 'Gaussian elimination'
+slug: 'gaussian-elimination'
+---
+
 Look at the following set of equations which represent a certain system:
 
 $$10𝑥+20𝑦+30𝑧=40…𝑒𝑞𝑛(1)$$

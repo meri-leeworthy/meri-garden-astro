@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Subject'
+slug: 'hm-subject'
 ---
+
 [[A Hacker Manifesto]]
 Prev: [[HM - State]]
 Next: [[HM - Surplus]]

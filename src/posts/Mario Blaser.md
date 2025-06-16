@@ -1,8 +1,10 @@
 ---
-aliases:
-  - Blaser, Mario
-type: person
+aliases: 'Blaser, Mario'
+type: 'person'
+title: 'Mario Blaser'
+slug: 'mario-blaser'
 ---
+
 [[political ontology]]
 [[Life Projects]]
 [[In the Way of Development - Indigenous Peoples, Life Projects and Globalization]]

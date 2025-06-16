@@ -1,3 +1,8 @@
+---
+title: 'stakeholder identification and management'
+slug: 'stakeholder-identification-and-management'
+---
+
 ### 1. Stakeholder identification and management
 
 Stakeholder identification and management is a critical aspect of project management and business processes. It involves identifying, understanding, and effectively engaging with individuals, groups, or organisations that have a vested interest or stake in a project, initiative, or the outcomes of an organisation. These stakeholders can influence or be influenced by the project or organisation, and their needs, expectations, and concerns should be considered and managed to ensure project success and stakeholder satisfaction. The following are key components of stakeholder identification and management.

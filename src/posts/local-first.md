@@ -1,3 +1,8 @@
+---
+title: 'local-first'
+slug: 'local-first'
+---
+
 https://www.inkandswitch.com/local-first/
 
 Seven ideals for local-first software

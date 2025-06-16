@@ -1,12 +1,15 @@
 ---
-type: essay
-editor: Endnotes
+type: 'essay'
+editor: 'Endnotes'
+title: 'The Passion of Communism'
+slug: 'the-passion-of-communism'
 ---
+
 #Endnotes 5
 
 Italian Invariance in the 1970s
 
-![](../../../../meri-public/garden/8878167286d280bfcc763cfea2ed9a2a.pdf)
+![](https://static.meri.garden/8878167286d280bfcc763cfea2ed9a2a.pdf)
 
 I will write a summary of 'Glosses on Humanism'
 

@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Property'
+slug: 'hm-property'
 ---
+
 [[A Hacker Manifesto]]
 Prev: [[HM - Production]]
 Next: [[HM - Representation]]

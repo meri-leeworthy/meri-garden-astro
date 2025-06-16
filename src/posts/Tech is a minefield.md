@@ -1,3 +1,8 @@
+---
+title: 'Tech is a minefield'
+slug: 'tech-is-a-minefield'
+---
+
 **Hi! This is the first edition of *Boids*, a new newsletter. I'm starting it with the hope of giving myself a space to share reflections and ideas about political technologies and technological politics, and maybe some stuff about design, theory, and creative practice?
 
  You might be getting this email because you subscribed to my personal newsletter, *shelters*, and I thought you might be interested in this too. That said, feel free to unsubscribe if you decide it's not your thing.
@@ -14,9 +19,4 @@ This really sucks honestly, and I think it's really toxic. I want to feel optimi
 
 The future, our future, belongs to the people and to all life on Earth, not investors or capitalists. It is in this spirit that I hope my future writing on these topics will be received.
 
-*Thank you for reading! I live and write on the land of the Wurundjeri Willum clan, part of the Kulin Nation. I pay respect to their elders, both past and present. Sovereignty was never ceded. 
-
-
-
-
-
+*Thank you for reading! I live and write on the land of the Wurundjeri Willum clan, part of the Kulin Nation. I pay respect to their elders, both past and present. Sovereignty was never ceded.

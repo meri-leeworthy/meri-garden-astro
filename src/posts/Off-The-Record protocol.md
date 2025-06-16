@@ -1,3 +1,8 @@
+---
+title: 'Off-The-Record protocol'
+slug: 'off-the-record-protocol'
+---
+
 Comes after [[PGP]] and before [[Signal protocol]]
 Introduces properties of 
 - [[Forward secrecy]]

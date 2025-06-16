@@ -1,3 +1,8 @@
+---
+title: 'Anonymity'
+slug: 'anonymity'
+---
+
 [[Anonymous and accountable]]
 [[Anonymous Social Verification of Lived Experience Knowledge]]
 [[Anonymity in Attribute-Based Access Control - Framework and Metric]]

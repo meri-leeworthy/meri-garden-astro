@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'Design for Transitions'
+slug: 'design-for-transitions'
 ---
+
 # 5: Design for Transitions
 
  Transition Design is a proposition for a new era of  design practice, study and research that advocates  design-­led societal transitions ­toward more sustain able ­futures....Transition design solutions have their  origins in long-t­erm thinking, are life-s­tyle oriented  and place-based and always acknowledge the natur­al  world as the greater context for all design solutions.

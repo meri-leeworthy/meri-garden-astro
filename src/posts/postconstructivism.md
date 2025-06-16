@@ -1,4 +1,7 @@
 ---
-type: topic
+type: 'topic'
+title: 'postconstructivism'
+slug: 'postconstructivism'
 ---
+
 [[constructivism]]

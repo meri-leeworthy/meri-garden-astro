@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Nature'
+slug: 'hm-nature'
 ---
+
 [[A Hacker Manifesto]]
 Prev: [[HM - Information]]
 Next: [[HM - Production]]

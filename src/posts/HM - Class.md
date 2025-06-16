@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Class'
+slug: 'hm-class'
 ---
+
 [[A Hacker Manifesto]], Chapter 2
 Prev: [[HM - Abstraction]]
 Next: [[HM - Education]]

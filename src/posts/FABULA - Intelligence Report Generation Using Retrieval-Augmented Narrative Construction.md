@@ -1,5 +1,8 @@
 ---
-type: paper
-author: Priyanka Ranade, Anupam Joshi
+type: 'paper'
+author: 'Priyanka Ranade, Anupam Joshi'
+title: 'FABULA - Intelligence Report Generation Using Retrieval-Augmented Narrative Construction'
+slug: 'fabula-intelligence-report-generation-using-retrieval-augmented-narrative-construction'
 ---
+
 [[2310.13848v2.pdf]]

@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - History'
+slug: 'hm-history'
 ---
+
 [[A Hacker Manifesto]], Chapter 5
 Prev: [[HM - Hacking]]
 Next: [[HM - Information]]

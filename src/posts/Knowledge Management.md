@@ -1,3 +1,8 @@
+---
+title: 'Knowledge Management'
+slug: 'knowledge-management'
+---
+
 [The FUN and EFFICIENT note-taking system I use in my PhD](https://youtu.be/L9SLlxaEEXY)
 
 There were four principles for Zettelkasten that I would like to remember

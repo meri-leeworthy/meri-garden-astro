@@ -1,3 +1,8 @@
+---
+title: 'Operations on sets'
+slug: 'operations-on-sets'
+---
+
 #### 2.1. Operations on sets, properties of set operations
 
 There are five operations on sets:
@@ -18,7 +23,7 @@ E.g. If set 𝐴={𝑎,𝑏,𝑐,𝑑}𝐴={𝑎,𝑏,𝑐,𝑑} and 𝐵={�
 
 Mathematically, this could be expressed as 𝐴∪𝐵={𝑥:𝑥∈𝐴 OR 𝑥∈𝐵}𝐴∪𝐵={𝑥:𝑥∈𝐴 OR 𝑥∈𝐵}, where 𝑥𝑥 denotes the elements present in both sets.
 
-![](../../../../meri-public/garden/13cdf0705b9d54e0274da7d23458ba0a.png)
+![](https://static.meri.garden/13cdf0705b9d54e0274da7d23458ba0a.png)
 
 ---
 
@@ -30,7 +35,7 @@ E.g. If set 𝐴={𝑎,𝑏,𝑐,𝑑}𝐴={𝑎,𝑏,𝑐,𝑑} and 𝐵={�
 
 Mathematically, this could be expressed as 𝐴∩𝐵={𝑥:𝑥∈𝐴 AND 𝑥∈𝐵}𝐴∩𝐵={𝑥:𝑥∈𝐴 AND 𝑥∈𝐵}, where 𝑥𝑥 denotes the elements present in both sets.
 
-![](../../../../meri-public/garden/8b48b9f1d332583bd8e1b61a78ff2be9.png)
+![](https://static.meri.garden/8b48b9f1d332583bd8e1b61a78ff2be9.png)
 
 Suppose that:
 
@@ -50,7 +55,7 @@ Similarly, 𝑛(𝐴∩𝐵)=𝑛(𝐴)+𝑛(𝐵)−𝑛(𝐴∪𝐵)𝑛(𝐴
 
 e.g. If set 𝐴={𝑎,𝑏,𝑐,𝑑}𝐴={𝑎,𝑏,𝑐,𝑑} and 𝐵={𝑐,𝑑,𝑒}𝐵={𝑐,𝑑,𝑒}, then the difference, 𝐴−𝐵={𝑎,𝑏}𝐴−𝐵={𝑎,𝑏}
 
-![](../../../../meri-public/garden/26aab8dba5dd12628539207b6117e7c2.png)
+![](https://static.meri.garden/26aab8dba5dd12628539207b6117e7c2.png)
 
 ---
 
@@ -62,7 +67,7 @@ According to the following figure, notice that 𝐴∆𝐵=(𝐴∪𝐵)−(�
 
 e.g. If set 𝐴={𝑎,𝑏,𝑐,𝑑}𝐴={𝑎,𝑏,𝑐,𝑑} and 𝐵={𝑐,𝑑,𝑒}𝐵={𝑐,𝑑,𝑒}, then the symmetric difference, 𝐴∆𝐵={𝑎,𝑏,𝑒}𝐴∆𝐵={𝑎,𝑏,𝑒}.
 
-![](../../../../meri-public/garden/55006848f1db92d01ce755e48a7bad38.png)
+![](https://static.meri.garden/55006848f1db92d01ce755e48a7bad38.png)
 
 ---
 
@@ -72,7 +77,7 @@ e.g. If set 𝐴={𝑎,𝑏,𝑐,𝑑}𝐴={𝑎,𝑏,𝑐,𝑑} and 𝐵={�
 
 The following figure shows the complement of B, i.e. B c
 
-![](../../../../meri-public/garden/05ac4a3cced142e68651fd98aa83733b.png)
+![](https://static.meri.garden/05ac4a3cced142e68651fd98aa83733b.png)
 
 e.g. If set 𝐴={𝑎,𝑏,𝑐,𝑑}𝐴={𝑎,𝑏,𝑐,𝑑} and 𝐵={𝑐,𝑑,𝑒}𝐵={𝑐,𝑑,𝑒}, then the complement of 𝐵𝐵 is everything other than 𝐵={𝑐,𝑑,𝑒}𝐵={𝑐,𝑑,𝑒}.
 

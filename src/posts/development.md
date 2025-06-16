@@ -1,8 +1,10 @@
 ---
-aliases:
-  - developmentalism
-type: topic
+aliases: 'developmentalism'
+type: 'topic'
+title: 'development'
+slug: 'development'
 ---
+
 - "a successor to imperialism and colonialism" ([[In the Way of Development - Indigenous Peoples, Life Projects and Globalization|Blaser et al.]])
 
 # Designs for the Pluriverse

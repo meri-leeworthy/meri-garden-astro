@@ -1,3 +1,8 @@
+---
+title: 'Vector algebra glossary'
+slug: 'vector-algebra-glossary'
+---
+
 1. **Vectors**: Objects with both magnitude and direction. Represented as arrows or as coordinates in a space.
 2. **Vector Addition**: Combining two vectors by adding their corresponding components. Result is a new vector.
 3. **Scalar Multiplication**: Multiplying a vector by a scalar changes its magnitude but not its direction.

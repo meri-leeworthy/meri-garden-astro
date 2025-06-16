@@ -1,3 +1,8 @@
+---
+title: 'Probability terminology'
+slug: 'probability-terminology'
+---
+
 **Event**
 An 'event' can be one or more outcomes.
 

@@ -1,3 +1,8 @@
+---
+title: 'Introduction to set theory'
+slug: 'introduction-to-set-theory'
+---
+
 #### 1.1. Introduction to Set theory
 
 In this topic, you will learn the terminologies used in set theory, the standard formats used, what objects are, etc.

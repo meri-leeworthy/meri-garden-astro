@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'Commoning'
+slug: 'commoning'
 ---
+
 Practising Commoning
 https://commonslibrary.org/practising-commoning/
 

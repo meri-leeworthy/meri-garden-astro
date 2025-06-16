@@ -1,7 +1,10 @@
 ---
-type: essay
-author: Peter Gelderloos
+type: 'essay'
+author: 'Peter Gelderloos'
+title: 'Insurrection vs. Organization'
+slug: 'insurrection-vs-organization'
 ---
+
 #### Reflections from Greece on a Pointless Schism
 
 > “I consider it terrible that our movement, everywhere, is degenerating into a swamp of petty personal quarrels, accusations, and recriminations. There is too much of this rotten thing going on, particularly in the last couple of years.”

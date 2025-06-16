@@ -1,3 +1,8 @@
+---
+title: 'Leaf discussion about ATProto Lexicons and Component definitions'
+slug: 'leaf-discussion-about-atproto-lexicons-and-component-definitions'
+---
+
 meri _—_ 9/5/2025, 11:11 am
 i'm also interested if you have some thoughts on if and how these component schemas map to atproto lexicons
 

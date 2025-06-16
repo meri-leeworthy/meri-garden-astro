@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - State'
+slug: 'hm-state'
 ---
+
 [[A Hacker Manifesto]]
 Prev: [[HM - Revolt]]
 Next: [[HM - Subject]]

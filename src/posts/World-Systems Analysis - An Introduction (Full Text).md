@@ -1,6 +1,9 @@
 ---
-type: book
+type: 'book'
+title: 'World-Systems Analysis - An Introduction (Full Text)'
+slug: 'world-systems-analysis-an-introduction-full-text'
 ---
+
 A JOHN HOPE FRANKLIN CENTER BOOK
 
 # WORLD-SYSTEMS ANALYSIS
@@ -1522,4 +1525,3 @@ ISBN 0-8223-3442-9 (pbk. : alk. paper)
 4\. Globalization—Social aspects. I. Title.
 
 HN13.W35 2004   303.4—dc22   2004003291
-

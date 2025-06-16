@@ -1,3 +1,8 @@
+---
+title: 'Coding Processes'
+slug: 'coding-processes'
+---
+
 # Raspberry Pi Coding
 DigitalOcean Ubuntu Server: `139.59.104.200`
 

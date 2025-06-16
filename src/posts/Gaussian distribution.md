@@ -1,3 +1,8 @@
+---
+title: 'Gaussian distribution'
+slug: 'gaussian-distribution'
+---
+
 #### 3.1. Gaussian distribution: examples
 
 The Gaussian or normal distribution is the most common distribution. The probability distribution function of a normal distribution is given by:
@@ -10,15 +15,15 @@ If $𝑋$ is normally distributed with mean $μ$ and standard deviation $σ
 
 The figures below show the normal distribution for different mean values and standard deviations.
 
-![](../../../../meri-public/garden/5a136f3f9aa95ae43f1a9ad54c3de9ed.png)
+![](https://static.meri.garden/5a136f3f9aa95ae43f1a9ad54c3de9ed.png)
 
-![](../../../../meri-public/garden/89645d3bd1954cae690a039321aa5cea.png)
+![](https://static.meri.garden/89645d3bd1954cae690a039321aa5cea.png)
 
 #### The standard normal distribution
 
 Using the standard normal distribution table below, one can easily determine the probability of different $𝑧$ values. The following table shows the areas under a standard normal curve to the right of $𝑧_0$ for nonnegative values of $𝑧_0$. Probabilities about a standard normal variable $𝑍$ can be determined from this table.
 
-![](../../../../meri-public/garden/d29b8fcc7101d13265234c13c02aeca0.png)
+![](https://static.meri.garden/d29b8fcc7101d13265234c13c02aeca0.png)
 
 Standard normal cumulative probability in the right-hand tail (area under the curve for specified values of $𝑧_0$) 
 

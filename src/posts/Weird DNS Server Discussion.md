@@ -1,3 +1,8 @@
+---
+title: 'Weird DNS Server Discussion'
+slug: 'weird-dns-server-discussion'
+---
+
 > [!QUESTIONS]
 > No rush on getting back to these but just so I put them down while i'm thinking about them: 
 > - what are `_weird` subdomains for?,
@@ -178,4 +183,4 @@ Yeah, I think we can just wait on DNS for now.
 ATProto doesn't really do any DNS stuff either, but it doesn't need to.
 🤔 Thinking about it, it doesn't really reduce the features that we have available.
 We have to add a tiny bit of extra logic to our code for resolving handles to Leaf entities, but that's nothing.
-We weren't offering DNS services yet anyway, so we can basically work around our need to have a custom DNS server without any limitations until we actually want to let users manage DNS under their Weird accounts. 
+We weren't offering DNS services yet anyway, so we can basically work around our need to have a custom DNS server without any limitations until we actually want to let users manage DNS under their Weird accounts.

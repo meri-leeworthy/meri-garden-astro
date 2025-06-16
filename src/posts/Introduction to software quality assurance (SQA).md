@@ -1,3 +1,8 @@
+---
+title: 'Introduction to software quality assurance (SQA)'
+slug: 'introduction-to-software-quality-assurance-sqa'
+---
+
 In this topic book, you will cover the following:
 
 - What is software quality assurance (SQA)?
@@ -25,13 +30,13 @@ A development process converts an idea into usable software. The three groups o
 - **the development team** that creates the software
 - **the sponsors of the project**, who are the people paying for the software’s creation.
 
-![](../../../../meri-public/garden/b7d003816dc4283cade1a8175c77be81.png)
+![](https://static.meri.garden/b7d003816dc4283cade1a8175c77be81.png)
 
 ### 2. What is software quality?
 
 **Software quality** can be defined as 'the degree of conformance to explicit or implicit requirements and expectations' (IEEE n.d.)
 
-![](../../../../meri-public/garden/4795d01ea40e6f66b73a067e7fa900b2.png)
+![](https://static.meri.garden/4795d01ea40e6f66b73a067e7fa900b2.png)
 
 Functional quality (meeting the specified requirements)
 
@@ -49,7 +54,7 @@ A repeatable development process that reliably delivers quality software while m
 
 Software quality attributes are features that facilitate the measurement of a software product’s performance by software testing professionals. ISO/IEC 25010 is one of the common standards that provides a framework for evaluating software quality (both functional and non-functional).
 
-![](../../../../meri-public/garden/b296a673c430f12679b935835b9aa525.png)
+![](https://static.meri.garden/b296a673c430f12679b935835b9aa525.png)
 ### 4. Functional quality
 
 Functional quality refers to the degree to which a product or service meets its intended purpose or functional requirements. Three main quality attributes that they look for are as follows.

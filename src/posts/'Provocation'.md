@@ -1,8 +1,11 @@
 ---
-author: Giorgio Cesarano
-year: "1974"
-type: essay
+author: 'Giorgio Cesarano'
+year: '1974'
+type: 'essay'
+title: '''Provocation'''
+slug: 'provocation'
 ---
+
 From *Puzz* (1974)
 
 ## Full Text

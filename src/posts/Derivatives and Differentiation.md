@@ -1,10 +1,9 @@
 ---
-aliases:
-  - derivative
-  - differentiation
-  - differentiate
-  - derivatives
+aliases: 'derivative,differentiation,differentiate,derivatives'
+title: 'Derivatives and Differentiation'
+slug: 'derivatives-and-differentiation'
 ---
+
 1. **Definition of a Derivative**: Understanding the derivative as the limit of the average rate of change; the fundamental concept of differentiation.
 2. **[[Rules of Differentiation]]**: Basic rules like the power rule, product rule, and quotient rule; essential for computing derivatives efficiently.
 3. **[[Chain Rule]]**: Differentiating composite functions; crucial for handling nested functions.

@@ -1,14 +1,11 @@
 ---
-title: Customising Discourse to do non-forum things
-isPublished: true
-date: "20211008"
-image: discourse.png
-alt:
-  A screenshot of a customised Discourse instance with a search bar in the
-  centre
-tags:
-  - radical-directory
-  - projects
+title: 'Customising Discourse to do non-forum things'
+isPublished: 'true'
+date: '20211008'
+image: 'discourse.png'
+alt: 'A screenshot of a customised Discourse instance with a search bar in the centre'
+tags: 'radical-directory,projects'
+slug: 'customising-discourse-to-do-non-forum-things'
 ---
 
 Discourse is open source forum software that powers most small to medium scale

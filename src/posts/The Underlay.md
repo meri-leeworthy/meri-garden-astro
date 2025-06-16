@@ -1,6 +1,9 @@
 ---
-type: project
+type: 'project'
+title: 'The Underlay'
+slug: 'the-underlay'
 ---
+
 https://notes.knowledgefutures.org/pub/future/release/5
 
 # RFCs

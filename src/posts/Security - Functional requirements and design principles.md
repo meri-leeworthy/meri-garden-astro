@@ -1,3 +1,8 @@
+---
+title: 'Security - Functional requirements and design principles'
+slug: 'security-functional-requirements-and-design-principles'
+---
+
 While the OSI security architecture is widely accepted as a standard when considering security for modern systems, despite years of research and development done on this topic, it is still not possible to design a system that can completely eliminate all security flaws, thereby preventing unauthorised access to that system. As such, many government organisations collectively defined a set of requirements based on functionality and a set of design principles that government systems must adhere to in order to ensure the maximal level of security. We will briefly discuss the theory behind these in this lesson.
 
 ## Functional requirements

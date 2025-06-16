@@ -1,3 +1,8 @@
+---
+title: 'Truth tables'
+slug: 'truth-tables'
+---
+
 #### 2.1. Constructing a truth table
 
 On this page, you will learn how to construct a truth table.
@@ -9,11 +14,11 @@ Look at the same example we explored earlier. 
 P = The sky is blue,  
 Q = The grass is green.
 
-![](../../../../meri-public/garden/98248b3a41f37f03393f002e65a3c8cd.png)
+![](https://static.meri.garden/98248b3a41f37f03393f002e65a3c8cd.png)
 Let’s draw a truth table now.
 
 Observe the pattern of true (T) and False (F) instances in each column in the following table. AND operation produces a 'TRUE' result only when both P and Q are TRUE. Similarly, OR operation produces only a 'FALSE' outcome when both P and Q are FALSE.
-![](../../../../meri-public/garden/6b2445281598c006fa52618390a0e840.png)
+![](https://static.meri.garden/6b2445281598c006fa52618390a0e840.png)
 
 #### 2.2. Premises, conclusions and conjunctive normal forms
 
@@ -44,4 +49,4 @@ Assume we have a scenario as follows. There are two statements, X and Y, and the
 | ==**T**== | ==**F**== | ==**T**== | ==**X ∧ ¬Y**== |
 | T     | T     | F     |            |
 
-![](../../../../meri-public/garden/733b959c06e855c679de723dfa10871d.png)
+![](https://static.meri.garden/733b959c06e855c679de723dfa10871d.png)

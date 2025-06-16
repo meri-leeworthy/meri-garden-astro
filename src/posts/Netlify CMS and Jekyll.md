@@ -1,14 +1,11 @@
 ---
-title: Netlify CMS and Jekyll
-isPublished: true
-date: "20200503"
-image: markdown.png
-alt:
-  a screenshot showing two vertical panels with markdown text on the left and
-  the rendered rich text on the right
-tags:
-  - radical-directory
-  - projects
+title: 'Netlify CMS and Jekyll'
+isPublished: 'true'
+date: '20200503'
+image: 'markdown.png'
+alt: 'a screenshot showing two vertical panels with markdown text on the left and the rendered rich text on the right'
+tags: 'radical-directory,projects'
+slug: 'netlify-cms-and-jekyll'
 ---
 
 **This post is made up of messages I sent in the Radical Directory Discord,
@@ -93,7 +90,7 @@ characters to tell it to do the formatting. That text formatting is called
 takes all the text files and processes them and orders them by date and time in
 a list, and that's how it makes the blog.
 
-![](../../../../meri-public/garden/ed39a703c6054ee510abcb086c52cb24.png)
+![](https://static.meri.garden/ed39a703c6054ee510abcb086c52cb24.png)
 
 That's a little example of markdown. the different colours and italics etc on
 the left are not actually in the text - it's just a text file but whatever app
@@ -113,13 +110,13 @@ Squarespace or Wix, coding our own website using Jekyll will allow us to use our
 little packets of data (whether it's a blog post, an entry to the directory, or
 a description/invitation to an upcoming event) in any way that we want.
 
-![](../../../../meri-public/garden/e1964d8aa16d9de4c7ada050e87e943f.png)
+![](https://static.meri.garden/e1964d8aa16d9de4c7ada050e87e943f.png)
 
 For illustration, this is what a blog post looks like in Jekyll. The stuff at
 the top, between the lines with three dashes, is where the information ~about~
 the blog post is kept, like the title. Tags and categories also go there.
 
-![](../../../../meri-public/garden/704d863a42e184d844449a65c37ad57d.png)
+![](https://static.meri.garden/704d863a42e184d844449a65c37ad57d.png)
 
 so the types of information put into these headers can be set arbitrarily, which
 is useful, because then you can set code in the layout pages that refers to a
@@ -181,8 +178,8 @@ post' or 'collections' type text files. Because I'm not sure about that, that's
 why I'm not 100% sure that the CMS we install will work to automatically update
 the website while it is hosted on Github Pages. but i think it's worth a shot!
 
-![](../../../../meri-public/garden/b17161af7688492c77dda0625bf6fef9.png)
+![](https://static.meri.garden/b17161af7688492c77dda0625bf6fef9.png)
 
-![](../../../../meri-public/garden/97d12e8ff9700b483255497b58f301b7.png)
+![](https://static.meri.garden/97d12e8ff9700b483255497b58f301b7.png)
 
-![](../../../../meri-public/garden/dfcde64ed3f1b7f63a463f776cbf4da0.png)
+![](https://static.meri.garden/dfcde64ed3f1b7f63a463f776cbf4da0.png)

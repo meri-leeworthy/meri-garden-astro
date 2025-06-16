@@ -1,8 +1,10 @@
 ---
-type: person
-aliases:
-  - Wallerstein
+type: 'person'
+aliases: 'Wallerstein'
+title: 'Immanuel Wallerstein'
+slug: 'immanuel-wallerstein'
 ---
+
 [[World-systems theory]]
 [[World-Systems Analysis - An Introduction]]
 

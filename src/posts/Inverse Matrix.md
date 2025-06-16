@@ -1,3 +1,8 @@
+---
+title: 'Inverse Matrix'
+slug: 'inverse-matrix'
+---
+
 To find the inverse of a matrix, follow these steps:
 
 1. **Ensure the Matrix is Square and Non-Singular:**

@@ -1,3 +1,7 @@
+---
+title: 'Caliban and the Witch - Full Text'
+slug: 'caliban-and-the-witch-full-text'
+---
 
 ## About the Author
 
@@ -4126,4 +4130,3 @@ Cover illustration: The Seven Vices: Wrath by Giotto di Bandone @ Antonio Quattr
 ISBN: 978-0-141-99825-1
 
 This ebook is copyright material and must not be copied, reproduced, transferred, distributed, leased, licensed or publicly performed or used in any way except as specifically permitted in writing by the publishers, as allowed under the terms and conditions under which it was purchased or as strictly permitted by applicable copyright law. Any unauthorized distribution or use of this text may be a direct infringement of the author’s and publisher’s rights and those responsible may be liable in law accordingly.
-

@@ -1,10 +1,11 @@
 ---
-type: book
-author: Elinor Ostrom
-tags:
-  - Commons
-  - Commoning
+type: 'book'
+author: 'Elinor Ostrom'
+tags: 'Commons,Commoning'
+title: 'Governing The Commons'
+slug: 'governing-the-commons'
 ---
+
 [[game theory]]
 [[Revolutionary Motives]]
 

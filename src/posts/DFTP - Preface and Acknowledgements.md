@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'DFTP - Preface and Acknowledgements'
+slug: 'dftp-preface-and-acknowledgements'
 ---
+
 # Preface and Acknowl­edgments
 
 The times they are a-­changin,' chanted Bob Dylan in a prophetic song back in 1964, at the dawn of the North American counterculture movement. That was well before intensive globalization with its increasingly con­spic­u­ous collateral damage, including climate change, widespread extractivism, extensive conflict and social dislocation, and the inexpressible devastation of the Earth. T­oday we would have to say, with climate justice activist Naomi Klein (2014), that this changes every­thing. For both Dylan and Klein, as for so many visionaries and activists worldwide and some farsighted designers, all of whom will be among the protagonists of this book, Klein's injunction is to be taken not only seriously but literally. What this means is that what is at stake is not just a given economic model (neoliberal capitalism), nor a set of cultural traits inimical to life on the planet (say, rampant individualism and consumerism), high-­level policy reform (e.g., more comprehensive climate change protocols), geopo­liti­cal power strug­gles for re-­and de-­Westernization, or the ever-­growing military-­industrial complex. As Latin American indigenous, black, and peasant activists are wont to say, the con­temporary crisis is a crisis of a par­tic­ul­ar modelo civilizatorio, or civilizational model, that of patriarchal Western cap­i­tal­ist modernity. This is a striking claim, but one that more and more social groups on the planet, in both the Global South and the Global North, are taking to heart in the defense of their places, territories, and cultures. As we shall see in the conclusion, the implication is none other than every­thing has to change. For ­those for whom the current conjuncture "changes every­thing," what needs to change is an entire way of life and a ­whole style of world making. It goes deeper than capitalism.

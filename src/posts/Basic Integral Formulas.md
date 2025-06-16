@@ -1,3 +1,8 @@
+---
+title: 'Basic Integral Formulas'
+slug: 'basic-integral-formulas'
+---
+
 Here are some basic integral formulas that are essential in calculus:
 
 1. **Power Rule for Integration**:

@@ -1,3 +1,8 @@
+---
+title: 'k-means clustering'
+slug: 'k-means-clustering'
+---
+
 #### K-means algorithm
 
 The K-means algorithm is an algorithm where each instance of the training data is placed into **exactly one** cluster, and clusters don’t overlap. 
@@ -6,7 +11,7 @@ The K-means algorithm is an algorithm where each instance of the training data 
 
 The following example shows the user input of K=2, resulting in the output of two clusters.
 
-![](../../../../meri-public/garden/d6ccb6161d46e11d0947ce535dff2191.png)
+![](https://static.meri.garden/d6ccb6161d46e11d0947ce535dff2191.png)
 
 #### Squared error
 
@@ -14,7 +19,7 @@ The K-means algorithm creates **K cluster centroids** and iteratively moves th
 
 The following illustration demonstrates that distance to each cluster centroid 𝐶𝑖 is measured using Euclidean distance in 𝑛 dimensional space.
 
-![](../../../../meri-public/garden/7f9214a566d4ff25aa30be4c0cbd5d10.png)
+![](https://static.meri.garden/7f9214a566d4ff25aa30be4c0cbd5d10.png)
 
 The overall objective for the K means algorithm is to minimise the sum of the distance from each point to its assigned cluster centroid.
 
@@ -34,25 +39,25 @@ In the next images, we see graphically what steps 1 to 5 of the algorithm look l
 
 We’re using K=3, so, first of all, three centroids are initialised.
 
-![](../../../../meri-public/garden/6c09b30520627e0bf29623218c5eccae.png)
+![](https://static.meri.garden/6c09b30520627e0bf29623218c5eccae.png)
 
 #### Step 2
 
 Next, each point is assigned to a cluster based on which centroid is closest.
 
-![](../../../../meri-public/garden/2d5d53b2e212ef0f7adffdbb4c145ec5.png)
+![](https://static.meri.garden/2d5d53b2e212ef0f7adffdbb4c145ec5.png)
 
 #### Step 3
 
 Then the location of each centroid is shifted to be the mean of the points assigned to it.
 
-![](../../../../meri-public/garden/c632bd8ecc98123f0bb8aff3a4ff0958.png)
+![](https://static.meri.garden/c632bd8ecc98123f0bb8aff3a4ff0958.png)
 
 #### Step 4
 
 We would, at this point, return to step 2 and repeat until no points change the cluster.
 
-![](../../../../meri-public/garden/000eb5c965fb6a2a3c1b882063212086.png)
+![](https://static.meri.garden/000eb5c965fb6a2a3c1b882063212086.png)
 
 ## Normalisation
 
@@ -62,7 +67,7 @@ Clusters describe the underlying structures in data, but structures in data can 
 
 As shown in the following illustration, we should consider several 𝑘 values instead. We can do this by starting from 𝑘=1 and incrementing until we see no improvement in the algorithm. We will also likely see different values of 𝑘 leading to different clusterings.
 
-![](../../../../meri-public/garden/13cee329a523d933e8e8c571147385fb.png)
+![](https://static.meri.garden/13cee329a523d933e8e8c571147385fb.png)
 
 #### Normalisation
 
@@ -77,4 +82,4 @@ Consider the following example. The age is closer to centroid 1 than centroid 2,
 
 A solution is to **normalise the data** so that all values end up **between 0 and 1**. This can be done by subtracting the minimum of a data set from each data point and dividing by the difference between the maximum and minimum in the data set.
 
-![](../../../../meri-public/garden/29bbfb9ccf975f87a138112344d3b7fc.png)
+![](https://static.meri.garden/29bbfb9ccf975f87a138112344d3b7fc.png)

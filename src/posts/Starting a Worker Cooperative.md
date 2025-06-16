@@ -1,3 +1,8 @@
+---
+title: 'Starting a Worker Cooperative'
+slug: 'starting-a-worker-cooperative'
+---
+
 Course I did with [[Earthworker Cooperative]] [[Katherine Cunningham]]
 
 [[Session 1_ Intro for Starting a Worker Cooperative (student copy).pdf]]

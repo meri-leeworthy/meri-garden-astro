@@ -1,3 +1,8 @@
+---
+title: 'The Euclidean algorithm'
+slug: 'the-euclidean-algorithm'
+---
+
 $$d=gcd(a,b)=gcd (1160718174, 316258250)$$
 
 The Euclidean Algorithm is an algorithm that aims to find the Greatest Common Divisor (GCD) for two positive integers. The reason for the use and effectiveness of this algorithm is that when working with cryptography we often need large integers that are also prime. The primality aspect is extremely important as this is generally a requirement for most cryptographic algorithms. As such, by extension of this algorithm, we can further stipulate that two numbers are **relatively prime** if the only number that divides them is 1.
@@ -48,7 +53,7 @@ Understanding this algorithm, using the division algorithm, we represent both _a
 **Apply your learning**  
 Let's apply this algorithm to the following example to get a better understanding of how the algorithm works.
 
-![](../../../../meri-public/garden/4fc7a320a97de6d4aebf3e53cf039fb5.png)
+![](https://static.meri.garden/4fc7a320a97de6d4aebf3e53cf039fb5.png)
 
 **Note:** It can be helpful to work on this algorithm by yourself using smaller numbers to ensure that you understand how it works.
 

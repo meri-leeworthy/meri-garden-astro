@@ -1,4 +1,9 @@
- there are two important paradigms for collecting and sharing data: 
+---
+title: 'Local-first and data sovereignty vs knowledge aggregation'
+slug: 'local-first-and-data-sovereignty-vs-knowledge-aggregation'
+---
+
+there are two important paradigms for collecting and sharing data: 
  - one which is focused on sovereignty, privacy, consent, autonomy, and locality/[[local-first]] - this is the decentralised utopian image of data politics; 
  - another which is focused on intelligence, power, leverage, scale, aggregation, abstraction - this is the inherently centralised or agglomerated, tactical and greedy zero sum game of extracting as much information as possible in order to know more than your competitors or enemies. 
 

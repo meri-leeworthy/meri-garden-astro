@@ -1,3 +1,8 @@
+---
+title: 'Extended Euclidean algorithm'
+slug: 'extended-euclidean-algorithm'
+---
+
 The Extended Eucliean algorithm (EEA) is considered to be reciprocal to modular exponentiation. The algorithm stipulates that given two values _a_ and _b_, starting with the GCD, we can work backwards to obtain two values _x_ and _y_, such that
 
 $$ax + by = gcd⁡(a, b)$$

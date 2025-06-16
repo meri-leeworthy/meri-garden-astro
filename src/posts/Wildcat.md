@@ -1,6 +1,9 @@
 ---
-type: organisation
+type: 'organisation'
+title: 'Wildcat'
+slug: 'wildcat'
 ---
+
 German [[workerism|workerists]]
 
 Influenced by [[World-systems theory]]

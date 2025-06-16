@@ -1,12 +1,15 @@
 ---
-type: book
-author: Gilles Deleuze, Felix Guattari
-year: "1987"
+type: 'book'
+author: 'Gilles Deleuze, Felix Guattari'
+year: '1987'
+title: 'A Thousand Plateaus'
+slug: 'a-thousand-plateaus'
 ---
+
 [[A-Thousand-Plateaus.pdf]]
 
-![](../../../../meri-public/garden/93a15f7b5ce5579d4fabef5345f25fef.jpeg)
-![](../../../../meri-public/garden/c60d597737126db944f62587a61fc77e.jpg)
+![](https://static.meri.garden/93a15f7b5ce5579d4fabef5345f25fef.jpeg)
+![](https://static.meri.garden/c60d597737126db944f62587a61fc77e.jpg)
 
 ## Contents
 

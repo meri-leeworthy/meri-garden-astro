@@ -1,11 +1,9 @@
 ---
-title: Design Justice - A Reading List
-isPublished: true
-date: "20240627"
-tags:
-  - design
-  - political
-  - notes
+title: 'Design Justice - A Reading List'
+isPublished: 'true'
+date: '20240627'
+tags: 'design,political,notes'
+slug: 'design-justice-a-reading-list'
 ---
 
 “\[Design is] an ethical praxis of worldmaking” - Escobar, Designs for the Pluriverse

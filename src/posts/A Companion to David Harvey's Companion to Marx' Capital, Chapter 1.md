@@ -1,7 +1,10 @@
 ---
-type: essay
-author: Critisticuffs
+type: 'essay'
+author: 'Critisticuffs'
+title: 'A Companion to David Harvey''s Companion to Marx'' Capital, Chapter 1'
+slug: 'a-companion-to-david-harveys-companion-to-marx-capital-chapter-1'
 ---
+
 # [Critisticuffs](https://critisticuffs.org/)
 
 # [A Companion to David Harvey's Companion to Marx' Capital, Chapter 1](https://critisticuffs.org/texts/david-harvey)

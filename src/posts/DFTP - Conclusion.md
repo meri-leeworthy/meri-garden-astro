@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'DFTP - Conclusion'
+slug: 'dftp-conclusion'
 ---
+
 # Conclusion
 
 Tanto vivir entre piedras,I lived among stones so long, Yo creí que conversaban.  I thought I heard them talking. Voces no he sentido nunca,It ­wasn't exactly with voices, Pero el alma no me engaña.But something more ­gently rocking.

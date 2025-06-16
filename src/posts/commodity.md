@@ -1,4 +1,6 @@
 ---
-aliases:
-  - commodities
+aliases: 'commodities'
+title: 'commodity'
+slug: 'commodity'
 ---
+

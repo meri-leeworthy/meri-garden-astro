@@ -1,4 +1,7 @@
 ---
-type: book
-author: Fred Moten, Stefano Harney
+type: 'book'
+author: 'Fred Moten, Stefano Harney'
+title: 'Undercommons'
+slug: 'undercommons'
 ---
+

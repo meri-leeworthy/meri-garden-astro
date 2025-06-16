@@ -1,7 +1,10 @@
 ---
-type: book
-author: Dean Spade
+type: 'book'
+author: 'Dean Spade'
+title: 'Mutual Aid'
+slug: 'mutual-aid'
 ---
+
 ### Introduction: Crisis Conditions Require Bold Tactics
 
 The contemporary political moment is defined by emergency. Acute crises, like the COVID-19 pandemic and climate change–induced fires, floods, and storms, as well as the ongoing crises of racist criminalization, brutal immigration enforcement, endemic gender violence, and severe wealth inequality, threaten the survival of people around the globe. Government policies actively produce and exacerbate the harm, inadequately respond to crises, and ensure that certain populations bear the brunt of pollution, poverty, disease, and violence. In the face of this, more and more ordinary people are feeling called to respond in their communities, creating bold and innovative ways to share resources and support vulnerable neighbors. This survival work, when done in conjunction with social movements demanding transformative change, is called mutual aid.

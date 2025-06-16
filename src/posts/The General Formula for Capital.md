@@ -1,3 +1,8 @@
+---
+title: 'The General Formula for Capital'
+slug: 'the-general-formula-for-capital'
+---
+
 [[Capital (Marx)]] **Part 2 Chapter 4 Section 1**
 
 ## GPT Summary

@@ -1,3 +1,8 @@
+---
+title: 'Matrix transformations glossary'
+slug: 'matrix-transformations-glossary'
+---
+
 - **[[Linear Transformation]]**: Function that maps vectors to vectors, preserving vector addition and scalar multiplication. Represented by a matrix.
 - **Transformation Matrix**: Matrix $A$ used to perform a linear transformation on a vector $v$, resulting in a new vector $Av$.
 - **Translation**: Moving every point of an object a constant distance in a specified direction. Represented using homogeneous coordinates.

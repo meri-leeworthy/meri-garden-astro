@@ -1,8 +1,11 @@
 ---
-type: book
-author: Ivan Illich
-year: "1975"
+type: 'book'
+author: 'Ivan Illich'
+year: '1975'
+title: 'Tools for Conviviality'
+slug: 'tools-for-conviviality'
 ---
+
 [[TOOLS FOR CONVIVIALITY -- IVAN ILLICH -- n_e_, 1975 -- Fontana Collins -- 9780006336211 -- 47196ee79a74e40bf81e4b52d91289a3 -- Anna’s Archive.pdf]]
 
 p.12:

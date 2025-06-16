@@ -1,4 +1,9 @@
- If$f(x) = \frac{g(x)}{h(x)}$, then$f'(x) = \frac{g'(x) \cdot h(x) - g(x) \cdot h'(x)}{[h(x)]^2}$.
+---
+title: 'Quotient Rule'
+slug: 'quotient-rule'
+---
+
+If$f(x) = \frac{g(x)}{h(x)}$, then$f'(x) = \frac{g'(x) \cdot h(x) - g(x) \cdot h'(x)}{[h(x)]^2}$.
 
 ### Partial Differentiation
 $$𝑢=\frac{𝑓(𝑥,𝑦)}{𝑔(𝑥,𝑦)}, \text{where}\ 𝑔(𝑥,𝑦)≠0$$

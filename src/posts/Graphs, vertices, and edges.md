@@ -1,3 +1,8 @@
+---
+title: 'Graphs, vertices, and edges'
+slug: 'graphs-vertices-and-edges'
+---
+
 #### 1.1. Graphs, vertices, and edges
 
 In computing, a graph is a structure consisting of points (vertices) and lines (edges) connecting vertices to form a network. Graph theory started with the Königsberg bridge problem (1735) (Sarma, 2012), which asks if the seven bridges of the city of Königsberg over the river Preger can all be traversed in a single trip without doubling back, with the additional requirement that the trip ends in the same place it began (Weisstein, 2023). Euler studied the problem of the Königsberg bridge and constructed a structure to solve the problem called the Eulerian graph (Sarma, 2012).

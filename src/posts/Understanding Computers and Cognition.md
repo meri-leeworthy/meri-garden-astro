@@ -1,9 +1,12 @@
 ---
-author: Terry Winnograd, Fernando Flores
-type: book
-year: "1987"
+author: 'Terry Winnograd, Fernando Flores'
+type: 'book'
+year: '1987'
+title: 'Understanding Computers and Cognition'
+slug: 'understanding-computers-and-cognition'
 ---
-![](../../../../meri-public/garden/2090b47635052fd73a3faafe155d3941.pdf)
+
+![](https://static.meri.garden/2090b47635052fd73a3faafe155d3941.pdf)
 
 ## A review from Amazon:
 

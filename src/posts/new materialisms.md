@@ -1,9 +1,10 @@
 ---
-aliases:
-  - neomaterialist
-  - neomaterialism
-type: topic
+aliases: 'neomaterialist,neomaterialism'
+type: 'topic'
+title: 'new materialisms'
+slug: 'new-materialisms'
 ---
+
 [[A Thousand Plateaus]]
 
 [[Unthought]]:
@@ -17,4 +18,4 @@ type: topic
 - matter as “lively” rather than passive, 65; 
 - and [[ontology]], 65, 68–71; 
 - and survival, 76–80; 
-- and transformation, 65, 83–85 
+- and transformation, 65, 83–85

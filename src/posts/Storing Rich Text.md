@@ -1,11 +1,11 @@
 ---
-title: Storing Rich Text
-isPublished: true
-date: "20210325"
-image: microsoft-word.png
-alt: A historical screenshot of Microsoft Word for Mac 1995
-tags:
-  - projects
+title: 'Storing Rich Text'
+isPublished: 'true'
+date: '20210325'
+image: 'microsoft-word.png'
+alt: 'A historical screenshot of Microsoft Word for Mac 1995'
+tags: 'projects'
+slug: 'storing-rich-text'
 ---
 
 i've been researching a bit about rich text editors and different approaches to

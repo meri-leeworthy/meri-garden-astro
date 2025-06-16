@@ -1,8 +1,11 @@
 ---
-author: Jacques Camatte
-year: "1977"
-type: essay
+author: 'Jacques Camatte'
+year: '1977'
+type: 'essay'
+title: '''Marx and Gemeinwesen'''
+slug: 'marx-and-gemeinwesen'
 ---
+
 Source: [[Passion of Communism.pdf]]
 Translation: Endnotes
 

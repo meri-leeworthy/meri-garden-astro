@@ -1,3 +1,6 @@
 ---
-type: topic
+type: 'topic'
+title: 'allostasis'
+slug: 'allostasis'
 ---
+

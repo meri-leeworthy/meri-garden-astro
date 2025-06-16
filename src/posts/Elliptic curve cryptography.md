@@ -1,3 +1,8 @@
+---
+title: 'Elliptic curve cryptography'
+slug: 'elliptic-curve-cryptography'
+---
+
 An approach to public-key cryptography.
 - Used in [[Transport Layer Security]] and Bitcoin, [[The X3DH Key Agreement Protocol|X3DH]]
 - Based on computational hardness of finding discrete logarithm of a random elliptic curve element with respect to a publicly known base point (as opposed to hardness of integer factorisation of large primes for RSA)

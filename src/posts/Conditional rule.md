@@ -1,3 +1,8 @@
+---
+title: 'Conditional rule'
+slug: 'conditional-rule'
+---
+
 #### 1.5. Conditional rule
 
 When event B is already known to have occurred, and probability of event A is desired, the conditional rule is applied.

@@ -1,3 +1,8 @@
+---
+title: 'Multiclass Perceptron'
+slug: 'multiclass-perceptron'
+---
+
 # Multiple classes decision rule
 - A different [[Perceptron]] for each output (class)
 - When we have multiple classes, we have a weight vector for each class

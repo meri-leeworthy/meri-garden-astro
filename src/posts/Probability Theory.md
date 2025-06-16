@@ -1,3 +1,8 @@
+---
+title: 'Probability Theory'
+slug: 'probability-theory'
+---
+
 [[Introduction to probability theory]]
 [[Probability terminology]]
 [[Addition rule]]

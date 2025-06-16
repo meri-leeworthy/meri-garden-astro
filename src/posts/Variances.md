@@ -1,3 +1,8 @@
+---
+title: 'Variances'
+slug: 'variances'
+---
+
 #### Variances
 
 The variance of 𝑋 can be calculated directly from the following definition:

@@ -1,4 +1,7 @@
 ---
-type: organisation
+type: 'organisation'
+title: 'Theorie Communiste'
+slug: 'theorie-communiste'
 ---
+
 [[communisation]]

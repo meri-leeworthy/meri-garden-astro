@@ -1,7 +1,9 @@
 ---
-aliases:
-  - SLDC
+aliases: 'SLDC'
+title: 'Software Development Lifecycle'
+slug: 'software-development-lifecycle'
 ---
+
 ### 1. What is the Software Development Life Cycle?
 
 The Software Development Life Cycle (SDLC) is a systematic process that outlines the different stages of software development, from conception to maintenance. 
@@ -14,7 +16,7 @@ Embracing SDLC is essential for both beginners and advanced developers, as it he
 
 The SDLC consists of several phases, each with its unique set of tasks and objectives. **Select** each phase to explore their significance: 
 
-![](../../../../meri-public/garden/5eb047ce7aff4164548fef6998a333ea.png)
+![](https://static.meri.garden/5eb047ce7aff4164548fef6998a333ea.png)
 ### Analysis
 
 This phase involves gathering and analysing user requirements to create a clear understanding of the software's objectives. Software engineers work closely with stakeholders to define the scope, features, and functionality of the software. 

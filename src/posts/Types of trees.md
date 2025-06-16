@@ -1,3 +1,8 @@
+---
+title: 'Types of trees'
+slug: 'types-of-trees'
+---
+
 #### 1.2. Types of trees
 
 The following are some of the different types of trees:
@@ -9,17 +14,17 @@ The following are some of the different types of trees:
 The following binary tree shows that every node has at most two children i.e. every sub-tree is a binary tree.
 
 A simple binary tree:
-![](../../../../meri-public/garden/f11919173adb3a5bf2d8a3a73e1d8d17.png)
+![](https://static.meri.garden/f11919173adb3a5bf2d8a3a73e1d8d17.png)
 
 
 Balanced vs unbalanced binary tree
-![](../../../../meri-public/garden/be943b3395bbc45fba7b5603b56630d7.png)
+![](https://static.meri.garden/be943b3395bbc45fba7b5603b56630d7.png)
 
 **Note:** In a balanced binary tree, |height(left sub-tree) – height(right sub-tree)| ≤ 1 for every node.
 
 In a **perfect binary tree**, each parent has two children and all the leaves are at the same level.
 
-![](../../../../meri-public/garden/8490dc64409c3f8fa043a0cfda5e3be2.png)
+![](https://static.meri.garden/8490dc64409c3f8fa043a0cfda5e3be2.png)
 
 The height of a binary tree can be determined as follows:
 

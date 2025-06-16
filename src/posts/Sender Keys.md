@@ -1,3 +1,8 @@
+---
+title: 'Sender Keys'
+slug: 'sender-keys'
+---
+
 WhatsApp (and Signal) approach to [[Secure messaging]] group messaging:
 
 > *Meri note: Signal apparently also mostly uses Sender Keys and falls back to pairwise*

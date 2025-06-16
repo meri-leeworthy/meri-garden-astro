@@ -1,8 +1,9 @@
 ---
-aliases:
-  - Galois/Counter Mode
-  - GCM
+aliases: 'Galois/Counter Mode,GCM'
+title: 'Galois - Counter Mode'
+slug: 'galois-counter-mode'
 ---
+
 ## Wikipedia: 
 
 In cryptography, Galois/Counter Mode (GCM)[1] is a mode of operation for symmetric-key cryptographic block ciphers which is widely adopted for its performance. GCM throughput rates for state-of-the-art, high-speed communication channels can be achieved with inexpensive hardware resources.[2]
@@ -17,4 +18,4 @@ Like in normal counter mode, blocks are numbered sequentially, and then this blo
 
 The ciphertext blocks are considered coefficients of a polynomial which is then evaluated at a key-dependent point H, using finite field arithmetic. The result is then encrypted, producing an authentication tag that can be used to verify the integrity of the data. The encrypted text then contains the IV, ciphertext, and authentication tag. 
 
-![](../../../../meri-public/garden/662024ba4d93b1ed246ac72819b228cc.png)
+![](https://static.meri.garden/662024ba4d93b1ed246ac72819b228cc.png)

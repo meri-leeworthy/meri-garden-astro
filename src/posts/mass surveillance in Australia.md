@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'mass surveillance in Australia'
+slug: 'mass-surveillance-in-australia'
 ---
+
 ## GPT:
 
 Mass surveillance in Australia has been an ongoing and controversial topic, especially with the increasing reliance on digital technologies and national security concerns. Key aspects of mass surveillance in Australia include:
@@ -18,4 +21,3 @@ Mass surveillance in Australia has been an ongoing and controversial topic, espe
 6. **International Partnerships**: Australia is part of the "[[Five Eyes]]" intelligence alliance, which includes the US, UK, Canada, and New Zealand. This alliance involves extensive sharing of intelligence, including surveillance data, among member countries.
 
 Privacy advocates, civil liberties groups, and some political figures argue that these measures represent an overreach of government power, eroding individual freedoms. On the other hand, proponents argue that these are necessary tools to counter terrorism, cybercrime, and other threats to national security.
-

@@ -1,3 +1,8 @@
+---
+title: 'Radical Directory & Organ Notes'
+slug: 'radical-directory-and-organ-notes'
+---
+
 Graph connecting bubbles:
 Unpoliticised marginalised people
 Grassroots organisers
@@ -58,4 +63,4 @@ Activism is narrative making
 
 
 Automate organising
-Governance is for everyone 
+Governance is for everyone

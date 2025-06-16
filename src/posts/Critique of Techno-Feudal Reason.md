@@ -1,8 +1,11 @@
 ---
-type: essay
-author: Evgeny Morozov
-year: "2022"
+type: 'essay'
+author: 'Evgeny Morozov'
+year: '2022'
+title: 'Critique of Techno-Feudal Reason'
+slug: 'critique-of-techno-feudal-reason'
 ---
+
 https://newleftreview.org/issues/ii133/articles/evgeny-morozov-critique-of-techno-feudal-reason
 [[Evgeny Morozov, Critique of Techno Feudal Reason, NLR 133 134, January April 2022.pdf]]
 

@@ -1,10 +1,13 @@
 ---
-type: book
-author: N. Katherine Hayles
+type: 'book'
+author: 'N. Katherine Hayles'
+title: 'Unthought'
+slug: 'unthought'
 ---
+
 https://press.uchicago.edu/ucp/books/book/chicago/U/bo25861765.html
 [[Unthought_Katherine_Hayles.pdf]]
-![](../../../../meri-public/garden/9be11a118f4e329619332830fa81aade.jpeg)
+![](https://static.meri.garden/9be11a118f4e329619332830fa81aade.jpeg)
 [[Gilles Deleuze]] [[A Thousand Plateaus]]
 
 

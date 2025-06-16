@@ -1,14 +1,14 @@
 ---
-title: Capabilities & Identity with Leaf
-source: https://blog.muni.town/capabilities-and-identity-with-leaf/#frost-signatures2fa-for-keypairs
-author:
-  - "[[Muni Town]]"
-published: 2024-11-26
-created: 2025-05-26
-description: Recently Christine Lemmer-Webber shared her 'recipe for the fediverse'. Let's see whether Leaf can meet her requirements.
-tags:
-  - clippings
+title: 'Capabilities & Identity with Leaf'
+source: '''https://blog.muni.town/capabilities-and-identity-with-leaf/#frost-signatures2fa-for-keypairs'''
+author: 'Muni Town'
+published: '''Tue Nov 26 2024 11:00:00 GMT+1100 (Australian Eastern Daylight Time)'''
+created: '''Mon May 26 2025 10:00:00 GMT+1000 (Australian Eastern Standard Time)'''
+description: '''Recently Christine Lemmer-Webber shared her ''''recipe for the fediverse''''. Let''''s see whether Leaf can meet her requirements.'''
+tags: 'clippings'
+slug: 'capabilities-and-identity-with-leaf'
 ---
+
 Recently Christine Lemmer-Webber shared [this](https://social.coop/@cwebber/113528858061852192) on Mastodon:
 
 > Here is your recipe for making the "Correct Fediverse IMO (TM)":

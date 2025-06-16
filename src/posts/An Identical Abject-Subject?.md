@@ -1,7 +1,10 @@
 ---
-type: essay
-editor: Endnotes
+type: 'essay'
+editor: 'Endnotes'
+title: 'An Identical Abject-Subject?'
+slug: 'an-identical-abject-subject'
 ---
+
 In _Endnotes 2_, we presented an account of capital’s immanent tendency towards crisis that revolved around a theory of surplus population. What follows is an attempt to refine, clarify and develop the central categories of that theory.[1](https://endnotes.org.uk/issues#note_1) Our motivation to do so derives from certain misapprehensions we’ve encountered, which seem to betray a general tendency to directly map the category of “surplus population” onto a singular, coherent social subject or sociological group, with the potential implication that this group is to be viewed as a new kind of revolutionary agent. Far from representing the emergence of a coherent agent, the expansion of the surplus population marks the tendential disappearance of the previous revolutionary horizon.
 
 It was once possible — indeed quite reasonable — to think of the proletariat as an emergent social subject, becoming ever larger and more unified with the global spread and development of the capitalist mode of production, and particularly with the incorporation of a growing portion of the class into industrial employment. Today, in an era of slowing economic growth — which is also an era of general deindustrialisation — the revolutionary orientations of the past no longer make sense. The working class — always internally differentiated — displays a diminishing capacity for unification under a single hegemonic figure, thus realising its always latent tendency to decompose into fragments, facing off one against the other.

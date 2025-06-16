@@ -1,16 +1,12 @@
 ---
-type: essay
-tags:
-  - Communism
-  - Communization
-  - ScienceFiction
-  - Utopianism
-  - Logistics
-  - CommonsGovernance
-  - Endnotes
-author: Phil Neel, Nick Chavez
-editor: Endnotes
+type: 'essay'
+tags: 'Communism,Communization,ScienceFiction,Utopianism,Logistics,CommonsGovernance,Endnotes'
+author: 'Phil Neel, Nick Chavez'
+editor: 'Endnotes'
+title: 'Forest and Factory'
+slug: 'forest-and-factory'
 ---
+
 FOREST AND FACTORY THE SCIENCE AND THE FICTION OF COMMUNISM
 [[Phil Neel]] [[Nick Chavez]]
 [[Endnotes]] Palabre 

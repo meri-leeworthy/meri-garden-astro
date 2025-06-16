@@ -1,6 +1,9 @@
 ---
-type: person
+type: 'person'
+title: 'Robert Brenner'
+slug: 'robert-brenner'
 ---
+
 '[[political Marxism]]' school
 Along with [[Ellen Meiksins Wood]]
 

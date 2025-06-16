@@ -1,3 +1,8 @@
+---
+title: 'Linear Transformation'
+slug: 'linear-transformation'
+---
+
 # Matrix Multiplication as Composition of Linear Transformations
 Matrix multiplication can be thought of as the composition of linear transformations. In other words, if you have two matrices $A$ and $B$ representing linear transformations, the product $AB$ represents the composition of these transformations.
 

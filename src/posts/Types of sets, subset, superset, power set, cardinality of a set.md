@@ -1,3 +1,8 @@
+---
+title: 'Types of sets, subset, superset, power set, cardinality of a set'
+slug: 'types-of-sets-subset-superset-power-set-cardinality-of-a-set'
+---
+
 #### 1.2. Types of sets, subset, superset, power set, cardinality of a set
 
 In this topic, you will explore various versions of sets available, how they are defined, and how the size of a set can be calculated.

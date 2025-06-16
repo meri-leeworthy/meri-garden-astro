@@ -1,3 +1,8 @@
+---
+title: 'Matrix Addition'
+slug: 'matrix-addition'
+---
+
 Matrix addition is a straightforward process where you add corresponding elements of two matrices of the same dimensions. Here’s how it’s done:
 
 1. **Dimensions**: Ensure both matrices have the same dimensions. If $(A)$ and $(B)$ are both $(m \times n)$ matrices, you can add them.

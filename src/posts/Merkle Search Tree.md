@@ -1,3 +1,8 @@
+---
+title: 'Merkle Search Tree'
+slug: 'merkle-search-tree'
+---
+
 A **Merkle Search Tree** is a hybrid of:
 
 - **Merkle tree** (cryptographically linked data via hashes)

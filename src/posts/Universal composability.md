@@ -1,7 +1,9 @@
 ---
-aliases:
-  - UC
+aliases: 'UC'
+title: 'Universal composability'
+slug: 'universal-composability'
 ---
+
 Canetti, R.: Universally composable security: a new paradigm for cryptographic protocols. In: 42nd FOCS, pp. 136–145. IEEE Computer Society Press, October 2001. https://doi.org/10.1109/SFCS.2001.959888
 
 used by:

@@ -1,3 +1,8 @@
+---
+title: 'Chain Rule (Probability)'
+slug: 'chain-rule-probability'
+---
+
 $$P(A, B, C) = P(A) \cdot P(B|A) \cdot P(C|B, A)$$
 The chain rule of probability is a fundamental principle in probability theory that allows us to express the joint probability of multiple events as a product of conditional probabilities. It's a powerful tool for breaking down complex probabilities into simpler, more manageable parts.
 

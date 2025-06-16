@@ -1,6 +1,9 @@
 ---
-type: statement
+type: 'statement'
+title: 'ILC Mission Statement'
+slug: 'ilc-mission-statement'
 ---
+
 https://ilclabor.com/ilc-first-principles/
 
 **Who we are**  

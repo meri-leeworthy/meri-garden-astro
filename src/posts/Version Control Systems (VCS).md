@@ -1,3 +1,8 @@
+---
+title: 'Version Control Systems (VCS)'
+slug: 'version-control-systems-vcs'
+---
+
 ### 1. Introduction to VCS
 
 **Version Control Systems (VCS)**, also known as source control or revision control systems, are tools used in software development to manage and track changes to source code over time. These systems enable collaboration among multiple developers working on the same project by providing a mechanism to keep track of different versions of files and to coordinate changes made by different team members.
@@ -32,4 +37,4 @@ The following is a list of popular Git commands:
 - git add: Adds changes to the staging area in preparation for a commit.
 - git commit: Commits the changes in the staging area to the repository.
 - git pull: Fetches changes from a remote repository and merges them into the current branch.
-- git push: Pushes local changes to a remote repository.![](../../../../meri-public/garden/dd1fe9931f6d73f88a16281da32ce974.png)
+- git push: Pushes local changes to a remote repository.![](https://static.meri.garden/dd1fe9931f6d73f88a16281da32ce974.png)

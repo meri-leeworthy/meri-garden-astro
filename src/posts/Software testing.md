@@ -1,3 +1,8 @@
+---
+title: 'Software testing'
+slug: 'software-testing'
+---
+
 ### 1. What is software testing?
 
 Software testing is a process of evaluating and verifying that a computer program or system functions as intended. The goal of software testing is to identify errors, bugs or defects in the software and ensure that it meets the specified requirements. Testing is an essential part of the software development life cycle and helps in delivering high-quality software.
@@ -16,13 +21,13 @@ Key objectives of software testing include:
 
 Software testing can be performed at various levels of the development process, including:
 
-![](../../../../meri-public/garden/23803a077fc3f7720ee71b87c8fc34ac.png)
+![](https://static.meri.garden/23803a077fc3f7720ee71b87c8fc34ac.png)
 
 ### 2. Large-scale complex software system
 
 In a real-world large-scale complex software system, testing is hard and complex, as seen in the following diagram. A systematic approach is needed.
 
-![](../../../../meri-public/garden/a4d7c33120aa2eea0ffdc2541a3a2b84.png)
+![](https://static.meri.garden/a4d7c33120aa2eea0ffdc2541a3a2b84.png)
 
 Some reasons why software testing is a challenging and difficult task, and why a systematic approach is needed include:
 

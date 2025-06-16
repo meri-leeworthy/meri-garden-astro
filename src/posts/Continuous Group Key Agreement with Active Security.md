@@ -1,8 +1,11 @@
 ---
-type: paper
-year: "2020"
+type: 'paper'
+year: '2020'
+title: 'Continuous Group Key Agreement with Active Security'
+slug: 'continuous-group-key-agreement-with-active-security'
 ---
-![](../../../../meri-public/garden/12d982b6bec214d8c51467d637a36fa7.pdf)
+
+![](https://static.meri.garden/12d982b6bec214d8c51467d637a36fa7.pdf)
 
 Cites
 \[1]: [[The Double Ratchet - Security Notions, Proofs, and Modularization for the Signal Protocol]]

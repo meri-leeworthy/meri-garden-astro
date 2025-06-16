@@ -1,14 +1,14 @@
 ---
-title: 02 · Group Key Agreement with BeeKEM
-source: https://www.inkandswitch.com/keyhive/notebook/02/
-author:
-  - Ink & Switch
-published: 
-created: 2025-05-26
-description: How Keyhive groups can agree on keys over time
-tags:
-  - clippings
+title: '02 · Group Key Agreement with BeeKEM'
+source: '''https://www.inkandswitch.com/keyhive/notebook/02/'''
+author: 'Ink & Switch'
+published: 'null'
+created: '''Mon May 26 2025 10:00:00 GMT+1000 (Australian Eastern Standard Time)'''
+description: 'How Keyhive groups can agree on keys over time'
+tags: 'clippings'
+slug: '02-group-key-agreement-with-beekem'
 ---
+
 > 4. BeeKEM in isolation provides [[Forward secrecy]], but Keyhive as a whole does not. That’s because users require access to an entire document and Keyhive is used to encrypt that document in chunks. If you can decrypt a chunk, you will gain access to the key for decrypting the previous chunk (as described in an earlier lab note)
 
 ## [BeeKEM](https://www.inkandswitch.com/keyhive/notebook/02/#beekem)

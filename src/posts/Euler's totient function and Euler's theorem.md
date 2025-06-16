@@ -1,8 +1,9 @@
 ---
-aliases:
-  - Euler's totient function
-  - Euler's theorem
+aliases: '''Euler''''s totient function,Euler''''s theorem'''
+title: 'Euler''s totient function and Euler''s theorem'
+slug: 'eulers-totient-function-and-eulers-theorem'
 ---
+
 ## Euler's totient function
 
 Euler's totient function, also known as the phi function due to the Greek letter phi (Φ) used to represent the function, is defined as: for any positive integer _n_, Φ(_n_) represents the number of numbers that are less than _n_ and relatively prime to _n_. By convention, Φ(1) = 1.

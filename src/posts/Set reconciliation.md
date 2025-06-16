@@ -1,3 +1,8 @@
+---
+title: 'Set reconciliation'
+slug: 'set-reconciliation'
+---
+
 [[Practical Rateless Set Reconciliation]] (2024)
 
 Michael Mitzenmacher and Rasmus Pagh. 2018. Simple multi-party set reconciliation. Distributed Comput. 31, 6 (2018), 441–453. https://doi.org/10.1007/S00446-017-0316-0 

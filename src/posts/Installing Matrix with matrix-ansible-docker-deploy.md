@@ -1,12 +1,11 @@
 ---
-title: Installing Matrix with matrix-ansible-docker-deploy
-isPublished: true
-date: "20211108"
-image: element.png
-alt: Element login screen showing an option to log in with Keycloak
-tags:
-  - radical-directory
-  - projects
+title: 'Installing Matrix with matrix-ansible-docker-deploy'
+isPublished: 'true'
+date: '20211108'
+image: 'element.png'
+alt: 'Element login screen showing an option to log in with Keycloak'
+tags: 'radical-directory,projects'
+slug: 'installing-matrix-with-matrix-ansible-docker-deploy'
 ---
 
 Steps that I've taken (following

@@ -1,17 +1,12 @@
 ---
-type: book
-tags:
-  - DesignsForThePluriverse
-  - PluriversalWorld
-  - OntologicalDesign
-  - PoliticalOntology
-  - Ecology
-  - RelationalityAndEcologyInDesign
-  - Epistemologies
-  - CulturalStudies
-author: Arturo Escobar
-year: "2018"
+type: 'book'
+tags: 'DesignsForThePluriverse,PluriversalWorld,OntologicalDesign,PoliticalOntology,Ecology,RelationalityAndEcologyInDesign,Epistemologies,CulturalStudies'
+author: 'Arturo Escobar'
+year: '2018'
+title: 'Designs for the Pluriverse'
+slug: 'designs-for-the-pluriverse'
 ---
+
 [[Designs_for_the_Pluriverse_Radical_Inter.pdf]]
 ## *Radical Interdependence, Autonomy, and the Making of Worlds*
 

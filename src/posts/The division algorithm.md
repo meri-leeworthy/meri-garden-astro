@@ -1,3 +1,8 @@
+---
+title: 'The division algorithm'
+slug: 'the-division-algorithm'
+---
+
 One of the most common ways to reduce large numbers is through the process of division. While this basic arithmetic operation is something we should be familiar with, its application in cryptographic algorithms is of paramount importance. In this lesson, we will outline some very basic concepts pertaining to division and the division algorithm.
 
 ## b|a
@@ -23,6 +28,6 @@ The equation represents the division theorem, which is often referred to as the 
 
 The equation can be diagrammatically represented as shown below for any _a_ and any _n_.
 
-![](../../../../meri-public/garden/50032358174422de47210fa483edf17a.png)
+![](https://static.meri.garden/50032358174422de47210fa483edf17a.png)
 
 Next: [[The Euclidean algorithm]]

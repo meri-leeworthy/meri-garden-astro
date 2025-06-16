@@ -1,3 +1,8 @@
+---
+title: 'Eigenvalues and Eigenvectors'
+slug: 'eigenvalues-and-eigenvectors'
+---
+
 ## Eigenvalues
 Calculating the eigenvalues of a matrix involves solving the characteristic equation of the matrix. Here are the steps to find the eigenvalues of a matrix $A$:
 

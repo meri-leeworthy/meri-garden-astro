@@ -1,3 +1,8 @@
+---
+title: 'Topological Sort and List'
+slug: 'topological-sort-and-list'
+---
+
 ### 3. Planar graphs, Euler graphs, Hamiltonian graphs, and topological sort
 
 #### 3.4. Topological sort and list
@@ -18,7 +23,7 @@ The prerequisites for each unit are outlined below. These relationships are visu
 - E depends on D
 - F depends on D
 
-![](../../../../meri-public/garden/48501b26338f830c45be61d1cef7c2d2.png)
+![](https://static.meri.garden/48501b26338f830c45be61d1cef7c2d2.png)
 ##### Topological sort and list
 
 A possible topological sort for this graph would be:

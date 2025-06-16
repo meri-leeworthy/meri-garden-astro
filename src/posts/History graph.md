@@ -1,7 +1,9 @@
 ---
-aliases:
-  - HG
+aliases: 'HG'
+title: 'History graph'
+slug: 'history-graph'
 ---
+
 Formal security notion for [[Secure group messaging]] 
 
 introduced in [[Modular Design of Secure Group Messaging Protocols and the Security of MLS]]
@@ -24,4 +26,3 @@ Here are the papers that use history graphs and where they are described:
 	- Section 4 discusses the history graph in detail, including a visual representation in Figure 1
 - [[Security Analysis and Improvements for the IETF MLS Standard for Group Messaging]] uses history graphs to define a safety predicate called tkm which is used to analyze the security of the TreeKEM protocol
 	- The history graph is described in Section 5.2 and is used to construct a key graph that captures the relationships between different secret keys in the TreeKEM protocol
-

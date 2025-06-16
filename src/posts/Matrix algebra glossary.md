@@ -1,3 +1,8 @@
+---
+title: 'Matrix algebra glossary'
+slug: 'matrix-algebra-glossary'
+---
+
 1. **Matrices**: Rectangular arrays of numbers arranged in rows and columns. Denoted by capital letters (e.g., A, B).
 2. **[[Matrix Addition]]**: Adding corresponding elements of two matrices of the same dimensions to form a new matrix.
 3. **Scalar Multiplication**: Multiplying every element of a matrix by a scalar value.

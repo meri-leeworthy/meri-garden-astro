@@ -1,5 +1,7 @@
 ---
-type: person
+type: 'person'
+title: 'Murray Bookchin'
+slug: 'murray-bookchin'
 ---
-[[The Philosophy of Social Ecology]]
 
+[[The Philosophy of Social Ecology]]

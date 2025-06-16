@@ -1,3 +1,8 @@
+---
+title: 'Modulo arithmetic'
+slug: 'modulo-arithmetic'
+---
+
 In this lesson we will briefly explore the concepts of Modulo arithmetic and its importance to cryptographic algorithms.
 
 $$a=qn+r   ∣  0≤r<n; q=⌊a/n⌋$$
@@ -146,4 +151,3 @@ First, we represent the exponent in binary as follows:
 Applying the same process as we did in the previous example for exponentiated powers of 2, through deduction we can arrive at the following outcome:
 
 5117 mod 19=1
-

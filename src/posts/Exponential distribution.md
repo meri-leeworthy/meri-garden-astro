@@ -1,3 +1,8 @@
+---
+title: 'Exponential distribution'
+slug: 'exponential-distribution'
+---
+
 #### Exponential distribution
 
 The exponential distribution is important because it represents the time required for a single event from a Poisson process to occur. In sampling from a [[Poisson distribution]] with parameter μ, the probability that no event occurs during $(0,𝑡)$ is $𝑒^{–\lambda𝑡}$. Consequently, the probability that an event will occur during $(0,𝑡)$ is:
@@ -14,4 +19,4 @@ Alternatively, the cumulative exponential distribution can be obtained from the 
 
 $$𝐹(𝑥)=\int_{𝑥}^0\lambda𝑒^{−\lambda𝑥} 𝑑𝑥 = 1−𝑒^{−\lambda𝑥}$$
 
-![](../../../../meri-public/garden/14d5a1977aa7355da96d87693ab219f8.png)
+![](https://static.meri.garden/14d5a1977aa7355da96d87693ab219f8.png)

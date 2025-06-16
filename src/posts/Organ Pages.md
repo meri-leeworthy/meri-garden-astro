@@ -1,3 +1,8 @@
+---
+title: 'Organ Pages'
+slug: 'organ-pages'
+---
+
 - [[Organ Pages Proposal]]
 - [[Organ Pages - Design]]
 - [[Organ Pages Business Plan]]
@@ -19,7 +24,7 @@
 - Github
 - LinkedIn
 
-![](../../../../meri-public/garden/466fb9e428dacedb54ff24faf3281ce8.JPG)
+![](https://static.meri.garden/466fb9e428dacedb54ff24faf3281ce8.JPG)
 
 [hello](/untitled)
 
@@ -142,5 +147,3 @@ bigger changes
 - [ ] rss & ical templating
 - [ ] earthstar db ? for sharing, permissions, sync
 - [ ] tailwind support - in browser bundler? esbuild-wasm?
-
-

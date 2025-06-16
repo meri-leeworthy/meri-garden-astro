@@ -1,3 +1,8 @@
+---
+title: 'BeeKEM'
+slug: 'beekem'
+---
+
 [[02 · Group Key Agreement with BeeKEM]]
 [[Let's read the BeeKEM code!]]
 
@@ -128,7 +133,7 @@ pub enum MembershipOperation<
 ```
 
 which is interesting... like this is the abstraction over both delegation and revocation and kind of indicates to me that this is a... well maybe hopefully(?) a DAG? of operations
-linking to previous delegations, revocations...![](../../../../meri-public/garden/8c2c450aece5175e064ab60a6f4f2b2e.png)
+linking to previous delegations, revocations...![](https://static.meri.garden/8c2c450aece5175e064ab60a6f4f2b2e.png)
 > Actually the delegation proof chain is more like a tree, cos there is no point having multiple proofs. but from the perspective of any principal it even doesn't really need to be represented as a tree, more just as a linked list. (Dotted lines represent the boundary between different principals)
 
 we don't bother setting up a CGKA because maybe we don't need to encrypt these delegations? it's like... this is the metadata that would be seen anyway. but everything IS signed and hashed which is the main relevant cryptography here. 

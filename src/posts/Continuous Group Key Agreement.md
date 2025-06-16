@@ -1,7 +1,9 @@
 ---
-aliases:
-  - CGKA
+aliases: 'CGKA'
+title: 'Continuous Group Key Agreement'
+slug: 'continuous-group-key-agreement'
 ---
+
 ### Definition
 > Our security definition for CGKA protocols requires that (i) users obtain the same update secrets (correctness), (ii) ==update secrets look random== to an attacker observing the protocol messages, (iii) ==past update secrets remain random== even if the state of a party is compromised by the attacker ==(FS)==, and (iv) ==parties can recover from state compromise (PCS)==. All of these properties are captured by a single, fairly intuitive security game.
 > We argue that the formal security properties of CGKA are phrased in such a way that it is a suitable building block for full SGM protocols. In particular, CGKA is inspired by the modularization of Alwen et al. [2], who constructed a secure two-party messaging protocol (based on the double-ratchet paradigm) by combining three primitives: continuous key agreement (CKA), forward secure authenticated encryption with associated data ([[The Double Ratchet - Security Notions, Proofs, and Modularization for the Signal Protocol|FS-AEAD]]), and a so-called PRF-PRNG, which is a two-input hash function that is a pseudo-random function (resp. generator) with respect to its first (resp. second) input. ==CGKA is therefore to be seen as the multi-user analogue of CKA and is tailored to be used in conjunction with a PRF-PRNG and the multi-user version of FS-AEAD==. Specifically, ==the update secret is run through the PRF-PRNG in order to obtain new keys for the multi-user FS-AEAD==. Due to the already quite high complexity of CGKA itself, this work focuses exclusively on CGKA and sketches how it can be used in a higher-level protocol to obtain a full SGM protocol.

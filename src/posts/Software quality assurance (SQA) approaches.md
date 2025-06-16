@@ -1,3 +1,8 @@
+---
+title: 'Software quality assurance (SQA) approaches'
+slug: 'software-quality-assurance-sqa-approaches'
+---
+
 In this topic book, you will cover the following:
 
 - Software verification and validation (aka the V-model)
@@ -13,7 +18,7 @@ Software quality assurance (SQA) approaches are strategies and methodologies use
 |The process of evaluating a system or component during or at the end of the development process to determine whether it satisfies the specified requirements. The primary goal of verification is to ensure that the software is being built correctly and that each phase of the development process adheres to the predefined specifications. Software verification involves activities such as reviews, inspections and testing to check that the software has been designed and implemented correctly.|The process of evaluating a system or component during or at the end of the development process to determine whether it satisfies the specified requirements. The goal of software validation is to ensure that the software meets its intended purpose and functions correctly in its intended environment. It involves activities such as system testing, user acceptance testing and performance testing to ensure that the software behaves as intended in the real-world environment.|
 
 Software verification and software validation has been illustrated in the form of what is called the V-model in the following diagram.
-![](../../../../meri-public/garden/24e2afda056e7169cbd19cc7bcb03b2c.png)
+![](https://static.meri.garden/24e2afda056e7169cbd19cc7bcb03b2c.png)
 
 ### 2. Waterfall-style software quality assurance
 
@@ -26,7 +31,7 @@ The Waterfall model is a traditional software development and testing life cycle
 5. Test execution
 6. Test cycle closure
 
-![](../../../../meri-public/garden/66155bd97f088d95e3d61c6d28132f30.png)
+![](https://static.meri.garden/66155bd97f088d95e3d61c6d28132f30.png)
 
 #### Key characteristics
 
@@ -41,7 +46,7 @@ Key characteristics of the waterfall model are:
 
 Test-driven development (TDD) is a software development methodology that revolves around a simple iterative process: write a test, write the minimum amount of code to make that test pass, refactor the code, and repeat. The cycle is often referred to as the 'Red-Green-Refactor' cycle.
 
-![](../../../../meri-public/garden/2270cc1794f868fbb860b9ae6f982406.png)
+![](https://static.meri.garden/2270cc1794f868fbb860b9ae6f982406.png)
 
 Red
 

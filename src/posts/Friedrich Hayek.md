@@ -1,6 +1,9 @@
 ---
-type: person
+type: 'person'
+title: 'Friedrich Hayek'
+slug: 'friedrich-hayek'
 ---
+
 advisor to Pinochet
 
 Austrian school of economics

@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - World'
+slug: 'hm-world'
 ---
+
 [[A Hacker Manifesto]]
 Prev: [[HM - Vector]]
 

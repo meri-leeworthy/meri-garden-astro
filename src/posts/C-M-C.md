@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'C-M-C'
+slug: 'c-m-c'
 ---
+
 commodity -> money -> commodity
 [[The General Formula for Capital]]
 CMC is "The direct form of commodity circulation", "simple commodity circulation"

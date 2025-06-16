@@ -1,8 +1,11 @@
 ---
-type: book
-author: Elizabeth Povinelli
-year: "2021"
+type: 'book'
+author: 'Elizabeth Povinelli'
+year: '2021'
+title: 'Between Gaia and Ground'
+slug: 'between-gaia-and-ground'
 ---
+
 [[Elizabeth Povinelli]]
 
 [[Between Gaia and Ground_ Four Axioms of Existence and the -- Elizabeth A_ Povinelli -- 2021 -- Duke University Press -- 9781478013648 -- be37eb1c1ed10621067be4d744ecf67a -- Anna’s Archive.pdf]]

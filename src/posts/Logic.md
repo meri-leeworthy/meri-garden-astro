@@ -1,3 +1,8 @@
+---
+title: 'Logic'
+slug: 'logic'
+---
+
 ## Propositional logic
 [[Introduction to propositional logic]]
 [[Laws of propositional logic]]

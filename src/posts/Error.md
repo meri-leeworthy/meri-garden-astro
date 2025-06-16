@@ -1,7 +1,10 @@
 ---
-type: essay
-editor: Endnotes
+type: 'essay'
+editor: 'Endnotes'
+title: 'Error'
+slug: 'error'
 ---
+
 #Endnotes 5
 #ReadingList-Started
-![](../../../../meri-public/garden/ea6a134aa543e24efae5014318e42c9a.pdf)
+![](https://static.meri.garden/ea6a134aa543e24efae5014318e42c9a.pdf)

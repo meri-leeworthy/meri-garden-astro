@@ -1,3 +1,8 @@
+---
+title: 'Decision Trees'
+slug: 'decision-trees'
+---
+
 Decision trees are a supervised machine-learning method that uses a **tree structure** to predict the values of objects. Non-leaf nodes are **decision nodes** that split data into explanatory attributes, and leaf nodes represent **classes**. 
 
 Each decision node (starting from the root) compares an **object's attribute** with a specific **attribute value** (or range) to classify an object. A path from the root to a leaf node gives the **class** of the object.
@@ -49,7 +54,7 @@ In this example, we have an entire training data set with data for 14 days.
 
 Here is a decision tree trained on this data. Each non-leaf node corresponds to an attribute, and there is one path out of the node for each value the attribute can take. The leaf nodes represent the decision to take.
 
-![](../../../../meri-public/garden/3632595ae0dad7e4d05cf63ec8724e70.png)
+![](https://static.meri.garden/3632595ae0dad7e4d05cf63ec8724e70.png)
 
 Suppose we have a new day: D15, with the following conditions. Should we play ball? The decision tree says to check the outlook. The outlook is sunny. So we check humidity. Humidity is high, so the tree says no, we should not play ball.
 
@@ -62,12 +67,12 @@ What is the simplest decision tree we can have? Always predicting the majority c
 
 The simplest tree is a **decision stump**, where values are split on a **single attribute** from **one decision node.**
 
-![](../../../../meri-public/garden/c9110adfe70cb929fd8127b17822e654.png)
+![](https://static.meri.garden/c9110adfe70cb929fd8127b17822e654.png)
 
 #### On which attribute do we split?
 
 How should we decide which attribute to split on when building a tree to have the best possible tree?
 
-![](../../../../meri-public/garden/30bb03c0699da5b333a1e3dd611fd1fb.png)
+![](https://static.meri.garden/30bb03c0699da5b333a1e3dd611fd1fb.png)
 
 [[Building a decision tree]]

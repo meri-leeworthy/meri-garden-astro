@@ -1,6 +1,9 @@
 ---
-type: essay
+type: 'essay'
+title: 'Who Is Oakland?'
+slug: 'who-is-oakland'
 ---
+
 # anti-oppression activism, the politics of safety, and state co-optation
 #### Synopsis
 

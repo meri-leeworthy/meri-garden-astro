@@ -1,6 +1,9 @@
 ---
-isPublished: false
+isPublished: 'false'
+title: 'GraphRAG Explorations'
+slug: 'graphrag-explorations'
 ---
+
 A few years ago I started getting really interested in *knowledge graphs*. They are effectively just databases that contain statements about *entities* in the world, like 'horses', or 'Anish Kapoor', or 'COVID-19'; concrete or abstract, linking them together to form a mesh of related representations. These links, or *edges*, between entities are similar to how Wikipedia pages link to each other, but the data is distilled to a machine-readable format, and potentially describe many more obscure or domain-specific things. 
 
 I first encountered knowledge graphs (KGs) a few years ago reading about something called [[The Underlay]], a project which aimed to create a massive, open, globally distributed knowledge graph, in which all 'knowledge' assertions would be situated within the context of their provenance - essentially, how do we know it? The project's ambitions of integrating global knowledge production within a grand technical platform, 'liberating' knowledge from the confines of published books and academic papers, helped tune me into the fascinating philosophical questions about how knowledge is created, derived and represented, as well as sparking my imagination for how such machine representations could change the world. The project seems to have since become inactive (perhaps a reassessment was in order after ChatGPT took off?) but I still hope to see that team’s visions brought to fruition in some form in the future, and recommend reading their excellent *RFC* series of writing about it.
@@ -467,7 +470,7 @@ It's an interesting process to try to make these little experiments against a co
 
 So it seems to have proceeded based on the assumption that the entities it would generate from the old prompt would be good enough to base some kind of iterative process on that would hopefully improve the tuned prompt, but my guess is that the local Llama model simply lacks the required reasoning capacities. 
 
-![](../../../../meri-public/garden/b0190bd6b431bcae3638a74d74e5a1c4.png)
+![](https://static.meri.garden/b0190bd6b431bcae3638a74d74e5a1c4.png)
 
 I wonder if manually tuning it is the best next step?
 

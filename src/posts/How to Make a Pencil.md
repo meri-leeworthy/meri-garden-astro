@@ -1,7 +1,10 @@
 ---
-type: essay
-author: Aaron Benanev
+type: 'essay'
+author: 'Aaron Benanev'
+title: 'How to Make a Pencil'
+slug: 'how-to-make-a-pencil'
 ---
+
 [[Aaron Benanav]]
 
 https://logicmag.io/commons/how-to-make-a-pencil/
@@ -129,4 +132,3 @@ In designing our protocols and our algorithms, it is crucial to remember that th
 The world’s pencil makers would be free to invest themselves in a much wider range of ends, whether starting specialized gyms or dance clubs, joining theatre troupes, or forming amateur scientific societies. A rich and varied life beyond work is only possible if work is organized in a way that is fair, rational, and resistant to whatever forces might emerge to subjugate human beings once again. Instead of waiting for a breakthrough in artificial intelligence to achieve this goal for us, we should begin to develop the protocols of the future today.
 
 _This article could not have been written without the conversation and support of Björn Westergard._
-

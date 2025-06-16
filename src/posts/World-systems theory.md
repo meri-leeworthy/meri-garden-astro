@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'World-systems theory'
+slug: 'world-systems-theory'
 ---
+
 most significantly [[Immanuel Wallerstein]]
 draws on, extends, challenges [[dependency theory]]
 

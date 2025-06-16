@@ -1,3 +1,8 @@
+---
+title: 'Trap-door one-way functions'
+slug: 'trap-door-one-way-functions'
+---
+
 In the previous part of this lesson, some of the requirements for designing asymmetric algorithms were covered. These requirements are formidable when designing any such algorithm, since the introduction of asymmetric algorithms in the late 1970's only a few have ever become mainstream and widely adopted for use in industry and government sectors. This, by itself, can communicate volumes on the level of sophistication these algorithms require.
 
 However, one specific requirement, which is of a more technical nature, is that of the **trap-door** **one-way function**, which we will explore a bit more in this part of our lesson. Before this concept is explained further, it is important to point out that the term **one-way function** has many uses in cryptography, mostly depending on the context of its use. You will see this again in the lesson on digital signatures. But for now, you should keep this distinction in mind.

@@ -1,3 +1,8 @@
+---
+title: 'Expectation of a random variable'
+slug: 'expectation-of-a-random-variable'
+---
+
 ### Expectation of a random variable
 
 The expected value or expectation of a random variable is the **average value** of the random variable. The expected value of a random variable 𝑋 is denoted by $𝐸(𝑋)$.

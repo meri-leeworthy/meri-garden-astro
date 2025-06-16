@@ -1,7 +1,9 @@
 ---
-aliases:
-  - Authenticated key exchange
+aliases: 'Authenticated key exchange'
+title: 'Authenticated Diffie-Hellman'
+slug: 'authenticated-diffie-hellman'
 ---
+
 ## 4o: Is authenticated [[Diffie-Hellman key exchange|Diffie-Hellman]] basically just DH but using permanent (identity) keys?
 
 Yes, that’s a solid way to think of **Authenticated Diffie-Hellman** (AuthDH). The core idea is indeed to take the basic DH key exchange and layer it with **authentication mechanisms**, often using permanent identity keys, to verify each party’s identity. This approach protects against man-in-the-middle (MitM) attacks.

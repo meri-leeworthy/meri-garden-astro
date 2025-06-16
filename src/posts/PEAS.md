@@ -1,3 +1,8 @@
+---
+title: 'PEAS'
+slug: 'peas'
+---
+
 In the context of Artificial Intelligence, PEAS stands for **Performance measure, Environment, Actuators, and Sensors**. It is a framework used to define the task environment of an intelligent agent. Here's a breakdown of each component:
 
 1. **Performance measure**: This defines the criteria for success. It quantifies how well the agent is performing its tasks. For example, in a self-driving car, the performance measure might include safety, speed, and passenger comfort.

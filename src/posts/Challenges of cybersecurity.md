@@ -1,3 +1,8 @@
+---
+title: 'Challenges of cybersecurity'
+slug: 'challenges-of-cybersecurity'
+---
+
 Anne-Louise Brown - Cyber Security Cooperative Research Centre
 Vanessa Teague - ANU, Cryptographer
 Ram Mohan - Identity Digital, Chief Strategy Officer

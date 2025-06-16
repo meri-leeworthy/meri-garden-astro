@@ -1,3 +1,8 @@
+---
+title: 'MLE for Gaussian distribution'
+slug: 'mle-for-gaussian-distribution'
+---
+
 #### MLE for Gaussian distribution
 
 Let’s attempt the MLE for the Gaussian distribution. Suppose 3 data points were generated from a process described by a Gaussian distribution. These points are 3, 4, and 5. How do we calculate the maximum likelihood estimates of the parameter values of the Gaussian distribution μ and σ?

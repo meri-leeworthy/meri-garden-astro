@@ -1,3 +1,8 @@
+---
+title: 'Vector fields'
+slug: 'vector-fields'
+---
+
 A vector field is a function that assigns a vector to each point in a subset of space. In mathematical terms, if $\mathbf{F}$ is a vector field, then for each point $(x, y, z)$ in space, $\mathbf{F}(x, y, z)$ is a vector. 
 
 ### Examples and Applications

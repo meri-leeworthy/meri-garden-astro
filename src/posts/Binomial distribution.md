@@ -1,3 +1,8 @@
+---
+title: 'Binomial distribution'
+slug: 'binomial-distribution'
+---
+
 Consider $n$ independent performances of a random experiment with mutually exclusive outcomes that can be classified as success or failure. The words 'success' and 'failure' are to be regarded as labels for two mutually exclusive categories of outcomes of the random experiment. They do not necessarily have the ordinary connotation of success or failure. Assume that $𝑝$, the probability of success on any performance of the random experiment, is constant. Let $𝑄$ be the probability of failure so that $𝑄=1–𝑝$
 
 The probability distribution of $𝑋$, the number of successes in $𝑛$ performances of the random experiment, is the binomial distribution, with a probability distribution function (pdf) specified by
@@ -25,4 +30,4 @@ Where:
 The Binomial distribution for the example above is shown in the following figure. The plot is for $𝑛=5$ and $𝑝=0.05$. Each point represents the probabilities at each $𝑥$ value. Hence, by looking at the plot, we can see that $𝑃(𝑥=3)=0.0011$ is exactly the same as when computed using the binomial formula.
 
 
-  ![](../../../../meri-public/garden/00ee19dc4c07eb43827d82e0ca56b0d3.png)
+  ![](https://static.meri.garden/00ee19dc4c07eb43827d82e0ca56b0d3.png)

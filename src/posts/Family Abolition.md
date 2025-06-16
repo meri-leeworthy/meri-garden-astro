@@ -1,4 +1,7 @@
 ---
-type: book
-author: M. E. O'Brien
+type: 'book'
+author: '''M. E. O''''Brien'''
+title: 'Family Abolition'
+slug: 'family-abolition'
 ---
+

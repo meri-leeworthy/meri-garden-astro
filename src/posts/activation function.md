@@ -1,7 +1,12 @@
+---
+title: 'activation function'
+slug: 'activation-function'
+---
+
 Perceptrons traditionally used the (binary) [Heaviside](https://en.wikipedia.org/wiki/Heaviside_step_function) step function. The binary threshold was meant to model the way biological neurons 'fire'. 
 Alternatively, sigmoid can be used.
 
-![](../../../../meri-public/garden/d01bcdb8322a2a222b755b5360a81cd5.png)
+![](https://static.meri.garden/d01bcdb8322a2a222b755b5360a81cd5.png)
 
 In the context of perceptrons and neural networks, using different activation functions like the step function and the sigmoid function serves different purposes. Here's a detailed explanation:
 

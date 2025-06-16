@@ -1,3 +1,8 @@
+---
+title: 'Worked example on perceptrons'
+slug: 'worked-example-on-perceptrons'
+---
+
 There are three inputs, $𝑥_1,𝑥_2,𝑥_3$ and the constant input $𝑥_0=1$ for the bias term. Suppose each $𝑥_1,𝑥_2,𝑥_3$ can take only binary values (0,1) and that the activation function 𝑔 is the step function. 
 (g(x) = 1 if x >= 0 otherwise g(x) = 0)
 

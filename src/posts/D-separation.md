@@ -1,3 +1,8 @@
+---
+title: 'D-separation'
+slug: 'd-separation'
+---
+
 Three canonical cases:
 
 # Causal Chain

@@ -1,14 +1,14 @@
 ---
-title: "pubky/pkarr: Public Key Addressable Resource Records (sovereign TLDs)"
-source: "https://github.com/Pubky/pkarr"
-author:
-  - "[[GitHub]]"
-published:
-created: 2025-05-26
-description: "Public Key Addressable Resource Records (sovereign TLDs) - pubky/pkarr"
-tags:
-  - "clippings"
+title: 'Public Key Addressable Resource Records (sovereign TLDs)'
+source: '''https://github.com/Pubky/pkarr'''
+author: 'GitHub'
+published: 'null'
+created: '''Mon May 26 2025 10:00:00 GMT+1000 (Australian Eastern Standard Time)'''
+description: 'Public Key Addressable Resource Records (sovereign TLDs) - pubky/pkarr'
+tags: 'clippings'
+slug: 'public-key-addressable-resource-records-sovereign-tlds'
 ---
+
 **[pkarr](https://github.com/pubky/pkarr)** Public
 
 Public Key Addressable Resource Records (sovereign TLDs)

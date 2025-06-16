@@ -1,6 +1,9 @@
 ---
-type: person
+type: 'person'
+title: 'Martin Kleppmann'
+slug: 'martin-kleppmann'
 ---
+
 [[Designing Data Intensive Applications]]
 [[Pudding - user discovery for anonymity networks]]
 [[Collaborative Text Editing with Eg-walker - Better, Faster, Smaller]]

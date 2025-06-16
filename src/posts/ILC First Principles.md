@@ -1,6 +1,9 @@
 ---
-type: statement
+type: 'statement'
+title: 'ILC First Principles'
+slug: 'ilc-first-principles'
 ---
+
 https://ilclabor.com/ilc-first-principles/
 
 **Capitalism is a global social relation that entraps all of humanity.**  

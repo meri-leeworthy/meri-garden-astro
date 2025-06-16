@@ -1,3 +1,6 @@
 ---
-type: person
+type: 'person'
+title: 'Jacques Camatte'
+slug: 'jacques-camatte'
 ---
+

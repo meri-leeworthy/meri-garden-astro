@@ -1,8 +1,11 @@
 ---
-type: book
-author: Michael Heinrich
-year: "2004"
+type: 'book'
+author: 'Michael Heinrich'
+year: '2004'
+title: 'An Introduction to the Three Volumes of Karl Marx’s Capital'
+slug: 'an-introduction-to-the-three-volumes-of-karl-marxs-capital'
 ---
+
 Contents Preface 7 
 1. Capitalism and Marxism 13 
 2. The Object of Critique in the Critique of Political Economy 29 

@@ -1,3 +1,8 @@
+---
+title: 'Diagonalization'
+slug: 'diagonalization'
+---
+
 ##### Similar matrix
 
 **Definition: similar matrix**: Let $𝐴,𝐵$ be square matrices of the same order. We say 𝐴 is similar to 𝐵 if there exists an invertible square matrix P of the same order such that $𝐴=𝑃−1𝐵𝑃$.

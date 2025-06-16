@@ -1,3 +1,8 @@
+---
+title: 'M-C-M'
+slug: 'm-c-m'
+---
+
 money -> commodity -> money
 [[The General Formula for Capital]]:
 "where money is transformed into a commodity and reverse-transformed from a commodity into money"
@@ -11,4 +16,4 @@ money -> commodity -> money
 contrast with [[C-M-C]]
 
 ## My notes
-M-C-M is essentially [[investment]], the more general form of [[finance]]. Buying in order to sell in capitalism is a venture all about making profit. 
+M-C-M is essentially [[investment]], the more general form of [[finance]]. Buying in order to sell in capitalism is a venture all about making profit.

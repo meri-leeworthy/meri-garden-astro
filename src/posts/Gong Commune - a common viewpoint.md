@@ -1,6 +1,9 @@
 ---
-type: statement
+type: 'statement'
+title: 'Gong Commune - a common viewpoint'
+slug: 'gong-commune-a-common-viewpoint'
 ---
+
 Gong Commune’s statement of shared political basis and perspective:
 
 **Acknowledgment of Country**

@@ -1,7 +1,9 @@
 ---
-aliases:
-  - MLS
+aliases: 'MLS'
+title: 'Messaging Layer Security'
+slug: 'messaging-layer-security'
 ---
+
 Comes after [[Signal protocol]] introducing cryptographic guarantees on a few new properties:
 - agreement on group state
 - informal: [[Transcript consistency]][^1]
@@ -24,13 +26,13 @@ Besides the client, MLS requires two additional services:
 - authentication service - for credentials
 - delivery service - for message ordering
 These are 'abstract' services; 'parts of the service could be run on the client'. Message ordering could be a distributed algorithm (like [[Conflict-Free Replicated Data Types]]?)
-![](../../../../meri-public/garden/91197746c774eac8b5919f6c49db5b9f.png)
-![](../../../../meri-public/garden/305c0b6fed4544af6020cac03f0d5646.png)
+![](https://static.meri.garden/91197746c774eac8b5919f6c49db5b9f.png)
+![](https://static.meri.garden/305c0b6fed4544af6020cac03f0d5646.png)
 Each participant at the leaf nodes has shared keys with all nodes in the path up to the root
 
-![](../../../../meri-public/garden/3016c574d2e8e3aa6d5d4535bb88b7a6.png)
+![](https://static.meri.garden/3016c574d2e8e3aa6d5d4535bb88b7a6.png)
 Quantum example of benefits of log updates
-![](../../../../meri-public/garden/41ca1105090775e191cce02cebc7451e.png)
+![](https://static.meri.garden/41ca1105090775e191cce02cebc7451e.png)
 
 Operations:
 - add

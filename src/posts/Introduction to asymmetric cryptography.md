@@ -1,3 +1,8 @@
+---
+title: 'Introduction to asymmetric cryptography'
+slug: 'introduction-to-asymmetric-cryptography'
+---
+
 In the previous lessons, your focus has been on studying the aspects of symmetric encryption. While this technique is powerful and efficient, it relies on the utmost secrecy being maintained in respect to the key. Provided both communicating parties had access to the key, the encryption and decryption of messages was simple. However, despite all of these benefits, symmetric cryptosystems posed two main challenges:
 
 - The first challenge was the hardest—the key exchange. If the communicating parties consisted of two individuals on different sides of the world, they would first need to securely exchange the keys before they can begin communicating. This was a big challenge.
@@ -36,7 +41,7 @@ C = E(PUb, M)C = E(PUb​, M)
 M = D[PUb, E(PRb, M)] = D[PRb, E(PUb, M)]
 
 A high level illustration of the asymmetric cryptosystem can be defined as shown in the image below.
-![](../../../../meri-public/garden/c15ec086fcc331dbb173b5a68110bd39.png)
+![](https://static.meri.garden/c15ec086fcc331dbb173b5a68110bd39.png)
 
 Any asymmetric cryptosystem generally consists of the following six aspects:
 

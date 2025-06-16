@@ -1,5 +1,7 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'DFTP - References'
+slug: 'dftp-references'
 ---
 
 Ackerman, Diane. 2014. The ­Human Age: The World ­Shaped by Us. New York: W. W. Norton. 
@@ -825,4 +827,3 @@ World Bank. 2013. World Development Report 2014. Risk and Opportunity--­Managin
 World Commission on Environment and Development. 1987. Our Common ­Future.   New York: Oxford University Press.
 
 Yeang, Ken. 2006. Ecodesign: A Manual for Ecological Design. London: John Wiley. Zibechi, R. 2006. Dispersar el poder: Los movimientos como poderes anti-­estatales. Buenos Aires: Tinta Limón.
-

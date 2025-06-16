@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Abstraction'
+slug: 'hm-abstraction'
 ---
+
 [[A Hacker Manifesto]], Chapter 1
 Next: [[HM - Class]]
 

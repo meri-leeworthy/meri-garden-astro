@@ -1,3 +1,8 @@
+---
+title: 'Mixnets and network anonymity schemes'
+slug: 'mixnets-and-network-anonymity-schemes'
+---
+
 [[On the Anonymity of Peer-To-Peer Network Anonymity Schemes Used by Cryptocurrencies]]
 [[Trellis - Robust and Scalable Metadata-private Anonymous Broadcast]]
 [[Clarion - Anonymous Communication from Multiparty Shuffling Protocols]]

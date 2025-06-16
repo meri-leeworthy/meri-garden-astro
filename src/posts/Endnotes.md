@@ -1,6 +1,9 @@
 ---
-type: organisation
+type: 'organisation'
+title: 'Endnotes'
+slug: 'endnotes'
 ---
+
 #### Issue 2:
 Value Form Theory and Communisation
 [[Misery and Debt]]
@@ -23,4 +26,3 @@ Value Form Theory and Communisation
 - [[The Historical Causes of Arab Separatism]]
 - [[Forest and Factory]] 
 - [[The Encampments for Gaza]]
-

@@ -1,3 +1,8 @@
+---
+title: 'Factoring Quadratic Equations'
+slug: 'factoring-quadratic-equations'
+---
+
 To factor a quadratic equation of the form $ax^2 + bx + c = 0$, follow these steps:
 
 ### 1. Check if the Quadratic is Factorable
@@ -116,4 +121,3 @@ $$
 
 4. **Combine with the GCF**:
    Multiply the factored form by the GCF to get the final factored polynomial.
-

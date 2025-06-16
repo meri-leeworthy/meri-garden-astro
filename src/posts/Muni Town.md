@@ -1,3 +1,8 @@
+---
+title: 'Muni Town'
+slug: 'muni-town'
+---
+
 - [[Organ Pages - Muni Town Meeting]]
 - [[Leaf Render Update 0]]
 - [[Approach to rendering Leaf]]

@@ -1,10 +1,11 @@
 ---
-aliases:
-  - HKDF
-author:
-  - H. Krawczyk and P. Eronen
-year: "2010"
+aliases: 'HKDF'
+author: 'H. Krawczyk and P. Eronen'
+year: '2010'
+title: 'HMAC-based Extract-and-Expand Key Derivation Function (HKDF)'
+slug: 'hmac-based-extract-and-expand-key-derivation-function-hkdf'
 ---
+
 H. Krawczyk and P. Eronen, “HMAC-based Extract-and-Expand Key Derivation Function (HKDF).” Internet Engineering Task Force; RFC 5869 (Informational); IETF, May-2010. [http://www.ietf.org/rfc/rfc5869.txt](http://www.ietf.org/rfc/rfc5869.txt)
 
 Used in [[The Double Ratchet Algorithm]] & [[The X3DH Key Agreement Protocol]] (p.3):

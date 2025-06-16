@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Education'
+slug: 'hm-education'
 ---
+
 [[A Hacker Manifesto]], Chapter 3
 Prev: [[HM - Class]]
 Next: [[HM - Hacking]]

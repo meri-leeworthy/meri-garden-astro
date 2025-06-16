@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'technology'
+slug: 'technology'
 ---
+
 Convivial tools [[Ivan Illich]]
 
 *techne*

@@ -1,10 +1,12 @@
 ---
-type: paper
-year: "2020"
-editor: CRYPTO
-aliases:
-  - Re-randomized TreeKEM
+type: 'paper'
+year: '2020'
+editor: 'CRYPTO'
+aliases: 'Re-randomized TreeKEM'
+title: 'Security Analysis and Improvements for the IETF MLS Standard for Group Messaging'
+slug: 'security-analysis-and-improvements-for-the-ietf-mls-standard-for-group-messaging'
 ---
+
 Analyses [[TreeKEM]] as defined at [[Messaging Layer Security|MLS]] spec draft 8 and shows that it has issues with [[Forward secrecy]] 
 
 Paper to first define term [[Continuous Group Key Agreement]] as a cryptographic primitive
@@ -106,4 +108,4 @@ A continuous group key-agreement (CGKA) scheme CGKA = (**init**, **create**, **a
 - **Process**: proc takes a state γ and a control message T and outputs a new state γ′ and an update secret I.
 # PDF
 
-![](../../../../meri-public/garden/9d80ee20dcfa28f060c2de877354bc24.pdf)
+![](https://static.meri.garden/9d80ee20dcfa28f060c2de877354bc24.pdf)

@@ -1,3 +1,8 @@
+---
+title: 'Integer factorisation problem'
+slug: 'integer-factorisation-problem'
+---
+
 The process of integer factorisation implies that any given integer _a > 1_ can be factored into a set of factors as follows:
 
 $$a = p_1^{a1}⋅p_2^{a2}⋅ ... ⋅ p_t^{at}$$

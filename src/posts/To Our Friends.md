@@ -1,7 +1,9 @@
 ---
-type: book
-author: Invisible Committee
-year: "2015"
+type: 'book'
+author: 'Invisible Committee'
+year: '2015'
+title: 'To Our Friends'
+slug: 'to-our-friends'
 ---
 
 [[DFTP - Conclusion]], Note 19:

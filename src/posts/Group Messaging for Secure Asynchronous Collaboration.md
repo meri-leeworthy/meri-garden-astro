@@ -1,7 +1,9 @@
 ---
-aliases:
-  - Causal TreeKEM
+aliases: 'Causal TreeKEM'
+title: 'Group Messaging for Secure Asynchronous Collaboration'
+slug: 'group-messaging-for-secure-asynchronous-collaboration'
 ---
+
 **Abstract**
 End-to-end encrypted applications improve users’ privacy by making their data unread- able to anyone besides their intended recipients. In particular, their data is unreadable to application servers. Although end-to-end encryption is currently deployed only for messaging apps, recent academic work shows that it is possible to create end-to-end encrypted asynchronous collaborative applications, like Google Docs but without a trusted server, by layering Conflict-free Replicated Data Types (CRDTs) on top of a secure group messaging protocol. However, existing secure group messaging protocols are inadequate for CRDT-based collaboration, and they do not minimize the trusted computing base as much as possible. 
 
@@ -14,4 +16,4 @@ In total, this dissertation represents an important step towards developing end-
 
 > In the other direction, _[Causal TreeKEM](Group Messaging for Secure Asynchronous Collaboration)_ modifies TreeKEM to require only causally ordered message delivery (see Section 5.1), at the cost of even ==weaker forward secrecy== [41 , §4]. Like our work, ==Causal TreeKEM describes how to handle dynamic groups in the decentralized setting, although the protocol description is largely informal. Also, its post-compromise security is weaker than for our DCGKA protocol: after multiple compromises, all compromised group members must send PCS updates in _sequence_, while our protocol allows all but the last update to be concurrent.==
 
-![](../../../../meri-public/garden/005182a79698e9a90a5505b3b3199e9c.pdf)
+![](https://static.meri.garden/005182a79698e9a90a5505b3b3199e9c.pdf)

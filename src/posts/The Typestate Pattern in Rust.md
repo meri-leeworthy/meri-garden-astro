@@ -1,14 +1,14 @@
 ---
-title: The Typestate Pattern in Rust
-source: https://cliffle.com/blog/rust-typestate/
-author:
-  - Cliff L. Biffle
-published: 
-created: 2025-05-26
-description: 
-tags:
-  - clippings
+title: 'The Typestate Pattern in Rust'
+source: '''https://cliffle.com/blog/rust-typestate/'''
+author: 'Cliff L. Biffle'
+published: 'null'
+created: '''Mon May 26 2025 10:00:00 GMT+1000 (Australian Eastern Standard Time)'''
+description: 'null'
+tags: 'clippings'
+slug: 'the-typestate-pattern-in-rust'
 ---
+
 The *typestate pattern* is an API design pattern that encodes information about an object’s run-time *state* in its compile-time *type*. In particular, an API using the typestate pattern will have:
 
 1. ====Operations on an object (such as methods or functions) that are only available when the object is in certain states,====

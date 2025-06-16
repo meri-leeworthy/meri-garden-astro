@@ -1,3 +1,8 @@
+---
+title: 'Beelay'
+slug: 'beelay'
+---
+
 [[Practical Rateless Set Reconciliation]]
 
 Has access to list of members for each document but not the content

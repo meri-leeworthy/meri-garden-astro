@@ -1,8 +1,11 @@
 ---
-type: book
-author: Tyson Yunkaporta
-year: "2019"
+type: 'book'
+author: 'Tyson Yunkaporta'
+year: '2019'
+title: 'Sand Talk'
+slug: 'sand-talk'
 ---
+
 ## How Indigenous Thinking Can Save the World
 
 > [!NOTE] GPT Note

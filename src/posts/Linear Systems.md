@@ -1,3 +1,8 @@
+---
+title: 'Linear Systems'
+slug: 'linear-systems'
+---
+
 ## 1.1. Introduction to linear systems
 
 If you need to solve problems mathematically, you have to convert them to mathematical equations. This process is called mathematical modelling.
@@ -14,7 +19,7 @@ An equation is called **linear** if each of the variables involved is of power
 
 A linear equation must contain at least one variable and have linear power, i.e., power one or zero. At least one of the variables must be of power one.
 
-![](../../../../meri-public/garden/676f0889a6d5748dba0f0ea51c5aa368.png)
+![](https://static.meri.garden/676f0889a6d5748dba0f0ea51c5aa368.png)
 
 Linear equations with two variables on X-Y plane (2010) <https://tinyurl.com/n7t237yj>
 

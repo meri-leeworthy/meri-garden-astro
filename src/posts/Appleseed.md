@@ -1,6 +1,9 @@
 ---
-type: project
+type: 'project'
+title: 'Appleseed'
+slug: 'appleseed'
 ---
+
 [[TrustNet - Trust-based Moderation]]:
 >Appleseed \[[[Propagation Models for Trust and Distrust in Social Networks|Ziegler and Lausen, 2005]]] is a trust propagation algorithm and trust metric for local group trust computation. Basically, Appleseed makes it possible to take a group of nodes—which have various trust relations to each other—look at the group from the perspective of a single node, and rank each of the other nodes according to how trusted they are from the perspective of the single node. 
 >The Appleseed algorithm was proposed by Cai-Nicolas Ziegler and Georg Lausen of Institut für Informatik, Universität Freiburg, initially in 2004 \[Ziegler and Lausen, 2004a]
@@ -31,7 +34,7 @@ type: project
 >**Appleseed Properties** 
 >Ziegler and Lausen outline a few properties of Appleseed in their article which feel relevant to briefly highlight. Appleseed *fully* distributes all of its initial energy, $in_0$, among its nodes—excluding the trust source, which does not accrue any trust, and nodes which do not have a path to the trust source. The algorithm is also proven by the authors to converge after a finite (but variable) amount of iterations. Experimentally, the amount of iterations before convergence, using the suggested values for parameters, seems to be around 60 to 100. The produced trust ranking is ordered such that the most trusted node, i.e. highest trust rank, is at the top of the list and the least trusted nodes are at the bottom. 
 >Appleseed takes the following parameters as input: the trust source s, the spreading coefficient d, the convergence threshold Tc, and the amount of initial energy $in_0$. The algorithm implicitly also takes a set of trust assignments, or a trust graph composed of nodes, V , and weighted, directed edges, E. The range of permissible values for the edge weights is 0.0 − 1.0. The input parameters have been summarized in Table 6.1. Where possible, Ziegler and Lausen’s suggested parameter values have also been included.
->![](../../../../meri-public/garden/3a37ce26c8025c9776f79425edcf877c.png)
+>![](https://static.meri.garden/3a37ce26c8025c9776f79425edcf877c.png)
 
 ## Pooling Water Analogy 
 >In order to make the idea of Appleseed more graspable, a metaphor of water streaming amongst a group of water holes can be fruitfully employed, see Fig. 6.1. 
@@ -39,7 +42,7 @@ type: project
 >The water sloshes from neighbour to neighbour, with more water ending up at the holes whose incoming tunnels are wider. Eventually the rushing water calms down, and the water level in each hole stabilizes. 
 >The tub of water in the metaphor is the amount of finite energy that Appleseed redistributes from the trust source along its outgoing direct trust assignments. The width of the tunnels is akin to the trust weights, where wider tunnels are likened to outgoing edges with larger weights. The variable amount of water left in each hole after the slushing has ceased can be likened to the computed trust rank for each node in Appleseed’s trust graph. The more water a hole has, the higher its rank is, and the higher its trust. 
 >The metaphor has flaws in its physicality but serves as a tool to aid in understanding the Appleseed algorithm.
-![](../../../../meri-public/garden/f305f438f597de2e196f29a87b33cc8b.png)
+![](https://static.meri.garden/f305f438f597de2e196f29a87b33cc8b.png)
 
 ## Algorithm
 We now have enough background and context to dive into the algorithm itself, explaining its parameters in greater detail, and how the algorithm itself works. 
@@ -73,7 +76,7 @@ We will now give a guided tour of the code in Algorithm 6.1. Readers are recomme
 	 return (trust : {(x, trusti(x)) | x ∈ Vi});
  }
 ```
-![](../../../../meri-public/garden/e5a4604e47fd0d477c0ba43b5954598f.png)![](../../../../meri-public/garden/d71fad9c65c9ef83e3ee2556c34c8a64.png)
+![](https://static.meri.garden/e5a4604e47fd0d477c0ba43b5954598f.png)![](https://static.meri.garden/d71fad9c65c9ef83e3ee2556c34c8a64.png)
 
 L :1 The function declaration, TrustA, shows the input parameters being declared, and the conditions that are imposed upon them. The trust source s has to be a node from the trust graph V , the energy to distribute in0 has to be a positive integer, the spreading factor d in the range 0..1, and the convergence threshold Tc also has to be a positive real number. See the section Parameters below for more detail. 
 L :2 − 3 The initial state is setup. We begin at iteration 0, represented by the variable i, and which explains the subsequent subscripts. The only node we know of at the moment is the trust source s, thus the discovered nodes, V0, is initialised to the trust source. The trust source’s incoming energy, in0(s), is set to be the energy to distribute over the trust graph, in0. The incoming energy is what determines the trust rank of a node, which we will explain when we arrive at L :9. The current trust ranking for the trust source, trust0(s) is set to 0. It will also stay at 0, as the trust source does not accrue any trust (the trust source is regarded as absolutely trusted, already). 

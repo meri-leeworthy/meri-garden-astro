@@ -1,8 +1,10 @@
 ---
-aliases:
-  - Political Ontology
-type: topic
+aliases: 'Political Ontology'
+type: 'topic'
+title: 'Political Ontology'
+slug: 'political-ontology'
 ---
+
 From [[Mario Blaser]] biography:
 > My general area of research until recently has been the politics of colonization/decolonization through the lens of conflicts over development and/or conservation projects mainly involving Indigenous communities in Canada Paraguay and Labrador. In this line of enquiry, I began to develop ‘political ontology,’ an analytical framework that interrogates whether conflicts around things defined as resources (be these natural or artifactual), are only about that. The paradigmatic example would be a conflict over a hunting ban of caribou to which local Indigenous peoples might be opposed because it interferes with their relations with a ‘spirit owner’ while the state only see there an animal, a natural resource that must be managed and protected. The usual characterization of this kind of conflict in terms of a clash of cultural perspectives over an ‘animal’ appears utterly insufficient from a political ontology’s standpoint, for it opens the door to establish a hierarchy between ‘cultural perspectives,’ a hierarchy which often makes local perspectives ‘more cultural’ than those backed by science, the state and corporations. ==Political ontology sustains that in these kinds of conflicts there is clash of realities that are often resolved by colonial imposition. How to address these conflicts without colonial impositions is the key question political ontology asks.==
 > - https://www.mun.ca/archaeology/people/faculty/mario-blaser/

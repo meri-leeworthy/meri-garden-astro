@@ -1,7 +1,9 @@
 ---
-aliases:
-  - feed-forward neural network
+aliases: 'feed-forward neural network'
+title: 'Feed-forward Neural Network'
+slug: 'feed-forward-neural-network'
 ---
+
 One of the two main types of [[Artificial Neural Network]]. 
 
 See also [[Multi-layer feed-forward neural network]]
@@ -19,7 +21,7 @@ The output of each neuron is a function of its current input. A feed-forward net
 
 The following diagram shows a case in which we would have one perceptron with the weights in red that output at node 3 and with blue weights that output at node 4.
 
-![](../../../../meri-public/garden/59b009d76fa1405480674eae880ba0aa.png)
+![](https://static.meri.garden/59b009d76fa1405480674eae880ba0aa.png)
 
 Example
 - Input: Email
@@ -53,5 +55,3 @@ meaning that the email would be assigned the 'SPAM' label
 For binary classification, one class label will always be 1 and the other will be 0
 
 **The weight vector of a perceptron will always be a hyperplane in the space of features, and the hyperplane is the decision boundary of classification**
-
-

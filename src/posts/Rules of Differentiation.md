@@ -1,10 +1,9 @@
 ---
-aliases:
-  - Sum Rule
-  - Difference Rule
-  - Constant Rule
-  - Constant Multiple Rule
+aliases: 'Sum Rule,Difference Rule,Constant Rule,Constant Multiple Rule'
+title: 'Rules of Differentiation'
+slug: 'rules-of-differentiation'
 ---
+
 1. **[[Power Rule]]**
 2. **Constant Rule**
    - If$f(x) = c$ (where $c$ is a constant), then$f'(x) = 0$.

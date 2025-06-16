@@ -1,3 +1,8 @@
+---
+title: 'The OSI security architecture'
+slug: 'the-osi-security-architecture'
+---
+
 Securing a computing system from an attacker is not a simple task given the nature of computing systems and the number of ways an attacker can take towards compromising a system. Compounding this further is when we introduce a host of computing systems that reside within a single or multiple networks.
 
 The scale of securing these devices can prove to be a mammoth task. As such, in order to ensure that no aspects are overlooked or missed out on when securing these systems, it is vital for organisations to have a plan that clearly outlines the various aspects that need to be addressed as part of a larger plan.
@@ -83,7 +88,7 @@ These are mechanisms that are not protocol-specific and do not need to be implem
     
 - **Security recovery:** This mechanism facilitates for recovery actions based on requests from other mechanisms.
     
-![](../../../../meri-public/garden/e05f174e0fb937472247ee66b1807e23.png)
+![](https://static.meri.garden/e05f174e0fb937472247ee66b1807e23.png)
 
 It is imperative for anyone new to security to understand the basics of the OSI architecture. While we will explore OSI architecture in further detail, our main focus will be on one underlying commonality among some of the mechanisms outlined above—cryptography.
 

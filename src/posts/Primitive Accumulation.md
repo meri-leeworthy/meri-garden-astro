@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'Primitive Accumulation'
+slug: 'primitive-accumulation'
 ---
+
 >Primitive accumulation is the process by which precapitalist modes of production, such as [[feudalism]] and chattel slavery, are transformed into the capitalist mode of production.
 >
 >Marx was not the first to consider the way in which feudal production was transformed into capitalism. For example, [[Adam Smith]] argued in [_The Wealth of Nations_](https://www.marxists.org/reference/archive/smith-adam/works/wealth-of-nations/book01/ch08.htm) that capitalism arose out an ever increasing division of labor, where individual producers became extremely specialized at making useful goods. Eventually a particular section of the population became merchants dedicated to selling those goods. Other people rose up to own the factories where this highly specialized production could take place, and employed others as wage workers. Smith argued that those who rose to these positions did so by dint of hard work and saving.

@@ -1,3 +1,8 @@
+---
+title: 'Power Rule'
+slug: 'power-rule'
+---
+
 If$f(x) = x^n$, then$f'(x) = nx^{n-1}$.
 
 ### Partial Differentiation

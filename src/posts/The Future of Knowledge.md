@@ -1,11 +1,11 @@
 ---
-author:
-  - Danny Hillis
-  - Samuel Klein
-  - Travis Rich
-uri: https://notes.knowledgefutures.org/pub/future
-type: essay
+author: 'Danny Hillis,Samuel Klein,Travis Rich'
+uri: '''https://notes.knowledgefutures.org/pub/future'''
+type: 'essay'
+title: 'The Future of Knowledge'
+slug: 'the-future-of-knowledge'
 ---
+
 ## A New Model for Knowledge
 
 Knowledge is the most precious human asset, yet even with the most powerful tools one cannot know with certainty what is already known. Technology has expanded the rate of knowledge creation and dissemination, giving us more knowledge from more sources, but making it harder to discover and judge it. Our paradigm for sharing knowledge is broken. The prevalence of false beliefs, decisions based on inaccurate information, distrust in science and journalism, misinformation campaigns and deliberate fraud, all indicate the current system no longer suffices.
@@ -75,4 +75,4 @@ Libraries and publishers will reinvent themselves to take advantage of this to c
 
 Structured underlays will transform scientific publishing, articulating the details of distributed iterative research, and supporting new types of authorship, revision, review, and publication. Concise, targeted updates to knowledge at many levels of granularity will become the norm, from single observations to meta-analyses. We may find new modes of collaboration among humans, between humans and machines, and among machines.
 
-Creating the Underlay is a long-term undertaking. It has the potential to become part of humanity’s basic infrastructure, meeting the changing needs of research and synthesis. Even its beginning will enable better access to what is known. Eventually, as with the invention of earlier scientific norms, it may change how we picture discovery, bootstrap and estimate truth, and extend our collective intelligence. 
+Creating the Underlay is a long-term undertaking. It has the potential to become part of humanity’s basic infrastructure, meeting the changing needs of research and synthesis. Even its beginning will enable better access to what is known. Eventually, as with the invention of earlier scientific norms, it may change how we picture discovery, bootstrap and estimate truth, and extend our collective intelligence.

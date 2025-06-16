@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Production'
+slug: 'hm-production'
 ---
+
 [[A Hacker Manifesto]]
 Prev: [[HM - Nature]]
 Next: [[HM - Property]]

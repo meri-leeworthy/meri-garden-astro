@@ -1,3 +1,8 @@
+---
+title: 'Leaf Render Update 0'
+slug: 'leaf-render-update-0'
+---
+
 I've created a simple render module which I'm calling `leaf-render`. It applies the Minijinja templating engine (a slightly constrained Rust implementation of Jinja2) to [[Leaf]] entities. 
 
 [[Leaf]] is a local-first data engine that represents all data as 'entities' in an *entity-component-system* (ECS) architecture. An entity is always defined as a composition of components, where a component is a kind of generic description of a property of data. A blog post might have Title, Date, Author and Content components. If all data is a composition of generic semantic properties, we can interact with the same data in various interfaces, giving us interoperability and improving user autonomy. It also gives us high level a way of evolving schemas and adding features without breaking things. 
@@ -6,7 +11,7 @@ The latest Muni Town app, Roomy, aims to take advantage of this flexibility by b
 
 Here's the high level API design I landed on for the render module:
 
-![](../../../../meri-public/garden/208ad7349061386a253a7a267f717364.jpg)
+![](https://static.meri.garden/208ad7349061386a253a7a267f717364.jpg)
 
 The separation of templates from sub-templates above reflects my intention to check all sub-template dependencies are satisfied before registering a template. When it came to implementing this design, I found that it was not quite as straightforward to extract the template dependencies from the parsed template, so I skipped implementing this checking logic for now, meaning those two stages in the flow are actually identical, and we ended up with these methods on the Typescript bindings:
 

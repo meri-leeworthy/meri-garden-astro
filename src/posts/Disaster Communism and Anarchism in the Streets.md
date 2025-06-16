@@ -1,8 +1,10 @@
 ---
-author:
-  - Nick Southall
-type: book
+author: 'Nick Southall'
+type: 'book'
+title: 'Disaster Communism and Anarchism in the Streets'
+slug: 'disaster-communism-and-anarchism-in-the-streets'
 ---
+
 Naomi Klein, The Shock Doctrine - disaster capitalism 
 
 Rebecca Solnit, A Paradise Built In Hell
@@ -19,6 +21,4 @@ Issues of the weak, collateral in the name of control
 How to centre people who are most marginalised and targeted 
 
 Questions
-Capacity building 
-
-
+Capacity building

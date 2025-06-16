@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'ontology'
+slug: 'ontology'
 ---
+
 [[In the Background of Our Culture - Rationalism, Ontological Dualism, and Relationality]] pp.92-93
 
 >Terry Winograd and Fernando Flores define ==ontology simply as concerned with "our understanding of what it means for something or someone to exist" (1986, 30). Ontology has to do with the assumptions dif­fer­ent social groups make about the kinds of entities taken to exist "in the real world."== Notice that this definition does not entail a strong realist position (the assumption of a common or universal under­lying real­ity); at the same time, this does not mean that "the mind" constructs the world (a kind of subjectivism); the definition tries to get at the existence of multiple worlds while maintaining a nonobjectifying notion of the real. Our ontological stances about what the world is, what we are, and how we come to know the world define our being, our ­doing, and our knowing--­our historicity. ­Here it is impor­tant to ==keep in mind the distinctions among epistemology (referring to the rules and procedures that apply to knowledge production, including what counts as knowledge and what the character of that knowledge is), the episteme (the broad, and largely implicit, configuration of knowledge that characterizes a par­tic­ul­ar society and historical period and that significantly shapes the knowledge produced without the awareness of ­those producing it), and ontology.==11

@@ -1,3 +1,8 @@
+---
+title: 'Triple Diffie-Hellman'
+slug: 'triple-diffie-hellman'
+---
+
 ## 4o:
 
 A **standard, non-triple [[Diffie-Hellman key exchange|Diffie-Hellman]] (DH)** typically involves just one pair of keys.

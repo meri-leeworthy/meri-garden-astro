@@ -1,3 +1,8 @@
+---
+title: 'Negation of a predicate logic sentence'
+slug: 'negation-of-a-predicate-logic-sentence'
+---
+
 #### 1.2. Negation of a predicate logic sentence
 
 Negating a predicate logic sentence is more than just putting a negation symbol in front of the predicate logic sentence. It involves modifying the internal structure of the predicate logic sentence

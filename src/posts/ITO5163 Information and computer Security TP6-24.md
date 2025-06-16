@@ -1,3 +1,8 @@
+---
+title: 'ITO5163 Information and computer Security TP6-24'
+slug: 'ito5163-information-and-computer-security-tp6-24'
+---
+
 [[ITO5163 Assignment 2]]
 ## Module 1:
 - Lesson 1: Introduction to computer security

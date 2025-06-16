@@ -1,3 +1,8 @@
+---
+title: 'Euler Graphs'
+slug: 'euler-graphs'
+---
+
 ### 3. Planar graphs, Euler graphs, Hamiltonian graphs, and topological sort
 
 #### 3.2. Euler graphs
@@ -8,7 +13,7 @@ A **Euler path** is also called a **Euler walk** or a **Euler trail**. In a
 
 The following examples in figures (a) and (b) are graphs with Euler paths. However, figure (c) is not.
 
-  ![](../../../../meri-public/garden/b7a2de921d048ae27738608ba60c57c7.png)
+  ![](https://static.meri.garden/b7a2de921d048ae27738608ba60c57c7.png)
 
 
 The Euler path of (a) is BCDBAD, (b) is BCDFBEDAB and (c) doesn’t have an= Euler path (since it needs to repeat traversing through many edges).

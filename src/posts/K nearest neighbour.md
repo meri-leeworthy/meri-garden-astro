@@ -1,7 +1,9 @@
 ---
-aliases:
-  - k-NN
+aliases: 'k-NN'
+title: 'K nearest neighbour'
+slug: 'k-nearest-neighbour'
 ---
+
 The categorisation of a point in n-dimensional space finds the point's k nearest neighbours in that space and selects the class label that is most common among them
 
 #### 1-nearest neighbour
@@ -10,13 +12,13 @@ Suppose we had the data points shown in 2D space with either a label of black or
 
 If we do a 1 nearest neighbour, we find the single closest point to the pink point, a black point. We take a majority vote, with the result being black, and hence we classify the pink point as black.
 
-![](../../../../meri-public/garden/5e28b86208633d40fd93c183127c550f.png)
+![](https://static.meri.garden/5e28b86208633d40fd93c183127c550f.png)
 
 #### 3-nearest neighbour
 
 If, on the other hand, we are performing a 3 nearest neighbour, we look for the 3 closest points to our pink point and find two blue points and one black point. Therefore, our majority vote would classify the pink point as a blue one.
 
-![](../../../../meri-public/garden/c76e48063b95ce3ae77f2c32a5074363.png)
+![](https://static.meri.garden/c76e48063b95ce3ae77f2c32a5074363.png)
 
 ## Computing similarity
 
@@ -27,7 +29,7 @@ If the features of our data are **continuous,** then we can use **[[Euclidean
 
 
 
-![](../../../../meri-public/garden/3133845e1cf938eec26b50f7eede79e6.png)
+![](https://static.meri.garden/3133845e1cf938eec26b50f7eede79e6.png)
 
 #### Parameter learning
 

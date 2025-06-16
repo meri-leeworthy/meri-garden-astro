@@ -1,16 +1,19 @@
 ---
-type: essay
-author: Jasper Bernes
-editor: Endnotes
+type: 'essay'
+author: 'Jasper Bernes'
+editor: 'Endnotes'
+title: 'Revolutionary Motives'
+slug: 'revolutionary-motives'
 ---
+
 [[Jasper Bernes]]
 [[Endnotes]] 5
 
-![](../../../../meri-public/garden/94eb7d639d5fea46319c9d544f2ff1ec.pdf)
+![](https://static.meri.garden/94eb7d639d5fea46319c9d544f2ff1ec.pdf)
 
 
 Sartre:
-![](../../../../meri-public/garden/f9aca54698f0fa96e668e0b4a3fbaa25.png)
+![](https://static.meri.garden/f9aca54698f0fa96e668e0b4a3fbaa25.png)
 
 Why do people revolt? What kind of agencies about revolts can be described?
 
@@ -66,4 +69,3 @@ Marx and Engels were responding to the 'idealist' conception of history and in p
 > Nevertheless, the fact that material interests supervene over altruism and spite explains not only the dwindling of the riot, but the inability of insurrection to convert into social revolution. (237)[[3quc46lq2i_file.pdf#page=23&annotation=1088R]]
 
 > the theological whims and niceties of [[private property]] evaporate: the things of this world no longer appear as possessions of this or that owner, but as unmarked social possibility. Participants take what they need and give what they can. (237)[[3quc46lq2i_file.pdf#page=23&annotation=1094R]]
-

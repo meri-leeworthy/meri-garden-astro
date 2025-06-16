@@ -1,6 +1,11 @@
+---
+title: 'Cynefin framework'
+slug: 'cynefin-framework'
+---
+
 conceptual tool for dealing with complexity
 
-![](../../../../meri-public/garden/9dea0fd3ac91a44eb4abc904b7ae1e07.png)
+![](https://static.meri.garden/9dea0fd3ac91a44eb4abc904b7ae1e07.png)
 idk if it makes sense as a quadrant as much as a spectrum or linear series of four domains
 
 Obvious

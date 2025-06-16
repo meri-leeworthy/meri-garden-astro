@@ -1,3 +1,8 @@
+---
+title: 'Cooperatives'
+slug: 'cooperatives'
+---
+
 [[Starting a Worker Cooperative]]
 [[Earthworker Cooperative]]
 

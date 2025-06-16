@@ -1,8 +1,11 @@
 ---
-author: Timothy Erik Strom
-year: "2022"
-type: essay
+author: 'Timothy Erik Strom'
+year: '2022'
+type: 'essay'
+title: 'Capital and Cybernetics'
+slug: 'capital-and-cybernetics'
 ---
+
 https://newleftreview.org/issues/ii135/articles/timothy-erik-strom-capital-and-cybernetics
 
 There is no shortage of epithets aimed at grasping the transformations taking place within global capitalism under the impact of the ongoing technological revolution. Algorithmic capitalism, cognitive capitalism, communicative capitalism, data capitalism, digital capitalism, frictionless capitalism, informational capitalism, platform capitalism, semiocapitalism, surveillance capitalism and virtual capitalism have all been proposed, to name but a few. Of late, this categorization project has posited a rupture that leaves capitalism itself behind, not in the spirit of an advance, but as a regression to a world of data barons and user-serfs: digital feudalism, techno-feudalism, information feudalism, neo-feudalism have become new watchwords on both left and right, attracting the bracing attention of Evgeny Morozov, whose ‘[[Critique of Techno-Feudal Reason]]’ appeared in the last number of nlr.[footnote1](https://newleftreview.org/issues/ii135/articles/timothy-erik-strom-capital-and-cybernetics#note-1)

@@ -1,3 +1,8 @@
+---
+title: 'Adjugate (Adjoint) Matrix'
+slug: 'adjugate-adjoint-matrix'
+---
+
 - For a 2x2 matrix, the adjugate is $\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$.
    - For larger matrices, you find the cofactor of each element, then transpose the resulting cofactor matrix.
 

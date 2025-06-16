@@ -1,3 +1,8 @@
+---
+title: 'PGP'
+slug: 'pgp'
+---
+
 OpenPGP, S/MIME
 
 Properties included [[confidentiality]] and [[authenticity]][^1]

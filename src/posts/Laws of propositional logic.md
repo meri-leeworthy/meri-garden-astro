@@ -1,3 +1,8 @@
+---
+title: 'Laws of propositional logic'
+slug: 'laws-of-propositional-logic'
+---
+
 #### 1.2. Laws on propositional logic
 
 This page will show you various laws on propositional logic, including the famous De Morgan’s Law. Using these laws, you can represent propositional statements in simplified forms. Consider the simplified forms in the following table.

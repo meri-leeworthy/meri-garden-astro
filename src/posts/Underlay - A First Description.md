@@ -1,11 +1,11 @@
 ---
-type: essay
-author:
-  - Danny Hillis
-  - Samuel Klein
-  - Travis Rich
-uri: https://notes.knowledgefutures.org/pub/h67iji6d/release/1
+type: 'essay'
+author: 'Danny Hillis,Samuel Klein,Travis Rich'
+uri: '''https://notes.knowledgefutures.org/pub/h67iji6d/release/1'''
+title: 'Underlay - A First Description'
+slug: 'underlay-a-first-description'
 ---
+
 The Underlay is a global, distributed graph of public knowledge. Initial hosts will include universities and individuals, such that no single group controls the content. This is an attempt to replicate the richness of private knowledge graphs in a public, decentralized manner.
 
 ## Rationale

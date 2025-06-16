@@ -1,3 +1,8 @@
+---
+title: 'Chinese remainder theorem'
+slug: 'chinese-remainder-theorem'
+---
+
 The Chinese remainder theorem (CRT) can be stated in many ways, however, the underlying principle remains the same. The CRT states that given a set of pairwise coprimes that are positive integers n1, n2, ... nk, and a set of arbitrary values a1, a2, ..., ak, a set of congruences:
 
 $$x ≡ a1 (mod n1)$$

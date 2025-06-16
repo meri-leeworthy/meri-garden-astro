@@ -1,7 +1,10 @@
 ---
-type: essay
-author: Jo Freeman
+type: 'essay'
+author: 'Jo Freeman'
+title: 'The Tyranny of Structurelessness'
+slug: 'the-tyranny-of-structurelessness'
 ---
+
 DURING THE years in which the women’s liberation movement has been taking shape, a great emphasis has been placed on what are called leaderless, structureless groups as the main – if not sole – organizational form of the movement. The source of this idea was a natural reaction against the overstructured society in which most of us found ourselves and the inevitable control this gave others over our lives, and the continual elitism of the left and similar groups among those who were supposedly fighting this overstructuredness.
 
 The idea of “structurelessness,” however, has moved from a healthy counter to those tendencies to becoming a goddess in its own right. The idea is as little examined as the term is much used, but it has become an intrinsic and unquestioned part of women’s liberation ideology. For the early development of the movement this did not much matter. It early defined its main goal, and its main method, as consciousness-raising, and the “structureless” rap group was an excellent means to this end. The looseness and informality of it encouraged participation in discussion, and its often-supportive atmosphere elicited personal insight. If nothing more concrete than personal insight ever resulted from these groups, that did not much matter, because their purpose did not really extend beyond this.

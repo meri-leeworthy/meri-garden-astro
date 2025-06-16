@@ -1,12 +1,14 @@
 ---
-author: Karl Marx
-type: book
-aliases:
-  - Capital
-translator: Paul Reitter
-editor: Paul North
-year: "2024"
+author: 'Karl Marx'
+type: 'book'
+aliases: 'Capital'
+translator: 'Paul Reitter'
+editor: 'Paul North'
+year: '2024'
+title: 'Capital (Marx)'
+slug: 'capital-marx'
 ---
+
 [[An Introduction to the Three Volumes of Karl Marx’s Capital]]
 
 ## Full Text

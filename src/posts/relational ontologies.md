@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'relational ontologies'
+slug: 'relational-ontologies'
 ---
+
 nondualist
 
 [[In the Background of Our Culture - Rationalism, Ontological Dualism, and Relationality]]:
@@ -15,4 +18,3 @@ nondualist
 [[Pluriversal Politics]] p.xiii-xiv:
 >Let me introduce the notion of radical [[relationality]]. It refers to the fact that all entities that make up the world are so deeply interrelated that they have no intrinsic, separate existence by themselves. Modern epistemology grants entities a separate existence, thanks to the foundational premises of the separation between subject and object, mind and body, nature and humanity, reason and emotion, facts and values, us and them, and so forth. Ontological politics destabilize these dualisms. In both activist and scholarly domains, the challenge to the modernist separation between humans and nonhumans occupies an especially relevant place. The field of [[political ontology]] actually focuses on the analysis of environmental conflicts as ontological conflicts involving contrasting configurations of the human/nonhuman relation.
 >\[...] All forms of politics are relational, yet differently so. I sometimes use a heuristic to distinguish between “weak relationality” and “strong relationality.” In the former, characteristic of modernist politics, entities are first assumed to be ontologically separate; then they are reunited through some sort of connection, such as a “network,” but even when this is done, it is clear that the entities, now found to be related, preexist the connection. More importantly, modernist forms of politics stem from ontologies that are deeply embedded in the negation of the full humanity of multiple others and the nonhuman, and this has to be taken seriously into account when considering them as strategies for action. In radical ontological politics, by contrast, there are no intrinsically existing entities to be found, since ==nothing preexists the relations that constitute it;== in other words, reality is relational through and through.
-

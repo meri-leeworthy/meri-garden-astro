@@ -1,12 +1,11 @@
 ---
-title: Design Tokens and Constraint Based Design
-isPublished: true
-date: "20211106"
-image: metal-type.png
-alt: A box of metal movable type characters sorted by letter
-tags:
-  - projects
-  - design
+title: 'Design Tokens and Constraint Based Design'
+isPublished: 'true'
+date: '20211106'
+image: 'metal-type.png'
+alt: 'A box of metal movable type characters sorted by letter'
+tags: 'projects,design'
+slug: 'design-tokens-and-constraint-based-design'
 ---
 
 _This post is based on a presentation I gave while in-batch at the Recurse
@@ -29,7 +28,7 @@ over the centuries, and a lot of thought was put into it. We call this set of
 font sizes a typographic scale. This is the most popular, classic scale. We can
 recognise it from Microsoft Word.
 
-![](../../../../meri-public/garden/b20b303a06e038de4dc02fd026b3dd3f.png)
+![](https://static.meri.garden/b20b303a06e038de4dc02fd026b3dd3f.png)
 
 https://spencermortensen.com/articles/typographic-scale/
 
@@ -46,7 +45,7 @@ Another useful musical metaphor is typographic rhythm. This is about letter
 spacing & kerning on the horizontal axis, and line height and paragraph spacing
 on the vertical axis.
 
-![](../../../../meri-public/garden/abbac26ea9ab9e6037e8fe8470e5b7af.png)
+![](https://static.meri.garden/abbac26ea9ab9e6037e8fe8470e5b7af.png)
 
 https://betterwebtype.com/articles/2018/10/15/rhythm-in-web-typography/
 
@@ -55,7 +54,7 @@ rhythm involves using a consistent base unit for spacing and expressing all
 spacing on the page as multiples of that base unit. This image is using the line
 height of body text.
 
-![](../../../../meri-public/garden/12d509c5c9a1a4b4182d793257644b72.png)
+![](https://static.meri.garden/12d509c5c9a1a4b4182d793257644b72.png)
 
 When it comes to colour, I’m sure everyone is familiar with the concept of
 colour palettes. I think the thing to understand about all of these examples is

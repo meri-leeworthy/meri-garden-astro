@@ -1,7 +1,7 @@
 ---
-aliases:
-  - anarchism
-  - anarchist
-  - anarchy
-type: topic
+aliases: 'anarchism,anarchist,anarchy'
+type: 'topic'
+title: 'Anarchism'
+slug: 'anarchism'
 ---
+

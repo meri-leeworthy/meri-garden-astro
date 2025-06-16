@@ -1,3 +1,8 @@
+---
+title: 'Applications of asymmetric cryptosystems'
+slug: 'applications-of-asymmetric-cryptosystems'
+---
+
 One of the biggest drawbacks with symmetric cryptosystems is that in order for a user to communicate with another, they each need to share a common secret key. This seems trivial if the number of users communicating is relatively small. However, as the number of users scale -p, with each pair having private conversations, the number of keys that need to be exchanged and kept secret grows larger as well.
 
 Public key cryptosystems alleviate this challenge as a single key pair can be used to communicate with multiple users. As each key pair can only be used in conjunction to perform the encryption and decryption operations, any user who has access to the public key can encrypt the plaintext. However, the only key which can then decrypt the ciphertext is the private key, which is not shared with anyone. An adversary obtaining an encrypted message from someone else that is meant for the receiver cannot decrypt it even after knowing the key used to encrypt it in the first place.

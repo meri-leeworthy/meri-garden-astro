@@ -1,5 +1,8 @@
 ---
-type: paper
-year: "2022"
+type: 'paper'
+year: '2022'
+title: 'CoCoA - Concurrent Continuous Group Key Agreement'
+slug: 'cocoa-concurrent-continuous-group-key-agreement'
 ---
-![](../../../../meri-public/garden/9db142edc42e8d514143d8eceed7f2ec.pdf)
+
+![](https://static.meri.garden/9db142edc42e8d514143d8eceed7f2ec.pdf)

@@ -1,3 +1,8 @@
+---
+title: 'Cofactor Matrix'
+slug: 'cofactor-matrix'
+---
+
 The matrix formed by all of the cofactors of a square matrix **A** is called the **cofactor matrix** (also called the **matrix of cofactors** or, sometimes, _comatrix_):
 
 ![{\displaystyle \mathbf {C} ={\begin{bmatrix}C_{11}&C_{12}&\cdots &C_{1n}\\C_{21}&C_{22}&\cdots &C_{2n}\\\vdots &\vdots &\ddots &\vdots \\C_{n1}&C_{n2}&\cdots &C_{nn}\end{bmatrix}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/0651000d4523a0563cd016ae064f75011e0d8702)

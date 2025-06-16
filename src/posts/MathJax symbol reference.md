@@ -1,3 +1,8 @@
+---
+title: 'MathJax symbol reference'
+slug: 'mathjax-symbol-reference'
+---
+
 Source: https://bearnok.com/grva/en/knowledge/software/mathjax
 Latex-style
 

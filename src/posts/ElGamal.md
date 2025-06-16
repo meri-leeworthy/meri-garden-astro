@@ -1,3 +1,8 @@
+---
+title: 'ElGamal'
+slug: 'elgamal'
+---
+
 # Monash
 
 Another cryptosystem that is also based on the [[Discrete logarithm problem]] is that proposed by T. ElGamal. The ElGamal cryptosystem is very similar to the [[Diffie-Hellman key exchange|Diffie-Hellman]] algorithm that you have studied earlier. However, unlike the latter, the former can be used for encrypting the plaintext message and decrypting the ciphertext message. 
@@ -212,4 +217,4 @@ if __name__ == '__main__':
 	main()
 ```
 
-You can attempt to learn the inner workings of the algorithm by changing the values of the plaintext input and some of the exponentiations of the keys, ensuring that any values substituted must comply with the requirements of the algorithm. 
+You can attempt to learn the inner workings of the algorithm by changing the values of the plaintext input and some of the exponentiations of the keys, ensuring that any values substituted must comply with the requirements of the algorithm.

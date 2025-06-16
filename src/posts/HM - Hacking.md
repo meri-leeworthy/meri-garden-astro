@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'HM - Hacking'
+slug: 'hm-hacking'
 ---
+
 [[A Hacker Manifesto]], Chapter 4
 Prev: [[HM - Education]]
 Next: [[HM - History]]

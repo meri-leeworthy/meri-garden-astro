@@ -1,3 +1,8 @@
+---
+title: 'ITO5136 Module 1 - Introduction to software engineering'
+slug: 'ito5136-module-1-introduction-to-software-engineering'
+---
+
 This module discusses the importance of software engineering, its role in ensuring high-quality software and its impact on project success, an overview of modern software development lifecycles (SDLC) and emphasising various methodologies such as Waterfall, Agile, Scrum, and Kanban. Finally, this module explores the roles and responsibilities involved in an Agile Scrum software development team.
 
 #### In this module, you will:
@@ -9,7 +14,7 @@ This module discusses the importance of software engineering, its role in ensuri
 
 - The following unit overview diagram highlights your progress through the unit's Agile scrum software development process. Before we begin with the stages of this process, lets begin with an introduction to software development.
 
-![](../../../../meri-public/garden/f5b0d7826b373e02d2029fc0db588a22.png)
+![](https://static.meri.garden/f5b0d7826b373e02d2029fc0db588a22.png)
 
 ## Topic 1: What is [[Software engineering]]?
 

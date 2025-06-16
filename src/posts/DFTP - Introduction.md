@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'DFTP - Introduction'
+slug: 'dftp-introduction'
 ---
+
 # Introduction
 
 In 1971, as industrialism and U.S. cultural, military, and economic hegemony ­were coming to their peak, Victor Papanek opened Design for the Real World with the following caustic indictment of the field: "­There are professions more harmful than industrial design, but only a very few of them....Today, industrial design has put murder on a mass-­production basis"; even more, "designers have become a dangerous breed" (1984, ix). Reflecting on the watered-down governmental agreements at the much-­talked-a­bout summits on the environment and sustainable development (Rio +20 in June 2012 and the Paris cop 21 in December 2015), just to mention two prominent recent attempts at "redesigning" global social policy, one might think that not much has changed, but this would be too quick a judgment. To be sure, much of what goes on ­under the guise of design at pres­ent involves intensive resource use and vast material destruction; design is central to the structures of unsustainability that hold in place the con­temporary, so-­called modern world. But despite crucial continuities, t­oday's social and design contexts are significantly dif­fer­ent than in the 1970s. Informed by a rich international experience in "Third World development," which enabled him to witness failure ­after failure in design, Papanek called for taking the social context and responsibility of design with utmost seriousness. A growing number of con­temporary designers are heeding this call ­today. This book can be seen as a contribution to this ongoing redefinition of design; it ­will do so from a par­tic­u­lar vantage point, ­here referred to as *ontological* or, more precisely, *politico-­ontological*.

@@ -1,3 +1,8 @@
+---
+title: 'Gradient functions'
+slug: 'gradient-functions'
+---
+
 The gradient function and vector fields are closely related concepts in vector calculus, with the gradient being a specific type of vector field.
 
 ### Gradient Function

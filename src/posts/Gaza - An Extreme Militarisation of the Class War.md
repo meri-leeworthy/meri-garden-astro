@@ -1,8 +1,11 @@
 ---
-type: interview
-author: Emilio Minassian, Serpents de la mer.
-editor: Brooklyn Rail
+type: 'interview'
+author: 'Emilio Minassian, Serpents de la mer.'
+editor: 'Brooklyn Rail'
+title: 'Gaza - An Extreme Militarisation of the Class War'
+slug: 'gaza-an-extreme-militarisation-of-the-class-war'
 ---
+
 #Article #Palestine #Gaza #ClassWar
 ## Emilio Minassian interviewed by Serpents de la mer., October 30, 2023.
 
@@ -207,4 +210,4 @@ Let’s forget about the farces and tragedies of history: history doesn't repeat
 
 _Translated by Tegan Jaye-Luzhin_
 
-[^1]: I think this is an interesting insight into the relationship between [[ideology]] and power/authority/centralisation as one that is fundamentally orthogonal. Any ideology can by its nature be wielded by groups and organisations regardless of the degree of their accountability, democracy, composition, size or centralisation - the latter are material and processual whereas ideology is just that - ideal. 
+[^1]: I think this is an interesting insight into the relationship between [[ideology]] and power/authority/centralisation as one that is fundamentally orthogonal. Any ideology can by its nature be wielded by groups and organisations regardless of the degree of their accountability, democracy, composition, size or centralisation - the latter are material and processual whereas ideology is just that - ideal.

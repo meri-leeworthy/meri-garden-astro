@@ -1,5 +1,7 @@
 ---
-aliases:
-  - Zapatista
-type: organisation
+aliases: 'Zapatista'
+type: 'organisation'
+title: 'Zapatistas'
+slug: 'zapatistas'
 ---
+

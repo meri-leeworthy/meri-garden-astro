@@ -1,3 +1,8 @@
+---
+title: 'Covariances'
+slug: 'covariances'
+---
+
 If we have two random variables 𝑋 and 𝑌 we can define the covariance of two random variables 𝑋 and 𝑌, $𝐶𝑜𝑣(𝑋,𝑌)$ as:
 
 $$𝑐𝑜𝑣(𝑋,𝑌)=𝐸[(𝑋−𝑥)(𝑌−𝑦)]$$

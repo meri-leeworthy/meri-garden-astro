@@ -1,3 +1,8 @@
+---
+title: 'L''Hôpital''s Rule'
+slug: 'lhopitals-rule'
+---
+
 L'Hôpital's rule is a method in calculus for finding the limit of indeterminate forms. It applies primarily to forms like $\frac{0}{0}$ or $\frac{\infty}{\infty}$. The rule states that if you have a limit of the form $\lim_{x \to c} \frac{f(x)}{g(x)}$, and both $f(x)$ and $g(x)$ approach 0 or $\pm \infty$ as $x$ approaches $c$, then:
 
 $$

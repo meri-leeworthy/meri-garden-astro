@@ -1,3 +1,8 @@
+---
+title: 'Laws on sets'
+slug: 'laws-on-sets'
+---
+
 #### 2.2. Laws on sets
 
 This section covers laws on sets, including commutative, associative, and distributive laws. Laws on sets are just a list of properties on a set that will be held true when certain operations are performed on sets.

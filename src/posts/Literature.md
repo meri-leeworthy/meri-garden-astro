@@ -1,3 +1,8 @@
+---
+title: 'Literature'
+slug: 'literature'
+---
+
 ## Books
 [[Designs for the Pluriverse]]
 [[Unthought]]

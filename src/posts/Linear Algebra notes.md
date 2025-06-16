@@ -1,3 +1,8 @@
+---
+title: 'Linear Algebra notes'
+slug: 'linear-algebra-notes'
+---
+
 [MathJax symbol ref](https://bearnok.com/grva/en/knowledge/software/mathjax)
 
 Law of cosines:

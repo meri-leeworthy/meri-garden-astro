@@ -1,3 +1,8 @@
+---
+title: 'Leaf'
+slug: 'leaf'
+---
+
 [[Leaf Render Update 0]]
 [[Muni Town]]
 

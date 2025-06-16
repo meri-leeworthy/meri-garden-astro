@@ -1,9 +1,9 @@
 ---
-aliases:
-  - pluriversal
-type: topic
+aliases: 'pluriversal'
+type: 'topic'
+title: 'Pluriverse'
+slug: 'pluriverse'
 ---
-
 
 [[Designs for the Pluriverse]] Index:
 	4–7, 117, 170–71, 190; 

@@ -1,6 +1,9 @@
 ---
-type: person
+type: 'person'
+title: 'Walter D. Mignolo'
+slug: 'walter-d-mignolo'
 ---
+
 Wikipedia:
 **Walter D. Mignolo** (born May 1, 1941) is an Argentine semiotician ([School for Advanced Studies in the Social Sciences](https://en.wikipedia.org/wiki/School_for_Advanced_Studies_in_the_Social_Sciences "School for Advanced Studies in the Social Sciences")) and professor at [Duke University](https://en.wikipedia.org/wiki/Duke_University "Duke University") who has published extensively on [semiotics](https://en.wikipedia.org/wiki/Semiotics "Semiotics") and [literary theory](https://en.wikipedia.org/wiki/Literary_theory "Literary theory"), and worked on different aspects of the modern and colonial world, exploring concepts such as [decoloniality](https://en.wikipedia.org/wiki/Decoloniality "Decoloniality"), global coloniality, the geopolitics of knowledge, transmodernity, border thinking, and pluriversality. He is one of the founders of the modernity/coloniality critical school of thought.[[1]](https://en.wikipedia.org/wiki/Walter_Mignolo#cite_note-1)
 
@@ -12,4 +15,4 @@ Mignolo, Walter. 2011. The Darker Side of Western Modernity. Durham, NC: Duke Un
 
 Mignolo, Walter. 2000. Local Histories/Global Designs. Prince­ton, NJ: Prince­ton University   Press. 
 
-Mignolo, Walter, and Arturo Escobar, eds. 2010. Globalization and the Decolonial Option.   London: Routledge. 
+Mignolo, Walter, and Arturo Escobar, eds. 2010. Globalization and the Decolonial Option.   London: Routledge.

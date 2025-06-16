@@ -1,15 +1,12 @@
 ---
-tags:
-  - Theory
-  - Materialism
-  - PoliticalTheory
-  - CulturalStudies
-  - Book
-  - Philosophy
-type: book
-author: Jane Bennett
-year: "2010"
+tags: 'Theory,Materialism,PoliticalTheory,CulturalStudies,Book,Philosophy'
+type: 'book'
+author: 'Jane Bennett'
+year: '2010'
+title: 'Vibrant Matter'
+slug: 'vibrant-matter'
 ---
+
 ## A [[political ecology|Political Ecology]] of Things
 
 **Author:** [Jane Bennett](https://www.dukeupress.edu/explore-subjects/browse?AuID=2332206 "More information about Author Jane  Bennett")

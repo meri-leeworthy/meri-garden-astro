@@ -1,3 +1,8 @@
+---
+title: 'Chain Rule'
+slug: 'chain-rule'
+---
+
 *Not to be confused with [[Chain Rule (Probability)]]*
 
 

@@ -1,3 +1,8 @@
+---
+title: 'software engineering'
+slug: 'software-engineering'
+---
+
 In this topic book, you will cover the following:
 
 - What is software engineering?  

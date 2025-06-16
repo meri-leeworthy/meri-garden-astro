@@ -1,3 +1,8 @@
+---
+title: 'Cognitive science'
+slug: 'cognitive-science'
+---
+
 ## Books
 [[Understanding Computers and Cognition]]
 [[Unthought]]

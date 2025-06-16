@@ -1,7 +1,9 @@
 ---
-aliases:
-  - X3DH
+aliases: 'X3DH'
+title: 'The X3DH Key Agreement Protocol'
+slug: 'the-x3dh-key-agreement-protocol'
 ---
+
 > This document describes the “X3DH” (or “Extended Triple [[Diffie-Hellman key exchange|Diffie-Hellman]]”) key agreement protocol. X3DH establishes a shared secret key between two parties who mutually authenticate each other based on public keys. X3DH provides ==forward secrecy and cryptographic deniability==. X3DH is ==designed for asynchronous settings== where one user (“Bob”) is offline but has published some information to a server. Another user (“Alice”) wants to use that information to send encrypted data to Bob, and also establish a shared secret key for future communication.
 
 Builds on [[Triple Diffie-Hellman]]
@@ -38,7 +40,6 @@ Alice generates ephemeral key $EK_A$
 If no 
 
 
-![](../../../../meri-public/garden/f48c68c359ae9fd431519ea5564f45f0.pdf)
+![](https://static.meri.garden/f48c68c359ae9fd431519ea5564f45f0.pdf)
 
 See also [[Leveraging Smart Contracts for Secure and Asynchronous Group Key Exchange Without Trusted Third Party]]
-

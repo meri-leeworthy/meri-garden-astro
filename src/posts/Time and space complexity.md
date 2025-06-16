@@ -1,3 +1,8 @@
+---
+title: 'Time and space complexity'
+slug: 'time-and-space-complexity'
+---
+
 ### 4. Brief introduction to time complexity
 
 #### 4.1. Time and space complexities of graphs, adjacency matrices, and adjacency lists
@@ -8,7 +13,7 @@ In this module, we learned two mechanisms to store a graph: _adjacency matrix a
 
 Look at the following example which shows a simple undirected graph with corresponding adjacency matrix and adjacency list.
 
-![](../../../../meri-public/garden/203bc404988e5943e029aff1a309b035.png)
+![](https://static.meri.garden/203bc404988e5943e029aff1a309b035.png)
 
 Let’s assume that there are V number of nodes and E number of edges in a graph G.
 

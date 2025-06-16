@@ -1,8 +1,11 @@
 ---
-author: Aileen Moreton-Robinson
-year: "2015"
-type: book
+author: 'Aileen Moreton-Robinson'
+year: '2015'
+type: 'book'
+title: 'The White Possessive'
+slug: 'the-white-possessive'
 ---
+
 ## Property, Power, and Indigenous Sovereignty
 
 

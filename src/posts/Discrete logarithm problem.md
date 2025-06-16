@@ -1,7 +1,9 @@
 ---
-aliases:
-  - discrete logarithm
+aliases: 'discrete logarithm'
+title: 'Discrete logarithm problem'
+slug: 'discrete-logarithm-problem'
 ---
+
 $$\log_x​(x) = 1$$
 
 The discrete logarithmic problem is a hard problem that has been used in the design and implementation of encryption algorithms in cryptography. Before we outline the hard problem, let's first recap some of the foundational mathematical concepts.
@@ -27,7 +29,7 @@ Where _m = Φ(n)_, and can be defined as:
 
 The description of _m_ here is of particular importance. To illustrate this better, consider the image shown below, which outlines all the powers of _a mod 19_.
 
-![](../../../../meri-public/garden/094833915c0d354a5245decfacbeeb5e.png)
+![](https://static.meri.garden/094833915c0d354a5245decfacbeeb5e.png)
 
 What we can observe in the image is that for a given simplistic _n = 19_, since n is prime, all numbers less than n are relatively prime to n. Furthermore, for every value assigned to a < 19, we can obtain the residue modulo n. What is important to note is that ==after a certain number of executions, the residue pattern repeats==. If it is not obvious, take a closer look at the shaded component in the image for each line. The shaded component represents the repeating residue pattern.
 

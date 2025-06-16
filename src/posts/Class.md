@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'Class'
+slug: 'class'
 ---
+
 Class as a concept has two main uses:
 1. Describing a structural factor in economic relationships between people
 2. Describing a structural factor in social relationships between people

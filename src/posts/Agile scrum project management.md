@@ -1,3 +1,8 @@
+---
+title: 'Agile scrum project management'
+slug: 'agile-scrum-project-management'
+---
+
 Agile project management is an iterative and flexible approach to project management that emphasises collaboration, customer feedback, and the ability to respond to change. It is widely used in software development but can be applied to various industries. The Agile framework is based on the Agile Manifesto, which outlines four key values and twelve principles.
 
 In this topic book, you will cover the following:
@@ -21,7 +26,7 @@ As mentioned in this week's Spark, Scrum is an Agile framework for project manag
 
 View the following infographic to learn about the three main roles in the scrum framework.
 
-![](../../../../meri-public/garden/9b39de8eb357a3842c493c9d4dddaa20.png)
+![](https://static.meri.garden/9b39de8eb357a3842c493c9d4dddaa20.png)
 
 ### 3. Key steps in Agile scrum project management
 

@@ -1,6 +1,9 @@
 ---
-type: chapter
+type: 'chapter'
+title: 'An Outline of Ontological Design'
+slug: 'an-outline-of-ontological-design'
 ---
+
 # 4: An Outline of Ontological Design
 
 >The empire consists of postulating that the *hic et nunc* \[place-­based, face-t­o-­face existence] is in the past and that only interactivity remains.

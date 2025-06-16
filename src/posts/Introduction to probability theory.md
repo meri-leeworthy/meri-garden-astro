@@ -1,3 +1,8 @@
+---
+title: 'Introduction to probability theory'
+slug: 'introduction-to-probability-theory'
+---
+
 Probability is a logical framework for quantifying uncertainty and randomness. Probability is extremely useful in various fields since it provides tools for understanding and explaining variation, separating signal from noise, and modelling complex phenomena. To give just a small sample from a continually growing list of applications like statistics, computer science, finance, life etc.
 
 The mathematical framework for probability is built around sets. The sample space S of an experiment is the set of all possible outcomes of the experiment. An event A is a subset of the sample space S, and we say that A occurred if the actual outcome is in A. The sample space of an experiment can be finite, countably infinite, or uncountably infinite.

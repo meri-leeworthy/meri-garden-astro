@@ -1,10 +1,9 @@
 ---
-type: paper
-year: "2022"
-author:
-  - Keitaro Hashimoto
-  - Shuichi Katsumata
-  - Thomas Prest
+type: 'paper'
+year: '2022'
+author: 'Keitaro Hashimoto,Shuichi Katsumata,Thomas Prest'
+title: 'How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum'
+slug: 'how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum'
 ---
 
 # Notes
@@ -45,7 +44,7 @@ The baseline security notion guaranteed by all SGM protocols is that no adversar
 #### Metadata in SGM
 
 In SGM protocols, we can informally divide sensitive information into the following three layers:
-![](../../../../meri-public/garden/4324d4031f8ba1bd35581892c7f37ea5.png)
+![](https://static.meri.garden/4324d4031f8ba1bd35581892c7f37ea5.png)
 Securing the 1st layer is the default goal of any SGM protocol; exchanging messages in an E2EE fashion is only possible if secure group secret keys* are shared among the group. Since the server is not considered an endpoint of the conversation, state-of-the-art SGM protocols aim at protecting the 1st layer from the server. 
 
 \* There could either be a unique group secret key shared among the entire group as in MLS or multiple group secret keys, where different segments of the keys are shared among different members of the group as in Signal to perform pairwise communications
@@ -64,7 +63,7 @@ In this work, only when all three layers are secured do we say that an SGM proto
 
 Existing SGM protocols and the level of layers they protect are depicted in Tab. 1. Signal recently proposed a metadata-hiding SGM protocol that we call **Private Groups** [ 3 ]. This is an extension of **Sealed Sender** [ 2 ] — a metadata-hiding two-user secure messaging protocol. The main building block of Private Groups is an efficient ==MAC-based keyed-verification anonymous credential (KVAC)== [24] that leverages the specific properties of tools from classical group-based cryptography, such as the [[ElGamal]] PKE and Schnorr PoK. While there is no formal security proof for Signal’s vanilla SGM, recently Chase, Perrin, and Zaverucha [25] proposed a new security model to capture exactly the metadata layers (2nd & 3rd layers) and provided a partial security proof of Private Groups.
 
-![](../../../../meri-public/garden/70db11b13d493d229a386f2dbaa42448.png)
+![](https://static.meri.garden/70db11b13d493d229a386f2dbaa42448.png)
 
 ==MLS [14] comes in two variants: MLSPlaintext and MLSCiphertext, each corresponding to protocols protecting the 1st and 1st & 2nd layers, respectively.== The security of MLSPlaintext has been scrutinized over the past few years [8, 9 , 12 , 17 , 19] and we now have a good understanding of it. However, ==no formal security proof for MLSCiphertext is known==. Moreover, unlike Signal’s Private Groups, constructing any variant of MLS that further hides the dynamic metadata is unanswered. Considering that dynamic metadata leaks part of, if not all, static metadata, MLSCiphertext may be leaking more metadata in practice than ideally expected.
 
@@ -78,7 +77,7 @@ In a nutshell, a CGKA works as follows (see also Fig. 1):\* ==A group member may
 
 \* We base the explanation on the ==most recent iterations of TreeKEM (i.e., after version 8 on MLS) following a “propose-and-commit” flow.==
 
-![](../../../../meri-public/garden/21f3c683e9d85d1194eb69b622970411.png)
+![](https://static.meri.garden/21f3c683e9d85d1194eb69b622970411.png)
 *why is gid not considered static metadata? maybe it only becomes useful metadata when it is associated with user ids, so idp and idc are the focus here. the server would be able to identify some information about gids either way though* 
 
 A proposal p consists of five elements: (i) a string **gid** identifying the group; (ii) a counter **epoch** that specifies the current group state; (iii) the identity $id_p$ of the member creating p; (iv) a string **act** specifying whether p corresponds to (a), (b), or (c); and (v) other information typically required for authentication. A commit c has a similar structure, where $id_c$ denotes the committer and $ct_{key}$ is a ciphertext encrypting a key used to update the group secret. 
@@ -194,7 +193,7 @@ Compared to prior works in the UC framework [10 , 12 , 36 ], the description of 
 
 We define a UC security model capturing the security of the entire 1st, 2nd & 3rd layers (i.e., group secret keys, static and dynamic metadata) by defining a new ideal functionality $F^{mh}_{CGKA}$. Any CGKA UC-realizing $F^{mh}_{CGKA}$ is provably a metadata-hiding CGKA. Reusing most of the description of $F^{ctxt}_{CGKA}$ handling the 1st and 2nd layers, the description of $F^{mh}_{CGKA}$ can focus mainly on the 3rd layer. Our model succinctly captures all the properties explained in Sec. 4.1, Items (1) to (5). We then show that the wrapper protocol 𝑊 mh presented in the previous section UC-realizes $F^{mh}_{CGKA}$ in the $F^{ctxt}_{CGKA}$-hybrid model. The full details of this section is provided in App. D. Below, we provide an overview of our idea.
 
-![](../../../../meri-public/garden/fb5ac2dc9d95d81d3e62b2fb50b183c9.png)
+![](https://static.meri.garden/fb5ac2dc9d95d81d3e62b2fb50b183c9.png)
 ### 5.1 Modeling an Honest but Curious Sever 
 
 In previous constructions of CGKA, the server was assumed to be always malicious. This is for instance captured in the ideal functionalities $F_{CGKA}$ and $F^{ctxt}_{CGKA}$ by observing that the Commit and Process take as input arbitrary proposals and commits — not just those created by the honest group members. While assuming the server to be always malicious allows to capture a strong level of security against group secret keys and static metadata, this is far too inflexible for our use case. Recall Sec. 4.1, Item (4). To properly model that any non-member cannot upload and download from the server on behalf of the group, we must model an honest but curious server — a server that honestly follows the protocol but tries to learn as much metadata as possible. To this end, we explicitly incorporate a server into our model as depicted in Fig. 6. We allow the server to be in two states: honest16 or corrupt. When the server is honest, we are able to properly model Sec. 4.1, Item (4). Otherwise, since a malicious server can arbitrarily choose to accept or reject the identification protocol executed by the wrapper protocol 𝑊 mh, 𝑊 mh does not provide any meaningful functionality. ==In particular, our metadata-hiding CGKA Πctxt CGKA degenerates to offer the same functionality as F ctxt CGKA.==
@@ -260,7 +259,6 @@ In previous constructions of CGKA, the server was assumed to be always malicious
 57. Matthew Weidner, Martin Kleppmann, Daniel Hugenroth, and Alastair R. Beresford. 2021. [[Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees]]. In ACM CCS 2021, Giovanni Vigna and Elaine Shi (Eds.). ACM Press, 2024–2045. https://doi.org/10.1145/3460120.3484542
 # PDF
 
-![](../../../../meri-public/garden/9996e7f246e4dd48aeb4453b0397729b.pdf)
+![](https://static.meri.garden/9996e7f246e4dd48aeb4453b0397729b.pdf)
 
 Cites and builds on earlier work [[A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs]]
-

@@ -1,8 +1,10 @@
 ---
-aliases:
-  - relational
-type: topic
+aliases: 'relational'
+type: 'topic'
+title: 'relationality'
+slug: 'relationality'
 ---
+
 [[In the Background of Our Culture - Rationalism, Ontological Dualism, and Relationality]]:
 >If not dualism, if life is always in connection, then what? The immediate, obvious answer to disconnection, isolation, and so forth is, of course, to reconnect--­with each other, with our bodies, the nonhuman world, the stream of life (e.g., Macy 2007). One rising answer to the problematic of disconnection/reconnection is thus [[relationality]]. ­There are many ways to understand relationality. Dualism is itself a form of relationality but one that, as we have seen, assumes the preexistence of distinct entities whose respective essences are not seen as fundamentally dependent on their relation to other entities--­they exist in and of themselves. Network theories imply a more serious effort at taking into account the role of interrelations in making up ­things and beings. Many network approaches nevertheless still take for granted the existence of inde­pen­dent objects or actors prior to the networking, and despite their thrust ­toward topological thinking, they fall back into Euclidean geometries of objects, nodes, and flows. As Sharma puts it, speaking about the ­notion of interdependence in biology, many of ­these notions still imply "in­de­pen­dent objects interacting." ­There are two shifts, according to Sharma, that have to happen for a genuine concept of interdependence to arise: the first implies going "from considering ­things in isolation to considering ­things in interaction"; the second, more difficult to accomplish, is "from considering ­things in interaction to considering ­things as mutually constituted, that is, viewing ­things as existing at all only due to their dependence on other ­things" (2015, 2).
 >
@@ -18,5 +20,3 @@ https://open.spotify.com/episode/4JNZm3qnkXyENBx7KW2CHD?si=Q54UsgzuShmKKzVccv0c4
 
 [[autopoesis]] [[The Tree of Knowledge]]
 [[relational ontologies]]
-
-

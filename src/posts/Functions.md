@@ -1,3 +1,8 @@
+---
+title: 'Functions'
+slug: 'functions'
+---
+
 ### 1. Introduction to functions and limits
 
 #### 1.1. Functions
@@ -25,11 +30,11 @@ For a function of 1 variable, we mapped the values of one variable to the values
 
 For example, a function of two variables 𝑧=𝑓(𝑥,𝑦) maps each ordered pair (𝑥,𝑦) to a unique real number 𝑧.
 
-![](../../../../meri-public/garden/9f8e788d459bb7225be6972fa12269dd.png)
+![](https://static.meri.garden/9f8e788d459bb7225be6972fa12269dd.png)
 
 In this kind of case, we have to determine the domain and the range of the variables associated with the functions. In simple terms, we must define the minimum and maximum values each variable can be assigned.
 
-![](../../../../meri-public/garden/07f0c3b8a78bf0bec06441e1592e2788.png)
+![](https://static.meri.garden/07f0c3b8a78bf0bec06441e1592e2788.png)
 
 For example, if $𝑧=3𝑥+2𝑦$, then in order to determine the values of 𝑧, the domain of 𝑥 and 𝑦 should be defined. Similarly, the 𝑧 range should also be known beforehand.
 

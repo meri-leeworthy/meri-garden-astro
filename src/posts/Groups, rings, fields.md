@@ -1,3 +1,8 @@
+---
+title: 'Groups, rings, fields'
+slug: 'groups-rings-fields'
+---
+
 The study of groups, rings, and fields falls under the branch of abstract algebra. This branch of mathematics is concerned with sets that contain elements, that allow for the generation of a third element obtained by various possible combinations of two other elements in the set. All operations are defined by the rules for the set. However, unlike normal algebraic operations, abstract algebra allows for performing actions outside of these normal operations. In the sections below, we will explore each of these sub-branches briefly.
 
 # Groups

@@ -1,3 +1,8 @@
+---
+title: 'Calculus'
+slug: 'calculus'
+---
+
 [[Functions]]
 
 [[L'Hôpital's Rule]]

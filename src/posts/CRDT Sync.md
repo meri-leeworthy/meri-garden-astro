@@ -1,3 +1,8 @@
+---
+title: 'CRDT Sync'
+slug: 'crdt-sync'
+---
+
 [[Roomy]]
 [[Beelay]]
 [[Practical Rateless Set Reconciliation]]

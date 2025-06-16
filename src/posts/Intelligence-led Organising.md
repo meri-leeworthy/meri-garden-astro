@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'Intelligence-led Organising'
+slug: 'intelligence-led-organising'
 ---
+
 See also [[Counter-Intelligence]]
 
 Exploring threat modelling, trust models and intelligence sharing practices for social movements
@@ -16,5 +19,3 @@ Some information sharing could identify the rat by nature of the way information
 [[TrustNet - Trust-based Moderation]]
 
 Trust and reputation are both relevant. Reputation for good politics, trust for integrity and responsibility could both factor in a decision
-
-

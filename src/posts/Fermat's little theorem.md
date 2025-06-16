@@ -1,3 +1,8 @@
+---
+title: 'Fermat''s little theorem'
+slug: 'fermats-little-theorem'
+---
+
 Fermat's little theorem is an important theorem for the area of cryptography. This theorem states the following:
 
 $$a^{p−1}≡ 1 (mod p)$$

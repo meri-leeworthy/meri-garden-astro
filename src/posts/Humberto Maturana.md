@@ -1,5 +1,7 @@
 ---
-aliases:
-  - Maturana, Humberto
-type: person
+aliases: 'Maturana, Humberto'
+type: 'person'
+title: 'Humberto Maturana'
+slug: 'humberto-maturana'
 ---
+

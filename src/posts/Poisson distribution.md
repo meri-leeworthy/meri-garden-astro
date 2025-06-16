@@ -1,3 +1,8 @@
+---
+title: 'Poisson distribution'
+slug: 'poisson-distribution'
+---
+
 #### Poisson distribution
 
 The probability distribution function (pdf) of the Poisson distribution can be derived by taking the limit of the binomial pdf as $𝑛→∞$,$𝑃→0$, and $𝑛𝑃=μ$ remains constant. The Poisson pdf is given by:
@@ -20,4 +25,4 @@ $$𝑃(𝑋≥4)=1−∑𝑥$$$$=03𝑒−2.5(2.5)𝑥𝑥!$$$$=1−(0.0821+0.20
 
 The figure below shows the Poisson distribution when the rate is 2.5. The probability values computed for each 𝑥 value are shown in the plot. Observe that the values in the plot and the example above are the same.
 
-![](../../../../meri-public/garden/33e3ec0242c52f9a2e4b4e8ed44dfa6a.png)
+![](https://static.meri.garden/33e3ec0242c52f9a2e4b4e8ed44dfa6a.png)

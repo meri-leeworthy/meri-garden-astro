@@ -1,3 +1,8 @@
+---
+title: 'Euclidean distance'
+slug: 'euclidean-distance'
+---
+
 ## One dimension
 $$d(p,q) = |p - q|$$
 

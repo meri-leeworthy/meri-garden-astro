@@ -1,7 +1,9 @@
 ---
-aliases:
-  - SM
+aliases: 'SM'
+title: 'Secure messaging'
+slug: 'secure-messaging'
 ---
+
 SM protocols are:
 - asynchronous
 - sessions are long-lasting and therefore need

@@ -1,3 +1,8 @@
+---
+title: 'Limits'
+slug: 'limits'
+---
+
 #### 1.3. Limits and [[Continuity]]
 
   

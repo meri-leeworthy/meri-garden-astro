@@ -1,12 +1,13 @@
 ---
-aliases:
-  - Diffie-Hellman
-  - DH
+aliases: 'Diffie-Hellman,DH'
+title: 'Diffie-Hellman key exchange'
+slug: 'diffie-hellman-key-exchange'
 ---
+
 - published in 1976, first publicly known use of 'public key'/'private key' concept. Precedes [[RSA]]
 
 
-![](../../../../meri-public/garden/200d4cc0d0c2cc9e2abd3b8be2c286ef.png)
+![](https://static.meri.garden/200d4cc0d0c2cc9e2abd3b8be2c286ef.png)
 ## Monash
 
 This algorithm is named after its founders and the main purpose of the algorithm, as the name suggests, is to perform the exchange of the secret key between two communicating users. Once the key exchange has been done, the users can then securely communicate using any algorithm with the shared secret key. 
@@ -48,7 +49,7 @@ The challenge for the adversary is that calculating the discrete logarithm for a
 ### Key exchange protocols
 
 An example scenario of using the Diffie-Hellman key exchange protocol has been shown in the image below:
-![](../../../../meri-public/garden/be31dfd920b1b9e8aecc697e48fef096.png)
+![](https://static.meri.garden/be31dfd920b1b9e8aecc697e48fef096.png)
 For a network of users, residing on a LAN, ==the common values of α and q can be stored in a central repository accessible to each user==. In order for each user to communicate to another, each user can ==locally generate and store a long-lasting private value for X==. Each user wanting to communicate, then initiated the communication with another user and sends them the value of Y obtained using their private value of X. The second user will then use that value of Y along with their private value of X to obtain the shared key K. And in doing so, the second user will compute their own value of Y using their private value of X to send to the first user, who can then compute the share key K as well. 
 
 It is important to note that this key exchange scheme is not without flaws. It is prone to attacks such as Man-in-the-middle and others that can compromise the overall security of the key exchange scheme. You will see these in more detail in later lessons.
@@ -62,7 +63,7 @@ It is important to note that this key exchange scheme is not without flaws. It i
 
 - The security of DH relies on the computational hardness of the **Discrete Logarithm Problem**. For large enough numbers, it is computationally infeasible to reverse-engineer the secret key from the public information.
 
-![](../../../../meri-public/garden/200d4cc0d0c2cc9e2abd3b8be2c286ef.png)
+![](https://static.meri.garden/200d4cc0d0c2cc9e2abd3b8be2c286ef.png)
 ### 3. **Ephemeral or Long-Term Keys**
 
 - DH can use either **ephemeral keys** (generated fresh for each session) or **long-term keys**. Ephemeral keys enhance security by enabling **Perfect Forward Secrecy** (PFS), meaning even if a private key is compromised later, past sessions remain secure.
@@ -89,5 +90,4 @@ It is important to note that this key exchange scheme is not without flaws. It i
 
 
 
-![](../../../../meri-public/garden/67107d2acd07f81dcb187307037b5f39.png)
-
+![](https://static.meri.garden/67107d2acd07f81dcb187307037b5f39.png)

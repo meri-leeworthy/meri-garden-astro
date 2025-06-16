@@ -1,3 +1,8 @@
+---
+title: 'Assignment 2 - Research Project'
+slug: 'assignment-2-research-project'
+---
+
 # Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging
 
 **Meri Leeworthy**
@@ -76,7 +81,7 @@ For simplicity, the HMAC-based Key Derivation Function (HKDF, the practical real
 
 To analyse performance, the authors first present an asymptotic analysis of the algorithms, with various suggested optimisations. They then present an implementation in Java and take empirical measurements of this implementation in operation to show that the protocol can be reasonably performant. Some of these measurements are visualised below in Figure 1.
 
-![](../../../../meri-public/garden/8a650141118081ad7ec065859d4b39c6.png)
+![](https://static.meri.garden/8a650141118081ad7ec065859d4b39c6.png)
 *Figure 1: Single core CPU time to execute an operation, per sender or recipient, for groups ranging from 8 to 128 members. Error bars show the standard deviation over 25 independent executions. [1]*
 
 Hashimoto et al. [2] take a different approach to proving the security properties of their approach to hiding metadata. Instead of relying primarily on the hybrid argument[^4], they follow the universal composability (UC) approach, which provides a framework for constructing protocols that remain secure even under concurrent execution with other protocols. This approach allows protocols to be built from modular components with proven security properties. Canetti's _universal composition theorem_ [20] establishes the conditions under which the security of these components is preserved when composed together to form more complex protocols. 
@@ -163,21 +168,3 @@ Ultimately, while both approaches advance our understanding of CGKA, they also u
 [^4]: The authors refer at some points to G-hybrid models, where G represents some ideal functionality. The term 'hybrid' here is not directly related to its use in proof by hybrid argument, referring instead to analysis using a combination of real-world and idealised operations.
 [^5]: Hashimoto et al. [2], working with an earlier draft of the MLS specification, refer to *PrivateMessage* using the previous terminology *MLSCipherText*.
 [^6]: *Chained CmPKE*, a CGKA proposed in [11] and adapted for use in [2], enables commit messages that costs O(N) to upload and O(1) to download, arguably improving on TreeKEM [14], at least in smaller groups.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

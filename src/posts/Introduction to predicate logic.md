@@ -1,3 +1,8 @@
+---
+title: 'Introduction to predicate logic'
+slug: 'introduction-to-predicate-logic'
+---
+
 #### 1.1. Introduction to predicate logic
 
 In this part, you will learn about the basic terminology in predicate logic and various components that can be used to construct a predicate logic sentence.
@@ -8,7 +13,7 @@ People (P)= {Edward, Ann, Jack, Liza}
 Fruits (F)= {Banana, Apple, Grapes, Orange}.
 
 The arrows between the people to fruits indicate that the person on the left loves the fruit on the right.
-![](../../../../meri-public/garden/57238bdd76bc1da0d3b1fcf54d4c86d5.png)
+![](https://static.meri.garden/57238bdd76bc1da0d3b1fcf54d4c86d5.png)
 Let’s look at a few statements about this scenario:
 
 1. 'Edward likes Banana' is a true statement. Now how do we write this as a predicate?  

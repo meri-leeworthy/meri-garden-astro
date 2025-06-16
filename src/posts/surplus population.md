@@ -1,3 +1,8 @@
+---
+title: 'surplus population'
+slug: 'surplus-population'
+---
+
 If surplus population includes indigenous people including people with limited exposure to colonisation or capitalism,
 
 How can the position ‘within capitalism’ be understood 

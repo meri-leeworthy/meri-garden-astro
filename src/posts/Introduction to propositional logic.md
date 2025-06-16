@@ -1,3 +1,8 @@
+---
+title: 'Introduction to propositional logic'
+slug: 'introduction-to-propositional-logic'
+---
+
 ### 1. Propositional logic
 
 #### 1.1. Introduction to propositional logic

@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'Graph Theory'
+slug: 'graph-theory'
 ---
+
 [[Graphs, vertices, and edges]]
 [[Adjacency Matrices and Lists]]
 [[Planar Graphs]]

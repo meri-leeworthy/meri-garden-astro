@@ -1,6 +1,9 @@
 ---
-type: topic
+type: 'topic'
+title: 'Victoria Police'
+slug: 'victoria-police'
 ---
+
 [[Intelligence-Led Policing in Practice - Reflections From Intelligence Analysts]] (2019):
 >Victoria Police (2016) services a population of just under 6 million people across 237,639 km2 , has a staff of approximately 17,000, and an annual budget of $2.51 billion (AUD). \[...] It should also be noted that law enforcement in Australia is state-based, meaning Victoria Police and NSWPF service not only large municipalities but also small regional towns.
 

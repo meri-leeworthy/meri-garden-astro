@@ -1,3 +1,8 @@
+---
+title: 'Karpathy - Bio Hacking Lite'
+slug: 'karpathy-bio-hacking-lite'
+---
+
 - http://karpathy.github.io/2020/06/11/biohacking-lite/
 	- Throughout my life I never paid too much attention to health, exercise, diet or nutrition. I knew that you’re supposed to get some exercise and eat vegetables or something, but it stopped at that (“mom said”-) level of abstraction. I also knew that I can probably ![](../public/63ef5cafec2cd68be6568325ce758cc7.pdf) get away with some ignorance while I am young, but at some point I was messing with my health-adjusted life expectancy. So about halfway through 2019 I resolved to spend some time studying these topics in greater detail and dip my toes into some biohacking. And now… it’s been a year!
 	- ![](http://karpathy.github.io/assets/bio/subway_map.png)

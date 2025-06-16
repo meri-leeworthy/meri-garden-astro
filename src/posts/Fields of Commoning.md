@@ -1,8 +1,11 @@
 ---
-type: paper
-author: Toby Austin Locke
-year: "2020"
+type: 'paper'
+author: 'Toby Austin Locke'
+year: '2020'
+title: 'Fields of Commoning'
+slug: 'fields-of-commoning'
 ---
+
 [Austin Locke, Toby](https://research.gold.ac.uk/view/goldsmiths/Austin_Locke=3AToby=3A=3A.html "Browse more publications by Austin Locke, Toby"). 2020. _Fields of Commoning: Attempts at Creating (Un)Common Worlds in New Cross_. Doctoral thesis, Goldsmiths, University of London [Thesis]
 https://research.gold.ac.uk/id/eprint/28399/
 

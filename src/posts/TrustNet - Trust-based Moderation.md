@@ -1,8 +1,11 @@
 ---
-author: Alexander Cobleigh
-type: paper
-year: "2020"
+author: 'Alexander Cobleigh'
+type: 'paper'
+year: '2020'
+title: 'TrustNet - Trust-based Moderation'
+slug: 'trustnet-trust-based-moderation'
 ---
+
 ## Abstract
 This thesis introduces [[TrustNet]], a flexible and distributed system for deriving, and interacting with, computational trust. The focus of the thesis is applying TrustNet as a tool within distributed chat systems for implementing a subjective moderation system. Two distributed chat systems, Secure Scuttlebutt and [[Cabal]], are discussed, the latter having been extended with a proof of concept implementation of the proposed system. The concept of ranking strategies is also introduced as a general purpose technique for converting a produced set of rankings into strategy-defined subsets. This work proposes a complete trust system that can be incorporated as a ready- made software component for distributed ledger technologies, and which provides real value for impacted users by way of automating decision-making and actions as a result of assigned trust scores.
 
@@ -53,8 +56,8 @@ This thesis introduces [[TrustNet]], a flexible and distributed system for deriv
 A. Simulator parameters 98 
 Bibliography 99
 
-![](../../../../meri-public/garden/fe878f963db1ca81108e6b8ddc3bdbb9.jpeg)
+![](https://static.meri.garden/fe878f963db1ca81108e6b8ddc3bdbb9.jpeg)
 
-![](../../../../meri-public/garden/94338e7d681b12535aa25c4ebec377cb.jpeg)
+![](https://static.meri.garden/94338e7d681b12535aa25c4ebec377cb.jpeg)
 https://cblgh.org/dl/trustnet-cblgh.pdf#page48
 [[trustnet-cblgh.pdf]] p.48

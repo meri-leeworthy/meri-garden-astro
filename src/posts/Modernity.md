@@ -1,3 +1,8 @@
+---
+title: 'Modernity'
+slug: 'modernity'
+---
+
 [[Designs for the Pluriverse]] modernity
 	83–91; 
 	critical analysis of, 80; 

@@ -1,3 +1,8 @@
+---
+title: 'unit testing'
+slug: 'unit-testing'
+---
+
 ### 1. What is unit testing?
 
 Unit testing is a software testing technique where individual units or components of a software application are tested in isolation to ensure their correctness. A unit is the smallest testable part of an application, typically a function or a method. The purpose of unit testing is to validate that each unit of the software performs as designed.
@@ -16,7 +21,7 @@ Unit testing is a software testing technique where individual units or component
 Unit testing is a fundamental practice in modern software development, often complemented by other testing techniques such as integration testing and system testing. It contributes to the overall reliability, maintainability, and quality of software by ensuring that individual components work correctly and as expected. Popular unit testing frameworks for various programming languages include JUnit (Java), NUnit (.NET), pytest (Python), and Jasmine (JavaScript).
 
 The following diagram demonstrates the unit testing process.
-![](../../../../meri-public/garden/86db773a651672e6c02bed7c7b523fd7.png)
+![](https://static.meri.garden/86db773a651672e6c02bed7c7b523fd7.png)
 
 ### 2. Characteristics of effective test cases
 

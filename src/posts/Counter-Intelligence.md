@@ -1,3 +1,8 @@
+---
+title: 'Counter-Intelligence'
+slug: 'counter-intelligence'
+---
+
 [[FABULA - Intelligence Report Generation Using Retrieval-Augmented Narrative Construction]] 
 
 [[Distributed counter-intelligence network]]

@@ -1,8 +1,11 @@
 ---
-type: book
-editor: Mario Blaser, Marisol de la Cadena
-year: "2018"
+type: 'book'
+editor: 'Mario Blaser, Marisol de la Cadena'
+year: '2018'
+title: 'A World of Many Worlds'
+slug: 'a-world-of-many-worlds'
 ---
+
 #PoliticalOntology 
 [[Marisol de la Cadena]]
 [[Mario Blaser]]

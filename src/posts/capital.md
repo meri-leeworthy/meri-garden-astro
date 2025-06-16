@@ -1,7 +1,9 @@
 ---
-aliases:
-  - Capital
+aliases: 'Capital'
+title: 'capital'
+slug: 'capital'
 ---
+
 [[The General Formula for Capital]]:
 
 Money is "capital's first form of appearance" 

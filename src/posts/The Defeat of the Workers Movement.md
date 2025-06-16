@@ -1,7 +1,10 @@
 ---
-type: essay
-editor: Endnotes
+type: 'essay'
+editor: 'Endnotes'
+title: 'The Defeat of the Workers Movement'
+slug: 'the-defeat-of-the-workers-movement'
 ---
+
 https://endnotes.org.uk/articles/the-defeat-of-the-workers-movement
 #Endnotes 4: A History of Separation
 # THE DEFEAT OF THE WORKERS' MOVEMENT
@@ -99,4 +102,3 @@ When people make the leap out of that community, they will have to figure out ho
 [^6]: A deeper transformation has occurred, as well, which has further diminished the chances for a resurgence of a class-based politics of shared interest: being a worker is no longer one’s essence, even if one is poor. Society tries to convince those at the top of the wage hierarchy that they can work at what they love, and that therefore they may identify the totality of their lives with their working lives. That is also true of certain jobs – nurses or teachers – where workers could imagine a different form of social organisation, in which they could be more useful, and even recognised as such. For most people, however, work is what they do to survive. The work they do is the sort of work they hope their children will never have to do.
 [^7]: ‘Spontaneity, Mediation, Rupture’, _Endnotes 3,_ September 2013.
 [^8]: This point has been made by Théorie Communiste. See, for example, ‘Théorie Communiste Responds’ in _Aufheben_ 13, 2005.
-

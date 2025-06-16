@@ -1,3 +1,8 @@
+---
+title: 'Task prioritisation'
+slug: 'task-prioritisation'
+---
+
 ### 1. Task prioritisation
 
 Requirement prioritisation is the process of systematically evaluating and ranking the importance and urgency of various requirements in a project or product development effort. Requirements refer to the features, functionalities, constraints, and objectives that need to be addressed to meet the goals of the project or product. Prioritisation helps project teams, stakeholders, and decision-makers determine which requirements to focus on first, which can be deferred, and which may not be necessary at all.
