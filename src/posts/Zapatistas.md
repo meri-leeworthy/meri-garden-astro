@@ -1,0 +1,5 @@
+---
+aliases:
+  - Zapatista
+type: organisation
+---

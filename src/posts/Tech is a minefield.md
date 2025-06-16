@@ -1,0 +1,22 @@
+**Hi! This is the first edition of *Boids*, a new newsletter. I'm starting it with the hope of giving myself a space to share reflections and ideas about political technologies and technological politics, and maybe some stuff about design, theory, and creative practice?
+
+ You might be getting this email because you subscribed to my personal newsletter, *shelters*, and I thought you might be interested in this too. That said, feel free to unsubscribe if you decide it's not your thing.
+
+I've always been really drawn and fascinated to technical processes, but things have shifted a bit in the last few years to the point where I now feel *really invested* in the topic of how new technologies affect our lives, in the present and in possible futures. I'm noticing myself sometimes thinking about this *a bit too much*, even getting a little bit freaked out and/or excited when I start to imagine the implications of this or that development on the future. I've started bringing this kind of stuff up in conversation a bit more often because I think I need to hear other peoples' thoughts on stuff in order to feel a bit normal. 
+
+I feel like this deep fascination I have with tech can sometimes sit a bit at odds with other values or ideas. Lately I've had a lot of questions about **modernity** - approximately: the big social, globally uneven transition from agrarianism to urbanisation and industrialisation (and digitisation). Especially living on stolen Wurundjeri land, having always lived in this big city, I've just been trying to come to a deeper understanding of my place within an enormous colonial process that's been happening for centuries, a process predicated on ecocide and genocide. In this context, it can feel difficult or uncomfortable to feel any optimism at all about new technologies, given that they might all be inextricable from, and to some degree represent the deepening of colonial, capitalist, extractivist dynamics. 
+
+I have also come to a bit more consciousness around the fact that new technologies in the West are almost all emerging within a highly speculative financialised economy, or in other words, that venture capitalists play an extremely powerful role in determining when and how new technologies come into being. Due to this parasitic relationship with speculative capital and the enormous force of financial speculation, I've realised that talking about technology and the future in general is always inherently taking part in some kind of ideological or propagandistic work where some rich person's profits are at stake. For example, you virtually can't talk about cryptocurrency at all without substantially supporting or attacking someone's investment position. Because crypto currently has next to no real world utility, public perceptions of crypto futures are the object of crypto 'investments'.
+
+As new speculative markets open up all the time, as 'technological advances' is such a broad concept as to encompass basically any vision for the future of life on Earth, as various companies are trying to invite everyone to become an investor - maybe a little less now in these recession-esque times, but the point is - I'm just really starting to notice that when you talk about tech, the discourse is very easily infected by this neoliberal market ideology. Or in other words, when almost all new tech is funded by capitalists, there is a very blurry line between the concept of 'technology' and just 'future capitalism'. 
+
+This really sucks honestly, and I think it's really toxic. I want to feel optimistic about the future and to feel like human creativity and discovery can play a positive role. I think, like Donna Harraway, that humans have always been 'cyborgs', have always manipulated their environments with what we can understand as technologies of society, place, construction, navigation and language (among others). It's still up to us to discover and rediscover ways to do this that are deeply rooted in respect for all life and creation, to disallow others from causing harm. 
+
+The future, our future, belongs to the people and to all life on Earth, not investors or capitalists. It is in this spirit that I hope my future writing on these topics will be received.
+
+*Thank you for reading! I live and write on the land of the Wurundjeri Willum clan, part of the Kulin Nation. I pay respect to their elders, both past and present. Sovereignty was never ceded. 
+
+
+
+
+

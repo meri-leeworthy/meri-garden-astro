@@ -1,0 +1,1 @@
+![](../public/422ea18d67f78033f0bdfa504bdeaba7.pdf)
