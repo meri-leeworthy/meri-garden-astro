@@ -53,8 +53,8 @@ This thesis introduces [[TrustNet]], a flexible and distributed system for deriv
 A. Simulator parameters 98 
 Bibliography 99
 
-![](../public/fe878f963db1ca81108e6b8ddc3bdbb9.jpeg)
+![](../../../../meri-public/garden/fe878f963db1ca81108e6b8ddc3bdbb9.jpeg)
 
-![](../public/94338e7d681b12535aa25c4ebec377cb.jpeg)
+![](../../../../meri-public/garden/94338e7d681b12535aa25c4ebec377cb.jpeg)
 https://cblgh.org/dl/trustnet-cblgh.pdf#page48
 [[trustnet-cblgh.pdf]] p.48

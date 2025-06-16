@@ -19,7 +19,7 @@ In the following pages, you will delve deeper into some of the tasks introduced 
 
 Requirement gathering is a crucial phase in the software development process where the needs and expectations of stakeholders are identified and documented. The goal is to gather comprehensive and clear specifications for a software system or application. This process involves interacting with various stakeholders, such as clients, end-users, and subject matter experts, to understand their goals, expectations, constraints, and preferences.
 
-![](../public/bb17f62c46058f421832ef056d488310.png)
+![](../../../../meri-public/garden/bb17f62c46058f421832ef056d488310.png)
 
 ChatGPT can be a valuable tool in the requirement gathering process in several ways:
 
@@ -41,7 +41,7 @@ While ChatGPT can be a useful tool in the requirement gathering process, it's im
 
 Software design is the process of defining the architecture, components, modules, interfaces, and data for a software system to satisfy specified requirements. It is a crucial step in software development that involves creating a blueprint or plan for the construction of a software application. Object-oriented programming (OOP) is a popular paradigm in software design that structures code around objects, which are instances of classes. A class is a blueprint for creating objects, defining their attributes (data members) and behaviours (methods). Class diagrams are a visual representation of the classes in a system, their relationships, and the interactions among them. These diagrams are part of the Unified Modeling Language (UML), which is widely used in software design to communicate and document the structure of a system.
 
-![](../public/a310fbce7e696dbc46db0434f22b499c.png)
+![](../../../../meri-public/garden/a310fbce7e696dbc46db0434f22b499c.png)
 
 ChatGPT can assist with various aspects of software design, including OOP and class diagrams, in the following ways:
 
@@ -53,7 +53,7 @@ ChatGPT can assist with various aspects of software design, including OOP and cl
 
 #### 2.3. Code generation
 
-![](../public/1d88beee35dbee4029bab4d8103e70b6.png)
+![](../../../../meri-public/garden/1d88beee35dbee4029bab4d8103e70b6.png)
 
 Code generation refers to the process of automatically producing source code or executable code based on a set of predefined rules, templates, or specifications. It can be applied in various contexts, such as software development, where code is generated to perform specific tasks, or in the context of compilers, where high-level code is translated into machine code.
 
@@ -67,7 +67,7 @@ ChatGPT, being a language model, can assist in code generation in several ways:
 
 #### 2.4. Test case generation
 
-![](../public/15ccf155f13f2002ab1cd8f8a65f088f.png)
+![](../../../../meri-public/garden/15ccf155f13f2002ab1cd8f8a65f088f.png)
 
 Test case generation is a process in software testing where test cases are designed and created to evaluate the functionality of a software application. The goal is to ensure that the software behaves as expected and meets the specified requirements. Test cases are typically derived from test scenarios, which represent a set of conditions or actions that need to be tested. 
 

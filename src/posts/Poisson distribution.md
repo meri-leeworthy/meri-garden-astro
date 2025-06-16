@@ -20,4 +20,4 @@ $$𝑃(𝑋≥4)=1−∑𝑥$$$$=03𝑒−2.5(2.5)𝑥𝑥!$$$$=1−(0.0821+0.20
 
 The figure below shows the Poisson distribution when the rate is 2.5. The probability values computed for each 𝑥 value are shown in the plot. Observe that the values in the plot and the example above are the same.
 
-![](../public/33e3ec0242c52f9a2e4b4e8ed44dfa6a.png)
+![](../../../../meri-public/garden/33e3ec0242c52f9a2e4b4e8ed44dfa6a.png)

@@ -106,4 +106,4 @@ A continuous group key-agreement (CGKA) scheme CGKA = (**init**, **create**, **a
 - **Process**: proc takes a state γ and a control message T and outputs a new state γ′ and an update secret I.
 # PDF
 
-![](../public/9d80ee20dcfa28f060c2de877354bc24.pdf)
+![](../../../../meri-public/garden/9d80ee20dcfa28f060c2de877354bc24.pdf)

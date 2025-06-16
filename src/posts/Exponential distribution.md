@@ -14,4 +14,4 @@ Alternatively, the cumulative exponential distribution can be obtained from the 
 
 $$𝐹(𝑥)=\int_{𝑥}^0\lambda𝑒^{−\lambda𝑥} 𝑑𝑥 = 1−𝑒^{−\lambda𝑥}$$
 
-![](../public/14d5a1977aa7355da96d87693ab219f8.png)
+![](../../../../meri-public/garden/14d5a1977aa7355da96d87693ab219f8.png)

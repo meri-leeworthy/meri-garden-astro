@@ -4,4 +4,4 @@ First systematic evaluation of:
 - Pattern-Oriented-Split Tree (POS-Tree)
 *All are instances of a recently proposed framework, dubbed Structurally Invariant and Reusable Indexes (SIRI)*
 
-![](../public/88fdfacc90b9790d368ed9842794acee.pdf)
+![](../../../../meri-public/garden/88fdfacc90b9790d368ed9842794acee.pdf)

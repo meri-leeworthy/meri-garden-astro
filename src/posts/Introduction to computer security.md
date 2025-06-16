@@ -7,7 +7,7 @@ The National Institute of Standards and Technology (NIST) stipulates that in ord
 - **Integrity:** This property ensures that the stored data is not modified or destroyed in any way by any unauthorised individual.
     
 - **Availability:** This property ensures that the information stored is available when required to an authorised individual.
-![](../public/db3c652b4a325bf165d59e3fd0b4e7e6.png)
+![](../../../../meri-public/garden/db3c652b4a325bf165d59e3fd0b4e7e6.png)
 
 Confidentiality, integrity, and availability are often referred to as the CIA triad, formed by amalgamating the first letter of each property. However, with the growing use of digital communications over the internet, the CIA triad couldn't suffice all aspects to ensure the security of a computer system and the information stored. This led to practitioners extending the triad to also include two additional properties:
 

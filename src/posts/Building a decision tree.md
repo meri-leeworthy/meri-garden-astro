@@ -13,7 +13,7 @@ In this example, we can see a portion of the graph of $𝑦=𝑙𝑜𝑔_2(𝑥
 
 Note also that the log is negative for 𝑥 between 0 and 1, hence why the negative sign is present in the entropy formula.
 
-![](../public/b9cb142db15456723cc41b11a8529467.png)
+![](../../../../meri-public/garden/b9cb142db15456723cc41b11a8529467.png)
 
 ### Entropy and homogeneity
 
@@ -21,7 +21,7 @@ Note also that the log is negative for 𝑥 between 0 and 1, hence why the neg
 
 In the following diagram, if 𝑆 is a distribution for purple and green shapes, then we can see the maximal entropy occurs when the probability of either blue or green is 0.5. The minimum entropy occurs when the probability of either is 0.
 
-![](../public/2833a4f6f89eedc0b42fc318004cc59a.png)
+![](../../../../meri-public/garden/2833a4f6f89eedc0b42fc318004cc59a.png)
 
 If you know the probability of a purple shape is 1, If you were given a new shape and asked how certain you were of the colour, you would be **perfectly certain** that it was purple. 
 
@@ -87,24 +87,24 @@ To use information gain to build a decision tree, we split on the attribute that
 
  In the following illustration, we would take the left split if we had a choice between the left and right split.
  
- ![](../public/aba4b06aeb8585e4ec3b17f7c48492e1.png)
+ ![](../../../../meri-public/garden/aba4b06aeb8585e4ec3b17f7c48492e1.png)
 'Outlook' has the largest information gain, so we should choose it as the split for the root node.
 
 #### Building a Decision Tree
 
 Selecting 'Outlook' in our previous example would produce the decision stump shown in the following diagram, and we can see the results that majority voting would give.
 
-![](../public/7c48c47d46c5fe26ce0f535187020300.png)
+![](../../../../meri-public/garden/7c48c47d46c5fe26ce0f535187020300.png)
 
 We want to continue building our tree until it is impossible to gain more information by splitting.
 
-![](../public/22e15f2daf4d6b1cd9e920ec802498f8.png)
+![](../../../../meri-public/garden/22e15f2daf4d6b1cd9e920ec802498f8.png)
 
 We can split the remaining attributes 'Temp' and 'Humid'. Looking at the data, we see that splitting on 'Humid' will, in fact, separate play ball perfectly into yes and no classes. 
 
 If we continue with the algorithm, we will do the same evaluation process with the 'Rain' path from 'Outlook'.
 
-![](../public/0fe89a61953e7d9aea43efcdd6ebaa74.png)
+![](../../../../meri-public/garden/0fe89a61953e7d9aea43efcdd6ebaa74.png)
 
 #### Decision tree learning algorithm
 
@@ -126,7 +126,7 @@ The work is done by the recursive function 'Split' that performs the top-down re
 
 A generated tree may overfit the training data and try to fit noise or outliers, reducing accuracy for unseen samples. The following diagram illustrates how this becomes more likely as the number of nodes in the tree increases.
 
-![](../public/31c443e7fc9b3daabcefbad49423f824.png)
+![](../../../../meri-public/garden/31c443e7fc9b3daabcefbad49423f824.png)
 
 #### Avoiding overfitting in decision trees
 
@@ -139,7 +139,7 @@ There are a few options to prevent overfitting in decision trees:
 
 The following diagram shows an example of post-pruning. To post-prune, we measure the model's performance during training using a validation data set, and at the end of the training, we cut the tree back to the way it was when the performance on the validation data was highest.
 
-![](../public/989f1bb99abd22250b0b1288555dc1ef.png)
+![](../../../../meri-public/garden/989f1bb99abd22250b0b1288555dc1ef.png)
 
 #### Enhancements to decision tree induction
 
@@ -166,5 +166,5 @@ In the following diagram, one rule is created for each path from the root to a l
 - **IF** outlook=“rain” and wind=“strong” **THEN** play-ball=“NO”
 - **IF** outlook=“rain” and wind=“weak” **THEN** play-ball=“YES”
 
-![](../public/881517732bb766fe65cba6a304cab748.png)
+![](../../../../meri-public/garden/881517732bb766fe65cba6a304cab748.png)
 

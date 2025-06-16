@@ -4,4 +4,4 @@ $$𝑃(𝐴 \text{ or } 𝐵) =𝑃(𝐴∪𝐵)=𝑃(𝐴)+𝑃(𝐵)−𝑃(
 
 Consider the following diagram, which demonstrates the equation that denotes the addition rule.
 
-![](../public/e12d21131a342c8860ba429c309cf8d7.png)
+![](../../../../meri-public/garden/e12d21131a342c8860ba429c309cf8d7.png)

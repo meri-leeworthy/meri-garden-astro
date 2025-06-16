@@ -83,7 +83,7 @@ These are mechanisms that are not protocol-specific and do not need to be implem
     
 - **Security recovery:** This mechanism facilitates for recovery actions based on requests from other mechanisms.
     
-![](../public/e05f174e0fb937472247ee66b1807e23.png)
+![](../../../../meri-public/garden/e05f174e0fb937472247ee66b1807e23.png)
 
 It is imperative for anyone new to security to understand the basics of the OSI architecture. While we will explore OSI architecture in further detail, our main focus will be on one underlying commonality among some of the mechanisms outlined above—cryptography.
 

@@ -2,7 +2,7 @@
 
 The Project Management Triangle, also known as the Triple Constraint or Iron Triangle, is a fundamental concept in project management that represents the three key factors that must be balanced to ensure the successful completion of a project.
 
-![](../public/5873cbf2cf603d749ed1f0a4a71df118.png)
+![](../../../../meri-public/garden/5873cbf2cf603d749ed1f0a4a71df118.png)
 
 Cost
 

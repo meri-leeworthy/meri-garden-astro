@@ -11,7 +11,7 @@ type: book
 
 # Contents
 
-![](../public/8d76c1b08151c6705148ed42d25544b4.png)
+![](../../../../meri-public/garden/8d76c1b08151c6705148ed42d25544b4.png)
 # Foreword
 
 This book will start readers thinking in new ways about both science and philosophy. The authors have been most ingenious in finding means to explain at the same our human processes of thought and the facts of biology. There are fresh insights on every page, presented very clearly. Dr. Maturana and Dr. Varela, well known for finding new approaches in nerve physiology, have produced a truly original book, which will be a revelation and inspiration to many people.
@@ -35,7 +35,7 @@ More than anything, this text is an invitation for readers to let go of their us
 
 ## The Great Temptation
 
-![](../public/e5744c3b4ac0ce0671b810deb4c4939b.png)
+![](../../../../meri-public/garden/e5744c3b4ac0ce0671b810deb4c4939b.png)
 
 Fig. 1. Christ Crowned with Thorns by Hieronymus Bosch, National Museum of the Prado, Madrid.
 
@@ -56,16 +56,16 @@ So, instead of telling why the apparent firmness of our experiential world sudde
 First example: Cover your left eye and stare at the cross in Figure 2. Hold the page about fifteen inches away from you. You’ll notice the black dot in the drawing, not small in size, suddenly disappear. Experiment by rotating the page a bit or opening your other eye. It is also interesting to copy the drawing on another sheet of paper and gradually enlarge the black dot until it reaches the maximum size at which it disappears. Further, rotate the page so that point B is in the place where point A was, and repeat the observation. What happened to the line that crosses the dot?
 
 Actually, this same situation can be observed without any drawing: simply replace the cross on the dot with your thumb. The thumb looks as if it is cut off. (Try it!) Incidentally, this is how the observation became popular: Marriot, a scientist at the French court, showed King Louis by this process how his subjects would look beheaded before he had their heads cut off.
-![](../public/d1a0ea5bb880d7ae8b403613840c910c.png)
+![](../../../../meri-public/garden/d1a0ea5bb880d7ae8b403613840c910c.png)
 Fig. 2. Experiment of the blind spot.
 
 The commonly accepted explanation of this phenomenon is that the image of the dot (or the thumb or the subject), in that specific position, falls into the area of the retina where the optic nerve emerges; hence, it is not sensitive to light. It is called the blind spot. What is rarely stressed in giving this explanation, however, is: How come we don’t go around with a hole that size all the time? Our visual experience is of a continuous space. Unless we do these ingenious manipulations, we will not perceive the discontinuity that is always there. The fascinating thing about the experiment with the blind spot is that *we do not see that we do not see*.
 
-![](../public/9c4a628fc300c4b23bbde2899663229a.png)
+![](../../../../meri-public/garden/9c4a628fc300c4b23bbde2899663229a.png)
 Fig. 3.
 
 
- ![](../public/51f6714393c9c82cd763f78c5c2a72da.png)Fig. 4.
+ ![](../../../../meri-public/garden/51f6714393c9c82cd763f78c5c2a72da.png)Fig. 4.
 
 Second example: Let us take two sources of light and place them as in Figures 3 and 4. (This can be done by making a paper tube the size of a strong light bulb and using some red cellophane as a filter.) Then place an object, such as your hand, in the beam of light. Note the shadows on the wall. One of the shadows looks bluish-green in color! The reader can experiment by using different-colored transparent papers in front of the lights and different light intensities.
 
@@ -231,7 +231,7 @@ Fig. 11. Miller’s experiment as a metaphor of what occurred in the primitive a
 
 What we have, then, is a unique situation as regards relations of chemical transformations: on the one hand, we see a network of dynamic transformations that produces its own components and that is essential for a boundary; on the other hand, we see a boundary that is essential for the operation of the network of transformations which produced it as a unity:
 
-![](../public/9409ccc84126e02ea61986e5a07e821e.jpg)
+![](../../../../meri-public/garden/9409ccc84126e02ea61986e5a07e821e.jpg)
 
 Note that these are not sequential processes, but two different aspects of a unitary phenomenon. It is not that first there is a boundary, then a dynamics, then a boundary, and so forth. We are describing a type of phenomenon in which the possibility of distinguishing one thing from a whole (something you can see under the microscope, for instance) depends on the integrity of the processes that make it possible. Interrupt (at some point) the cellular metabolic network and you will find that after a while you don’t have any more unity to talk about! The most striking feature of an autopoietic system is that it pulls itself up by its own bootstraps and becomes distinct from its environment through its own dynamics, in such a way that both things are inseparable.
 
@@ -387,11 +387,11 @@ Fig. 19. Water by G. Arcimboldo.
 
 Ontogeny is the history of structural change in a unity without loss of organization in that unity. This ongoing structural change occurs in the unity from moment to moment, either as a change triggered by interactions coming from the environment in which it exists or as a result of its internal dynamics. As regards its continuous interactions with the environment, the cell unity classifies them and sees them in accordance with its structure at every instant. That structure, in turn, continuously changes because of its internal dynamics. The overall result is that the ontogenic transformation of a unity ceases only with its disintegration. To abbreviate this situation, when we refer to autopoietic unities, we shall use the following diagram:
 
-![](../public/2e658c2df011e3652811e1f59eeac652.jpg)
+![](../../../../meri-public/garden/2e658c2df011e3652811e1f59eeac652.jpg)
 
 Now, what happens when we consider the ontogeny of, not one, but two (or more) neighboring unities in their medium of interaction? We can abbreviate this situation as follows:
 
-![](../public/b850282e395e12e0abd64275a2d1fe8f.jpg)
+![](../../../../meri-public/garden/b850282e395e12e0abd64275a2d1fe8f.jpg)
 
 ## Structural Coupling
 
@@ -465,11 +465,11 @@ These questions are sticklers. We know in great detail how a cell comes about as
 
 What we said in this chapter can be summed up by pointing out that if two autopoietic unities operate in a domain of structural coupling through recurrent interactions, diagrammatically as follows:
 
-![](../public/7fc80535cff5672f4d838e9b0f83d8d4.jpg)
+![](../../../../meri-public/garden/7fc80535cff5672f4d838e9b0f83d8d4.jpg)
 
 structural coupling through recurrent interactions may drift in two directions:
 
-![](../public/a9ed5200570e122c95d68a9f22198c2f.jpg)
+![](../../../../meri-public/garden/a9ed5200570e122c95d68a9f22198c2f.jpg)
 
 One direction is (a) toward inclusion of the boundaries of both unities; this situation leads to what is currently known as symbiosis. Symbiosis seems to have been very significant in the transition from autopoietic systems without internal compartments, or prokaryotes, to cells with internal compartments, or eukaryotes (see Fig. 14).[^9] In effect, all cell organelles (e.g., mitochondria, chloroplasts, and even the nucleus) seem to have derived from ancestors that were once independent prokaryotes.
 
@@ -896,11 +896,11 @@ The second is through opening new dimensions of structural coupling for the orga
 
 The presence or absence of a nervous system determines any discontinuity between organisms that have a cognition relatively restricted and those that are open-ended, as in human beings. To point up its key importance, to the symbol that designates an autopoietic (cellular or multicellular) unity:
 
-![](../public/460df0e5c8d75e99f29b5ab850f431af.jpg)
+![](../../../../meri-public/garden/460df0e5c8d75e99f29b5ab850f431af.jpg)
 
 we must now add the presence of a nervous system, which functions also with operational closure but as an integral part of the organism. We diagram it succinctly as follows:
 
-![](../public/5b592af5bbe0574289e2556f00f32a46.jpg)
+![](../../../../meri-public/garden/5b592af5bbe0574289e2556f00f32a46.jpg)
 
 In an organism with a nervous system rich and vast as that of human beings, its realms of interaction open the way to *new phenomena* by allowing new dimensions of structural coupling. In human beings, this makes for language and self-consciousness. This is the terrain we shall explore in the next chapters.
 
@@ -910,11 +910,11 @@ Fig. 49. Drawing by Juste de Juste.
 
 Let us consider a situation parallel to that in Chapter 4 as regards the origin of metacellulars. That is, instead of looking at an organism only with its nervous system,
 
-![](../public/535e2f9ceedb47fb5224ca0765002eda.jpg)
+![](../../../../meri-public/garden/535e2f9ceedb47fb5224ca0765002eda.jpg)
 
 let us look at what happens when this organism enters into structural coupling with other organisms.
 
-![](../public/cbc58d2500c6db051b670a4e2bd33044.jpg)
+![](../../../../meri-public/garden/cbc58d2500c6db051b670a4e2bd33044.jpg)
 
 As in the case of cellular interactions in metacellulars, it is evident that from the standpoint of the internal dynamics of one organism, the other represents a source of perturbations indistinguishable from those that come from a “nonbiotic” environment. It is *possible*, however, for these interactions between organisms to acquire in the course of their ontogeny a *recurrent* nature. This will necessarily result in their consequent structural drifts: co-ontogenies with mutual involvement through their reciprocal structural coupling, each one conserving its adaptation and organization. When this happens, the co-drifting organisms give rise to a *new phenomenological domain*, which may become particularly complex when there is a nervous system. The phenomena arising from these *third-order structural couplings* will be the subject of this chapter and the next.
 
@@ -1056,7 +1056,7 @@ Organisms and human social systems, therefore, are opposite cases in the series 
 
 Any analysis of human social phenomena that does not include these considerations will be defective, for it negates the biologic roots of those phenomena.
 
-![](../public/8f5dc1498b73d754d1b107da3272d33d.jpg)
+![](../../../../meri-public/garden/8f5dc1498b73d754d1b107da3272d33d.jpg)
 
 Fig. 59. A Japanese macaque washing its potatoes.
 
@@ -1104,7 +1104,7 @@ We call *linguistic* an ontogenic communicative behavior, i.e., a behavior that 
 
 We call the *linguistic domain* of an organism the domain of all its linguistic behaviors. Linguistic domains are generally variable; they change along the ontogenies of the organisms that generate them.
 
-![](../public/36d95ef3df36eb187ae952a9fbf76331.jpg)
+![](../../../../meri-public/garden/36d95ef3df36eb187ae952a9fbf76331.jpg)
 
 The process is one of behavioral transformation contingent on conservation of the social system through the behavior of its components.
 
@@ -1210,7 +1210,7 @@ Every structure is compelling. We humans, as humans, exist in the network of str
 
 # 10. The Tree of Knowledge
 
-![](../public/62ebd0c57b77addc1e542a0fe1f6e0e1.jpg)
+![](../../../../meri-public/garden/62ebd0c57b77addc1e542a0fe1f6e0e1.jpg)
 
 ## Knowing and the Knower
 
@@ -1276,7 +1276,7 @@ A story is told of an island somewhere and its inhabitants.[^22] The people long
 
 “The food I’ll need on the other side or wherever it is.”
 
-![](../public/c1c7d0a1d5a50066958071b4d2d65945.jpg)
+![](../../../../meri-public/garden/c1c7d0a1d5a50066958071b4d2d65945.jpg)
 
 “But what if there’s food on the other side?”
 

@@ -20,4 +20,4 @@ Fagan inspections are known for their systematic and structured approach, helpin
 
 #### Modern code review
 
-Modern code review is a software development practice that involves systematically examining and evaluating source code changes made by other developers before those changes are integrated into the main codebase. This process aims to catch bugs, improve code quality, and ensure that the changes align with the project's standards and goals. Several platforms and tools support modern code review, with four prominent examples being GitHub, GitLab, BitBucket, and Gerrit.![](../public/b1c59e2eab5b49b9b16771a2bee04168.png)
+Modern code review is a software development practice that involves systematically examining and evaluating source code changes made by other developers before those changes are integrated into the main codebase. This process aims to catch bugs, improve code quality, and ensure that the changes align with the project's standards and goals. Several platforms and tools support modern code review, with four prominent examples being GitHub, GitLab, BitBucket, and Gerrit.![](../../../../meri-public/garden/b1c59e2eab5b49b9b16771a2bee04168.png)

@@ -38,7 +38,7 @@ Alice generates ephemeral key $EK_A$
 If no 
 
 
-![](../public/f48c68c359ae9fd431519ea5564f45f0.pdf)
+![](../../../../meri-public/garden/f48c68c359ae9fd431519ea5564f45f0.pdf)
 
 See also [[Leveraging Smart Contracts for Secure and Asynchronous Group Key Exchange Without Trusted Third Party]]
 

@@ -56,7 +56,7 @@ Issues with [[Forward secrecy]] "stemming from the fact that its users do not er
 ## 4 TreeKEM
 ### 4.1 Overview
 > The TreeKEM [[Continuous Group Key Agreement|CGKA]] protocol is based on so-called (binary) *ratchet trees* (RTs). In a TreeKEM RT, group members are arranged at the leaves, and all nodes have an associated public-key encryption (PKE) key pair, except for the root. The tree invariant is that ==each user knows all secret keys on their *direct path*, i.e., on the path from their leaf node to the root==. In order to perform ==an update—the most crucial operation of a CGKA==—and produce a new update secret I, a party first generates fresh key pairs on every node of their direct path. Then, for every node v′ on its co-path—the sequence of siblings of nodes on the direct path—it encrypts specific information under the public key of v′ that allows each party in the subtree of v′ to learn all new secret keys from v’s parent up to the root (cf. Fig. 3 and Sect. 4.4). Before presenting the formal description of TreeKEM in Sect. 4.4, basic concepts around ratchet trees are explored in Sect. 4.3. Moreover, Sect. 4.2 quickly discusses the simple PKI model used in this work. 
->![](../public/517f1e3c017eafdfe204e9373556ff43.png)
+>![](../../../../meri-public/garden/517f1e3c017eafdfe204e9373556ff43.png)
 > Fig. 3. An **update** operation initiated by the party at leaf $v_0$. First, a random “seed value” $s_0$ is chosen. Thereafter, a PRG is applied iteratively at every level i of v0’s direct path in order to derive (i) a PKE secret key $sk_i$ for that level (from which a public key can be computed using the key generation algorithm) and (ii) a seed $s_{i+1}$ for the next level. ==Every seed $s_i$ is encrypted using the public key of the corresponding co-path node $v^′_{i−1}$.== *what is done with the encrypted seed?* Sometimes, such a node can be blank, in which case $s_i$ must be encrypted using the public keys of each node in the resolution, which is the smallest set of nodes covering all leaves in the subtree of $v^′_{i−1}$ This ensures that all these nodes are able to compute the keys from $v_i$ upward. The update secret I produced by such an update is the seed value $s_d$ at the root.
 >
 ### 4.2 PKI 
@@ -64,7 +64,7 @@ Issues with [[Forward secrecy]] "stemming from the fact that its users do not er
 >
 > Specifically, when ID′ calls get-sk(pk), if a triple (pk, sk, ID′) is recorded, the PKI functionality returns sk to ID′. Note in particular that the PKI ensures that every public key is only used once. Of course, in practice such a PKI functional- ity would actually be implemented by having users generate key pairs themselves and registering them with the PKI. However, the above formalization simplifies the description of the protocols.
 > 
-> ![](../public/aba5b87d04345aac073876a6a9eb4da4.png)
+> ![](../../../../meri-public/garden/aba5b87d04345aac073876a6a9eb4da4.png)
 > **Fig. 4.** The TreeKEM protocol operations. The functions AddID, RemID, and Blank are defined in Sect. 4.3, while UpGen and UpPro are defined in Sect. 4.4.
 > 
 ### 4.3 Ratchet Trees  
@@ -76,7 +76,7 @@ Issues with [[Forward secrecy]] "stemming from the fact that its users do not er
 > 
 > 	\*Recall that mp2(n) is the maximum power of two dividing n.
 > 
-> 	So, $LBBT_1$ is a single node, $LBBT_2$ has $FT_x$ as the left subtree which is just one node (x = mp2(2) = 1?). n is the number of leaves so ![](../public/cda92c753777959d8a48faf4979cfe96.jpg)
+> 	So, $LBBT_1$ is a single node, $LBBT_2$ has $FT_x$ as the left subtree which is just one node (x = mp2(2) = 1?). n is the number of leaves so ![](../../../../meri-public/garden/cda92c753777959d8a48faf4979cfe96.jpg)
 > 	
 > 
 > Observe that $LBBT_n$ ==has exactly n leaves== and that ==every internal node has two children==. In an RT, nodes are labeled as follows: 

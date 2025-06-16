@@ -4,4 +4,4 @@ $𝑃(NOT 𝐴) = 1−𝑃(𝐴)$ or $𝑃(𝐴′)=1−𝑃(𝐴)$ or $𝑃(
 
 Consider the following diagram, which demonstrates the complement rule's equation.
 
-![](../public/ac7e627faf63c572dea161782ff578d4.png)
+![](../../../../meri-public/garden/ac7e627faf63c572dea161782ff578d4.png)

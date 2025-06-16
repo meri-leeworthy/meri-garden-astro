@@ -24,13 +24,13 @@ Besides the client, MLS requires two additional services:
 - authentication service - for credentials
 - delivery service - for message ordering
 These are 'abstract' services; 'parts of the service could be run on the client'. Message ordering could be a distributed algorithm (like [[Conflict-Free Replicated Data Types]]?)
-![](../public/91197746c774eac8b5919f6c49db5b9f.png)
-![](../public/305c0b6fed4544af6020cac03f0d5646.png)
+![](../../../../meri-public/garden/91197746c774eac8b5919f6c49db5b9f.png)
+![](../../../../meri-public/garden/305c0b6fed4544af6020cac03f0d5646.png)
 Each participant at the leaf nodes has shared keys with all nodes in the path up to the root
 
-![](../public/3016c574d2e8e3aa6d5d4535bb88b7a6.png)
+![](../../../../meri-public/garden/3016c574d2e8e3aa6d5d4535bb88b7a6.png)
 Quantum example of benefits of log updates
-![](../public/41ca1105090775e191cce02cebc7451e.png)
+![](../../../../meri-public/garden/41ca1105090775e191cce02cebc7451e.png)
 
 Operations:
 - add

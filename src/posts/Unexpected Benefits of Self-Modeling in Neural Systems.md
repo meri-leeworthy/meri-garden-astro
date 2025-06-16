@@ -2,7 +2,7 @@
 type: paper
 year: "2024"
 ---
-![](../public/b8446562a5380ffdd58b03ac9fada8a0.pdf)
+![](../../../../meri-public/garden/b8446562a5380ffdd58b03ac9fada8a0.pdf)
 
 > One speculation is that social disabilities in people, such as autism spectrum disorder, trauma-related social difficulties, and some aspects of schizophrenia, may be partly related to incomplete self-models interfering with a person’s ability to resonate with others
 

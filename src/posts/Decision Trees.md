@@ -49,7 +49,7 @@ In this example, we have an entire training data set with data for 14 days.
 
 Here is a decision tree trained on this data. Each non-leaf node corresponds to an attribute, and there is one path out of the node for each value the attribute can take. The leaf nodes represent the decision to take.
 
-![](../public/3632595ae0dad7e4d05cf63ec8724e70.png)
+![](../../../../meri-public/garden/3632595ae0dad7e4d05cf63ec8724e70.png)
 
 Suppose we have a new day: D15, with the following conditions. Should we play ball? The decision tree says to check the outlook. The outlook is sunny. So we check humidity. Humidity is high, so the tree says no, we should not play ball.
 
@@ -62,12 +62,12 @@ What is the simplest decision tree we can have? Always predicting the majority c
 
 The simplest tree is a **decision stump**, where values are split on a **single attribute** from **one decision node.**
 
-![](../public/c9110adfe70cb929fd8127b17822e654.png)
+![](../../../../meri-public/garden/c9110adfe70cb929fd8127b17822e654.png)
 
 #### On which attribute do we split?
 
 How should we decide which attribute to split on when building a tree to have the best possible tree?
 
-![](../public/30bb03c0699da5b333a1e3dd611fd1fb.png)
+![](../../../../meri-public/garden/30bb03c0699da5b333a1e3dd611fd1fb.png)
 
 [[Building a decision tree]]

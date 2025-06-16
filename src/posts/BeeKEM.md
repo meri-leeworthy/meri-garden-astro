@@ -1,90 +1,173 @@
 [[02 · Group Key Agreement with BeeKEM]]
+[[Let's read the BeeKEM code!]]
 
 See also:
 [[Group Messaging for Secure Asynchronous Collaboration|Causal TreeKEM]]
 [[Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees]]
 
-# Understanding Keyhive's BeeKEM Algorithm
+# [[A deep-dive explainer on Ink and Switch's BeeKEM protocol]]
 
-Ink & Switch's *Keyhive* project, a capabilities-based system for [[Conflict-Free Replicated Data Types|CRDT]] authorisation and sync, is set to unlock a new world of privacy-preserving local-first apps. Performant CRDT implementations like Automerge, Yjs and Loro have been transformative in making it possible to build apps that don't inherently require a central server to ensure state consistency in multiplayer apps, but in practice we tend to still rely on central servers for sync (and this isn't likely to go away any time soon), with all the privacy implications that come with that. 
 
-While it is possible to end-to-end encrypt CRDT operations, CRDT implementations are generally designed in such a way that single operations (often representing, for example, a single keystroke) are ideally batched together into compressed operation *runs*, to avoid needing to store an enormous amount of metadata per document. If we end-to-end encrypt each operation, we lose the benefit of those optimisations to the point that CRDTs are actually not a practical solution anymore.
 
-Another related issue is that generally, multiplayer apps are generally collaborate for bigger groups, meaning that offering something comparable to Signal-style end-to-end encryption involves really thinking about all the tradeoffs for the various solutions to [[Secure group messaging]], including considering how those solutions gel with the inherent concurrency of CRDTs and local-first apps.
 
-But more generally, end-to-end encryption only represents the *read* piece of the broader puzzle of distributed authorisation. Keyhive aims to solve for capabilities in general, making it possible to model typical access control roles like 'read', 'write' and 'admin' through a chain of cryptographic certifications. Since I've been working on local-first apps for a while, most recently with [Muni Town](https://muni.town/), and privacy is one of my biggest concerns, I'm naturally very excited about Keyhive. Muni Town is also set on building our core data engine on top of the affordances offered by Keyhive, so I need to try and wrap my head around it.
 
-As it's a truism that cryptography can turn all sorts of problems into key management problems, I'm interested in the Key Encapsulation Mechanism the Keyhive team has designed, 'BeeKEM'. While they haven't published a paper as yet, there is a [Lab Notes article](https://www.inkandswitch.com/keyhive/notebook/02/), various bits of [documentation](https://github.com/inkandswitch/keyhive/blob/main/keyhive_core/src/cgka/README.md), and a Rust [implementation](https://github.com/inkandswitch/keyhive/tree/main/keyhive_core/src/cgka), and to try to learn-by-teaching, I'll be doing my best in this post to explain how it works.
-## Secure messaging basics
 
-Since Signal protocol (aka the Double Ratchet algorithm) set a new standard for end-to-end encrypted messaging, there has been a lot of academic focus on abstracting and formalising the key components and pushing them further. Signal protocol is fundamentally designed for two-party secure messaging (2SM), meaning that every message sent using the protocol is encrypted with a key that is shared only with the recipient, which (through very clever use of [[Diffie-Hellman key exchange]] and keyed hash functions) they both independently derived for that message. It's possible to use the Signal protocol for group messaging by applying the two-party protocol for every pair of group members. The catch is that you have to re-encrypt your messages for every group member, and everyone has to derive keys for everyone else, so in general for *n* group members there is *n^2* complexity, which gets infeasible fast.
 
-![](../public/770fab433d7424dd69891d6696d48aab.png)
-> A *complete graph*, representing the number of pairwise protocol instantiations for a Signal group of 7 people. [Source](https://en.wikipedia.org/wiki/Complete_graph#/media/File:Complete_graph_K7.svg)
 
-Academics and industry people have since dedicated a lot of attention to finding a solid way to achieve efficient *secure group messaging* (SGM). A key requirement for this was to make it possible for encrypted message *broadcast* - that is, for each group message we send, we can broadcast **one** encrypted message for the entire group to decrypt - without losing the key security properties of Signal protocol. Thus far the most widely adopted approach has been [[Sender Keys]], used by WhatsApp and Signal. Essentially every group member sends every other group member, via pairwise 2SM, a symmetric key that it will use to encrypt messages. To receive messages, users keep a list of these keys, one for each other member. These keys can then be 'ratcheted' with a keyed hash function to derive new keys for each message - once the old keys are deleted, this provides [[Forward secrecy]], meaning that old encrypted messages are protected from a later key compromise. This simple approach makes application-level stuff (sending messages) fairly efficient - it's just the group-level (key management) stuff, such as adding and removing members, which retains the performance limitations of pairwise groups.
+Questions:
+1. Out of stateless agents, stateful agents (groups) and documents, which manage group state with a BeeKEM CGKA? only documents?
+2. How does delegation work, cryptographically?
 
-## TreeKEM
+```rust
+pub struct GroupState<
+    S: AsyncSigner,
+    T: ContentRef = [u8; 32],
+    L: MembershipListener<S, T> = NoListener,
+> {
+    pub(crate) id: GroupId,
 
-Improving further on this, the [[Messaging Layer Security]] (MLS) standard has been published, representing a community convergence on a solid approach to secure group messaging. MLS significantly improves on the key management part through the **TreeKEM** (sub-)protocol. In TreeKEM, rather than having to negotiate one key for each sender, the group members coordinate to calculate a single key that is shared between everyone. Here's how it works:
+    #[derive_where(skip)]
+    pub(crate) delegations: DelegationStore<S, T, L>,
+    pub(crate) delegation_heads: CaMap<Signed<Delegation<S, T, L>>>,
 
-When new members join a group, they are assigned a *position* among the leaves of what's called a left-balanced binary tree (LBBT). These look like this:
+    #[derive_where(skip)]
+    pub(crate) revocations: RevocationStore<S, T, L>,
+    pub(crate) revocation_heads: CaMap<Signed<Revocation<S, T, L>>>,
+}
+```
 
-![](../public/cda92c753777959d8a48faf4979cfe96.jpg)
+GroupState as set of Delegations and Revocations
+(DelegationStore is a 'Content Addressed' Map (HashMap where hash is of content) of signed delegations - seems like same type as `delegation_heads` tbh)
 
-Once you know your position in the tree, you can work out who your *sibling* is - the node that shares a parent with you. Next we can imagine that every node may correspond to a public and private key pair. 
+What is a delegation?
 
-Something that was helpful for me in understanding this idea of the members being in a *tree* was to clarify that there isn't actually any single node that contains all of the data in this tree. We can know all the public keys for every node, but in general, you only know the secret keys for yourself and any nodes above you, up to the root. This is fine, because all we actually care about in the end is working out the secret key for the root. We do that through [[Diffie-Hellman key exchange|Diffie-Hellman (DH) key exchange]] between the sibling of the nodes we know secret keys for, starting with our own node.
+```rust
+pub struct Delegation<
+    S: AsyncSigner,
+    T: ContentRef = [u8; 32],
+    L: MembershipListener<S, T> = NoListener,
+> {
+    pub(crate) delegate: Agent<S, T, L>,
+    pub(crate) can: Access,
 
-![Diffie Hellman basics](https://www.inkandswitch.com/keyhive/notebook/static/03/diffie_hellman_basics.png)
-> This stuff is also explained in Ink & Switch's [Lab Notes on BeeKEM](https://www.inkandswitch.com/keyhive/notebook/02/)
+    pub(crate) proof: Option<Rc<Signed<Delegation<S, T, L>>>>,
+    pub(crate) after_revocations: Vec<Rc<Signed<Revocation<S, T, L>>>>,
+    pub(crate) after_content: BTreeMap<DocumentId, Vec<T>>,
+}
+```
 
-So if I've generated a key pair, and I know my sibling's public key, I can just use discrete logarithm magic to 'combine' them together and end up with the same secret that my sibling got from combining their secret with my public key. 
+So the proof is, potentially, another delegation, and this would be used in an invocation
 
-![BeeKEM Diffie Hellman example](https://www.inkandswitch.com/keyhive/notebook/static/03/beekem_diffie_hellman_example.png)
+revocation is
 
-Once I have calculated the secret for the parent of me and my sibling, we can work out our parent's parent using the public key of our parent's sibling - on and on up to the root. 
+```rust
+pub struct Revocation<
+    S: AsyncSigner,
+    T: ContentRef = [u8; 32],
+    L: MembershipListener<S, T> = NoListener,
+> {
+    pub(crate) revoke: Rc<Signed<Delegation<S, T, L>>>,
+    pub(crate) proof: Option<Rc<Signed<Delegation<S, T, L>>>>,
+    pub(crate) after_content: BTreeMap<DocumentId, Vec<T>>,
+}
+```
 
-> [!NOTE]
-> On first look I had assumed the DH secret was the secret part of the key pair. Actually, the member performing an update will generate random new key pairs for the whole path (not including the root) and then encrypt them using the shared secret at each node.
+the delegate is an Agent, can can is Access, which is very simply:
 
-Now we understand the basic structure, we can look at three main operations. The first is **updating the group secret**. Basically any group member can at any time 'blank' (delete) all the keys on its path up to the root and generate new ones as per above, and they just need to broadcast the new public keys at each of the nodes. 
+```rust
+pub enum Access {
+    /// The ability to retrieve bytes over the network.
+    ///
+    /// This is important for the defence-in-depth strategy,
+    /// keeping all Keyhive data out of the hands of unauthorized actors.
+    ///
+    /// All encryption is fallable. For example, a key may be leaked, or a cipher may be broken.
+    ///
+    /// While a Byzantine node may fail to enforce this rule,
+    /// a node with only `Pull` access does not have decryption (`Read`) access
+    /// to the underlying data.
+    Pull,
 
-The second is **removing a member**, which is essentially done by updating the group key and not telling the removed member the new public keys. We also reorganise the tree here so it's still a left-balanced binary tree.
+    /// The ability to read (decrypt) the content of a document.
+    Read,
 
-Thirdly, any group member can **add a member**, by creating a new leaf in the LBBT and generating key pairs for the new path from the new member up to the root. It sends the new member an encrypted 'welcome message' including all the public keys in the tree and the full key pairs for the entire path. Once the new member is added, they should probably perform an update to rotate all their key material.
+    /// The ability to write (append ops to) the content of a document.
+    Write,
 
-> [!QUESTION] How is the encrypted welcome message sent?
-> The new member hasn't been added to the group yet, so the welcome message can't be sent using the group secret - it needs to be *out of band* of the group. This could be done in various ways - a Signal message, for instance - but in MLS it is achieved with Public Key Infrastructure that can deliver a fresh public key for any user to the adding member.
+    /// The ability to revoke any members of a group, not just those that they have causal senority over.
+    Admin,
+}
+```
 
-All together these are the three essential operations of TreeKEM.
+and Agent is
 
-### TreeKEM and Strong Consistency
+```rust
+pub enum Agent<S: AsyncSigner, T: ContentRef = [u8; 32], L: MembershipListener<S, T> = NoListener> {
+    Active(Rc<RefCell<Active<S, T, L>>>),
+    Individual(Rc<RefCell<Individual>>),
+    Group(Rc<RefCell<Group<S, T, L>>>),
+    Document(Rc<RefCell<Document<S, T, L>>>),
+}
+```
 
-CRDTs provide Strong Eventual Consistency, which is a kind of non-trivial eventual consistency. The original paper motivates this definition:
+What is Active? *"The current user agent (which can sign and encrypt)."*
 
-> Several \[Eventual Consistency] systems will execute an update immediately, only to discover later that it conflicts with another, and to roll back to resolve this conflict. This constitutes a waste of resources, and in general requires a consensus to ensure that all replicas arbitrate conflicts in the same way.
-> [[Conflict-Free Replicated Data Types|Shapiro et al, 389]]
+I'm not sure why Delegate has '**after**\_content' and 'after_revocations'...
 
-Ok, to be fair, that doesn't sound that trivial, but the point is that it's not the ideal approach. Strong Eventual Consistency means that we can actually apply updates in different orders and still arrive at the same state. In other words, we can model updates as a partial order, rather than a total order.
+in group we also have:
 
-TreeKEM in general assumes a total order of state updates, which is less tolerant of network partitions. Every member is responsible for keeping their local copy of the tree up to date, and make updates (such as adding a member) directly to it, but if it turns out someone else added another member concurrently, the server could easily come back and say *Sorry, that position in the tree is taken! You need to roll back and try again.*
+```rust
+pub enum MembershipOperation<
+    S: AsyncSigner,
+    T: ContentRef = [u8; 32],
+    L: MembershipListener<S, T> = NoListener,
+> {
+    Delegation(Rc<Signed<Delegation<S, T, L>>>),
+    Revocation(Rc<Signed<Revocation<S, T, L>>>),
+}
+```
 
-### Me getting distracted
+which is interesting... like this is the abstraction over both delegation and revocation and kind of indicates to me that this is a... well maybe hopefully(?) a DAG? of operations
+linking to previous delegations, revocations...![](../../../../meri-public/garden/8c2c450aece5175e064ab60a6f4f2b2e.png)
+> Actually the delegation proof chain is more like a tree, cos there is no point having multiple proofs. but from the perspective of any principal it even doesn't really need to be represented as a tree, more just as a linked list. (Dotted lines represent the boundary between different principals)
 
-Here's a quote from [[Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees|Weidner et al.]]:
+we don't bother setting up a CGKA because maybe we don't need to encrypt these delegations? it's like... this is the metadata that would be seen anyway. but everything IS signed and hashed which is the main relevant cryptography here. 
 
-> MLS allows several PCS updates and group membership changes to be **proposed** concurrently, but they only take effect after being **committed**, and all users must process commits strictly in the same order. A proposal also blocks application messages until the next commit. In the case of a network partition \[...], it is not safe for one subset of users to perform a commit, because a different subset of users may perform a different commit, resulting in a group state inconsistency that cannot be resolved. As a result, MLS typically depends on a semi-trusted server to determine the sequence of commits. There is a technique for combining concurrent commits [ 8 , §5], but this approach does not apply to commits that add or remove group members, and it provides weak PCS guarantees for concurrent updates. (Section 3)
+my next question is what is 'after_content'? `BTreeMap<DocumentId, Vec<T>>,`
+what is the `Vec<T>`?
 
-Wait, what are proposals and commits? **Commits** are what we've been talking about - operations on the group state. **Proposals** are essentially just a way, in MLS, of pre-checking with the server if a commit will be allowed: is it well-formed, does it conflict with any (server-set) policies, and possibly checking with other group members if they approve the change too. But hold on - did it say application messages get blocked? Multiple LLMs tried to mislead me on this so for clarity:
+`T: ContentRef = [u8; 32],`
 
-> Some operations (like creating application messages) are not allowed as long as pending proposals exist for the current epoch.
-> [OpenMLS Book - Committing to pending proposals](https://book.openmls.tech/user_manual/commit_to_proposals.html)
+```rust
+pub trait ContentRef: Debug + Serialize + Clone + Eq + PartialOrd + Hash {}
+impl<T: Debug + Serialize + Clone + Eq + PartialOrd + Hash> ContentRef for T {}
+```
+ContentRef is a trait that meets all these bounds, what is it tho?
 
-What does it mean that if a subset of users performs a different commit, there will be a state inconsistency that cannot be resolved? 
 
-Proposals and commits aren't, from what I can tell, part of BeeKEM, so just going to leave that question for another time.
-## BeeKEM vs TreeKEM
+
+
+
+
+---
+
+
+Divergences from TreeKEM
+- Concurrent deletes and updates means delete always wins? Or maybe this is same as TreeKEM
+
+BeeKEM has a notion of 'conflict nodes'. This is where multiple members have tried to concurrently write to the key material of a node. Rather than resolving the conflict in some destructive way, like throwing away one of the updates, BeeKEM keeps both - only adding new information, not deleting any, until a new causally subsequent update (i.e. one that references the conflicted state) puts the node out of conflict.
+
+> This means that for BeeKEM we update the definition of the “resolution of a node” to mean either (1) the single DH public key at that node **if there is exactly one** or (2) the set of highest non-blank, **non-conflict** descendents of that node.
+> 
+> If we merged in both sides of a fork, then we know we’ve updated both corresponding leaves with their latest rotated DH public key. Since taking the resolution skips all conflict nodes, it ensures that we integrate the latest information when encrypting a parent node. That’s because any non-conflict nodes have successfully integrated all causally prior information from their descendents.
+> 
+> This means an adversary ==needs to compromise one of the latest leaf secrets to be able to decrypt an entire path to the root. Even knowing outdated leaf secrets at multiple leaves will not be enough to accomplish this==. An honest user, on the other hand, will always know the latest secret for its leaf.
+
+How does decryption happen when a node is conflicted?
+
+![Merging conflict keys](https://www.inkandswitch.com/keyhive/notebook/static/03/merging_concurrent_updates.png)
+
+In this scenario, is there a group key? 
 
 > BeeKEM is our variant of the [TreeKEM] protocol (used in [MLS]) and inspired by [Matthew Weidner's Causal TreeKEM][Causal TreeKEM]. The distinctive feature of BeeKEM is that ==when merging concurrent updates, we keep all concurrent public keys at any node where there is a conflict (until they are overwritten by a future update along that path)==. The conflict keys are used to ensure that ==a passive adversary needs all of the historical secret keys at one of the leaves in order to read the latest root secret after a merge==.
 > 
@@ -172,6 +255,21 @@ Hey @alexg and @Brooke Zelenka, I've been trying to wrap my head around BeeKEM o
 
 What do **blank** and **conflict** siblings respectively represent? I can vaguely guess at how, due to concurrent operations, a node might have none or multiple IDs/keys assigned to it, but it feels kind of tricky for me to grasp how exactly it happens. I'd also love to know if Keyhive retains the concept of proposals and commits from MLS - guessing not
 
+
+### Me getting distracted
+
+Here's a quote from [[Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees|Weidner et al.]]:
+
+> MLS allows several PCS updates and group membership changes to be **proposed** concurrently, but they only take effect after being **committed**, and all users must process commits strictly in the same order. A proposal also blocks application messages until the next commit. In the case of a network partition \[...], it is not safe for one subset of users to perform a commit, because a different subset of users may perform a different commit, resulting in a group state inconsistency that cannot be resolved. As a result, MLS typically depends on a semi-trusted server to determine the sequence of commits. There is a technique for combining concurrent commits [ 8 , §5], but this approach does not apply to commits that add or remove group members, and it provides weak PCS guarantees for concurrent updates. (Section 3)
+
+Wait, what are proposals and commits? **Commits** are what we've been talking about - operations on the group state. **Proposals** are essentially just a way, in MLS, of pre-checking with the server if a commit will be allowed: is it well-formed, does it conflict with any (server-set) policies, and possibly checking with other group members if they approve the change too. But hold on - did it say application messages get blocked? Multiple LLMs tried to mislead me on this so for clarity:
+
+> Some operations (like creating application messages) are not allowed as long as pending proposals exist for the current epoch.
+> [OpenMLS Book - Committing to pending proposals](https://book.openmls.tech/user_manual/commit_to_proposals.html)
+
+What does it mean that if a subset of users performs a different commit, there will be a state inconsistency that cannot be resolved? 
+
+Proposals and commits aren't, from what I can tell, part of BeeKEM, so just going to leave that question for another time.
 
 # [BeeKEM](https://github.com/inkandswitch/keyhive/tree/main/keyhive_core/src/cgka)
 

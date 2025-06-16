@@ -6,4 +6,4 @@ aliases:
 ---
 [[TreeKEM]] original paper
 
-![](../public/0164e5820cc454513db0417244a30b60.pdf)
+![](../../../../meri-public/garden/0164e5820cc454513db0417244a30b60.pdf)

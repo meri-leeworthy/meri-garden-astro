@@ -1,6 +1,6 @@
 The Naïve Bayes classifier is based on the [[Bayes Theorem]] rule. You’ll likely recognise the following diagram as a simple Bayesian network where 𝐶 is a common cause of each $𝑣_𝑗$. 𝐶 represents the class label we are trying to learn to predict, and each $𝑣_{𝑖𝑗}$ represents attribute values for an item 𝑖.
 
-![](../public/fd9571c8f19f0d39fbf7c15d850ddabd.png)
+![](../../../../meri-public/garden/fd9571c8f19f0d39fbf7c15d850ddabd.png)
 
 We can use Bayes rule to calculate the probability of a class given an assignment of each attribute.
 
@@ -45,7 +45,7 @@ $$= \frac{|var = w_a|}{\sum_{i=1}^m|var = w|}$$
 
 We have four samples from a joint distribution of two random variables, one which is either H or T and the other which is either green, yellow or red.
 
-![](../public/ca4ab54c472979b82a226aed278fbd1a.png)
+![](../../../../meri-public/garden/ca4ab54c472979b82a226aed278fbd1a.png)
 
 We have one occurrence out of 4 for H, so the MLE for H is ¼.
 
@@ -103,7 +103,7 @@ We can see the probability of 'No' is higher, so we assign that as the predictio
 
 Sometimes a particular value of an attribute does not appear for a certain class, which leads to an MLE of 0, or even does not appear in the data set at all, which makes the MLE undefined.
 
-![](../public/31a40ad04617a77463f08728ccd83f21.png)
+![](../../../../meri-public/garden/31a40ad04617a77463f08728ccd83f21.png)
 
 $$Pr_{MLE}(red | T) = 0$$
 Not all instances are found in the data set or in a particular class
@@ -121,7 +121,7 @@ We use smoothing when estimating parameters Pr⁡(𝐶𝑖) and Pr(𝑣𝑖|�
 
 Let’s see how the ELE computation compares to the MLE computation for the example from earlier when we use epsilon equals 1.
 
-![](../public/364ef7ba6a2ecae83723c20268bb9606.png)
+![](../../../../meri-public/garden/364ef7ba6a2ecae83723c20268bb9606.png)
 
 Compare the MLE computation...
 

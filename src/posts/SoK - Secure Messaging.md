@@ -4,4 +4,4 @@ aliases:
 type: paper
 year: "2015"
 ---
-![](../public/c4a983fc44c9163582ce1fac8a794b11.pdf)
+![](../../../../meri-public/garden/c4a983fc44c9163582ce1fac8a794b11.pdf)

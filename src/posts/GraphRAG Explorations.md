@@ -467,7 +467,7 @@ It's an interesting process to try to make these little experiments against a co
 
 So it seems to have proceeded based on the assumption that the entities it would generate from the old prompt would be good enough to base some kind of iterative process on that would hopefully improve the tuned prompt, but my guess is that the local Llama model simply lacks the required reasoning capacities. 
 
-![](../public/b0190bd6b431bcae3638a74d74e5a1c4.png)
+![](../../../../meri-public/garden/b0190bd6b431bcae3638a74d74e5a1c4.png)
 
 I wonder if manually tuning it is the best next step?
 

@@ -7,7 +7,7 @@
 A tree is a connected graph but has no cycles. 
 
 A cycle is a path in a graph with at least one edge, no repeated edges, and the first and last vertices coincide, but there are no other repeated vertices.
-![](../public/7e8abfa94155a4950b98891bbdad0688.png)
+![](../../../../meri-public/garden/7e8abfa94155a4950b98891bbdad0688.png)
 #### What are trees used for?
 
 Trees are useful to model many things in a natural way:
@@ -18,7 +18,7 @@ Trees are useful to model many things in a natural way:
 - routing data for network traffic
 - data compression.
 
-![](../public/da308aed636cb8b99f2a5a70be0e0a76.png)
+![](../../../../meri-public/garden/da308aed636cb8b99f2a5a70be0e0a76.png)
 
 #### Basic terminology
 
@@ -31,4 +31,4 @@ The following are some terminologies of trees:
 - **Internal node**—any inner node with at least one child.
 - **Height of a tree**—the longest path from the root node to the deepest leaf node.
 
-![](../public/d36770f5f78f404919d6cd019e0e2541.png)
+![](../../../../meri-public/garden/d36770f5f78f404919d6cd019e0e2541.png)

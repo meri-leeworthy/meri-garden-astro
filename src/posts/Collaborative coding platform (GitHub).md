@@ -1,7 +1,7 @@
 ### 1. Collaborative coding platform (GitHub)
 
 A GitHub pull request (PR) is a way to propose changes to a repository hosted on GitHub. It's a collaborative feature that enables developers to notify others about changes they have made in a particular branch of a repository. Pull requests are commonly used in the context of version control systems, particularly Git.
-![](../public/38c57d51e14b3cdf3cd060c231b7ca88.png)
+![](../../../../meri-public/garden/38c57d51e14b3cdf3cd060c231b7ca88.png)
 
 Here's a basic workflow for a GitHub pull request:
 

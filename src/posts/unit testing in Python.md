@@ -34,7 +34,7 @@ In this case, a failed test does not indicate incorrect implementation of the Py
 
 ### 3. Practice 2: Writing your first unit testing in Python
 
-**unittest**, also known as PyUnit, is a testing framework in Python that is part of the Python Standard Library. It provides a set of tools for constructing and running tests, making it easier to write test cases and automate the testing process. Here are some key concepts and features of the unittest library.![](../public/75d21d4ffed777e8c7a7202f0de371a0.png)
+**unittest**, also known as PyUnit, is a testing framework in Python that is part of the Python Standard Library. It provides a set of tools for constructing and running tests, making it easier to write test cases and automate the testing process. Here are some key concepts and features of the unittest library.![](../../../../meri-public/garden/75d21d4ffed777e8c7a7202f0de371a0.png)
 
 - The test file must import ‘unittest’ from the Python Standard Library.
 - The test class should inherit from the 'unittest.TestCase' class of the ‘unittest’ library.

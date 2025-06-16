@@ -3,7 +3,7 @@ type: paper
 year: "2024"
 editor: Security and Cryptography for Networks
 ---
-![](../public/1fbab41917a40fea6320ca9ae7402c63.pdf)
+![](../../../../meri-public/garden/1fbab41917a40fea6320ca9ae7402c63.pdf)
 
 [[CoCoA - Concurrent Continuous Group Key Agreement]]
 

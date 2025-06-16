@@ -2,11 +2,11 @@
 
 Within an Agile Scrum software development team, there are three main roles.
 
-![](../public/df1094d7b7bfae91982f668f7fb76d69.png)
+![](../../../../meri-public/garden/df1094d7b7bfae91982f668f7fb76d69.png)
 
 ### 2. The product owner: Setting clear direction
 
-![](../public/3e6777d73bb7086a9b3493bfb7696087.png)
+![](../../../../meri-public/garden/3e6777d73bb7086a9b3493bfb7696087.png)
 
 The product owner (PO) is undoubtedly the 'voice of the customer'. The PO owns the product end to end and is responsible for the overall product delivery. As explained by the Scrum Guide:  
 
@@ -36,7 +36,7 @@ Any product will have many stakeholders involved ranging from users, customers, 
 
 ### 3. The scrum master: Holding it all together
 
-![](../public/46fdc2d5fb61732e945f6a358a70f223.png)
+![](../../../../meri-public/garden/46fdc2d5fb61732e945f6a358a70f223.png)
 
 The scrum master is the role responsible for gluing everything together and ensuring that a scrum is being done well. In practical terms, that means they help the PO define value, the development team deliver the value, and the scrum team to get better. The scrum master is a service leader which not only describes a supportive style of leadership but describes what they do on a day-to-day basis.
 
@@ -62,7 +62,7 @@ The scrum master serves the PO in sprint planning and sprint reviews, ensuring t
 
 ### 4. The scrum/development team: Redefining 'developer'
 
-![](../public/ae85cffc39ec09a698e84870e448ceeb.png)
+![](../../../../meri-public/garden/ae85cffc39ec09a698e84870e448ceeb.png)
 
 The development team should be able to self-organise so they can make decisions to get work done. Think of a development team as similar to a production support team that is called in during the night because something has gone wrong. The development team, like the production support team, can make decisions and deliver the fix/value for the problem at hand. Self-organisation isn’t about disrespecting the organisation, but rather about empowering the people closest to the work to do what’s needed to solve the problem. 
 

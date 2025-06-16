@@ -62,7 +62,7 @@ This drawing is not intended to describe the whole matrix of ideas encompassed b
 
 (A similar type of figure was presented in Maturana and Varela’s The Tree of Knowledge, and mine is not intended as a replacement for that).
 
-![](../public/f246fc684ab01109c9b77a9d6136589c.png)
+![](../../../../meri-public/garden/f246fc684ab01109c9b77a9d6136589c.png)
 
 Thus it is a coherent network that deepens as one engages with it. However one has to begin somewhere, so I propose that we begin with the concept represented by the letter A (which varies according to the interest of the group being addressed). I caution them that since they know that A will appear different after learning B, they have to approach the whole with the willingness to not assume that any element is complete in isolation from the rest. One has to be willing to let go of what one knows about any aspect at any moment in order to understand it, and the whole, more fully. The process of becoming an expert in any field relies on a similar approach.
 
@@ -88,7 +88,7 @@ Pedagogically this figure serves as a touchstone for noting the difference betwe
 
 Inasmuch as domains are sets, or networks of relevant regularities, they can be distinguished according to various different looks, as these arise with different interests, contexts, or concerns. Thus we can name the kind of concern that appears to prevail, and we can speak of operational domains, generative domains, relational domains, and more. If someone wants to analyze domains as if they had an existence other than in either action or in reflection, this can lead to confusion. Relational domains, which Maturana equates to emotions, are thus distinguished through different constellations of possible actions as one lives a particular local regularity. Again, we shift domains fluidly, so we flow easily from one relational domain or emotion to another (hence emotioning), and if we pause to reflect we see that the internal coherence, or logic, of these differs. We think and act differently in different relational domains.
 
-![](../public/ef50cef14598eee0df902e95bd3cef90.png)
+![](../../../../meri-public/garden/ef50cef14598eee0df902e95bd3cef90.png)
 
 Figure 2. Two different looks of an observer in noting either the generative domain (top eye), or the resultant phenomenon in a different domain (lower eye). This figure is Maturana’s iconic representation of a living system that remains conserved as such as long as both autopoiesis and adaptation persist.
 
@@ -122,13 +122,13 @@ An individual always grows in a culture in a manner that is in part determined b
 
 The difference between most cosmologies and what I have come to understand from Maturana’s work comes through the inclusion of a second kind of circularity within the culture-individual circularity. Here, the cosmology is applied to the cosmology; that is the process is applied to itself, which makes it recursive. In order for this to be possible, the process of reflection is required; and reflection takes place in the locus where a cosmology exists as such, that is within an individual. Reflection implies the ability to release what one believes or thinks, and to metaphorically step outside of that to consider it (external eye, Figure 3 B). Of course one immediately sees that one is not really outside, so one sees oneself both as reflecting on the cosmology, and as the individual who reflects on the cosmology, embedded in the culture (inner eye, Figure 3 B). This double look has a peculiar effect that I, and others, experience as an emancipation, a sense of freedom, or a psychic mobility.
 
-![](../public/1bed619fbe4d94400b9e1da2ac6bd1d6.png)
+![](../../../../meri-public/garden/1bed619fbe4d94400b9e1da2ac6bd1d6.png)
 
 Figure 3. Conservation of cosmologies in cultures. The individual (i) is the small white circle and the culture in which s/he lives is the large grey circle (C). A represents the general case, and B represent the addition of a recursive reflection as an element of the cosmology.
 
 Though any particular reflection easily collapses into a description or observation, the function of reflection itself remains, so it regenerates itself. There is thus the possibility of an endless progress of reflections, each one grounded on whatever preceded it. Indeed I find it difficult to experientially retain an awareness of reflection as a process beyond one recursion, namely the “reflection of reflection.” If I try to mentally actually make further recursions, it becomes an abstraction that describes the process, as in Figure 4. Yet the description may be enough to engender in us an intuitive grasp of how reflection is conserved, and may evoke a new reflection on reflection, or a reflection on the process of recursive reflection.
 
-![](../public/6e70895b994495e69b0e94f76f5e82d0.png)
+![](../../../../meri-public/garden/6e70895b994495e69b0e94f76f5e82d0.png)
 
 Figure 4. An endless progress of reflection, as enabled by the recursion on reflection.
 

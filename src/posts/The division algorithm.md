@@ -23,6 +23,6 @@ The equation represents the division theorem, which is often referred to as the 
 
 The equation can be diagrammatically represented as shown below for any _a_ and any _n_.
 
-![](../public/50032358174422de47210fa483edf17a.png)
+![](../../../../meri-public/garden/50032358174422de47210fa483edf17a.png)
 
 Next: [[The Euclidean algorithm]]

@@ -1,6 +1,6 @@
 The following Venn diagram shows the intersection of the probability of two events. Let 𝐸 and 𝐹 be events.
 
-![](../public/33ec5e94b36cdcf515967bbb659d0c70.png)
+![](../../../../meri-public/garden/33ec5e94b36cdcf515967bbb659d0c70.png)
 
 Then, we may express 𝐸 as
 

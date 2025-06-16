@@ -21,4 +21,4 @@ Presuppositions to a design process:
  - Fosters pluriversal openings; it is, to this extent, a form of design for the pluriverse, for the flourishing of life on the planet. 
  - Thinks deeply about, and creates spaces for, strengthening the connection between the realization of the communal and the Earth (its relational weave at every place and everywhere), in ways that enable humans to relearn to dwell on the planet with nonhumans in mutually enhancing manners.
  - Gives hope to the ongoing rebellion of humans and nonhumans in defense of relational life principles."
- ![](../public/63853c82441094b56d882453a0bd53b7.png)
+ ![](../../../../meri-public/garden/63853c82441094b56d882453a0bd53b7.png)

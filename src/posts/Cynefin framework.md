@@ -1,6 +1,6 @@
 conceptual tool for dealing with complexity
 
-![](../public/9dea0fd3ac91a44eb4abc904b7ae1e07.png)
+![](../../../../meri-public/garden/9dea0fd3ac91a44eb4abc904b7ae1e07.png)
 idk if it makes sense as a quadrant as much as a spectrum or linear series of four domains
 
 Obvious

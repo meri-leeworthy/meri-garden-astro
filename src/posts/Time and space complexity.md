@@ -8,7 +8,7 @@ In this module, we learned two mechanisms to store a graph: _adjacency matrix a
 
 Look at the following example which shows a simple undirected graph with corresponding adjacency matrix and adjacency list.
 
-![](../public/203bc404988e5943e029aff1a309b035.png)
+![](../../../../meri-public/garden/203bc404988e5943e029aff1a309b035.png)
 
 Let’s assume that there are V number of nodes and E number of edges in a graph G.
 

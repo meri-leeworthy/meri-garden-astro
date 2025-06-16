@@ -9,4 +9,4 @@ year: "2004"
 [[Mario Blaser]]
 
 
-![](../public/a007d2869c29ad60fe93e6ac7d695d38.pdf)
+![](../../../../meri-public/garden/a007d2869c29ad60fe93e6ac7d695d38.pdf)

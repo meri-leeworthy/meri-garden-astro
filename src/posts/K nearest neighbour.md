@@ -10,13 +10,13 @@ Suppose we had the data points shown in 2D space with either a label of black or
 
 If we do a 1 nearest neighbour, we find the single closest point to the pink point, a black point. We take a majority vote, with the result being black, and hence we classify the pink point as black.
 
-![](../public/5e28b86208633d40fd93c183127c550f.png)
+![](../../../../meri-public/garden/5e28b86208633d40fd93c183127c550f.png)
 
 #### 3-nearest neighbour
 
 If, on the other hand, we are performing a 3 nearest neighbour, we look for the 3 closest points to our pink point and find two blue points and one black point. Therefore, our majority vote would classify the pink point as a blue one.
 
-![](../public/c76e48063b95ce3ae77f2c32a5074363.png)
+![](../../../../meri-public/garden/c76e48063b95ce3ae77f2c32a5074363.png)
 
 ## Computing similarity
 
@@ -27,7 +27,7 @@ If the features of our data are **continuous,** then we can use **[[Euclidean
 
 
 
-![](../public/3133845e1cf938eec26b50f7eede79e6.png)
+![](../../../../meri-public/garden/3133845e1cf938eec26b50f7eede79e6.png)
 
 #### Parameter learning
 

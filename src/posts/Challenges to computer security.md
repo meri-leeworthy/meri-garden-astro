@@ -6,11 +6,11 @@ Security attacks can be classified based on the type of attack or the source of 
 
 - **Active attacks:** Active attacks are generally the more dangerous ones, as these are the attacks that manage to make headlines on the news when they occur. The reason these attacks are dangerous is because an attacker actively aims to modify the communication stream between the sender and receiver. The goal of this type of attack is for the attacker to convince either party that they are in fact the other and in the process gain access to sensitive information or other details that the attacker can then exploit for financial gain or to cause other damages to the sender or receiver.
 
-![](../public/e75bd6258582c7b930ea94520a4b0be0.png)
+![](../../../../meri-public/garden/e75bd6258582c7b930ea94520a4b0be0.png)
 
 - **Passive attacks:** Passive attacks are generally not the ones that make big headlines. However, these attacks are perhaps even more important than active attacks. The reason for this is that passive attacks are carried out by an attacker covertly without either the sender or receiver being aware of the attacker's interception. These attacks could give a potential attacker a lot of information pertaining to either party, which can then be exploited later to carry out an active attack.
     
-![](../public/edf0152b3dfd65a507605f36df3e8f31.png)
+![](../../../../meri-public/garden/edf0152b3dfd65a507605f36df3e8f31.png)
 
 - **Inside attack:** An inside attack is an attack that is initiated by an insider within the organisation. The insider could be someone who already has access to resources but perhaps uses them in an unintended way within the organisation.
     

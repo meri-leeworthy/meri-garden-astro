@@ -21,7 +21,7 @@ As mentioned in this week's Spark, Scrum is an Agile framework for project manag
 
 View the following infographic to learn about the three main roles in the scrum framework.
 
-![](../public/9b39de8eb357a3842c493c9d4dddaa20.png)
+![](../../../../meri-public/garden/9b39de8eb357a3842c493c9d4dddaa20.png)
 
 ### 3. Key steps in Agile scrum project management
 

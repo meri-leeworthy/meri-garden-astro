@@ -8,4 +8,4 @@ type: topic
 
 [[The Uncommons]]
 
-![](../public/6529a4a47a6c105a6c864d1b6d17f536.pdf)
+![](../../../../meri-public/garden/6529a4a47a6c105a6c864d1b6d17f536.pdf)

@@ -9,7 +9,7 @@ This module discusses the importance of software engineering, its role in ensuri
 
 - The following unit overview diagram highlights your progress through the unit's Agile scrum software development process. Before we begin with the stages of this process, lets begin with an introduction to software development.
 
-![](../public/f5b0d7826b373e02d2029fc0db588a22.png)
+![](../../../../meri-public/garden/f5b0d7826b373e02d2029fc0db588a22.png)
 
 ## Topic 1: What is [[Software engineering]]?
 

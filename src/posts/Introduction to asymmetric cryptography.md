@@ -36,7 +36,7 @@ C = E(PUb, M)C = E(PUb​, M)
 M = D[PUb, E(PRb, M)] = D[PRb, E(PUb, M)]
 
 A high level illustration of the asymmetric cryptosystem can be defined as shown in the image below.
-![](../public/c15ec086fcc331dbb173b5a68110bd39.png)
+![](../../../../meri-public/garden/c15ec086fcc331dbb173b5a68110bd39.png)
 
 Any asymmetric cryptosystem generally consists of the following six aspects:
 

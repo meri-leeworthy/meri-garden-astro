@@ -51,7 +51,7 @@ scratch, and the functionality that Keystone provides for generating a full CRUD
 GraphQL API with minimal developer input is incredible. Still, it’s a lot to
 take in.
 
-![](../public/be26799ee4db8dbce6827c291bf51249.png)
+![](../../../../meri-public/garden/be26799ee4db8dbce6827c291bf51249.png)
 
 Deploying your own instance of a pre-existing software package and trying to
 customise it is a strange way to approach learning about backend development.

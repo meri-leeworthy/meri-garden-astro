@@ -5,5 +5,5 @@ editor: Frank Jacob
 ---
 Thinking and Applying World-Systems Theory in the 21st Century
 
-![](../public/163bffab7e5caef4abde208aa74e6cc8.pdf)
+![](../../../../meri-public/garden/163bffab7e5caef4abde208aa74e6cc8.pdf)
 

@@ -12,7 +12,7 @@ There are several different types of requirements, which can be summarised as fo
 | User requirements           | These capture the needs and expectations of end-users and stakeholders, ensuring that the system or product aligns with their goals and preferences.                                                          |
 | System requirements         | These describe the technical specifications and constraints related to the hardware and software components of the system, including interfaces with other systems and data sources.                          |
 
-![](../public/f728dffbab3031d5fbf5f2f4b2542186.png)
+![](../../../../meri-public/garden/f728dffbab3031d5fbf5f2f4b2542186.png)
 
 ### 2. Effective Agile requirement documentation
 

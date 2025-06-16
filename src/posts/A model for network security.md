@@ -2,7 +2,7 @@ While information at rest is pertinent, the most common scenario we encounter is
 
 The following image briefly outlines a simplistic depiction of a model for securing a simplistic network, which we will discuss.
 
-![](../public/f4cc7785b759245dbef88d22e8fdc2a9.png)
+![](../../../../meri-public/garden/f4cc7785b759245dbef88d22e8fdc2a9.png)
 
 Information in transit can be intercepted and ascertained by an adversary, it is the nature of the transmission itself, which cannot be changed. Hence, as we cannot modify the medium, we try to modify the information. As we learned in our previous lesson, cryptography forms the basis of system and information security as it tends to be a central theme around which many other mechanisms are designed.
 

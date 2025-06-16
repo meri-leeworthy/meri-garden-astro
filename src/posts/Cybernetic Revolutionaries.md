@@ -14,6 +14,6 @@ https://mitpress.mit.edu/9780262525961/cybernetic-revolutionaries/
 > 
 > Studying project Cybersyn today helps us understand not only the technological ambitions of a government in the midst of political change but also the limitations of the Chilean revolution. This history further shows how human attempts to combine the political and the technological with the goal of creating a more just society can open new technological, intellectual, and political possibilities. Technologies, Medina writes, are historical texts; when we read them we are reading history.
 
-![](../public/f84a4b6f19145742d346a9911bb54171.pdf)
+![](../../../../meri-public/garden/f84a4b6f19145742d346a9911bb54171.pdf)
 
-![](../public/811b8f84dcd65fab7c0dcf1f14e765f9.pdf)
+![](../../../../meri-public/garden/811b8f84dcd65fab7c0dcf1f14e765f9.pdf)

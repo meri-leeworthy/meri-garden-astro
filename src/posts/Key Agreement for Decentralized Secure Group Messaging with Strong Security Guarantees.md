@@ -75,7 +75,7 @@ There are many existing secure messaging protocols [39]. Schemes for two-party c
 
 Among group messaging protocols for more than two parties, relatively few are both asynchronous and support dynamic groups, which we consider critical requirements for practical group messaging on mobile devices. We focus on such protocols in our discussion below. See Table 1 for a high-level comparison. 
 
-![](../public/3d6ade97553bfa525f46e7140bd2d443.png)
+![](../../../../meri-public/garden/3d6ade97553bfa525f46e7140bd2d443.png)
 
 *Signal groups* use a simple protocol: the sender of each application message sends the message individually to each other group member using the two-party Signal protocol [ 36 ]. This approach quickly becomes inefficient in large groups, as every application message requires n − 1 two-party messages in a group of size n. ==Also, care is needed to achieve PCS: using the ordinary Signal protocol, a group member effectively performs a PCS update only after receiving a message from every other group member, which would never happen if one member is always offline.== 
 
@@ -103,7 +103,7 @@ We now introduce our protocol for decentralized secure group messaging. We begin
 
 Like many other messaging protocols, we begin with a *ratchet*, which provides forward secrecy by encrypting each message with a different key. Figure 1 illustrates the ratchet for encrypting the sequence of messages $m_1, m_2, . . .$ sent by one particular user. The sender of the messages initializes the ratchet with an *update secret* $I_1$. When this user wishes to send message $m_i$, we use a pseudorandom generator (PRG) to deterministically generate a symmetric key $k_i$ and a new ratchet state from the current ratchet state. We encrypt $m_i$ using $k_i$ in an ==authenticated encryption scheme with associated data ([[Authenticated Encryption with Associated Data (AEAD)|AEAD]])==, where the associated data includes the message index i. The resulting ciphertext $c_i$ is broadcast to all group members. We then delete $I_1$, $k_i$ and the old ratchet state from memory, preventing an adversary from obtaining $k_i$ if the user is subsequently compromised. This construction has been formalized as *[[The Double Ratchet - Security Notions, Proofs, and Modularization for the Signal Protocol|forward secure AEAD]]* [2, §4.2]. 
 
-![](../public/128aef09e67afafea1d6bf29d132fe9e.png)
+![](../../../../meri-public/garden/128aef09e67afafea1d6bf29d132fe9e.png)
 
 ==From time to time, the sender may replace the ratchet state with a fresh update secret $I_2, I_3, . . . .$ This enables PCS==: an adversary who has learned the ratchet state from a past device compromise, but who does not know the update secret, then loses the ability to decrypt subsequent messages. The schedule for update secrets can be chosen independently from the messages sent; for example, a user could apply a PCS update once per day, and rely on the PRG ratchet for messages sent over the course of a day. Thus, an adversary loses decryption ability shortly after a device compromise ends (e.g., due to a software update). 
 
@@ -119,11 +119,11 @@ Different group members may receive messages in different orders; care is requir
 
 In Figure 2, each box is a group state change that results in an update secret being applied to the ratchet for that particular user, and a message being broadcast to the group. The network protocol we describe in Section 5.1 ensures that messages from the same sender are processed in the order they were sent. Thus, if B first broadcasts B1 (the acknowledgment of A1), then broadcasts B2 (the addition of C), and so on, then all group members will first process B1, then B2, etc., and so all group members will update their copy of B’s ratchet with the same sequence of update secrets. 
 
-![](../public/f258ec9168dce720546b7831e176f4b4.png)
+![](../../../../meri-public/garden/f258ec9168dce720546b7831e176f4b4.png)
 
 Figure 3 shows in detail how we generate the sequence of update secrets for each group member. ==We use a second ratchet, based on a key derivation function KDF, in addition to the ratchet from Figure 1==. While the Figure 1 ratchet moves forward for every application message sent, ==the Figure 3 ratchet moves forward every time we produce an update secret for a given group member==. Formally, this ratchet can be modeled as a PRF-PRNG [2, §4.3]. 
 
-![](../public/1312a669069f1a2ff59e32be1484b2c3.png)
+![](../../../../meri-public/garden/1312a669069f1a2ff59e32be1484b2c3.png)
 
 In the example of Figure 3, users A and B concurrently initiate a PCS update. Each user generates a random seed secret and sends it to the group. To incorporate a seed secret into its ratchet, a user ==first uses a KDF to combine the seed with their user ID, producing a *member secret*==, and ==then combines the member secret with their ratchet state== in a second invocation of the KDF (the reason for using two KDF invocations is explained in Section 6.2). In Figure 3, user A first applies the seed secret from A’s own update, producing update secret $I_A$, and then applies B’s seed secret when acknowledging the receipt of B’s update, producing update secret $I^′_A$. User B first applies the seed from their own update, producing $I_B$ , then applies A’s seed secret when acknowledging its receipt, producing $I^′_B$.
 
@@ -182,7 +182,7 @@ Only group members learn these update secrets, and fresh secrets are generated e
 
 ### 6.2 Our DCGKA Protocol
 
-![](../public/35f83e7f2c431eeb458ff1c17795fd44.png)
+![](../../../../meri-public/garden/35f83e7f2c431eeb458ff1c17795fd44.png)
 
 Figure 4 contains the full specification of our protocol. The variable γ denotes the state, which consists of the variables initialized in the function **init**. The notation 2sm[·] ← ε means that 2sm is a dictionary where every key is initially mapped to the default value ε, representing the empty string. 
 
@@ -250,7 +250,7 @@ On line 6 of process-add-ack, we check if the local user was already a group mem
 We have explained all of the functions in Figure 4, except for skipping a few lines that are related to handling concurrency. In particular, care is required when an add operation occurs concurrently with an update, remove, or another add operation. We now discuss those details. 
 
 
-![](../public/031d3ae4281ad2a64a95eb6915fc65d9.png)
+![](../../../../meri-public/garden/031d3ae4281ad2a64a95eb6915fc65d9.png)
 **Figure 5: A updates while concurrently C adds D, and B receives the add message before the update. When B receives the update, B considers D to be a group member, but D will be unable to derive B’s new update secret. To resolve this, B forwards its member secret to D in its ack message.**
 
 We want all intended recipients to learn every update secret, since otherwise some users would not be able to decrypt some messages, despite being a group member. For example, consider a group with members {A, B, C} as illustrated in Figure 5, and say A performs an update while concurrently C adds D to the group. When A distributes a new seed secret through 2SM-encrypted direct messages, D will not be a recipient of one of those direct messages, since A did not know about D’s addition at the time of sending. D will therefore execute lines 6–7 of process-seed, and it cannot derive any of the member secrets for this update. When B updates its KDF ratchet using A’s seed secret, it will compute an update secret that D does not know, and D will not be able to decrypt B’s subsequent application messages. 
@@ -275,12 +275,12 @@ If the adversary compromises multiple users, and these users then perform ==conc
 
 We define a ==non-adaptive (t, q, n)-adversary== for the DCGKA game to be an adversary A that runs in time at most t, makes at most q queries, references at most n IDs, and must specify the sequence of queries it plans to make in advance, before seeing the result of any queries. Given a DGM scheme DGM, we say that our protocol is *non-adaptively* (t, q, n, **dom-safe**, DGM, ϵ)-secure if for all non-adaptive (t, q, n)-adversaries A, the *advantage*
 
-![](../public/fe9c352ad5787247d5104b248eb1c996.png)
+![](../../../../meri-public/garden/fe9c352ad5787247d5104b248eb1c996.png)
 
 **Theorem 4.** *Let DGM be a DGM function satisfying the assumptions stated in Section 6.2, and assume user additions are unique. Model HKDF as a random oracle, let λ be the bit length of random values output by KGen and HKDF, and let the 2SM protocol be (t ′, q, ϵ2sm)-secure in the sense of Appendix B. Then the protocol in Figure 4 is non-adaptively (t, q, n, dom-safe, DGM, ϵ)-secure, for t ≈ t ′ and*
 $$\epsilon = 2q\left( n^2 \epsilon_{2sm} + qnt2^{-\lambda} +  {qn \choose 2} 2^{-\lambda}  \right)$$
 
-![](../public/6fcbcd3cc589640350a61fded0c5467c.png)
+![](../../../../meri-public/garden/6fcbcd3cc589640350a61fded0c5467c.png)
 The proof appears in Appendix C. The basic idea is that each dominating message’s seed secret is only sent to current group members over uncompromised 2SM channels, and hence those seed secrets are unknown to the adversary. The same then holds for the challenged update secrets, each of which directly incorporates some dominating message’s seed secret. Forward secrecy is guaranteed by the group members’ KDF ratchets and by deleting secrets after use. 
 
 *Malicious group members and impersonating adversaries.* Our analysis assumes that ==all group members correctly follow the protocol==, and that the adversary ==does not use compromised state to impersonate a group member==. Malicious members can trivially cause a denial of service by sending different seed secrets to different users in an update message, causing their ratchets to become inconsistent. Likewise, an impersonating adversary may cause the group to ignore future PCS updates from the impersonated user, or add other devices they own to the group. 
@@ -311,12 +311,12 @@ We have implemented a prototype of our DCGKA algorithm in around 3500 lines of J
 
 Our implementation demonstrates that the performance of our protocol is good enough for practical use in medium-sized groups of up to 128 members, even with an implementation that is not highly optimized. In our experiments we execute multiple test scenarios consisting of an initial group setup followed by a single group membership, PCS update, or message send operation. We measure the network traffic and CPU time resulting from that operation (including the processing of messages at all group members, and including any acknowledgments). We run all clients as separate threads in a single process and simulate a network by passing messages between threads as serialized byte arrays. Hash functions and symmetric encryption use a 128-bit security level. 
 
-![](../public/65b853b02819e1145975bc839b12f5fd.png)
+![](../../../../meri-public/garden/65b853b02819e1145975bc839b12f5fd.png)
 **Figure 6: The total data volume sent by all clients while ex- ecuting each type of operation, for groups ranging from 8 to 128 members. Broadcast messages are counted as a single outgoing message.**
 
 Figure 6 shows that the total network traffic for creating a group, adding a group member, or removing a group member grows lin- early with the group size, as expected. Creating a new group of 128 members results in 43.4 kB being sent, and PCS updates (39.6 kB) and the group membership operations add (75.5 kB) and remove (39.3 kB) are in the same order of magnitude. Sending an application message incurs a constant overhead of 139 bytes regardless of group size. For our evaluation we send a 32 byte payload.
 
-![](../public/58ebbaa236d2a2531c383ba04394ff34.png)
+![](../../../../meri-public/garden/58ebbaa236d2a2531c383ba04394ff34.png)
 **Figure 7: The CPU time (on a single core) to execute an op- eration, per sender or recipient, for groups ranging from 8 to 128 members. The error bars show the standard deviation over 25 independent executions**
 
 Figure 7 shows that the average computational effort per sender or recipient does not exceed 100 ms for group creation, PCS update, and membership operations on groups up to 128 members.3 For groups up to 64 members, the CPU times are less than 50 ms. Sending and receiving application messages is very fast, taking less than 1 ms regardless of group size. Comparing these results with an average mobile network latency of around 50 ms, these results support our conclusion that DCGKA is practicable for real-world applications with medium-sized groups.
@@ -382,7 +382,7 @@ By the correctness lemma, it suffices to prove security in a modified security g
 43. WhatsApp. 2017. [[WhatsApp Encryption Overview]]. https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf Archived at https://perma.cc/QD7M-GPG5.
 # PDF
 
-![](../public/c775e89645bfd233b39e6a0589d52b7a.pdf)
+![](../../../../meri-public/garden/c775e89645bfd233b39e6a0589d52b7a.pdf)
 
 cf [[DeCAF - Decentralizable CGKA with Fast Healing]]
 

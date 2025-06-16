@@ -26,7 +26,7 @@ $$\Delta_j \leftarrow g'(in_j)\sum_k w_{j,k}\Delta_k$$
 $$w_{j,k} \leftarrow w{i,j} + \alpha \times a_i \times \Delta_j$$
 
 You’ll also see that computing the update for layers earlier in the network requires computing the weight adjustments, be that Δ𝑘 or Δ𝑗, for deeper layers in the network.
-![](../public/dc23c73eeaba9880c32b3841a76052af.png)
+![](../../../../meri-public/garden/dc23c73eeaba9880c32b3841a76052af.png)
 
 #### Back-propagation algorithm
 
@@ -37,7 +37,7 @@ We compute the delta values for the units at the output layer and then proceed b
 	1. Propagate the Δ values back to the previous layer.
 	2. Update the weights between the two layers.
 	
-![](../public/fe1c727e384b608339dd8ade71d8803c.png)
+![](../../../../meri-public/garden/fe1c727e384b608339dd8ade71d8803c.png)
 
 
 # Derivation

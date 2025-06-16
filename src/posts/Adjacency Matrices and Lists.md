@@ -8,11 +8,11 @@ To create an **adjacency matrix without weights**, we create a 𝑉×𝑉𝑉�
 
 In the following example, there are 5 vertices, hence the matrix is of 5×55×5 rows and columns. Notice the False values highlighted in the matrix.
 
-![](../public/8d5374a2f54aab12ed04add0138ddf88.png)
+![](../../../../meri-public/garden/8d5374a2f54aab12ed04add0138ddf88.png)
 
 To create **an adjacency matrix with weights**, we create a 𝑉×𝑉𝑉×𝑉 matrix 𝑀𝑀 and store weight at 𝑀[𝑖][𝑗]𝑀[𝑖][𝑗] only if there exists an edge between 𝑖𝑖-th and 𝑗𝑗-th vertex. See the following figure for an example.
 
-![](../public/1aaa03d85c904d61d16536553a475de3.png)
+![](../../../../meri-public/garden/1aaa03d85c904d61d16536553a475de3.png)
 
 
 **Space and time complexity of adjacency matrix:** We create a 𝑉×𝑉𝑉×𝑉 matrix 𝑀𝑀 and store each weight at 𝑀[𝑖][𝑗]𝑀[𝑖][𝑗] only if there exists an edge from 𝑖𝑖-th to 𝑗𝑗-th vertex. Hence, the:  
@@ -27,11 +27,11 @@ To create **an adjacency list,** create an array of size 𝑉𝑉. At each �
 
 See the following figure for an example.
 
-![](../public/f651cb2cc4b17d0daff9fa2e7ffcad5c.png)
+![](../../../../meri-public/garden/f651cb2cc4b17d0daff9fa2e7ffcad5c.png)
 
 To create **an adjacency list of a weighted graph,** we create an array of size 𝑉𝑉. At each 𝑉[𝑖]𝑉[𝑖], store the list of vertices adjacent to the 𝑖𝑖-th vertex along with the weights. (The numbers within the parenthesis correspond to weights.) See the following figure for an example.
 
-![](../public/7ae2211f6f090fc147fd60f207029aa6.png)
+![](../../../../meri-public/garden/7ae2211f6f090fc147fd60f207029aa6.png)
 
 **Space and time complexity of adjacency list:** We create an array of size 𝑉𝑉 and at each 𝑉[𝑖]𝑉[𝑖], store the list of vertices adjacent to the 𝑖𝑖-th vertex along with the weights. Hence, the:
 

@@ -12,4 +12,4 @@ author:
 editor: Network and Distributed System Security (NDSS) Symposium
 year: "2024"
 ---
-![](../public/5ca4c9c2daa3f18d7d4f96489ee5a8de.pdf)
+![](../../../../meri-public/garden/5ca4c9c2daa3f18d7d4f96489ee5a8de.pdf)

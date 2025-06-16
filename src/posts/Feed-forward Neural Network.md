@@ -19,7 +19,7 @@ The output of each neuron is a function of its current input. A feed-forward net
 
 The following diagram shows a case in which we would have one perceptron with the weights in red that output at node 3 and with blue weights that output at node 4.
 
-![](../public/59b009d76fa1405480674eae880ba0aa.png)
+![](../../../../meri-public/garden/59b009d76fa1405480674eae880ba0aa.png)
 
 Example
 - Input: Email

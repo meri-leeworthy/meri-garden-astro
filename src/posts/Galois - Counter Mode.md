@@ -17,4 +17,4 @@ Like in normal counter mode, blocks are numbered sequentially, and then this blo
 
 The ciphertext blocks are considered coefficients of a polynomial which is then evaluated at a key-dependent point H, using finite field arithmetic. The result is then encrypted, producing an authentication tag that can be used to verify the integrity of the data. The encrypted text then contains the IV, ciphertext, and authentication tag. 
 
-![](../public/662024ba4d93b1ed246ac72819b228cc.png)
+![](../../../../meri-public/garden/662024ba4d93b1ed246ac72819b228cc.png)

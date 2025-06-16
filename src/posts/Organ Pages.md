@@ -19,7 +19,7 @@
 - Github
 - LinkedIn
 
-![](../public/466fb9e428dacedb54ff24faf3281ce8.JPG)
+![](../../../../meri-public/garden/466fb9e428dacedb54ff24faf3281ce8.JPG)
 
 [hello](/untitled)
 

@@ -4,7 +4,7 @@ Backlog refinement, previously known as backlog grooming, is an essential part o
 
 By regularly refining the backlog, the team ensures that they are working on the most valuable tasks, that user stories are well-defined, and that the backlog remains a reliable guide for future development efforts.
 
-![](../public/a50064366b70e8acb9e34e6016cddc17.png)
+![](../../../../meri-public/garden/a50064366b70e8acb9e34e6016cddc17.png)
 
 Schedule regular backlog refinement sessions
 

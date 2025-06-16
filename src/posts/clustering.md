@@ -10,7 +10,7 @@ Clustering is subjective. How should we group this set of Simpsons characters if
 
 Both groupings presented here would be quite natural, and in fact both are valid.
 
-![](../public/a42ff475f66de1b944a3bd32c81b5f57.png)
+![](../../../../meri-public/garden/a42ff475f66de1b944a3bd32c81b5f57.png)
 
 #### Similarity
 
@@ -24,7 +24,7 @@ Such a distance function should return a real number, with larger values indicat
 
 The following examples illustrate how distance functions can work. If we define O1 and O2 as two objects from the universe of possible objects. The distance (dissimilarity) between O1 and O2 is a real number denoted by D(O1,O2)
 
-![](../public/38ae6b2a0631ceb75afaac0670799a44.png)
+![](../../../../meri-public/garden/38ae6b2a0631ceb75afaac0670799a44.png)
 
 We see a function of two variables in one of these black boxes. We also require that function D have the following required properties.
 
@@ -33,7 +33,7 @@ We see a function of two variables in one of these black boxes. We also require 
 - Positivity (Separation) 𝐷(𝐴,𝐵)=0𝑖𝑓𝑓𝐴=𝐵 (ie the only time D=0 is when the objects are the same)
 - Triangle Inequality 𝐷(𝐴,𝐵)≤𝐷(𝐴,𝐶)+𝐷(𝐵,𝐶)
 
-![](../public/78f6ca76e595298c888d7401d29c5e7f.png)
+![](../../../../meri-public/garden/78f6ca76e595298c888d7401d29c5e7f.png)
 #### Two types of clustering
 
 Two common types of clustering are **partitional** and **hierarchical**.
@@ -42,6 +42,6 @@ Partitional clustering constructs various partitions and then evaluates them by 
 
 Hierarchical clustering creates a hierarchical decomposition of the set of objects using some criterion.
 
-![](../public/5b3d7775fcc71fcbaed4b7003837c8c8.png)
+![](../../../../meri-public/garden/5b3d7775fcc71fcbaed4b7003837c8c8.png)
 
 Next: [[k-means clustering]]

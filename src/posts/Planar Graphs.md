@@ -6,8 +6,8 @@ A planar graph is a connected graph that can be embedded in the plane, i.e. it c
 
 The following graph (a) is a planar graph since we can redraw it as in (b) such that the edges do not intersect.
   
-![](../public/06192cd11007824fc6636b8c3bc5977a.png)
+![](../../../../meri-public/garden/06192cd11007824fc6636b8c3bc5977a.png)
 
 These two graphs are the same, except graph (a) is not of a **planar representation** of the graph. In the following figure, graphs (a) and (b) are planar, however, (c) is not.
 
-![](../public/970d5c411e5355eab5e5e5d8af30eb69.png)
+![](../../../../meri-public/garden/970d5c411e5355eab5e5e5d8af30eb69.png)

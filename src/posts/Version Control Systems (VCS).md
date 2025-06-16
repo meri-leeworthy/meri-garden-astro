@@ -32,4 +32,4 @@ The following is a list of popular Git commands:
 - git add: Adds changes to the staging area in preparation for a commit.
 - git commit: Commits the changes in the staging area to the repository.
 - git pull: Fetches changes from a remote repository and merges them into the current branch.
-- git push: Pushes local changes to a remote repository.![](../public/dd1fe9931f6d73f88a16281da32ce974.png)
+- git push: Pushes local changes to a remote repository.![](../../../../meri-public/garden/dd1fe9931f6d73f88a16281da32ce974.png)

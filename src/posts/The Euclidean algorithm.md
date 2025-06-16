@@ -48,7 +48,7 @@ Understanding this algorithm, using the division algorithm, we represent both _a
 **Apply your learning**  
 Let's apply this algorithm to the following example to get a better understanding of how the algorithm works.
 
-![](../public/4fc7a320a97de6d4aebf3e53cf039fb5.png)
+![](../../../../meri-public/garden/4fc7a320a97de6d4aebf3e53cf039fb5.png)
 
 **Note:** It can be helpful to work on this algorithm by yourself using smaller numbers to ensure that you understand how it works.
 

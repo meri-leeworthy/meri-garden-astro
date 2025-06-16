@@ -1,4 +1,4 @@
-![](../public/03f6de6e60e0cd66c14c87f8a9a50e58.png)
+![](../../../../meri-public/garden/03f6de6e60e0cd66c14c87f8a9a50e58.png)
 When working with computer systems, different problems take different amounts of resources in order to be resolved. Depending on the resources required, problems are often categorised into various complexity classes. The two most common metrics for evaluating computational complexity are time and memory. While the distinction among the complexity classes is hard to ascertain, scientists generally agree on the degree of complexity associated with each class.
 
 In this lesson, we will briefly outline some of the complexity classes and the impact of the problems within that classification. In later lessons within this module, we will explore some of the underlying hard problems that have been used to develop various cryptographic algorithms that we use today.

@@ -6,11 +6,11 @@ editor: Endnotes
 [[Jasper Bernes]]
 [[Endnotes]] 5
 
-![](../public/94eb7d639d5fea46319c9d544f2ff1ec.pdf)
+![](../../../../meri-public/garden/94eb7d639d5fea46319c9d544f2ff1ec.pdf)
 
 
 Sartre:
-![](../public/f9aca54698f0fa96e668e0b4a3fbaa25.png)
+![](../../../../meri-public/garden/f9aca54698f0fa96e668e0b4a3fbaa25.png)
 
 Why do people revolt? What kind of agencies about revolts can be described?
 

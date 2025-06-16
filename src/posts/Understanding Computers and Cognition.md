@@ -3,7 +3,7 @@ author: Terry Winnograd, Fernando Flores
 type: book
 year: "1987"
 ---
-![](../public/2090b47635052fd73a3faafe155d3941.pdf)
+![](../../../../meri-public/garden/2090b47635052fd73a3faafe155d3941.pdf)
 
 ## A review from Amazon:
 

@@ -2,7 +2,7 @@
 
 ## System Architecture
 
-![](../public/b6a8b40b62730ac33c7248d88eaa9454.jpeg)
+![](../../../../meri-public/garden/b6a8b40b62730ac33c7248d88eaa9454.jpeg)
 
 [[Merkle Search Tree]]
 ### Merkle Search Trees

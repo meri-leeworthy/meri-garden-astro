@@ -18,11 +18,11 @@ Requirement elicitation techniques are methods and strategies used to gather inf
 
 Writing effective survey questions is essential for collecting accurate and meaningful data.
 
-![](../public/6b42a6f9c2f973c270041428533d0d5d.png)
-![](../public/1cb65b9055f2a27fb5668d072ea46889.png)
-![](../public/5bc0a3f8421d379151711c8231013a66.png)
-![](../public/dea1ea94d81155f534253fe58f9daec8.png)
-![](../public/764e220163afccae6ab2dfedccb7292f.png)
+![](../../../../meri-public/garden/6b42a6f9c2f973c270041428533d0d5d.png)
+![](../../../../meri-public/garden/1cb65b9055f2a27fb5668d072ea46889.png)
+![](../../../../meri-public/garden/5bc0a3f8421d379151711c8231013a66.png)
+![](../../../../meri-public/garden/dea1ea94d81155f534253fe58f9daec8.png)
+![](../../../../meri-public/garden/764e220163afccae6ab2dfedccb7292f.png)
 
 
 

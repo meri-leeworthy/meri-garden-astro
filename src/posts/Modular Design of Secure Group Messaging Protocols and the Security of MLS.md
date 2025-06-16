@@ -11,4 +11,4 @@ Introduced formal security notion of [[History graph]]
 > TreeKEM is also related to schemes for (symmetric-key) [[Broadcast encryption]] [ 16 , 18 ] and [[Multicast encryption]] [ 12 , 24 , 30 ]
 
 
-![](../public/1d87dca0cc53740de81d809b37ef9ac8.pdf)
+![](../../../../meri-public/garden/1d87dca0cc53740de81d809b37ef9ac8.pdf)

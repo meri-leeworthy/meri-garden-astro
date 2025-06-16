@@ -25,4 +25,4 @@ Where:
 The Binomial distribution for the example above is shown in the following figure. The plot is for $𝑛=5$ and $𝑝=0.05$. Each point represents the probabilities at each $𝑥$ value. Hence, by looking at the plot, we can see that $𝑃(𝑥=3)=0.0011$ is exactly the same as when computed using the binomial formula.
 
 
-  ![](../public/00ee19dc4c07eb43827d82e0ca56b0d3.png)
+  ![](../../../../meri-public/garden/00ee19dc4c07eb43827d82e0ca56b0d3.png)

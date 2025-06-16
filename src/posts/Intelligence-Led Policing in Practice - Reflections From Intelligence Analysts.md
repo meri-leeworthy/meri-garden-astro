@@ -8,4 +8,4 @@ Intelligence-led policing (ILP) is a managerial law enforcement model that seeks
 
 [[Victoria Police]]
 
-![](../public/845e3b81258103c0af6eb772deae8e8f.pdf)
+![](../../../../meri-public/garden/845e3b81258103c0af6eb772deae8e8f.pdf)

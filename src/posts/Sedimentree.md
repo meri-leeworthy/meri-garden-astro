@@ -99,15 +99,15 @@ H --> I
 ```
 
 Becomes
-![](../public/97b48a3dfcbda9dddf566c4768891ca9.png)
+![](../../../../meri-public/garden/97b48a3dfcbda9dddf566c4768891ca9.png)
 Where each rectangle is a chunk which contains all the chunks directly above it. Importantly only the lowermost stratum is needed, so this diagram can be simplified to:
-![](../public/f5852019be73ed9607a63e170fb7106e.png)
+![](../../../../meri-public/garden/f5852019be73ed9607a63e170fb7106e.png)
 As implied by these diagrams, the sedimentree data structure first organises commits into a linear order and then compacts those ranges. We are able to do this in such a way that peers with overlapping but different commit graphs will agree on the boundaries and contents of each stratum and the contents of each stratum will contain commits ordered such that their metadata compresses well.
 
 ## Terminology
 
 A "commit" refers to the abstract idea of a node in the DAG which has a payload, a hash, and a set of parents identified by hash.  A range of commits which has been compressed is referred to as a "stratum". A stratum has a start and end hash and zero or more interior "checkpoint" hashes - on which more later. If a commit is stored outside of a stratum it is a "loose commit". The payloads of both strata and loose commits are stored separately from the metadata about those objects as a "blob" - which is a content addressed binary array.
-![](../public/5e211a4c7cc676db43269ee00ab24f25.png)
+![](../../../../meri-public/garden/5e211a4c7cc676db43269ee00ab24f25.png)
 Each straum has a "level". Stratum with higher levels are further down in the sedimentree - composed of larger ranges of the commit graph. The first level stratum is level 1.
 
 A stratum which contains the data from some strata or loose commits above it is said to "support" the smaller strata. A sedimentree can be simplified by removing all the strata or loose commits which are supported by strata below them recursively, such a simplified sedimentree is called "minimal".
@@ -185,11 +185,11 @@ We are not forced to stick with base 10, we can interpret the hash as a number i
 A stratum $x$ supports another stratum $y$ whenever $x$ contains all the commits in $y$. It is important for sedimentree sync to be able to determine whether one stratum supports another in order to be able to determine the minimal sedimentree.
 
 To this point I have talked about the boundaries of a stratum, but the start and an end hash is not enough to determine whether one stratum supports another without additional information. Consider this sedimentree:
-![](../public/83043476419c9ae89842921500d8ba61.png)
+![](../../../../meri-public/garden/83043476419c9ae89842921500d8ba61.png)
 In this example the ghosted out boxes represent commits (in the case of square boxes with a letter) and stratum (in the case of rectangles) which were used to derive the non-ghosted strata but which we don't have access to (maybe we never had them, maybe we discarded them). All we know is that we have some strata, one which starts at `A` and ends at `F` (the larger one), one which starts at `A` and ends at `C`, and one which starts at `G` and ends at `I`. How can we know which of the smaller strata the large one supports?
 
 To solve this we add the concept of "checkpoint commits". A checkpoint commit is a commit hash which would be the boundary of the smallest stratum in the system. For example, if we are producing strata for every commit that begins with two zeros then every commit hash which begins with two zeros is a checkpoint commit. We never discard checkpoint commits, which means that a stratum is now defined by it's start and end hash _and_ the checkpoint commits in it's interior.
-![](../public/1978a4c848fa55036ce7b37392832679.png)
+![](../../../../meri-public/garden/1978a4c848fa55036ce7b37392832679.png)
 With checkpoint commits we can always determine the supporting relationship. All stratum boundaries are on checkpoint commits, so if stratum $x$ supports stratum $y$ then the start and end hashes of $y$ will be somewhere in the set (start hash of x, end hash of x, checkpoints of x).
 ### Loose Commits
 

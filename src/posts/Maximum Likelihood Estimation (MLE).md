@@ -6,10 +6,10 @@ Any statistic used to estimate the value of an unknown parameter θ is called 
 
 ## Example
 Suppose we have drawn a sample with 10 data points from some process. We need to determine from which process or model these data points came. The following figure illustrates the sample data.
-![](../public/5a87edba36fde63614b41ea9746cce76.png)
+![](../../../../meri-public/garden/5a87edba36fde63614b41ea9746cce76.png)
 
 It is known that the data points were observed from the Gaussian distribution. But we do not know the model exactly. Recall that the Gaussian distribution has two parameters. The mean, μ, and the standard deviation, σ. Different values of these parameters result in different curves. We want to know which curve is most likely responsible for creating the data points we observed. Can you take a guess?
 
-![](../public/f310c8444220ba2507b738507d0a842d.png)
+![](../../../../meri-public/garden/f310c8444220ba2507b738507d0a842d.png)
 
 Maximum likelihood estimation is a method that will find the values of μ and σ that result in the curve that best fits the data. Because the data points above were created hypothetically, it can be stated that the true distribution from which the data were generated was $𝐹2 𝑁(2,1)$, which is the blue curve in the figure above.

@@ -2,7 +2,7 @@ Assume that we are asked to find the length of a curve between two points, where
 
 When integration is used to calculate arc length, the length of the curve needs to be divided into infinitesimally small sections, calculate the lengths of those small sections and then add them up.
 
-![](../public/54a32be32f181244408da8f4b48007e5.png)
+![](../../../../meri-public/garden/54a32be32f181244408da8f4b48007e5.png)
 
 Pythagoras' theorem adds the lengths of all those small curve segments between the start and finish points. As shown above, the lengths of the legs of each infinitesimal triangle are $Δ𝑥_𝑖$ and $Δ𝑦_𝑖$, and the hypotenuse is calculated as:
 

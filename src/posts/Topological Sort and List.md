@@ -18,7 +18,7 @@ The prerequisites for each unit are outlined below. These relationships are visu
 - E depends on D
 - F depends on D
 
-![](../public/48501b26338f830c45be61d1cef7c2d2.png)
+![](../../../../meri-public/garden/48501b26338f830c45be61d1cef7c2d2.png)
 ##### Topological sort and list
 
 A possible topological sort for this graph would be:

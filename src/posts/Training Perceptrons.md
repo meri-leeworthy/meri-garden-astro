@@ -11,7 +11,7 @@ Depending on the activation function the training process will be either
 
 1. Step function Perceptron learning rule
 $$w_i \leftarrow w_i + a(y-g_\mathbf{w}(\mathbf{x})){x}_i$$
-![](../public/fec983ec2450de4a6641ca062b3cf08e.png)
+![](../../../../meri-public/garden/fec983ec2450de4a6641ca062b3cf08e.png)
 2. Gradient descent rule for sigmoid perceptron
 $$w_i \leftarrow w_i + 
 \alpha (y-g_\mathbf{w}(\mathbf{x})) \times g_\mathbf{w}(\mathbf{x}) \times (1- g_\mathbf{w}(\mathbf{x})) \times {x}_i$$

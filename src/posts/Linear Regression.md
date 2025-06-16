@@ -3,15 +3,15 @@
 
 In regression, our task is to predict a continuous value. For example, the price of a car.
 
-![](../public/74e27d00ea10cc303f513d0d25624d5d.png)
+![](../../../../meri-public/garden/74e27d00ea10cc303f513d0d25624d5d.png)
 
 To do this, we might use a feature like top speed.
 
-![](../public/ee9eb351db150383fa004e58b0c76336.png)
+![](../../../../meri-public/garden/ee9eb351db150383fa004e58b0c76336.png)
 
 Or we might want to 'try' to predict stock prices from other continuous attributes like company profit, debt, and cash flow.
 
-![](../public/e564f8309675682b8ff528de4ba46462.png)
+![](../../../../meri-public/garden/e564f8309675682b8ff528de4ba46462.png)
 
 - Example 𝑦𝑗 is stock price, 𝑥𝑗 contains company profit, debt, cash flow, . . .
 - Given a training set (𝑥1,𝑦1),...,(𝑥𝑁,𝑦𝑁)
@@ -102,7 +102,7 @@ We can also plot the 3 data points and the solution we found and see how it fits
 - Training data: (1,3),(2.1,0.5),(−5,6.2)(1,3),(2.1,0.5),(−5,6.2)
 - Linear regression model: ℎ𝑤=−0.712𝑥+2.78
 
-![](../public/ef76edbccb7166a97816198ca4dd27ed.png)
+![](../../../../meri-public/garden/ef76edbccb7166a97816198ca4dd27ed.png)
 
 ### 1.3. Gradient descent
 
@@ -112,7 +112,7 @@ The fundamental idea of the **gradient descent algorithm** is that we iterativ
 
 The algorithm picks an initial value of the coefficients 𝑤0𝑤0 and iteratively moves each coefficient towards the minimum by following the negative direction of the gradient until the values **converge**. 
 
-![](../public/9d64dd4ee1271ffcf345cbfed234f4ea.png)
+![](../../../../meri-public/garden/9d64dd4ee1271ffcf345cbfed234f4ea.png)
 
 - 𝐰0𝑤0 ← any point in the parameter space; 𝑡=1𝑡=1
 - Until convergence (||𝐰𝑡−𝑚𝑎𝑡ℎ𝑏𝑓𝑤𝑡−1||<ϵ)(||𝑤𝑡−𝑚𝑎𝑡ℎ𝑏𝑓𝑤𝑡−1||<ϵ)

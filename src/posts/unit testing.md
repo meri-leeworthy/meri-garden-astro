@@ -16,7 +16,7 @@ Unit testing is a software testing technique where individual units or component
 Unit testing is a fundamental practice in modern software development, often complemented by other testing techniques such as integration testing and system testing. It contributes to the overall reliability, maintainability, and quality of software by ensuring that individual components work correctly and as expected. Popular unit testing frameworks for various programming languages include JUnit (Java), NUnit (.NET), pytest (Python), and Jasmine (JavaScript).
 
 The following diagram demonstrates the unit testing process.
-![](../public/86db773a651672e6c02bed7c7b523fd7.png)
+![](../../../../meri-public/garden/86db773a651672e6c02bed7c7b523fd7.png)
 
 ### 2. Characteristics of effective test cases
 
