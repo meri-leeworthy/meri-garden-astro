@@ -1,0 +1,54 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Meri Leeworthy</title>
+	</head>
+	<head />
+	<body class="relative flex flex-col items-center w-screen h-screen max-h-screen">
+		<Header />
+    <slot />
+    <Footer />
+		<svg class="w-0 h-0">
+			<filter id="white-alpha">
+				<feColorMatrix
+					type="matrix"
+					values="0 1 0 0 0
+					0 1 0 0 0
+					0 1 0 0 0
+					-1 -1 -1 1 0 "
+				/>
+			</filter>
+		</svg>
+	</body>
+	<style>
+		@reference "../styles/global.css";
+
+		.emojilist li {
+			display: list-item;
+			padding-left: 0.4rem;
+			@apply text-sm my-1;
+		}
+
+		.quote {
+			position: relative;
+		}
+
+		.quote::before {
+			content: "";
+			background-color: #fff;
+			position: absolute;
+			z-index: -1;
+			border-radius: 50%;
+			filter: blur(2rem);
+			inset: 20px 0;
+		}
+	</style>
+</html>

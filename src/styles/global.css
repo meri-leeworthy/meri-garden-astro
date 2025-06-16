@@ -1,1 +1,150 @@
 @import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@font-face {
+  font-family: "Sligoil";
+  src: url("../fonts/sligoil/fonts/web/Sligoil-Micro.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Space-Mono";
+  src: url("../fonts/space-mono/SpaceMono-BoldItalic.woff2")
+    format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Space-Mono";
+  src: url("../fonts/space-mono/SpaceMono-Bold.woff2")
+    format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Space-Mono";
+  src: url("../fonts/space-mono/SpaceMono-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Space-Mono";
+  src: url("../fonts/space-mono/SpaceMono-Italic.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Compagnon";
+  src: url("../fonts/compagnon/fonts/webfonts/Compagnon-Roman.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Vercetti";
+  src: url("../fonts/vercetti/OpenType WOFFs/Vercetti-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.sligoil-micro-ss04 {
+  font-feature-settings: "ss04" on;
+}
+
+.gradient-bg::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  transition: 2s;
+  background-image: radial-gradient(
+    ellipse at center,
+    var(--tw-gradient-stops)
+  );
+  @apply from-teal-200 to-pink-300;
+}
+.gradient-bg:has(.card:hover)::before {
+  filter: grayscale(100%);
+}
+
+p {
+  padding: 0.4rem 0;
+}
+
+a {
+  text-decoration: underline;
+
+  :hover {
+    text-decoration: none;
+  }
+}
+
+code {
+  @apply bg-white/50 px-1 box-decoration-clone rounded;
+}
+
+.card {
+  @apply w-full border mb-4 border-white/70 items-start sm:max-w-3xl overflow-clip;
+
+  .whitefilter {
+    filter: invert(100%) url(#white-alpha) invert(100%);
+  }
+
+  a {
+    @apply w-full sm:w-auto;
+  }
+
+  .imagecontainer {
+    @apply box-border relative w-full bg-teal-800/80 sm:w-auto aspect-video sm:h-40;
+  }
+
+  .previewtext {
+    @apply pr-2 text-sm text-teal-900 bg-[#fff8] sm:w-full sm:aspect-video sm:overflow-y-clip sm:h-auto h-32;
+    mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+  }
+
+  p {
+    padding: 0 0;
+  }
+
+  :hover {
+    .whitefilter {
+      filter: none;
+    }
+
+    .previewtext {
+      opacity: 1;
+    }
+  }
+}
+
+.title {
+  @apply relative text-3xl isolate w-52 font-title;
+}
+
+/* .title::before {
+  content: "";
+  background-color: #fffe9b;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  filter: blur(3rem);
+  inset: -15px;
+} */
