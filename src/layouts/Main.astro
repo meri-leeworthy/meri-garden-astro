@@ -12,7 +12,7 @@ import "../styles/global.css";
 		<title>Meri Leeworthy</title>
 	</head>
 	<head />
-	<body class="relative flex flex-col items-center w-screen h-screen max-h-screen">
+	<body class="relative flex flex-col items-center w-screen">
 		<Header />
     <slot />
     <Footer />
@@ -28,27 +28,4 @@ import "../styles/global.css";
 			</filter>
 		</svg>
 	</body>
-	<style>
-		@reference "../styles/global.css";
-
-		.emojilist li {
-			display: list-item;
-			padding-left: 0.4rem;
-			@apply text-sm my-1;
-		}
-
-		.quote {
-			position: relative;
-		}
-
-		.quote::before {
-			content: "";
-			background-color: #fff;
-			position: absolute;
-			z-index: -1;
-			border-radius: 50%;
-			filter: blur(2rem);
-			inset: 20px 0;
-		}
-	</style>
 </html>

@@ -137,6 +137,9 @@ code {
 
 .title {
   @apply relative text-3xl isolate w-52 font-title;
+  text-decoration-line: none;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 0px;
 }
 
 /* .title::before {
@@ -148,3 +151,92 @@ code {
   filter: blur(3rem);
   inset: -15px;
 } */
+
+a {
+  text-decoration: none;
+  
+  
+  :hover {
+    text-decoration: none;
+  }
+}
+
+
+.post blockquote {
+  @apply border-l-4 border-slate-700 pl-4 my-4;
+}
+
+.post section.backlinks {
+  @apply mt-6;
+}
+.post section h2, .post section ul li {
+  @apply text-slate-700;
+}
+
+.post a {
+  @apply underline;
+}
+
+.post a[href^="http"]:not([href*="yourdomain.com"])::after {
+  content: " \2197"; /* Add an up-right arrow */
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.post pre {
+  @apply bg-slate-800 p-4 rounded-md leading-none pt-0;
+}
+
+.post pre code {
+  @apply text-sm leading-none;
+}
+
+.post ul li {
+  @apply py-0 my-0;
+}
+
+.post ul li p {
+  @apply py-0 my-0;
+}
+
+.post li ul {
+  @apply py-0 my-0;
+}
+
+.title-flower {
+  @apply relative;
+}
+
+.title-flower::before {
+  content: "";
+  position: absolute;
+  top: -4.5rem;
+  left: -1rem;
+  right: 0;
+  bottom: 0rem;
+  background-image: url("https://static.meri.garden/flower.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  transform: rotate(-20deg);
+}
+
+.emojilist li {
+  display: list-item;
+  padding-left: 0.4rem;
+  @apply text-sm my-1;
+}
+
+.quote {
+  position: relative;
+}
+
+.quote::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  filter: blur(2rem);
+  inset: 20px 0;
+}

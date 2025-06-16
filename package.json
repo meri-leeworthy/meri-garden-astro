@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "tsx lib/process-md.ts",
+    "generate-backlinks": "tsx lib/generate-backlinks.ts",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -18,6 +20,13 @@
     "astro": "^5.9.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "remark-gfm": "^4.0.1",
+    "remark-obsidian": "^1.8.0",
     "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "slugify": "^1.6.6",
+    "tsx": "^4.20.3"
   }
 }

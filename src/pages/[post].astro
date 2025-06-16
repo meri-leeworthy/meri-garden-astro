@@ -1,0 +1,86 @@
+---
+import Main from "../layouts/Main.astro";
+import { getCollection, render } from 'astro:content';
+import fs from 'fs';
+import path from 'path';
+
+interface Backlink {
+  slug: string;
+  title: string;
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const backlinksPath = path.join(process.cwd(), 'public', 'backlinks.json');
+  const backlinksData = JSON.parse(fs.readFileSync(backlinksPath, 'utf-8'));
+  
+  return posts.map((post) => ({
+    params: { post: post.data.slug },
+    props: { 
+      post,
+      backlinks: (backlinksData[post.data.slug] || []) as Backlink[]
+    },
+  }));
+}
+
+const { post, backlinks } = Astro.props;
+const { Content } = await render(post);
+---
+<Main>
+  <article
+  class={`prose flex flex-col items-center mx-auto max-w-prose w-full post`}>
+  <div
+    class={`relative w-full lg:w-[48rem] mb-12 ${
+      post.data.image ? "aspect-video" : "h-10"
+    }`}>
+    {post.data.image && (
+      <div class="absolute top-0 right-3 w-[calc(100%-30px)] lg:w-[calc(48rem-40px)] bg-teal-800  aspect-video">
+        <img
+          src={`/images/${post.data.image}`}
+          alt={post.data.alt || post.data.title}
+        />
+      </div>
+    )}
+    <div class="absolute bottom-0 w-4/5 left-1">
+      <h1 class="inline px-2 py-2 text-lg leading-8 bg-purple-300 rounded-lg shadow-xl lg:text-2xl font-title box-decoration-clone">
+        {post.data.title}
+      </h1>
+    </div>
+  </div>
+  <main class="w-full max-w-lg">
+    <table>
+      {"author" in post.data && (
+        <tr>
+          <th>Author</th>
+          <td>{post.data.author}</td>
+        </tr>
+      )}
+      {"type" in post.data && (
+        <tr>
+          <th>Type</th>
+          <td>{post.data.type}</td>
+        </tr>
+      )}
+      {"year" in post.data && (
+        <tr>
+          <th>Year</th>
+          <td>{post.data.year}</td>
+        </tr>
+      )}
+    </table>
+    <Content />
+    {backlinks.length > 0 && (
+      <section class="backlinks">
+        <h2>Backlinks</h2>
+        <ul>
+          {backlinks.map((backlink) => (
+            <li>
+              <a href={`/${backlink.slug}`}>{backlink.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </main>
+
+</Main>

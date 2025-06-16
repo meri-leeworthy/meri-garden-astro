@@ -1,0 +1,5 @@
+name = "meri-garden-astro"
+compatibility_date = "2025-06-16"
+
+[assets]
+directory = "./dist"
