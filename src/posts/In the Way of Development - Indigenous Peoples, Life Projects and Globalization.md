@@ -1,9 +1,9 @@
 ---
-type: 'book'
-editor: 'Mario Blaser, Harvey A. Feit and Glenn McRae'
-year: '2004'
 title: 'In the Way of Development - Indigenous Peoples, Life Projects and Globalization'
 slug: 'in-the-way-of-development-indigenous-peoples-life-projects-and-globalization'
+type: 'book'
+editor: 'Mario Blaser, Harvey A. Feit and Glenn McRae'
+year: '"2004"'
 ---
 
 [[development]]

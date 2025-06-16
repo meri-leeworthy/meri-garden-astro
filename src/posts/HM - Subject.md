@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Subject'
 slug: 'hm-subject'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

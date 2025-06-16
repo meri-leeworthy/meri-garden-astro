@@ -1,9 +1,9 @@
 ---
-type: 'paper'
-year: '2024'
-editor: 'Security and Cryptography for Networks'
 title: 'DeCAF - Decentralizable CGKA with Fast Healing'
 slug: 'decaf-decentralizable-cgka-with-fast-healing'
+type: 'paper'
+year: '"2024"'
+editor: 'Security and Cryptography for Networks'
 ---
 
 ![](https://static.meri.garden/1fbab41917a40fea6320ca9ae7402c63.pdf)

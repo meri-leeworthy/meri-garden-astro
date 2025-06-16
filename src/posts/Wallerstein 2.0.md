@@ -1,9 +1,9 @@
 ---
-type: 'book'
-year: '2023'
-editor: 'Frank Jacob'
 title: 'Wallerstein 2.0'
 slug: 'wallerstein-20'
+type: 'book'
+year: '"2023"'
+editor: 'Frank Jacob'
 ---
 
 Thinking and Applying World-Systems Theory in the 21st Century

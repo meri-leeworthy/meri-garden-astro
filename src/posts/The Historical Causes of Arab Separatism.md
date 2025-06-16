@@ -1,9 +1,9 @@
 ---
+title: 'The Historical Causes of Arab Separatism'
+slug: 'the-historical-causes-of-arab-separatism'
 type: 'essay'
 editor: 'Endnotes'
 author: 'Il Programma Comunista'
-title: 'The Historical Causes of Arab Separatism'
-slug: 'the-historical-causes-of-arab-separatism'
 ---
 
 #Endnotes

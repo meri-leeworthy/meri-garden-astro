@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Graph Theory'
 slug: 'graph-theory'
+type: 'topic'
 ---
 
 [[Graphs, vertices, and edges]]

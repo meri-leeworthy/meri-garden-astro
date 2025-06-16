@@ -1,7 +1,7 @@
 ---
-type: 'project'
 title: 'Beehive'
 slug: 'beehive'
+type: 'project'
 ---
 
 https://www.inkandswitch.com/beehive/notebook/

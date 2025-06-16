@@ -1,7 +1,7 @@
 ---
-type: 'person'
 title: 'Stafford Beer'
 slug: 'stafford-beer'
+type: 'person'
 ---
 
 'father of management cybernetics'

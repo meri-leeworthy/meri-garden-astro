@@ -15,8 +15,8 @@ function hasFrontmatter(content: string): boolean {
 // Helper function to format YAML values
 function formatYamlValue(value: any): string {
   if (Array.isArray(value)) {
-    // Handle arrays by formatting each element
-    return `[${value.map(v => formatYamlValue(v)).join(", ")}]`
+    // Handle arrays by formatting each element with proper indentation
+    return value.map(v => `- ${formatYamlValue(v)}`).join("\n")
   }
 
   if (typeof value === "string") {
@@ -24,6 +24,42 @@ function formatYamlValue(value: any): string {
     return `'${value.replace(/'/g, "''")}'`
   }
   return String(value)
+}
+
+function parseYamlValue(
+  value: string,
+  lines: string[],
+  currentIndex: number
+): [any, number] {
+  // Check if this line starts a block sequence
+  if (value.trim().startsWith("-")) {
+    const items: any[] = []
+    let i = currentIndex
+
+    // Process the first item
+    items.push(value.trim().slice(1).trim())
+
+    // Look ahead for more items in the sequence
+    while (i + 1 < lines.length) {
+      const nextLine = lines[i + 1].trim()
+      if (nextLine.startsWith("-")) {
+        items.push(nextLine.slice(1).trim())
+        i++
+      } else {
+        break
+      }
+    }
+
+    return [items, i]
+  }
+
+  // Handle quoted strings
+  if (value.startsWith("'") && value.endsWith("'")) {
+    return [value.slice(1, -1).replace(/''/g, "'"), currentIndex]
+  }
+
+  // Handle regular strings
+  return [value, currentIndex]
 }
 
 function processMarkdownFiles() {
@@ -60,19 +96,46 @@ function processMarkdownFiles() {
           const frontmatterLines = frontmatterContent.split("\n")
           const data: Frontmatter = {}
 
-          frontmatterLines.forEach(line => {
+          for (let i = 0; i < frontmatterLines.length; i++) {
+            const line = frontmatterLines[i]
             const [key, ...valueParts] = line.split(":")
             if (key && valueParts.length > 0) {
               const value = valueParts.join(":").trim()
-              data[key.trim()] = value
+              const [parsedValue, newIndex] = parseYamlValue(
+                value,
+                frontmatterLines,
+                i
+              )
+
+              // Check if the next line is a block sequence for this key
+              if (newIndex + 1 < frontmatterLines.length) {
+                const nextLine = frontmatterLines[newIndex + 1].trim()
+                if (nextLine.startsWith("-")) {
+                  // If current value is empty string and next line is a block sequence,
+                  // use the block sequence instead
+                  if (parsedValue === "") {
+                    const [blockValue, blockIndex] = parseYamlValue(
+                      nextLine,
+                      frontmatterLines,
+                      newIndex + 1
+                    )
+                    data[key.trim()] = blockValue
+                    i = blockIndex
+                    continue
+                  }
+                }
+              }
+
+              data[key.trim()] = parsedValue
+              i = newIndex // Skip processed lines
             }
-          })
+          }
 
           // Update frontmatter
           updatedData = {
-            ...data,
             title,
             slug,
+            ...data,
           }
 
           // Replace paths in content
@@ -103,7 +166,12 @@ function processMarkdownFiles() {
 
     // Write back to file with frontmatter
     const frontmatter = Object.entries(updatedData)
-      .map(([key, value]) => `${key}: ${formatYamlValue(value)}`)
+      .map(([key, value]) => {
+        if (Array.isArray(value)) {
+          return `${key}:\n${formatYamlValue(value)}`
+        }
+        return `${key}: ${formatYamlValue(value)}`
+      })
       .join("\n")
 
     const newContent = `---\n${frontmatter}\n---\n\n${updatedContent}`

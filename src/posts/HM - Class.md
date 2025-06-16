@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Class'
 slug: 'hm-class'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]], Chapter 2

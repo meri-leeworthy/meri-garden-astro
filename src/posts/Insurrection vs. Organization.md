@@ -1,8 +1,8 @@
 ---
-type: 'essay'
-author: 'Peter Gelderloos'
 title: 'Insurrection vs. Organization'
 slug: 'insurrection-vs-organization'
+type: 'essay'
+author: 'Peter Gelderloos'
 ---
 
 #### Reflections from Greece on a Pointless Schism

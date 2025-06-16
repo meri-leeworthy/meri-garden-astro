@@ -1,9 +1,9 @@
 ---
-type: 'essay'
-author: 'Giorgio Cesarano'
-year: '1973'
 title: 'Excerpts from ''Apocalypse and Revolution'''
 slug: 'excerpts-from-apocalypse-and-revolution'
+type: 'essay'
+author: 'Giorgio Cesarano'
+year: '"1973"'
 ---
 
 ## I. Mortal Leap

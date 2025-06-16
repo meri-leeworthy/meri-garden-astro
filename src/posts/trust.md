@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'trust'
 slug: 'trust'
+type: 'topic'
 ---
 
 [[TrustNet - Trust-based Moderation]]:

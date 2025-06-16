@@ -1,0 +1,5 @@
+---
+title: 'Jazz'
+slug: 'jazz'
+---
+

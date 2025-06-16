@@ -1,7 +1,7 @@
 ---
-type: 'project'
 title: 'Appleseed'
 slug: 'appleseed'
+type: 'project'
 ---
 
 [[TrustNet - Trust-based Moderation]]:

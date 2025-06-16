@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Class'
 slug: 'class'
+type: 'topic'
 ---
 
 Class as a concept has two main uses:

@@ -1,9 +1,9 @@
 ---
-type: 'book'
-author: 'Arturo Escobar'
-year: '2020'
 title: 'Pluriversal Politics'
 slug: 'pluriversal-politics'
+type: 'book'
+author: 'Arturo Escobar'
+year: '"2020"'
 ---
 
 [[Pluriversal Politics_ The Real and the Possible -- Arturo Escobar -- Latin America in Translation, 2020 -- Duke University Press -- 9781478007937 -- 442404d3bd55adc136e3a858e86a4ea8 -- Anna’s Archive.pdf]]

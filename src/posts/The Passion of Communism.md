@@ -1,8 +1,8 @@
 ---
-type: 'essay'
-editor: 'Endnotes'
 title: 'The Passion of Communism'
 slug: 'the-passion-of-communism'
+type: 'essay'
+editor: 'Endnotes'
 ---
 
 #Endnotes 5

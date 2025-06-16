@@ -1,9 +1,9 @@
 ---
-type: 'book'
-author: 'Edouard Glissant'
-year: '1990'
 title: 'Poetics of Relation'
 slug: 'poetics-of-relation'
+type: 'book'
+author: 'Edouard Glissant'
+year: '"1990"'
 ---
 
 [[Glissant_Edouard_Poetics_of_Relation.pdf]]

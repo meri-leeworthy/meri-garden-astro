@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Intelligence-led Organising'
 slug: 'intelligence-led-organising'
+type: 'topic'
 ---
 
 See also [[Counter-Intelligence]]

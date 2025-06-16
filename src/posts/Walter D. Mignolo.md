@@ -1,7 +1,7 @@
 ---
-type: 'person'
 title: 'Walter D. Mignolo'
 slug: 'walter-d-mignolo'
+type: 'person'
 ---
 
 Wikipedia:

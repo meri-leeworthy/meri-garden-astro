@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'affect'
 slug: 'affect'
+type: 'topic'
 ---
 
 [[Cruel Optimism]]

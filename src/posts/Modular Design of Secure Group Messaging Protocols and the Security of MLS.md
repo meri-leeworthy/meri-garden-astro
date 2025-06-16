@@ -1,8 +1,8 @@
 ---
-type: 'paper'
-year: '2021'
 title: 'Modular Design of Secure Group Messaging Protocols and the Security of MLS'
 slug: 'modular-design-of-secure-group-messaging-protocols-and-the-security-of-mls'
+type: 'paper'
+year: '"2021"'
 ---
 
 Introduced formal security notion of [[History graph]] 

@@ -1,7 +1,7 @@
 ---
-isPublished: 'false'
 title: 'GraphRAG Explorations'
 slug: 'graphrag-explorations'
+isPublished: 'false'
 ---
 
 A few years ago I started getting really interested in *knowledge graphs*. They are effectively just databases that contain statements about *entities* in the world, like 'horses', or 'Anish Kapoor', or 'COVID-19'; concrete or abstract, linking them together to form a mesh of related representations. These links, or *edges*, between entities are similar to how Wikipedia pages link to each other, but the data is distilled to a machine-readable format, and potentially describe many more obscure or domain-specific things. 

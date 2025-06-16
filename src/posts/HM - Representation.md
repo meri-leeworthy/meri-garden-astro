@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Representation'
 slug: 'hm-representation'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

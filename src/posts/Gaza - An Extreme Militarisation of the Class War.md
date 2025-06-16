@@ -1,9 +1,9 @@
 ---
+title: 'Gaza - An Extreme Militarisation of the Class War'
+slug: 'gaza-an-extreme-militarisation-of-the-class-war'
 type: 'interview'
 author: 'Emilio Minassian, Serpents de la mer.'
 editor: 'Brooklyn Rail'
-title: 'Gaza - An Extreme Militarisation of the Class War'
-slug: 'gaza-an-extreme-militarisation-of-the-class-war'
 ---
 
 #Article #Palestine #Gaza #ClassWar

@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'autonomy'
 slug: 'autonomy'
+type: 'topic'
 ---
 
 Autonomy as a concept has been developed in many different contexts. [[Designs for the Pluriverse]] explores it from a more theoretical perspective by attending to notions of 'biological autonomy' as articulated by [[Humberto Maturana|Maturana]] and [[Francisco Varela|Varela]], linked to their notion of '[[Autopoiesis]]'. Escobar then addresses autonomy in the social and cultural context with a focus on Latin American perspectives on autonomy, or autonomía - much of which arise from long traditions of thought and action by indigenous and place-based cultures across that land, as well as academic contributions (which maybe are less removed from social struggles than we in the West might expect). 

@@ -12,7 +12,25 @@ export default defineConfig({
   },
 
   markdown: {
-    remarkPlugins: [remarkObsidian, remarkGfm],
+    remarkPlugins: [
+      remarkObsidian,
+      [
+        remarkGfm,
+        {
+          singleTilde: true,
+          stringLength: true,
+          tableCellPadding: true,
+          tablePipeAlign: true,
+          listItemIndent: "one",
+          bullet: "-",
+          tight: true,
+        },
+      ],
+    ],
+    shikiConfig: {
+      theme: "rose-pine-moon",
+      wrap: true,
+    },
   },
 
   integrations: [react()],

@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'technology'
 slug: 'technology'
+type: 'topic'
 ---
 
 Convivial tools [[Ivan Illich]]

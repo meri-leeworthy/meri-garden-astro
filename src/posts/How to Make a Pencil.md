@@ -1,8 +1,8 @@
 ---
-type: 'essay'
-author: 'Aaron Benanev'
 title: 'How to Make a Pencil'
 slug: 'how-to-make-a-pencil'
+type: 'essay'
+author: 'Aaron Benanev'
 ---
 
 [[Aaron Benanav]]

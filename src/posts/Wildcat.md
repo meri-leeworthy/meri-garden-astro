@@ -1,7 +1,7 @@
 ---
-type: 'organisation'
 title: 'Wildcat'
 slug: 'wildcat'
+type: 'organisation'
 ---
 
 German [[workerism|workerists]]

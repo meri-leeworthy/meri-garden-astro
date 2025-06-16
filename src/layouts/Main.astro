@@ -2,13 +2,41 @@
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
+interface Props {
+  title: string;
+  description: string;
+  image: string;
+}
+let { title, description, image }: Props = Astro.props;
+const fallbackTitle = "Meri Leeworthy";
+const fallbackDescription = "I'm a programmer, designer, writer and artist. I try to make tools for community autonomy, creativity, and resistance.";
+const fallbackImage = "https://static.meri.garden/mesh-gradient.png";
+title = title || fallbackTitle;
+description = description || fallbackDescription;
+image = image || fallbackImage;
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preload" href="/fonts/sligoil/fonts/web/Sligoil-Micro.woff2" as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href="/fonts/vercetti/OpenType/Vercetti-Regular.woff2" as="font" type="font/woff2" crossorigin />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content={description} />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={`${Astro.site}${Astro.url.pathname}`} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
 		<title>Meri Leeworthy</title>
 	</head>
 	<head />

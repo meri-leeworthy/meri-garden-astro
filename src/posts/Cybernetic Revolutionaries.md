@@ -1,9 +1,9 @@
 ---
-type: 'book'
-author: 'Eden Medina'
-year: '2014'
 title: 'Cybernetic Revolutionaries'
 slug: 'cybernetic-revolutionaries'
+type: 'book'
+author: 'Eden Medina'
+year: '"2014"'
 ---
 
 https://mitpress.mit.edu/9780262525961/cybernetic-revolutionaries/

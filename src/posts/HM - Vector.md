@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Vector'
 slug: 'hm-vector'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

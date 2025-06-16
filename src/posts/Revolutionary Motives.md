@@ -1,9 +1,9 @@
 ---
+title: 'Revolutionary Motives'
+slug: 'revolutionary-motives'
 type: 'essay'
 author: 'Jasper Bernes'
 editor: 'Endnotes'
-title: 'Revolutionary Motives'
-slug: 'revolutionary-motives'
 ---
 
 [[Jasper Bernes]]

@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Primitive Accumulation'
 slug: 'primitive-accumulation'
+type: 'topic'
 ---
 
 >Primitive accumulation is the process by which precapitalist modes of production, such as [[feudalism]] and chattel slavery, are transformed into the capitalist mode of production.

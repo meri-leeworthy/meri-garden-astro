@@ -1,8 +1,8 @@
 ---
-title: 'Work'
-isPublished: 'true'
-tags: 'freelance,recent'
+title: 'work'
 slug: 'work'
+isPublished: '''''''true'''''''
+tags: '''''''freelance,recent'''''''
 ---
 
 ## Hi, I'm Meri
@@ -28,5 +28,3 @@ I graduated from the University of Melbourne in 2017 with a Bachelor of Arts, ma
 - [minissg](https://github.com/meri-leeworthy/minissg), an offline-enabled browser-based website editor and CMS that generates static websites entirely locally using WASM modules
 
 In 2021 I received a grant to attend a self-directed programming retreat with Recurse Centre, in which I worked on developing my skills in frontend web development and particularly in accessible, local-first web apps. In 2023 I begun attending Monash University, achieving a Graduate Certificate in Computer Science in 2024 and continuing now towards a Masters.
-
-

@@ -1,9 +1,9 @@
 ---
-author: 'Timothy Erik Strom'
-year: '2022'
-type: 'essay'
 title: 'Capital and Cybernetics'
 slug: 'capital-and-cybernetics'
+author: 'Timothy Erik Strom'
+year: '"2022"'
+type: 'essay'
 ---
 
 https://newleftreview.org/issues/ii135/articles/timothy-erik-strom-capital-and-cybernetics

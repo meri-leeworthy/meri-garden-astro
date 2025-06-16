@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'World-systems theory'
 slug: 'world-systems-theory'
+type: 'topic'
 ---
 
 most significantly [[Immanuel Wallerstein]]

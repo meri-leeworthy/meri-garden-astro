@@ -1,9 +1,9 @@
 ---
-author: 'Alex Parkes'
-year: '2020'
-type: 'paper'
 title: 'Primitive Accumulation and the Northern Territory Intervention'
 slug: 'primitive-accumulation-and-the-northern-territory-intervention'
+author: 'Alex Parkes'
+year: '"2020"'
+type: 'paper'
 ---
 
 [[Alex_Parke_Honors_Thesis__16123615.pdf]]

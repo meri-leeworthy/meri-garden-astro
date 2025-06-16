@@ -1,8 +1,8 @@
 ---
-type: 'paper'
-year: '2020'
 title: 'Continuous Group Key Agreement with Active Security'
 slug: 'continuous-group-key-agreement-with-active-security'
+type: 'paper'
+year: '"2020"'
 ---
 
 ![](https://static.meri.garden/12d982b6bec214d8c51467d637a36fa7.pdf)

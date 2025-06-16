@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Abstraction'
 slug: 'hm-abstraction'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]], Chapter 1

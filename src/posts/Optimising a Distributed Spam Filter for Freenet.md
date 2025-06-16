@@ -1,7 +1,7 @@
 ---
-type: 'paper'
 title: 'Optimising a Distributed Spam Filter for Freenet'
 slug: 'optimising-a-distributed-spam-filter-for-freenet'
+type: 'paper'
 ---
 
 AKA the Web of Trust developer's manual

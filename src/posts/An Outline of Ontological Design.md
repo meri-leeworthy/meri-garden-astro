@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'An Outline of Ontological Design'
 slug: 'an-outline-of-ontological-design'
+type: 'chapter'
 ---
 
 # 4: An Outline of Ontological Design

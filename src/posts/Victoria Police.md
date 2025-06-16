@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Victoria Police'
 slug: 'victoria-police'
+type: 'topic'
 ---
 
 [[Intelligence-Led Policing in Practice - Reflections From Intelligence Analysts]] (2019):

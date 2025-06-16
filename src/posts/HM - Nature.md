@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Nature'
 slug: 'hm-nature'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

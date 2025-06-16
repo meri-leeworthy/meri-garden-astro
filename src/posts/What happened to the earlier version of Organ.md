@@ -1,5 +1,5 @@
 ---
-title: 'What happened to the earlier version of Organ?'
+title: 'What happened to the earlier version of Organ'
 slug: 'what-happened-to-the-earlier-version-of-organ'
 ---
 

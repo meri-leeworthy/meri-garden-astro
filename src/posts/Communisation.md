@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Communisation'
 slug: 'communisation'
+type: 'topic'
 ---
 
 [[Revolutionary Motives]]:

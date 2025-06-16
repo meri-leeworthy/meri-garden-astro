@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'relational ontologies'
 slug: 'relational-ontologies'
+type: 'topic'
 ---
 
 nondualist

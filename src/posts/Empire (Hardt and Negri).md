@@ -1,9 +1,9 @@
 ---
-type: 'book'
-author: 'Antonio Negri, Michael Hardt'
-year: '2000'
 title: 'Empire (Hardt and Negri)'
 slug: 'empire-hardt-and-negri'
+type: 'book'
+author: 'Antonio Negri, Michael Hardt'
+year: '"2000"'
 ---
 
 [[Empire -- Hardt, Michael, 1960-; Negri, Antonio, 1933- -- 2000 -- Cambridge, Mass__ Harvard University Press -- 9780674006713 -- a9bf79bce02aafa767f801a0f6c8bc30 -- Anna’s Archive.pdf]]

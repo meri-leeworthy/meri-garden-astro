@@ -1,7 +1,7 @@
 ---
-type: 'person'
 title: 'Robert Brenner'
 slug: 'robert-brenner'
+type: 'person'
 ---
 
 '[[political Marxism]]' school

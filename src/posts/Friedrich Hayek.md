@@ -1,7 +1,7 @@
 ---
-type: 'person'
 title: 'Friedrich Hayek'
 slug: 'friedrich-hayek'
+type: 'person'
 ---
 
 advisor to Pinochet

@@ -18,7 +18,7 @@ Node {
 }
 ```
 > [!NOTE] How each node derives all keys on the path to the root
-> if I have a secret key for my leaf node, i've broadcast a public DH key derived from that secret, and i have the public key of my binary tree sibling, then together we can generate a shared secret for our parent and derive a public key from that, which we can broadcast. then using the PK for that node's sibling, we can derive the grandparent's secret key, all the way up to the root node secret. also explained [[02 · Group Key Agreement with BeeKEM|here]]
+> if I have a secret key for my leaf node, i've broadcast a public DH key derived from that secret, and i have the public key of my binary tree sibling, then together we can generate a shared secret for our parent and derive a public key from that, which we can broadcast. then using the PK for that node's sibling, we can derive the grandparent's secret key, all the way up to the root node secret. also explained [[Group Key Agreement with BeeKEM|here]]
 
 > [!question]
 > how does each node know its position in the tree?

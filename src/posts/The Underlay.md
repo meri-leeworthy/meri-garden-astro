@@ -1,7 +1,7 @@
 ---
-type: 'project'
 title: 'The Underlay'
 slug: 'the-underlay'
+type: 'project'
 ---
 
 https://notes.knowledgefutures.org/pub/future/release/5

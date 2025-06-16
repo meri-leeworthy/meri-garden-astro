@@ -1,6 +1,6 @@
 ---
-type: 'organisation'
 title: 'Tiqqun'
 slug: 'tiqqun'
+type: 'organisation'
 ---
 

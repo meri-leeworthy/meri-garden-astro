@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'autonomist Marxism'
 slug: 'autonomist-marxism'
+type: 'topic'
 ---
 
 >Autonomist Marxism champions the autonomy of workers, their capacity to resist and find alternatives to capital. To that end, it has always focused on struggle, and working-class capacity.

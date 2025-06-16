@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'mass surveillance in Australia'
 slug: 'mass-surveillance-in-australia'
+type: 'topic'
 ---
 
 ## GPT:

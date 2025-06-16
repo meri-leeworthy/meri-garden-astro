@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Systems Thinking'
 slug: 'systems-thinking'
+type: 'topic'
 ---
 
 [[Autonomous Design and the Politics of Relationality and the Communal]] p.170

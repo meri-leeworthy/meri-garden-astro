@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Production'
 slug: 'hm-production'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

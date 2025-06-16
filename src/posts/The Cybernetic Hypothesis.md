@@ -1,9 +1,9 @@
 ---
-author: 'Tiqqun'
-year: '2001'
-type: 'essay'
 title: 'The Cybernetic Hypothesis'
 slug: 'the-cybernetic-hypothesis'
+author: 'Tiqqun'
+year: '"2001"'
+type: 'essay'
 ---
 
 >It is, however, important to consider this direction in the light of a critique which, though it precedes the [[Accelerationist Manifesto]], aims directly at its assumption – that of the anarchist collective [[Tiqqun]] in its famous essay ‘**The Cybernetic Hypothesis**’ (2001), an essay recently given a timely revalidation by Alexander Galloway (2014). For this paper is not only a trenchant analysis of the ‘cybernetic offensive’ with which capital decomposed class resistance from the 1970s, but also an acerbic criticism of tendencies from the left to adopt these same cybernetic concepts and technologies. For Tiqqun, ==cybernetics is a theory of adjustment of individuals to system requirements==, of an incessant shaping through feedback loops to the internalized constraints of social programmes, which are then experienced as the autonomous conditions of subjectivity. However benign those constraints and modulations, the more efficient and totalizing they are more they raise the issue of what they would remain of the ‘free development of all’ promised by Marx as aim of communism. All social orders both create and limit the forms of subjective autonomy that are possible within them; but this doesn’t mean that questions of scale and comprehensiveness of such systems, and the intensity of the technological controls through which socialization is effected, are irrelevant. The Tiqqun critique raises the issue of whether the creation of very large-scale communist cybernetic systems would not recreate similar alienations to the capitalist version: 

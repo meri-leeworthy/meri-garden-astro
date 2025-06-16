@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'governance'
 slug: 'governance'
+type: 'topic'
 ---
 
 "By ‘governance’ we refer to the complex of practices, discourses and institutions by means of which human populations and the processes of ‘nature’ are conducted according to certain ends that themselves are informed by specific values and visions of the world"

@@ -1,9 +1,9 @@
 ---
-author: 'Martin Nakata'
-year: '2007'
-type: 'book'
 title: 'Disciplining the Savages, Savaging the Disciplines'
 slug: 'disciplining-the-savages-savaging-the-disciplines'
+author: 'Martin Nakata'
+year: '"2007"'
+type: 'book'
 ---
 
 > [!NOTE] GPT Note

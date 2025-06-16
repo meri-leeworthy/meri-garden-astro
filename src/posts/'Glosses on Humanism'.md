@@ -1,9 +1,9 @@
 ---
-author: 'Gianni Carchia'
-year: '1977'
-type: 'essay'
 title: '''Glosses on Humanism'''
 slug: 'glosses-on-humanism'
+author: 'Gianni Carchia'
+year: '"1977"'
+type: 'essay'
 ---
 
 “GLOSSES ON HUMANISM” Gianni Carchia, L’erba voglio (1977)

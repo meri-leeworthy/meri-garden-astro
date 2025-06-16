@@ -1,9 +1,9 @@
 ---
-type: 'book'
-author: 'Michael Heinrich'
-year: '2004'
 title: 'An Introduction to the Three Volumes of Karl Marx’s Capital'
 slug: 'an-introduction-to-the-three-volumes-of-karl-marxs-capital'
+type: 'book'
+author: 'Michael Heinrich'
+year: '"2004"'
 ---
 
 Contents Preface 7 

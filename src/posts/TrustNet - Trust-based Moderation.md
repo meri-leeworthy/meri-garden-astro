@@ -1,9 +1,9 @@
 ---
-author: 'Alexander Cobleigh'
-type: 'paper'
-year: '2020'
 title: 'TrustNet - Trust-based Moderation'
 slug: 'trustnet-trust-based-moderation'
+author: 'Alexander Cobleigh'
+type: 'paper'
+year: '"2020"'
 ---
 
 ## Abstract

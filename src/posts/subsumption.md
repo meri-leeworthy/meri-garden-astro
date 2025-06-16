@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'subsumption'
 slug: 'subsumption'
+type: 'topic'
 ---
 
 >**Subsumption, Formal and Real**

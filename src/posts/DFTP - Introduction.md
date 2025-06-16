@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'DFTP - Introduction'
 slug: 'dftp-introduction'
+type: 'chapter'
 ---
 
 # Introduction

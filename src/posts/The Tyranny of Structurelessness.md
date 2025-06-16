@@ -1,8 +1,8 @@
 ---
-type: 'essay'
-author: 'Jo Freeman'
 title: 'The Tyranny of Structurelessness'
 slug: 'the-tyranny-of-structurelessness'
+type: 'essay'
+author: 'Jo Freeman'
 ---
 
 DURING THE years in which the women’s liberation movement has been taking shape, a great emphasis has been placed on what are called leaderless, structureless groups as the main – if not sole – organizational form of the movement. The source of this idea was a natural reaction against the overstructured society in which most of us found ourselves and the inevitable control this gave others over our lives, and the continual elitism of the left and similar groups among those who were supposedly fighting this overstructuredness.

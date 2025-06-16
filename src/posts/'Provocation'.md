@@ -1,9 +1,9 @@
 ---
-author: 'Giorgio Cesarano'
-year: '1974'
-type: 'essay'
 title: '''Provocation'''
 slug: 'provocation'
+author: 'Giorgio Cesarano'
+year: '"1974"'
+type: 'essay'
 ---
 
 From *Puzz* (1974)

@@ -1,9 +1,9 @@
 ---
-type: 'book'
-author: 'Gilles Deleuze, Felix Guattari'
-year: '1987'
 title: 'A Thousand Plateaus'
 slug: 'a-thousand-plateaus'
+type: 'book'
+author: 'Gilles Deleuze, Felix Guattari'
+year: '"1987"'
 ---
 
 [[A-Thousand-Plateaus.pdf]]

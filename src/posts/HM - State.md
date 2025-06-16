@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - State'
 slug: 'hm-state'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

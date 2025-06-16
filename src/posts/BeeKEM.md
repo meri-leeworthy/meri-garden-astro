@@ -3,23 +3,18 @@ title: 'BeeKEM'
 slug: 'beekem'
 ---
 
-[[02 · Group Key Agreement with BeeKEM]]
-[[Let's read the BeeKEM code!]]
+[[Group Key Agreement with BeeKEM]]
+[[Lets read the BeeKEM code]]
+[[A deep-dive explainer on BeeKEM protocol]]
 
 See also:
 [[Group Messaging for Secure Asynchronous Collaboration|Causal TreeKEM]]
 [[Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees]]
 
-# [[A deep-dive explainer on Ink and Switch's BeeKEM protocol]]
 
 
+## Questions:
 
-
-
-
-
-
-Questions:
 1. Out of stateless agents, stateful agents (groups) and documents, which manage group state with a BeeKEM CGKA? only documents?
 2. How does delegation work, cryptographically?
 

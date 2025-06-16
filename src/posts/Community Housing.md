@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Community Housing'
 slug: 'community-housing'
+type: 'topic'
 ---
 
 - [[Housing Cooperatives]]

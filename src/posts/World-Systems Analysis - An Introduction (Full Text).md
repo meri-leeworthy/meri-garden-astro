@@ -1,7 +1,7 @@
 ---
-type: 'book'
 title: 'World-Systems Analysis - An Introduction (Full Text)'
 slug: 'world-systems-analysis-an-introduction-full-text'
+type: 'book'
 ---
 
 A JOHN HOPE FRANKLIN CENTER BOOK

@@ -1,9 +1,9 @@
 ---
-type: 'book'
-author: 'Tiziana Terranova'
-year: '2022'
 title: 'After the Internet'
 slug: 'after-the-internet'
+type: 'book'
+author: 'Tiziana Terranova'
+year: '"2022"'
 ---
 
 **AFTER THE INTERNET: DIGITAL NETWORKS BETWEEN CAPITAL AND THE COMMON**

@@ -1,7 +1,7 @@
 ---
-type: 'organisation'
 title: 'Endnotes'
 slug: 'endnotes'
+type: 'organisation'
 ---
 
 #### Issue 2:
@@ -12,7 +12,7 @@ Value Form Theory and Communisation
 #### Issue 4: A history of separation
 - [[The construction of the workers' movement]]
 - [[The Defeat of the Workers Movement]] 
-- [[An Identical Abject-Subject?]]
+- [[An Identical Abject-Subject]]
 #### Issue 5: The passions and the interests
 - [[We Unhappy Few]]
 - [[Error]] 

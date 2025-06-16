@@ -1,9 +1,9 @@
 ---
+title: 'What Was To Be Done - Protest and Revolution in the 2010s'
+slug: 'what-was-to-be-done-protest-and-revolution-in-the-2010s'
 type: 'essay'
 author: 'Jasper Bernes'
 editor: 'Brooklyn Rail'
-title: 'What Was To Be Done? Protest and Revolution in the 2010s'
-slug: 'what-was-to-be-done-protest-and-revolution-in-the-2010s'
 ---
 
 [[Jasper Bernes]] #ReadingList-ToRead

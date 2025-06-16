@@ -1,9 +1,9 @@
 ---
-author: 'Morgan Burcher and Chad Whelan'
-type: 'paper'
-year: '2019'
 title: 'Intelligence-Led Policing in Practice - Reflections From Intelligence Analysts'
 slug: 'intelligence-led-policing-in-practice-reflections-from-intelligence-analysts'
+author: 'Morgan Burcher and Chad Whelan'
+type: 'paper'
+year: '"2019"'
 ---
 
 ## Abstract

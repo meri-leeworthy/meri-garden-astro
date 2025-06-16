@@ -1,9 +1,9 @@
 ---
-author: 'Cai-Nicolas Ziegler and Georg Lausen'
-year: '2005'
-type: 'paper'
 title: 'Propagation Models for Trust and Distrust in Social Networks'
 slug: 'propagation-models-for-trust-and-distrust-in-social-networks'
+author: 'Cai-Nicolas Ziegler and Georg Lausen'
+year: '"2005"'
+type: 'paper'
 ---
 
 *Abstract.* 

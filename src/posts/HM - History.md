@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - History'
 slug: 'hm-history'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]], Chapter 5

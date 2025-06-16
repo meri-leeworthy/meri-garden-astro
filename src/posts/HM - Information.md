@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Information'
 slug: 'hm-information'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]], Chapter 6

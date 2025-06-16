@@ -1,8 +1,8 @@
 ---
-type: 'book'
-author: 'McKenzie Wark'
 title: 'A Hacker Manifesto'
 slug: 'a-hacker-manifesto'
+type: 'book'
+author: 'McKenzie Wark'
 ---
 
 ---

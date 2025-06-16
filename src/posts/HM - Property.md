@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Property'
 slug: 'hm-property'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

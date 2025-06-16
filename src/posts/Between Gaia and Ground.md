@@ -1,9 +1,9 @@
 ---
-type: 'book'
-author: 'Elizabeth Povinelli'
-year: '2021'
 title: 'Between Gaia and Ground'
 slug: 'between-gaia-and-ground'
+type: 'book'
+author: 'Elizabeth Povinelli'
+year: '"2021"'
 ---
 
 [[Elizabeth Povinelli]]

@@ -1,7 +1,7 @@
 ---
-type: 'statement'
 title: 'ILC First Principles'
 slug: 'ilc-first-principles'
+type: 'statement'
 ---
 
 https://ilclabor.com/ilc-first-principles/

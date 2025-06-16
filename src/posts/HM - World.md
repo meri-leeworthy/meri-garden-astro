@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - World'
 slug: 'hm-world'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

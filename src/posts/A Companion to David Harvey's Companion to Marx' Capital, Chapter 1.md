@@ -1,8 +1,8 @@
 ---
-type: 'essay'
-author: 'Critisticuffs'
 title: 'A Companion to David Harvey''s Companion to Marx'' Capital, Chapter 1'
 slug: 'a-companion-to-david-harveys-companion-to-marx-capital-chapter-1'
+type: 'essay'
+author: 'Critisticuffs'
 ---
 
 # [Critisticuffs](https://critisticuffs.org/)

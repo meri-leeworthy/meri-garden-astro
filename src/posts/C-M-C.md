@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'C-M-C'
 slug: 'c-m-c'
+type: 'topic'
 ---
 
 commodity -> money -> commodity

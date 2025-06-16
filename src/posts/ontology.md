@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'ontology'
 slug: 'ontology'
+type: 'topic'
 ---
 
 [[In the Background of Our Culture - Rationalism, Ontological Dualism, and Relationality]] pp.92-93

@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Revolt'
 slug: 'hm-revolt'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'epistemology'
 slug: 'epistemology'
+type: 'topic'
 ---
 
 [[DFTP - Conclusion]] 223-4

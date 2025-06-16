@@ -1,8 +1,8 @@
 ---
-type: 'essay'
-editor: 'Endnotes'
 title: 'Error'
 slug: 'error'
+type: 'essay'
+editor: 'Endnotes'
 ---
 
 #Endnotes 5

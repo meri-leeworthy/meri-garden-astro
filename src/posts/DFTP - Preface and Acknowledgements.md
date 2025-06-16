@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'DFTP - Preface and Acknowledgements'
 slug: 'dftp-preface-and-acknowledgements'
+type: 'chapter'
 ---
 
 # Preface and Acknowl­edgments

@@ -1,7 +1,7 @@
 ---
-type: 'project'
 title: 'Freenet'
 slug: 'freenet'
+type: 'project'
 ---
 
 [[Web of Trust]]

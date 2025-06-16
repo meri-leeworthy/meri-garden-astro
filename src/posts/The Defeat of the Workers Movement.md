@@ -1,8 +1,8 @@
 ---
-type: 'essay'
-editor: 'Endnotes'
 title: 'The Defeat of the Workers Movement'
 slug: 'the-defeat-of-the-workers-movement'
+type: 'essay'
+editor: 'Endnotes'
 ---
 
 https://endnotes.org.uk/articles/the-defeat-of-the-workers-movement

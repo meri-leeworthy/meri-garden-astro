@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Education'
 slug: 'hm-education'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]], Chapter 3

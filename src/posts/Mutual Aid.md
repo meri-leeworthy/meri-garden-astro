@@ -1,8 +1,8 @@
 ---
-type: 'book'
-author: 'Dean Spade'
 title: 'Mutual Aid'
 slug: 'mutual-aid'
+type: 'book'
+author: 'Dean Spade'
 ---
 
 ### Introduction: Crisis Conditions Require Bold Tactics

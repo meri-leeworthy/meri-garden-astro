@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'Design for Transitions'
 slug: 'design-for-transitions'
+type: 'chapter'
 ---
 
 # 5: Design for Transitions

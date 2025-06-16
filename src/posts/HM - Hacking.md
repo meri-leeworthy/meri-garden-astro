@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Hacking'
 slug: 'hm-hacking'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]], Chapter 4

@@ -1,9 +1,9 @@
 ---
-type: 'book'
-editor: 'Stavros Stavrides, Penny Travlou'
-year: '2022'
 title: 'Housing as Commons'
 slug: 'housing-as-commons'
+type: 'book'
+editor: 'Stavros Stavrides, Penny Travlou'
+year: '"2022"'
 ---
 
 [[Housing as Commons]]: Housing Alternatives as Response to the Current Urban Crisis [Stavros Stavrides and Penny Travlou, eds. (2022)](https://doi.org/10.5040/9781350234543)

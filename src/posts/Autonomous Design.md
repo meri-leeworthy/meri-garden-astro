@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Autonomous Design'
 slug: 'autonomous-design'
+type: 'topic'
 ---
 
 Presuppositions to a design process:

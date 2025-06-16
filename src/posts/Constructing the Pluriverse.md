@@ -1,9 +1,9 @@
 ---
-year: '2018'
-type: 'book'
-editor: 'Bernd Reiter'
 title: 'Constructing the Pluriverse'
 slug: 'constructing-the-pluriverse'
+year: '"2018"'
+type: 'book'
+editor: 'Bernd Reiter'
 ---
 
 [[Constructing the Pluriverse_ The Geopolitics of Knowledge -- Bernd Reiter (editor) -- 2018 -- Duke University Press Books -- 9781478000013 -- 6898311878aaa5c8086722a97cb85c15 -- Anna’s Archive.pdf]]

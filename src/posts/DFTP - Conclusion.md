@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'DFTP - Conclusion'
 slug: 'dftp-conclusion'
+type: 'chapter'
 ---
 
 # Conclusion

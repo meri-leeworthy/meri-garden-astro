@@ -1,7 +1,7 @@
 ---
-type: 'chapter'
 title: 'HM - Surplus'
 slug: 'hm-surplus'
+type: 'chapter'
 ---
 
 [[A Hacker Manifesto]]

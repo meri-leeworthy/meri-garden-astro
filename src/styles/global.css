@@ -57,7 +57,7 @@
 
 @font-face {
   font-family: "Vercetti";
-  src: url("../fonts/vercetti/OpenType WOFFs/Vercetti-Regular.woff2")
+  src: url("../fonts/vercetti/OpenType/Vercetti-Regular.woff2")
     format("woff2");
   font-weight: normal;
   font-style: normal;
@@ -177,14 +177,14 @@ a {
   @apply underline;
 }
 
-.post a[href^="http"]:not([href*="yourdomain.com"])::after {
+.post a[href^="http"]:not([href*="meri.garden"])::after {
   content: " \2197"; /* Add an up-right arrow */
   display: inline-block;
   margin-left: 0px;
 }
 
 .post pre {
-  @apply bg-slate-800 p-4 rounded-md leading-none pt-0;
+  @apply bg-slate-800 p-4 rounded-md leading-tight pt-0;
 }
 
 .post pre code {
@@ -201,6 +201,10 @@ a {
 
 .post li ul {
   @apply py-0 my-0;
+}
+
+.post > main > :not(p:has(img)) {
+  @apply mx-2 sm:mx-0;
 }
 
 .title-flower {
@@ -239,4 +243,62 @@ a {
   border-radius: 50%;
   filter: blur(2rem);
   inset: 20px 0;
+}
+
+code {
+  @supports (color: color-mix(in lab, red, red)) {
+    background-color: transparent;
+  }
+}
+
+p:has(img) {
+  @apply mx-0 px-0;
+}
+
+p:has(img) + blockquote {
+  @apply mt-0;
+}
+
+p > img:only-child {
+  @apply -mb-3;
+}
+
+blockquote {
+  @apply not-italic;
+}
+
+& :where(blockquote p:last-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
+  content: none;
+}
+
+& :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
+  content: none;
+}
+
+blockquote.callout {
+  @apply bg-purple-300/70 rounded-lg p-4 not-italic border-none;
+
+  .callout-title {
+    @apply flex capitalize font-title gap-2;
+
+    .callout-title-inner {
+      @apply text-lg
+    }
+  }
+}
+
+mark {
+  @apply bg-[#ffd85d] text-black;
+}
+
+.purple-heading {
+  @apply inline px-1 py-[2px] leading-8 bg-purple-300 rounded shadow-xl font-title box-decoration-clone
+}
+
+.link-list a {
+  @apply p-1 border border-purple-300 rounded-lg box-decoration-clone;
+}
+
+.link-list a:hover {
+  @apply bg-purple-300/50;
 }

@@ -1,9 +1,9 @@
 ---
+title: 'Contours of the World Commune'
+slug: 'contours-of-the-world-commune'
 type: 'essay'
 editor: 'Endnotes'
 author: 'Friends of the Classless Society'
-title: 'Contours of the World Commune'
-slug: 'contours-of-the-world-commune'
 ---
 
 #Endnotes 5 [[Friends of the Classless Society]]

@@ -1,7 +1,7 @@
 ---
-type: 'paper'
 title: 'Distributed PIR - Scaling Private Messaging via the Users’ Machines'
 slug: 'distributed-pir-scaling-private-messaging-via-the-users-machines'
+type: 'paper'
 ---
 
 [[Signal]]

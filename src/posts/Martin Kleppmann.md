@@ -1,7 +1,7 @@
 ---
-type: 'person'
 title: 'Martin Kleppmann'
 slug: 'martin-kleppmann'
+type: 'person'
 ---
 
 [[Designing Data Intensive Applications]]

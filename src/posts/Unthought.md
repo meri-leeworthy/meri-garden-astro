@@ -1,8 +1,8 @@
 ---
-type: 'book'
-author: 'N. Katherine Hayles'
 title: 'Unthought'
 slug: 'unthought'
+type: 'book'
+author: 'N. Katherine Hayles'
 ---
 
 https://press.uchicago.edu/ucp/books/book/chicago/U/bo25861765.html

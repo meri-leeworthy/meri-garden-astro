@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'autopoiesis'
 slug: 'autopoiesis'
+type: 'topic'
 ---
 
 [[Designs for the Pluriverse]] (?)

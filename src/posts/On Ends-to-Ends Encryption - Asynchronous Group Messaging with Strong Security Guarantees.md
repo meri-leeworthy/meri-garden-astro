@@ -1,8 +1,8 @@
 ---
-type: 'paper'
-year: '2018'
 title: 'On Ends-to-Ends Encryption - Asynchronous Group Messaging with Strong Security Guarantees'
 slug: 'on-ends-to-ends-encryption-asynchronous-group-messaging-with-strong-security-guarantees'
+type: 'paper'
+year: '"2018"'
 ---
 
 introduces [[Asynchronous ratcheting tree]]

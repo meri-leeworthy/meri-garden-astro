@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Commoning'
 slug: 'commoning'
+type: 'topic'
 ---
 
 Practising Commoning

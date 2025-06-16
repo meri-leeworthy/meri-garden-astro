@@ -1,9 +1,9 @@
 ---
-author: 'Bradly Alicea'
-year: '2024'
-type: 'paper'
 title: 'Allostasis Machines as Continuous Cognitive Modelling'
 slug: 'allostasis-machines-as-continuous-cognitive-modelling'
+author: 'Bradly Alicea'
+year: '"2024"'
+type: 'paper'
 ---
 
 [[AMsContinuousCognition.pdf]]

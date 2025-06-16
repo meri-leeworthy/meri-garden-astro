@@ -1,9 +1,9 @@
 ---
 title: 'New blog setup'
-isPublished: 'false'
-publishDate: '''Tue Feb 01 2022 11:00:00 GMT+1100 (Australian Eastern Daylight Time)'''
-tags: 'null'
 slug: 'new-blog-setup'
+isPublished: 'false'
+publishDate: '"2022-02-01T00:00:00.000Z"'
+tags: '[]'
 ---
 
 So I made this blog at the start of my Recurse Center batch. I got it working,

@@ -1,7 +1,7 @@
 ---
-type: 'project'
 title: 'Cabal'
 slug: 'cabal'
+type: 'project'
 ---
 
 https://cabal.chat/

@@ -1,8 +1,8 @@
 ---
-type: 'paper'
-year: '2024'
 title: 'Unexpected Benefits of Self-Modeling in Neural Systems'
 slug: 'unexpected-benefits-of-self-modeling-in-neural-systems'
+type: 'paper'
+year: '"2024"'
 ---
 
 ![](https://static.meri.garden/b8446562a5380ffdd58b03ac9fada8a0.pdf)

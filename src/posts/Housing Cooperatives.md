@@ -1,7 +1,7 @@
 ---
-type: 'topic'
 title: 'Housing Cooperatives'
 slug: 'housing-cooperatives'
+type: 'topic'
 ---
 
 Housing coops and coops in general will not have any impact on the likelihood of revolution - they do not substantially change the market conditions or the nature of class society - 
