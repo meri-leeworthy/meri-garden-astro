@@ -6,7 +6,7 @@
     },
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -46,7 +46,7 @@
     },
     {
       "slug": "who-is-oakland",
-      "title": "Who Is Oakland?"
+      "title": "Who Is Oakland"
     }
   ],
   "2": [
@@ -56,7 +56,7 @@
     },
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -90,7 +90,7 @@
     },
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -122,7 +122,7 @@
     },
     {
       "slug": "who-is-oakland",
-      "title": "Who Is Oakland?"
+      "title": "Who Is Oakland"
     }
   ],
   "4": [
@@ -164,7 +164,7 @@
     },
     {
       "slug": "who-is-oakland",
-      "title": "Who Is Oakland?"
+      "title": "Who Is Oakland"
     },
     {
       "slug": "surplus-population",
@@ -178,7 +178,7 @@
     },
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -214,7 +214,7 @@
     },
     {
       "slug": "who-is-oakland",
-      "title": "Who Is Oakland?"
+      "title": "Who Is Oakland"
     }
   ],
   "6": [
@@ -224,7 +224,7 @@
     },
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -262,7 +262,7 @@
     },
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "capital-and-cybernetics",
@@ -322,7 +322,7 @@
     },
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "capital-and-cybernetics",
@@ -370,7 +370,7 @@
   "11": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -392,7 +392,7 @@
   "12": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "capital-and-cybernetics",
@@ -414,7 +414,7 @@
   "13": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -440,7 +440,7 @@
   "14": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -466,7 +466,7 @@
   "15": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -496,7 +496,7 @@
   "16": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -530,7 +530,7 @@
     },
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -560,7 +560,7 @@
   "18": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -590,7 +590,7 @@
   "19": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -616,7 +616,7 @@
   "20": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -638,7 +638,7 @@
   "21": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "caliban-and-the-witch-full-text",
@@ -2825,10 +2825,272 @@
       "title": "'Provocation'"
     }
   ],
+  "": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    },
+    {
+      "slug": "a-companion-to-david-harveys-companion-to-marx-capital-chapter-1",
+      "title": "A Companion to David Harvey's Companion to Marx' Capital, Chapter 1"
+    },
+    {
+      "slug": "forest-and-factory",
+      "title": "Forest and Factory"
+    }
+  ],
+  "keyhive": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    },
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "leaf-discussion-about-atproto-lexicons-and-component-definitions",
+      "title": "Leaf discussion about ATProto Lexicons and Component definitions"
+    },
+    {
+      "slug": "muni-town",
+      "title": "Muni Town"
+    }
+  ],
+  "audience-and-application": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "antigoals": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "decentralized-and-secure": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "cryptographic-agility": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "fips": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "layers": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "comparing-how-authorization-is-layered-in-centralized-and-local-first-applications": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "dependency-stack": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "capability": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "post-compromise-security-pcs": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "convergent-capabilities": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "granovetter-diagram": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "very-expressive": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "powerboxes": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "roles": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "object-capabilities": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "fail-stop": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "preserve-consistency-over-availability": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "spkisdsi": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "zcap-ld": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "ucan": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "an-automerge-document-agent": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "transitive-groups": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "trust-minimized-sync-engine": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "e2ee-with-causal-keys": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "cryptree": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "automerge-binary-format": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "signal": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    },
+    {
+      "slug": "a-concrete-treatment-of-efficient-continuous-group-key-agreement-via-multi-recipient-pkes",
+      "title": "A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs"
+    },
+    {
+      "slug": "distributed-pir-scaling-private-messaging-via-the-users-machines",
+      "title": "Distributed PIR - Scaling Private Messaging via the Users’ Machines"
+    },
+    {
+      "slug": "rfc-9420-the-messaging-layer-security-mls-protocol",
+      "title": "RFC 9420 - The Messaging Layer Security (MLS) Protocol"
+    }
+  ],
+  "pull-control": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "trust-minimized-sync-servers": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "we-want-to-move-towards-an-ecosystem-of-interchangeable-relays": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "compressed-chunks": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "whats-next": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "02-group-key-agreement-with-beekem": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
+  "browse-the-archive": [
+    {
+      "slug": "01-welcome-to-the-keyhive",
+      "title": "01 · Welcome to the Keyhive"
+    }
+  ],
   "forward-secrecy": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     },
     {
       "slug": "messaging-layer-security",
@@ -2885,6 +3147,10 @@
       "title": "BeeKEM"
     },
     {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
+    },
+    {
       "slug": "group-messaging-for-secure-asynchronous-collaboration",
       "title": "Group Messaging for Secure Asynchronous Collaboration"
     },
@@ -2931,6 +3197,10 @@
       "title": "ElGamal"
     },
     {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
+    },
+    {
       "slug": "the-double-ratchet-algorithm",
       "title": "The Double Ratchet Algorithm"
     },
@@ -2949,8 +3219,20 @@
       "title": "02 · Group Key Agreement with BeeKEM"
     },
     {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
       "slug": "beekem",
       "title": "BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "keyhive",
+      "title": "Keyhive"
     },
     {
       "slug": "muni-town",
@@ -2961,102 +3243,178 @@
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "beekem-inner-nodes": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "node-sibling": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "diffie-hellman-basics": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "beekem-diffie-hellman-example": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "beekem-path": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "update-key": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "membership-changes": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "blank-nodes": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "remove-member": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "add-member": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "resolving-add-conflicts": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "handling-blank-nodes-on-update-and-decryption": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "node-resolution-example": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "blank-sibling": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "skipping-blanks": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "handling-concurrent-updates-with-conflict-keys": [
     {
       "slug": "02-group-key-agreement-with-beekem",
       "title": "02 · Group Key Agreement with BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "merging-conflict-keys": [
@@ -3065,8 +3423,16 @@
       "title": "02 · Group Key Agreement with BeeKEM"
     },
     {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
       "slug": "beekem",
       "title": "BeeKEM"
+    },
+    {
+      "slug": "group-key-agreement-with-beekem",
+      "title": "Group Key Agreement with BeeKEM"
     }
   ],
   "critisticuffs": [
@@ -3113,16 +3479,6 @@
     {
       "slug": "a-companion-to-david-harveys-companion-to-marx-capital-chapter-1",
       "title": "A Companion to David Harvey's Companion to Marx' Capital, Chapter 1"
-    }
-  ],
-  "": [
-    {
-      "slug": "a-companion-to-david-harveys-companion-to-marx-capital-chapter-1",
-      "title": "A Companion to David Harvey's Companion to Marx' Capital, Chapter 1"
-    },
-    {
-      "slug": "forest-and-factory",
-      "title": "Forest and Factory"
     }
   ],
   "httpwwwmarxistsorgarchivemarxworks1868letters680711htm": [
@@ -3189,20 +3545,6 @@
     {
       "slug": "treekem",
       "title": "TreeKEM"
-    }
-  ],
-  "signal": [
-    {
-      "slug": "a-concrete-treatment-of-efficient-continuous-group-key-agreement-via-multi-recipient-pkes",
-      "title": "A Concrete Treatment of Efficient Continuous Group Key Agreement via Multi-Recipient PKEs"
-    },
-    {
-      "slug": "distributed-pir-scaling-private-messaging-via-the-users-machines",
-      "title": "Distributed PIR - Scaling Private Messaging via the Users’ Machines"
-    },
-    {
-      "slug": "rfc-9420-the-messaging-layer-security-mls-protocol",
-      "title": "RFC 9420 - The Messaging Layer Security (MLS) Protocol"
     }
   ],
   "messaging-layer-securityormls": [
@@ -3653,6 +3995,310 @@
       "title": "A World of Many Worlds"
     }
   ],
+  "autonomy": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "designs-for-the-pluriverse",
+      "title": "Designs for the Pluriverse"
+    },
+    {
+      "slug": "forest-and-factory",
+      "title": "Forest and Factory"
+    },
+    {
+      "slug": "gaza-an-extreme-militarisation-of-the-class-war",
+      "title": "Gaza - An Extreme Militarisation of the Class War"
+    },
+    {
+      "slug": "public-research-notes",
+      "title": "Public research notes"
+    },
+    {
+      "slug": "development",
+      "title": "development"
+    }
+  ],
+  "conflict-free-replicated-data-typesorcrdt": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "secure-group-messaging": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "history-graph",
+      "title": "History graph"
+    },
+    {
+      "slug": "secure-messaging",
+      "title": "Secure messaging"
+    }
+  ],
+  "sedimentree": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "beelay",
+      "title": "Beelay"
+    },
+    {
+      "slug": "leaf-discussion-about-atproto-lexicons-and-component-definitions",
+      "title": "Leaf discussion about ATProto Lexicons and Component definitions"
+    }
+  ],
+  "roomy": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "crdt-sync",
+      "title": "CRDT Sync"
+    },
+    {
+      "slug": "muni-town",
+      "title": "Muni Town"
+    }
+  ],
+  "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messagingorresearch-report": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "diffie-hellman-key-exchange": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "sender-keys": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
+      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    },
+    {
+      "slug": "sender-keys",
+      "title": "Sender Keys"
+    }
+  ],
+  "messaging-layer-security": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
+      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    },
+    {
+      "slug": "signal-protocol",
+      "title": "Signal protocol"
+    },
+    {
+      "slug": "treekem",
+      "title": "TreeKEM"
+    }
+  ],
+  "diffie-hellman-key-exchangeordiffie-hellman-dh-key-exchange": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "conflict-free-replicated-data-typesorshapiro-et-al-389": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "group-messaging-for-secure-asynchronous-collaborationorcausal-treekem": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "beekem",
+      "title": "BeeKEM"
+    },
+    {
+      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
+      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    }
+  ],
+  "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "beekem",
+      "title": "BeeKEM"
+    },
+    {
+      "slug": "causal-broadcast",
+      "title": "Causal broadcast"
+    },
+    {
+      "slug": "decaf-decentralizable-cgka-with-fast-healing",
+      "title": "DeCAF - Decentralizable CGKA with Fast Healing"
+    },
+    {
+      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
+      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
+    },
+    {
+      "slug": "martin-kleppmann",
+      "title": "Martin Kleppmann"
+    },
+    {
+      "slug": "messaging-layer-security",
+      "title": "Messaging Layer Security"
+    },
+    {
+      "slug": "security-analysis-and-improvements-for-the-ietf-mls-standard-for-group-messaging",
+      "title": "Security Analysis and Improvements for the IETF MLS Standard for Group Messaging"
+    },
+    {
+      "slug": "sender-keys",
+      "title": "Sender Keys"
+    },
+    {
+      "slug": "the-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocol",
+      "title": "The Double Ratchet - Security Notions, Proofs, and Modularization for the Signal Protocol"
+    },
+    {
+      "slug": "what-happened-to-the-earlier-version-of-organ",
+      "title": "What happened to the earlier version of Organ"
+    }
+  ],
+  "muni-town": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "leaf",
+      "title": "Leaf"
+    },
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "documentation": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "mathjax-symbol-reference",
+      "title": "MathJax symbol reference"
+    }
+  ],
+  "implementation": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "source": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "lab-notes-on-beekem": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "group-key-agreement-with-beekem": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "beekem",
+      "title": "BeeKEM"
+    },
+    {
+      "slug": "keyhive",
+      "title": "Keyhive"
+    }
+  ],
+  "sort": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "lets-read-the-beekem-code",
+      "title": "Lets read the BeeKEM code"
+    }
+  ],
+  "ratchets-a-kdf": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "derives-public-keys-from-these-secrets": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "addmember": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "add": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    },
+    {
+      "slug": "rfc-9420-the-messaging-layer-security-mls-protocol",
+      "title": "RFC 9420 - The Messaging Layer Security (MLS) Protocol"
+    }
+  ],
+  "pushleaf": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
+  "nextleafidx": [
+    {
+      "slug": "a-deep-dive-explainer-on-beekem-protocol",
+      "title": "A deep-dive explainer on BeeKEM protocol"
+    }
+  ],
   "bluesky-and-the-at-protocol-usable-decentralized-social-media": [
     {
       "slug": "atproto",
@@ -3932,7 +4578,7 @@
   "surplus-population": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "communisation",
@@ -3942,13 +4588,13 @@
   "financialisation": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     }
   ],
   "developmentordevelopmental": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "marx-and-developmentalism",
@@ -3958,13 +4604,13 @@
   "surplus-capital": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     }
   ],
   "subsumption": [
     {
       "slug": "an-identical-abject-subject",
-      "title": "An Identical Abject-Subject?"
+      "title": "An Identical Abject-Subject"
     },
     {
       "slug": "commodity-fetishism",
@@ -4031,6 +4677,354 @@
     {
       "slug": "hermeneutics",
       "title": "hermeneutics"
+    }
+  ],
+  "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "decaf-decentralizable-cgka-with-fast-healing",
+      "title": "DeCAF - Decentralizable CGKA with Fast Healing"
+    },
+    {
+      "slug": "history-graph",
+      "title": "History graph"
+    },
+    {
+      "slug": "messaging-layer-security",
+      "title": "Messaging Layer Security"
+    },
+    {
+      "slug": "multi-recipient-public-key-encryption",
+      "title": "Multi-recipient Public Key Encryption"
+    },
+    {
+      "slug": "metadata-private-messaging",
+      "title": "metadata-private messaging"
+    }
+  ],
+  "the-double-ratchet-algorithm": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "hmac-based-extract-and-expand-key-derivation-function-hkdf",
+      "title": "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)"
+    },
+    {
+      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
+      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
+    },
+    {
+      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
+      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    },
+    {
+      "slug": "secure-messaging",
+      "title": "Secure messaging"
+    },
+    {
+      "slug": "signal-protocol",
+      "title": "Signal protocol"
+    },
+    {
+      "slug": "the-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocol",
+      "title": "The Double Ratchet - Security Notions, Proofs, and Modularization for the Signal Protocol"
+    }
+  ],
+  "the-x3dh-key-agreement-protocol": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "hmac-based-extract-and-expand-key-derivation-function-hkdf",
+      "title": "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)"
+    },
+    {
+      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
+      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    },
+    {
+      "slug": "leveraging-smart-contracts-for-secure-and-asynchronous-group-key-exchange-without-trusted-third-party",
+      "title": "Leveraging Smart Contracts for Secure and Asynchronous Group Key Exchange Without Trusted Third Party"
+    },
+    {
+      "slug": "the-double-ratchet-algorithm",
+      "title": "The Double Ratchet Algorithm"
+    }
+  ],
+  "the-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocolorthe-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocol": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
+      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
+    },
+    {
+      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
+      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    }
+  ],
+  "rfc-9420-the-messaging-layer-security-mls-protocol": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    }
+  ],
+  "security-analysis-and-improvements-for-the-ietf-mls-standard-for-group-messaging": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "continuous-group-key-agreement-with-active-security",
+      "title": "Continuous Group Key Agreement with Active Security"
+    },
+    {
+      "slug": "continuous-group-key-agreement",
+      "title": "Continuous Group Key Agreement"
+    },
+    {
+      "slug": "forward-secrecy",
+      "title": "Forward secrecy"
+    },
+    {
+      "slug": "history-graph",
+      "title": "History graph"
+    },
+    {
+      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
+      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
+    },
+    {
+      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
+      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    },
+    {
+      "slug": "post-compromise-security",
+      "title": "Post-compromise security"
+    },
+    {
+      "slug": "secure-messaging",
+      "title": "Secure messaging"
+    },
+    {
+      "slug": "treekem",
+      "title": "TreeKEM"
+    }
+  ],
+  "modular-design-of-secure-group-messaging-protocols-and-the-security-of-mls": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "broadcast-encryption",
+      "title": "Broadcast encryption"
+    },
+    {
+      "slug": "history-graph",
+      "title": "History graph"
+    },
+    {
+      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
+      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
+    },
+    {
+      "slug": "multicast-encryption",
+      "title": "Multicast encryption"
+    }
+  ],
+  "continuous-group-key-agreement-with-active-security": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "continuous-group-key-agreement",
+      "title": "Continuous Group Key Agreement"
+    },
+    {
+      "slug": "history-graph",
+      "title": "History graph"
+    },
+    {
+      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
+      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
+    },
+    {
+      "slug": "messaging-layer-security",
+      "title": "Messaging Layer Security"
+    }
+  ],
+  "on-the-insider-security-of-mls": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
+      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
+    },
+    {
+      "slug": "messaging-layer-security",
+      "title": "Messaging Layer Security"
+    },
+    {
+      "slug": "universal-composability",
+      "title": "Universal composability"
+    }
+  ],
+  "a-concrete-treatment-of-efficient-continuous-group-key-agreement-via-multi-recipient-pkes": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "decaf-decentralizable-cgka-with-fast-healing",
+      "title": "DeCAF - Decentralizable CGKA with Fast Healing"
+    },
+    {
+      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
+      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
+    },
+    {
+      "slug": "messaging-layer-security",
+      "title": "Messaging Layer Security"
+    },
+    {
+      "slug": "universal-composability",
+      "title": "Universal composability"
+    }
+  ],
+  "treekem-asynchronous-decentralized-key-management-for-large-dynamic-groupsortreekem-asynchronous-decentralized-key-management-for-large-dynamic-groups": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    },
+    {
+      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
+      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    }
+  ],
+  "httpsdoiorg10114534601203484820": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    }
+  ],
+  "httpsdoiorg101007978-3-030-64378-210": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    }
+  ],
+  "httpsdoiorg101007978-3-031-15979-42": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    }
+  ],
+  "httpsmailarchiveietforgarchmsgmlsv1cy0jfaovohokb4dtnqstx1o": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    }
+  ],
+  "httpsdoiorg101109sfcs2001959888": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    }
+  ],
+  "httpsapisemanticscholarorgcorpusid231672387": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
+    }
+  ],
+  "httpsdoiorg10114534601203484817": [
+    {
+      "slug": "analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging",
+      "title": "Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging"
+    },
+    {
+      "slug": "assignment-2-research-project",
+      "title": "Assignment 2 - Research Project"
     }
   ],
   "anonymity": [
@@ -4110,7 +5104,7 @@
     },
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "attribute-based-access-control-and-anonymity": [
@@ -4279,328 +5273,6 @@
       "title": "relational ontologies"
     }
   ],
-  "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "beekem",
-      "title": "BeeKEM"
-    },
-    {
-      "slug": "causal-broadcast",
-      "title": "Causal broadcast"
-    },
-    {
-      "slug": "decaf-decentralizable-cgka-with-fast-healing",
-      "title": "DeCAF - Decentralizable CGKA with Fast Healing"
-    },
-    {
-      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
-      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
-    },
-    {
-      "slug": "martin-kleppmann",
-      "title": "Martin Kleppmann"
-    },
-    {
-      "slug": "messaging-layer-security",
-      "title": "Messaging Layer Security"
-    },
-    {
-      "slug": "security-analysis-and-improvements-for-the-ietf-mls-standard-for-group-messaging",
-      "title": "Security Analysis and Improvements for the IETF MLS Standard for Group Messaging"
-    },
-    {
-      "slug": "sender-keys",
-      "title": "Sender Keys"
-    },
-    {
-      "slug": "the-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocol",
-      "title": "The Double Ratchet - Security Notions, Proofs, and Modularization for the Signal Protocol"
-    },
-    {
-      "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
-    }
-  ],
-  "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "decaf-decentralizable-cgka-with-fast-healing",
-      "title": "DeCAF - Decentralizable CGKA with Fast Healing"
-    },
-    {
-      "slug": "history-graph",
-      "title": "History graph"
-    },
-    {
-      "slug": "messaging-layer-security",
-      "title": "Messaging Layer Security"
-    },
-    {
-      "slug": "multi-recipient-public-key-encryption",
-      "title": "Multi-recipient Public Key Encryption"
-    },
-    {
-      "slug": "metadata-private-messaging",
-      "title": "metadata-private messaging"
-    }
-  ],
-  "the-double-ratchet-algorithm": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "hmac-based-extract-and-expand-key-derivation-function-hkdf",
-      "title": "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)"
-    },
-    {
-      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
-      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
-    },
-    {
-      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
-      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    },
-    {
-      "slug": "secure-messaging",
-      "title": "Secure messaging"
-    },
-    {
-      "slug": "signal-protocol",
-      "title": "Signal protocol"
-    },
-    {
-      "slug": "the-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocol",
-      "title": "The Double Ratchet - Security Notions, Proofs, and Modularization for the Signal Protocol"
-    }
-  ],
-  "the-x3dh-key-agreement-protocol": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "hmac-based-extract-and-expand-key-derivation-function-hkdf",
-      "title": "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)"
-    },
-    {
-      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
-      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    },
-    {
-      "slug": "leveraging-smart-contracts-for-secure-and-asynchronous-group-key-exchange-without-trusted-third-party",
-      "title": "Leveraging Smart Contracts for Secure and Asynchronous Group Key Exchange Without Trusted Third Party"
-    },
-    {
-      "slug": "the-double-ratchet-algorithm",
-      "title": "The Double Ratchet Algorithm"
-    }
-  ],
-  "the-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocolorthe-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocol": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
-      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
-    },
-    {
-      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
-      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    }
-  ],
-  "rfc-9420-the-messaging-layer-security-mls-protocol": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    }
-  ],
-  "security-analysis-and-improvements-for-the-ietf-mls-standard-for-group-messaging": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "continuous-group-key-agreement-with-active-security",
-      "title": "Continuous Group Key Agreement with Active Security"
-    },
-    {
-      "slug": "continuous-group-key-agreement",
-      "title": "Continuous Group Key Agreement"
-    },
-    {
-      "slug": "forward-secrecy",
-      "title": "Forward secrecy"
-    },
-    {
-      "slug": "history-graph",
-      "title": "History graph"
-    },
-    {
-      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
-      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
-    },
-    {
-      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
-      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    },
-    {
-      "slug": "post-compromise-security",
-      "title": "Post-compromise security"
-    },
-    {
-      "slug": "secure-messaging",
-      "title": "Secure messaging"
-    },
-    {
-      "slug": "treekem",
-      "title": "TreeKEM"
-    }
-  ],
-  "modular-design-of-secure-group-messaging-protocols-and-the-security-of-mls": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "broadcast-encryption",
-      "title": "Broadcast encryption"
-    },
-    {
-      "slug": "history-graph",
-      "title": "History graph"
-    },
-    {
-      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
-      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
-    },
-    {
-      "slug": "multicast-encryption",
-      "title": "Multicast encryption"
-    }
-  ],
-  "continuous-group-key-agreement-with-active-security": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "continuous-group-key-agreement",
-      "title": "Continuous Group Key Agreement"
-    },
-    {
-      "slug": "history-graph",
-      "title": "History graph"
-    },
-    {
-      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
-      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
-    },
-    {
-      "slug": "messaging-layer-security",
-      "title": "Messaging Layer Security"
-    }
-  ],
-  "on-the-insider-security-of-mls": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
-      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
-    },
-    {
-      "slug": "messaging-layer-security",
-      "title": "Messaging Layer Security"
-    },
-    {
-      "slug": "universal-composability",
-      "title": "Universal composability"
-    }
-  ],
-  "a-concrete-treatment-of-efficient-continuous-group-key-agreement-via-multi-recipient-pkes": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "decaf-decentralizable-cgka-with-fast-healing",
-      "title": "DeCAF - Decentralizable CGKA with Fast Healing"
-    },
-    {
-      "slug": "how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-and-post-quantum",
-      "title": "How to Hide MetaData in MLS-Like Secure Group Messaging - Simple, Modular, and Post-Quantum"
-    },
-    {
-      "slug": "messaging-layer-security",
-      "title": "Messaging Layer Security"
-    },
-    {
-      "slug": "universal-composability",
-      "title": "Universal composability"
-    }
-  ],
-  "treekem-asynchronous-decentralized-key-management-for-large-dynamic-groupsortreekem-asynchronous-decentralized-key-management-for-large-dynamic-groups": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    },
-    {
-      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
-      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    }
-  ],
-  "httpsdoiorg10114534601203484820": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    }
-  ],
-  "httpsdoiorg101007978-3-030-64378-210": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    }
-  ],
-  "httpsdoiorg101007978-3-031-15979-42": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    }
-  ],
-  "httpsmailarchiveietforgarchmsgmlsv1cy0jfaovohokb4dtnqstx1o": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    }
-  ],
-  "httpsdoiorg101109sfcs2001959888": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    }
-  ],
-  "httpsapisemanticscholarorgcorpusid231672387": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    }
-  ],
-  "httpsdoiorg10114534601203484817": [
-    {
-      "slug": "assignment-2-research-project",
-      "title": "Assignment 2 - Research Project"
-    }
-  ],
   "on-ends-to-ends-encryption-asynchronous-group-messaging-with-strong-security-guarantees": [
     {
       "slug": "asynchronous-ratcheting-tree",
@@ -4671,29 +5343,13 @@
       "title": "development"
     }
   ],
-  "02-group-key-agreement-with-beekem": [
-    {
-      "slug": "beekem",
-      "title": "BeeKEM"
-    }
-  ],
   "lets-read-the-beekem-code": [
     {
       "slug": "beekem",
       "title": "BeeKEM"
     }
   ],
-  "group-messaging-for-secure-asynchronous-collaborationorcausal-treekem": [
-    {
-      "slug": "beekem",
-      "title": "BeeKEM"
-    },
-    {
-      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
-      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    }
-  ],
-  "a-deep-dive-explainer-on-ink-and-switchs-beekem-protocol": [
+  "a-deep-dive-explainer-on-beekem-protocol": [
     {
       "slug": "beekem",
       "title": "BeeKEM"
@@ -4809,16 +5465,6 @@
       "title": "Set reconciliation"
     }
   ],
-  "sedimentree": [
-    {
-      "slug": "beelay",
-      "title": "Beelay"
-    },
-    {
-      "slug": "leaf-discussion-about-atproto-lexicons-and-component-definitions",
-      "title": "Leaf discussion about ATProto Lexicons and Component definitions"
-    }
-  ],
   "sedimentree-sync": [
     {
       "slug": "beelay",
@@ -4898,7 +5544,7 @@
     },
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "housing-as-commons": [
@@ -4981,20 +5627,14 @@
       "title": "The General Formula for Capital"
     }
   ],
-  "roomy": [
+  "beelay": [
     {
       "slug": "crdt-sync",
       "title": "CRDT Sync"
     },
     {
-      "slug": "muni-town",
-      "title": "Muni Town"
-    }
-  ],
-  "beelay": [
-    {
-      "slug": "crdt-sync",
-      "title": "CRDT Sync"
+      "slug": "keyhive",
+      "title": "Keyhive"
     },
     {
       "slug": "muni-town",
@@ -9701,28 +10341,6 @@
       "title": "Designs for the Pluriverse"
     }
   ],
-  "autonomy": [
-    {
-      "slug": "designs-for-the-pluriverse",
-      "title": "Designs for the Pluriverse"
-    },
-    {
-      "slug": "forest-and-factory",
-      "title": "Forest and Factory"
-    },
-    {
-      "slug": "gaza-an-extreme-militarisation-of-the-class-war",
-      "title": "Gaza - An Extreme Militarisation of the Class War"
-    },
-    {
-      "slug": "public-research-notes",
-      "title": "Public research notes"
-    },
-    {
-      "slug": "development",
-      "title": "development"
-    }
-  ],
   "mario-blaserorblaser-mario": [
     {
       "slug": "designs-for-the-pluriverse",
@@ -11031,16 +11649,6 @@
       "title": "HMAC-based Extract-and-Expand Key Derivation Function (HKDF)"
     }
   ],
-  "secure-group-messaging": [
-    {
-      "slug": "history-graph",
-      "title": "History graph"
-    },
-    {
-      "slug": "secure-messaging",
-      "title": "Secure messaging"
-    }
-  ],
   "landlords": [
     {
       "slug": "housing",
@@ -11604,7 +12212,7 @@
     },
     {
       "slug": "what-was-to-be-done-protest-and-revolution-in-the-2010s",
-      "title": "What Was To Be Done? Protest and Revolution in the 2010s"
+      "title": "What Was To Be Done - Protest and Revolution in the 2010s"
     }
   ],
   "world-systems-analysis-an-introduction": [
@@ -11873,6 +12481,10 @@
     {
       "slug": "multi-tenant-apps-with-single-tenant-sqlite-databases-in-global-tigris-buckets",
       "title": "Multi-tenant apps with single-tenant SQLite databases in global Tigris buckets"
+    },
+    {
+      "slug": "work",
+      "title": "work"
     }
   ],
   "phosphocreatine-system": [
@@ -12007,20 +12619,6 @@
       "title": "Security Analysis and Improvements for the IETF MLS Standard for Group Messaging"
     }
   ],
-  "messaging-layer-security": [
-    {
-      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
-      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    },
-    {
-      "slug": "signal-protocol",
-      "title": "Signal protocol"
-    },
-    {
-      "slug": "treekem",
-      "title": "TreeKEM"
-    }
-  ],
   "loopix": [
     {
       "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
@@ -12036,23 +12634,13 @@
     },
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "sok-secure-messagingorother-approaches": [
     {
       "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
       "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    }
-  ],
-  "sender-keys": [
-    {
-      "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
-      "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
-    },
-    {
-      "slug": "sender-keys",
-      "title": "Sender Keys"
     }
   ],
   "security-analysis-and-improvements-for-the-ietf-mls-standard-for-group-messagingorre-randomized-treekem": [
@@ -12103,6 +12691,10 @@
     {
       "slug": "key-agreement-for-decentralized-secure-group-messaging-with-strong-security-guarantees",
       "title": "Key Agreement for Decentralized Secure Group Messaging with Strong Security Guarantees"
+    },
+    {
+      "slug": "work",
+      "title": "work"
     }
   ],
   "mesh-messaging-in-large-scale-protests-breaking-bridgefyormesh-messaging-in-large-scale-protests-breaking-bridgefy": [
@@ -12297,14 +12889,16 @@
       "title": "Muni Town"
     }
   ],
-  "keyhive": [
+  "offline-web-component-loader": [
     {
-      "slug": "leaf-discussion-about-atproto-lexicons-and-component-definitions",
-      "title": "Leaf discussion about ATProto Lexicons and Component definitions"
-    },
+      "slug": "leaf-swappable-ui",
+      "title": "Leaf Swappable UI"
+    }
+  ],
+  "conversation-with-zicklag-about-swappable-ui-ecs-and-compute-abstractions": [
     {
-      "slug": "muni-town",
-      "title": "Muni Town"
+      "slug": "leaf-swappable-ui",
+      "title": "Leaf Swappable UI"
     }
   ],
   "leaf-render-update-0": [
@@ -12315,12 +12909,6 @@
     {
       "slug": "muni-town",
       "title": "Muni Town"
-    }
-  ],
-  "muni-town": [
-    {
-      "slug": "leaf",
-      "title": "Leaf"
     }
   ],
   "progressive-enhancement": [
@@ -12502,7 +13090,7 @@
     },
     {
       "slug": "what-was-to-be-done-protest-and-revolution-in-the-2010s",
-      "title": "What Was To Be Done? Protest and Revolution in the 2010s"
+      "title": "What Was To Be Done - Protest and Revolution in the 2010s"
     }
   ],
   "mute-compulsion": [
@@ -12982,12 +13570,6 @@
     }
   ],
   "mathjax-plugin": [
-    {
-      "slug": "mathjax-symbol-reference",
-      "title": "MathJax symbol reference"
-    }
-  ],
-  "documentation": [
     {
       "slug": "mathjax-symbol-reference",
       "title": "MathJax symbol reference"
@@ -15285,12 +15867,6 @@
       "title": "RFC 9420 - The Messaging Layer Security (MLS) Protocol"
     }
   ],
-  "add": [
-    {
-      "slug": "rfc-9420-the-messaging-layer-security-mls-protocol",
-      "title": "RFC 9420 - The Messaging Layer Security (MLS) Protocol"
-    }
-  ],
   "section-101": [
     {
       "slug": "rfc-9420-the-messaging-layer-security-mls-protocol",
@@ -16414,7 +16990,7 @@
     },
     {
       "slug": "what-was-to-be-done-protest-and-revolution-in-the-2010s",
-      "title": "What Was To Be Done? Protest and Revolution in the 2010s"
+      "title": "What Was To Be Done - Protest and Revolution in the 2010s"
     }
   ],
   "monsieur-dupont": [
@@ -17191,7 +17767,7 @@
       "title": "TreeKEM"
     }
   ],
-  "02-group-key-agreement-with-beekemorhere": [
+  "group-key-agreement-with-beekemorhere": [
     {
       "slug": "treekem",
       "title": "TreeKEM"
@@ -17588,61 +18164,61 @@
   "radarsquatnet": [
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "various": [
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "metadata": [
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "hiding": [
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "cryptographic": [
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "schemes": [
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "did-methods": [
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "nym": [
     {
       "slug": "what-happened-to-the-earlier-version-of-organ",
-      "title": "What happened to the earlier version of Organ?"
+      "title": "What happened to the earlier version of Organ"
     }
   ],
   "in-occupy-oakland": [
     {
       "slug": "who-is-oakland",
-      "title": "Who Is Oakland?"
+      "title": "Who Is Oakland"
     }
   ],
   "httpwwwpublicintegrityorginvestigationscampusassaultarticlesentry1945": [
     {
       "slug": "who-is-oakland",
-      "title": "Who Is Oakland?"
+      "title": "Who Is Oakland"
     }
   ],
   "workerismorworkerists": [
@@ -18097,6 +18673,66 @@
     {
       "slug": "unit-testing",
       "title": "unit testing"
+    }
+  ],
+  "moth-projects": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "merigarden": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "my-resume": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "bluesky": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "linkedin": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "biomedical-technology-startup": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "simple-matrix-sdk": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "organ-web": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "matrix-bot-calendar": [
+    {
+      "slug": "work",
+      "title": "work"
+    }
+  ],
+  "minissg": [
+    {
+      "slug": "work",
+      "title": "work"
     }
   ],
   "ramono-alquati": [

@@ -217,4 +217,4 @@ if __name__ == '__main__':
 	main()
 ```
 
-You can attempt to learn the inner workings of the algorithm by changing the values of the plaintext input and some of the exponentiations of the keys, ensuring that any values substituted must comply with the requirements of the algorithm.
+You can attempt to learn the inner workings of the algorithm by changing the values of the plaintext input and some of the exponentiations of the keys, ensuring that any values substituted must comply with the requirements of the algorithm. 

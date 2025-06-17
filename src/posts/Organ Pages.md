@@ -147,3 +147,5 @@ bigger changes
 - [ ] rss & ical templating
 - [ ] earthstar db ? for sharing, permissions, sync
 - [ ] tailwind support - in browser bundler? esbuild-wasm?
+
+

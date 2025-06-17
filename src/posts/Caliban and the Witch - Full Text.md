@@ -3,6 +3,7 @@ title: 'Caliban and the Witch - Full Text'
 slug: 'caliban-and-the-witch-full-text'
 ---
 
+
 ## About the Author
 
 Silvia Federici is a feminist activist, writer and teacher. In 1972 she was one of the cofounders of the International Feminist Collective, the organization that launched the Wages for Housework campaign internationally. In the 1990s, after a period of teaching and research in Nigeria, she was active in the anti-globalization movement and the US anti-death penalty movement. She is one of the co-founders of the Committee for Academic Freedom in Africa, an organization dedicated to generating support for the struggles of students and teachers in Africa against the structural adjustment of African economies and educational systems. From 1987 to 2005 she taught international studies, women’s studies and political philosophy courses at Hofstra University in Hempstead, NY. All through these years she has written books and essays on philosophy and feminist theory, women’s history, education and culture, and more recently the worldwide struggle against capitalist globalization and for a feminist reconstruction of the commons. Her most recent volumes are *Witches, Witch-Hunting and Women* (2018), *Re-enchanting the World: Feminism and the Politics of the Commons* (2018) and the revised and expanded *Revolution at Point Zero: Housework, Reproduction and Feminist Struggle* (2020).
@@ -4130,3 +4131,4 @@ Cover illustration: The Seven Vices: Wrath by Giotto di Bandone @ Antonio Quattr
 ISBN: 978-0-141-99825-1
 
 This ebook is copyright material and must not be copied, reproduced, transferred, distributed, leased, licensed or publicly performed or used in any way except as specifically permitted in writing by the publishers, as allowed under the terms and conditions under which it was purchased or as strictly permitted by applicable copyright law. Any unauthorized distribution or use of this text may be a direct infringement of the author’s and publisher’s rights and those responsible may be liable in law accordingly.
+

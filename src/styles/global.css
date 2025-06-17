@@ -296,7 +296,7 @@ mark {
 }
 
 .link-list a {
-  @apply p-1 border border-purple-300 rounded-lg box-decoration-clone;
+  @apply p-1 border border-purple-300 rounded-lg box-decoration-clone bg-white;
 }
 
 .link-list a:hover {
