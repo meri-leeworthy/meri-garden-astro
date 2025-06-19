@@ -2,7 +2,7 @@
 title: 'Continuous Group Key Agreement'
 slug: 'continuous-group-key-agreement'
 aliases:
-- 'CGKA'
+- '''CGKA'''
 ---
 
 ### Definition

@@ -2,7 +2,7 @@
 title: 'relationality'
 slug: 'relationality'
 aliases:
-- 'relational'
+- '''relational'''
 type: 'topic'
 ---
 

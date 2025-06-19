@@ -2,7 +2,7 @@
 title: 'Mario Blaser'
 slug: 'mario-blaser'
 aliases:
-- 'Blaser, Mario'
+- '''Blaser, Mario'''
 type: 'person'
 ---
 

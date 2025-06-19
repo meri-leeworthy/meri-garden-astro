@@ -2,7 +2,7 @@
 title: 'Political Ontology'
 slug: 'political-ontology'
 aliases:
-- 'Political Ontology'
+- '''Political Ontology'''
 type: 'topic'
 ---
 

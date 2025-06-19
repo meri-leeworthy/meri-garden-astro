@@ -2,8 +2,8 @@
 title: 'The Double Ratchet Algorithm'
 slug: 'the-double-ratchet-algorithm'
 aliases:
-- 'Signal protocol'
-- 'KDF Chain'
+- '''Signal protocol'''
+- '''KDF Chain'''
 ---
 
 [[The X3DH Key Agreement Protocol]]

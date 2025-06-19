@@ -121,4 +121,4 @@ Now, calculate each of the 3x3 determinants:
 Let's focus on calculating the first 3x3 determinant. What is $$det\begin{pmatrix} 
 4 & 5 & 6 \\ 8 & 9 & 0 \\ 3 & 5 & 7 \end{pmatrix}$$?
 
-To calculate the determinant of an $n \times n$ matrix where $n > 2$, you perform cofactor expansion, which involves calculating the determinants of $n$ smaller $(n-1) \times (n-1)$ matrices. 
+To calculate the determinant of an $n \times n$ matrix where $n > 2$, you perform cofactor expansion, which involves calculating the determinants of $n$ smaller $(n-1) \times (n-1)$ matrices.

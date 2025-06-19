@@ -3,7 +3,7 @@ title: 'World-Systems Analysis - An Introduction'
 slug: 'world-systems-analysis-an-introduction'
 type: 'book'
 author:
-- 'Immanuel Wallerstein'
+- '''Immanuel Wallerstein'''
 year: '"2004"'
 ---
 

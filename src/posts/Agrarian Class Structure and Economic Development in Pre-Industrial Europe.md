@@ -3,7 +3,7 @@ title: 'Agrarian Class Structure and Economic Development in Pre-Industrial Euro
 slug: 'agrarian-class-structure-and-economic-development-in-pre-industrial-europe'
 type: 'essay'
 author:
-- 'Robert Brenner'
+- '''Robert Brenner'''
 year: '"1974"'
 ---
 

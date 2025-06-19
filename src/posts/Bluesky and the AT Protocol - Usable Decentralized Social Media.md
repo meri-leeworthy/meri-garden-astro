@@ -2,7 +2,7 @@
 title: 'Bluesky and the AT Protocol - Usable Decentralized Social Media'
 slug: 'bluesky-and-the-at-protocol-usable-decentralized-social-media'
 aliases:
-- '"Bluesky and the AT Protocol: Usable Decentralized Social Media"'
+- '''"Bluesky and the AT Protocol: Usable Decentralized Social Media"'''
 type: 'paper'
 ---
 

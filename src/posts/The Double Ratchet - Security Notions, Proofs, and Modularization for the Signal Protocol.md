@@ -2,9 +2,9 @@
 title: 'The Double Ratchet - Security Notions, Proofs, and Modularization for the Signal Protocol'
 slug: 'the-double-ratchet-security-notions-proofs-and-modularization-for-the-signal-protocol'
 aliases:
-- '"The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol"'
-- 'forward secure AEAD'
-- 'FS-AEAD'
+- '''"The Double Ratchet: Security Notions, Proofs, and Modularization for the Signal Protocol"'''
+- '''forward secure AEAD'''
+- '''FS-AEAD'''
 ---
 
 Introduces the concept of *continuous key agreement* (CKA)

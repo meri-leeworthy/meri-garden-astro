@@ -4,9 +4,9 @@ slug: 'how-to-hide-metadata-in-mls-like-secure-group-messaging-simple-modular-an
 type: 'paper'
 year: '"2022"'
 author:
-- 'Keitaro Hashimoto'
-- 'Shuichi Katsumata'
-- 'Thomas Prest'
+- '''Keitaro Hashimoto'''
+- '''Shuichi Katsumata'''
+- '''Thomas Prest'''
 ---
 
 # Notes

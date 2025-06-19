@@ -2,7 +2,7 @@
 title: 'Cybernetics'
 slug: 'cybernetics'
 aliases:
-- 'cybernetics'
+- '''cybernetics'''
 type: 'topic'
 ---
 

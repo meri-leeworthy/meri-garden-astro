@@ -2,8 +2,8 @@
 title: 'workerism'
 slug: 'workerism'
 aliases:
-- 'operaismo'
-- 'Operaismo'
+- '''operaismo'''
+- '''Operaismo'''
 type: 'topic'
 ---
 

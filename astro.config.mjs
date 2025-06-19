@@ -4,6 +4,7 @@ import react from "@astrojs/react"
 import tailwind from "@tailwindcss/vite"
 import remarkObsidian from "remark-obsidian"
 import remarkGfm from "remark-gfm"
+import mdx from "@astrojs/mdx"
 
 // https://astro.build/config
 export default defineConfig({
@@ -33,5 +34,5 @@ export default defineConfig({
     },
   },
 
-  integrations: [react()],
+  integrations: [react(), mdx()],
 })

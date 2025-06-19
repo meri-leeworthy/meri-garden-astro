@@ -2,7 +2,7 @@
 title: 'Keep the Dirt - Tainted TreeKEM, Adaptively and Actively Secure Continuous Group Key Agreement'
 slug: 'keep-the-dirt-tainted-treekem-adaptively-and-actively-secure-continuous-group-key-agreement'
 aliases:
-- '"Keep the Dirt: Tainted TreeKEM, Adaptively and Actively Secure Continuous Group Key Agreement"'
+- '''"Keep the Dirt: Tainted TreeKEM, Adaptively and Actively Secure Continuous Group Key Agreement"'''
 type: 'paper'
 year: '"2021"'
 ---

@@ -2,9 +2,9 @@
 title: 'Perceptron'
 slug: 'perceptron'
 aliases:
-- 'Perceptrons'
-- 'perceptrons'
-- 'perceptron'
+- '''Perceptrons'''
+- '''perceptrons'''
+- '''perceptron'''
 ---
 
 See also [Wikipedia](https://en.wikipedia.org/wiki/Perceptron)

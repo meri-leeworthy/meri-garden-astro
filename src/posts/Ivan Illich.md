@@ -3,8 +3,8 @@ title: 'Ivan Illich'
 slug: 'ivan-illich'
 type: 'person'
 aliases:
-- 'Illich'
-- 'Illich, Ivan'
+- '''Illich'''
+- '''Illich, Ivan'''
 ---
 
 Illich, Ivan. 2015. La convivencialidad. Oaxaca, Mexico: El Rebozo. 

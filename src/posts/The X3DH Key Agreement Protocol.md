@@ -2,7 +2,7 @@
 title: 'The X3DH Key Agreement Protocol'
 slug: 'the-x3dh-key-agreement-protocol'
 aliases:
-- 'X3DH'
+- '''X3DH'''
 ---
 
 > This document describes the “X3DH” (or “Extended Triple [[Diffie-Hellman key exchange|Diffie-Hellman]]”) key agreement protocol. X3DH establishes a shared secret key between two parties who mutually authenticate each other based on public keys. X3DH provides ==forward secrecy and cryptographic deniability==. X3DH is ==designed for asynchronous settings== where one user (“Bob”) is offline but has published some information to a server. Another user (“Alice”) wants to use that information to send encrypted data to Bob, and also establish a shared secret key for future communication.

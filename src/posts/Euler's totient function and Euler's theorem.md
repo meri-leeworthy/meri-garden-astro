@@ -2,8 +2,8 @@
 title: 'Euler''s totient function and Euler''s theorem'
 slug: 'eulers-totient-function-and-eulers-theorem'
 aliases:
-- 'Euler''s totient function'
-- 'Euler''s theorem'
+- '''Euler''''s totient function'''
+- '''Euler''''s theorem'''
 ---
 
 ## Euler's totient function

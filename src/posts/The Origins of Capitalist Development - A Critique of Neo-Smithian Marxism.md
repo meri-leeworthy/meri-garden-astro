@@ -3,7 +3,7 @@ title: 'The Origins of Capitalist Development - A Critique of Neo-Smithian Marxi
 slug: 'the-origins-of-capitalist-development-a-critique-of-neo-smithian-marxism'
 type: 'essay'
 author:
-- 'Robert Brenner'
+- '''Robert Brenner'''
 ---
 
 [[brenner77.pdf]]

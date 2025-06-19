@@ -10,4 +10,3 @@ Consider an example of a random experiment involving the selection of an item at
 Suppose that 𝑋 denotes the time to failure of a bus section in an electrostatic precipitator. Then 𝑋 is a continuous random variable whose range consists of all the real numbers greater than zero. 
 
 The topic of random variables leads to random sampling, leading to the general subject of random numbers. In random sampling, each member of a population has an equal (the same) chance of being selected as a sample.
-

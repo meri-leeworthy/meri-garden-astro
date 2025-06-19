@@ -2,7 +2,7 @@
 title: 'History graph'
 slug: 'history-graph'
 aliases:
-- 'HG'
+- '''HG'''
 ---
 
 Formal security notion for [[Secure group messaging]] 

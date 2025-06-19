@@ -2,8 +2,8 @@
 title: 'new materialisms'
 slug: 'new-materialisms'
 aliases:
-- 'neomaterialist'
-- 'neomaterialism'
+- '''neomaterialist'''
+- '''neomaterialism'''
 type: 'topic'
 ---
 

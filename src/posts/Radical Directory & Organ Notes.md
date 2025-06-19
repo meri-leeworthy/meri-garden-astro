@@ -63,4 +63,4 @@ Activism is narrative making
 
 
 Automate organising
-Governance is for everyone 
+Governance is for everyone

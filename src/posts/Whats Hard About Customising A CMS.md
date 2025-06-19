@@ -6,8 +6,8 @@ publishDate: '"2021-11-08T00:00:00.000Z"'
 image: 'keystone.png'
 alt: 'A screenshot of the Keystone UI'
 tags:
-- 'radical-directory'
-- 'projects'
+- '''radical-directory'''
+- '''projects'''
 ---
 
 I want to write about a task I’ve been struggling with and why I find it hard. I

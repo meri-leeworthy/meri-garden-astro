@@ -13,4 +13,3 @@ peer to peer? sync server?
 
 Research Beelay and Keyhive more
 talk to Brooklyn?
-

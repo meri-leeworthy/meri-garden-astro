@@ -2,8 +2,8 @@
 title: 'Karl Marx'
 slug: 'karl-marx'
 aliases:
-- 'Marx'
-- 'Marx, Karl'
+- '''Marx'''
+- '''Marx, Karl'''
 type: 'person'
 ---
 

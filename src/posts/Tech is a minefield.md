@@ -19,9 +19,4 @@ This really sucks honestly, and I think it's really toxic. I want to feel optimi
 
 The future, our future, belongs to the people and to all life on Earth, not investors or capitalists. It is in this spirit that I hope my future writing on these topics will be received.
 
-*Thank you for reading! I live and write on the land of the Wurundjeri Willum clan, part of the Kulin Nation. I pay respect to their elders, both past and present. Sovereignty was never ceded. 
-
-
-
-
-
+*Thank you for reading! I live and write on the land of the Wurundjeri Willum clan, part of the Kulin Nation. I pay respect to their elders, both past and present. Sovereignty was never ceded.

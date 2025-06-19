@@ -2,7 +2,7 @@
 title: 'capital'
 slug: 'capital'
 aliases:
-- 'Capital'
+- '''Capital'''
 ---
 
 [[The General Formula for Capital]]:

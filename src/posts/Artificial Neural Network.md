@@ -2,7 +2,7 @@
 title: 'Artificial Neural Network'
 slug: 'artificial-neural-network'
 aliases:
-- 'artificial neural network'
+- '''artificial neural network'''
 ---
 
 [[Perceptron]] - single neuron

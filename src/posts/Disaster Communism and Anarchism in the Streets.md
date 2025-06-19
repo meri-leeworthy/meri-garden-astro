@@ -2,7 +2,7 @@
 title: 'Disaster Communism and Anarchism in the Streets'
 slug: 'disaster-communism-and-anarchism-in-the-streets'
 author:
-- 'Nick Southall'
+- '''Nick Southall'''
 type: 'book'
 ---
 

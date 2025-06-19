@@ -4,12 +4,12 @@ slug: 'key-agreement-for-decentralized-secure-group-messaging-with-strong-securi
 type: 'paper'
 year: '"2021"'
 author:
-- 'Matthew Weidner'
-- 'Martin Kleppmann'
-- 'Daniel Hugenroth'
-- 'Alastair R. Beresford'
+- '''Matthew Weidner'''
+- '''Martin Kleppmann'''
+- '''Daniel Hugenroth'''
+- '''Alastair R. Beresford'''
 aliases:
-- 'DCGKA'
+- '''DCGKA'''
 ---
 
 References MLS draft 11, architecture draft 5

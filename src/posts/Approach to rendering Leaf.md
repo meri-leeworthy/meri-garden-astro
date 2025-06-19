@@ -43,4 +43,4 @@ List of potentially useful functions
 - dependency resolver
 	- takes an AST 
 	- returns the list of direct dependencies
-- 
+-

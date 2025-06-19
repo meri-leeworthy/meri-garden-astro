@@ -28,6 +28,3 @@ Writing effective survey questions is essential for collecting accurate and mean
 ![](https://static.meri.garden/5bc0a3f8421d379151711c8231013a66.png)
 ![](https://static.meri.garden/dea1ea94d81155f534253fe58f9daec8.png)
 ![](https://static.meri.garden/764e220163afccae6ab2dfedccb7292f.png)
-
-
-

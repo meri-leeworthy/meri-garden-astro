@@ -4,7 +4,7 @@ slug: 'treekem-asynchronous-decentralized-key-management-for-large-dynamic-group
 type: 'paper'
 year: '"2018"'
 aliases:
-- '"TreeKEM: Asynchronous Decentralized Key Management for Large Dynamic Groups"'
+- '''"TreeKEM: Asynchronous Decentralized Key Management for Large Dynamic Groups"'''
 ---
 
 [[TreeKEM]] original paper

@@ -3,9 +3,9 @@ title: 'Underlay - A First Description'
 slug: 'underlay-a-first-description'
 type: 'essay'
 author:
-- 'Danny Hillis'
-- 'Samuel Klein'
-- 'Travis Rich'
+- '''Danny Hillis'''
+- '''Samuel Klein'''
+- '''Travis Rich'''
 uri: 'https://notes.knowledgefutures.org/pub/h67iji6d/release/1'
 ---
 

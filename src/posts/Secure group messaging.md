@@ -2,7 +2,7 @@
 title: 'Secure group messaging'
 slug: 'secure-group-messaging'
 aliases:
-- 'SGM'
+- '''SGM'''
 ---
 
 group analogue to [[Secure messaging]]

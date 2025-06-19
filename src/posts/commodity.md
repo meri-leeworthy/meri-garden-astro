@@ -2,6 +2,6 @@
 title: 'commodity'
 slug: 'commodity'
 aliases:
-- 'commodities'
+- '''commodities'''
 ---
 

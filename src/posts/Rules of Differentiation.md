@@ -2,10 +2,10 @@
 title: 'Rules of Differentiation'
 slug: 'rules-of-differentiation'
 aliases:
-- 'Sum Rule'
-- 'Difference Rule'
-- 'Constant Rule'
-- 'Constant Multiple Rule'
+- '''Sum Rule'''
+- '''Difference Rule'''
+- '''Constant Rule'''
+- '''Constant Multiple Rule'''
 ---
 
 1. **[[Power Rule]]**

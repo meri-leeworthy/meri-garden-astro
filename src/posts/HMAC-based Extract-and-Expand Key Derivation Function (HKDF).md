@@ -2,9 +2,9 @@
 title: 'HMAC-based Extract-and-Expand Key Derivation Function (HKDF)'
 slug: 'hmac-based-extract-and-expand-key-derivation-function-hkdf'
 aliases:
-- 'HKDF'
+- '''HKDF'''
 author:
-- 'H. Krawczyk and P. Eronen'
+- '''H. Krawczyk and P. Eronen'''
 year: '"2010"'
 ---
 

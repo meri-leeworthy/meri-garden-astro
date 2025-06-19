@@ -172,4 +172,3 @@ In the following diagram, one rule is created for each path from the root to a l
 - **IF** outlook=“rain” and wind=“weak” **THEN** play-ball=“YES”
 
 ![](https://static.meri.garden/881517732bb766fe65cba6a304cab748.png)
-

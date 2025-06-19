@@ -2,7 +2,7 @@
 title: 'Gilles Deleuze'
 slug: 'gilles-deleuze'
 aliases:
-- 'Deleuze'
+- '''Deleuze'''
 type: 'person'
 ---
 

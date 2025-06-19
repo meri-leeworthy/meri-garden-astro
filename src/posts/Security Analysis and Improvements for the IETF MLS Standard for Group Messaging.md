@@ -5,7 +5,7 @@ type: 'paper'
 year: '"2020"'
 editor: 'CRYPTO'
 aliases:
-- 'Re-randomized TreeKEM'
+- '''Re-randomized TreeKEM'''
 ---
 
 Analyses [[TreeKEM]] as defined at [[Messaging Layer Security|MLS]] spec draft 8 and shows that it has issues with [[Forward secrecy]] 

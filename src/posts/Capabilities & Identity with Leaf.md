@@ -3,12 +3,12 @@ title: 'Capabilities & Identity with Leaf'
 slug: 'capabilities-and-identity-with-leaf'
 source: 'https://blog.muni.town/capabilities-and-identity-with-leaf/#frost-signatures2fa-for-keypairs'
 author:
-- '"[[Muni Town]]"'
+- '''"[[Muni Town]]"'''
 published: '2024-11-26'
 created: '2025-05-26'
 description: 'Recently Christine Lemmer-Webber shared her ''recipe for the fediverse''. Let''s see whether Leaf can meet her requirements.'
 tags:
-- 'clippings'
+- '''clippings'''
 ---
 
 Recently Christine Lemmer-Webber shared [this](https://social.coop/@cwebber/113528858061852192) on Mastodon:

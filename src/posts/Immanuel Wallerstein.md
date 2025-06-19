@@ -3,7 +3,7 @@ title: 'Immanuel Wallerstein'
 slug: 'immanuel-wallerstein'
 type: 'person'
 aliases:
-- 'Wallerstein'
+- '''Wallerstein'''
 ---
 
 [[World-systems theory]]

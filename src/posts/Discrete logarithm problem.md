@@ -2,7 +2,7 @@
 title: 'Discrete logarithm problem'
 slug: 'discrete-logarithm-problem'
 aliases:
-- 'discrete logarithm'
+- '''discrete logarithm'''
 ---
 
 $$\log_x​(x) = 1$$

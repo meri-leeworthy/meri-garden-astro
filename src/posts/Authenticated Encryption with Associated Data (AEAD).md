@@ -2,7 +2,7 @@
 title: 'Authenticated Encryption with Associated Data (AEAD)'
 slug: 'authenticated-encryption-with-associated-data-aead'
 aliases:
-- 'AEAD'
+- '''AEAD'''
 ---
 
 A message is **encrypted and authenticated,** and sent with some data that is **unencrypted but also authenticated**

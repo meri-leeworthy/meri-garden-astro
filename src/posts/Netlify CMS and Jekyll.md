@@ -6,8 +6,8 @@ date: '"20200503"'
 image: 'markdown.png'
 alt: ''
 tags:
-- 'radical-directory'
-- 'projects'
+- '''radical-directory'''
+- '''projects'''
 ---
 
 **This post is made up of messages I sent in the Radical Directory Discord,

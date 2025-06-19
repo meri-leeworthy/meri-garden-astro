@@ -3,7 +3,6 @@ title: 'Organ Pages - Muni Town Meeting'
 slug: 'organ-pages-muni-town-meeting'
 ---
 
-
 # Weird
 1. personalised calling card
 2. independent identity provider
@@ -52,4 +51,4 @@ fun/access + value => success
 - Wasm-renderer system is interesting - maybe something more modular though
 - Render module as a 'system' that can apply to anything with the required components
 - Intermediate representations? Rich Text Loro -> unstyled HTML -> injected into rich styled templates
-- Can we define a 'Rich Text' component isomorphic to prosemirror documents? / is HTML a component? 
+- Can we define a 'Rich Text' component isomorphic to prosemirror documents? / is HTML a component?
