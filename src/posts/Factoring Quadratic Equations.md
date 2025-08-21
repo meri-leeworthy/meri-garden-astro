@@ -121,4 +121,3 @@ $$
 
 4. **Combine with the GCF**:
    Multiply the factored form by the GCF to get the final factored polynomial.
-

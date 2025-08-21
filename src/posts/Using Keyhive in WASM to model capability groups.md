@@ -5,7 +5,7 @@ slug: 'using-keyhive-in-wasm-to-model-capability-groups'
 
 I wanted to see if I could try out _just_ the group management parts of Ink & Switch's [[Keyhive]] in a web app - that is, without worrying about sync, key agreement or encryption. I'm not going to explain what Keyhive is here but recommend the [Ink & Switch lab notebooks](https://www.inkandswitch.com/keyhive/) or [Brooklyn Zelenka's talk about it at Local-First Conf](https://www.youtube.com/watch?v=iLp2xBMud10).
 
-Demo: [https://keyhive-delegation-demo.netlify.app/](https://keyhive-delegation-demo.netlify.app/ "https://keyhive-delegation-demo.netlify.app/") 
+Demo: [https://keyhive-delegation-demo.meri.garden/](https://keyhive-delegation-demo.meri.garden/) 
 
 Code: [https://github.com/meri-leeworthy/keyhive/tree/wasm-demo](https://github.com/meri-leeworthy/keyhive/tree/wasm-demo "https://github.com/meri-leeworthy/keyhive/tree/wasm-demo")
 
@@ -32,6 +32,4 @@ My thinking was that this could be, in theory, used to model permissions in a ce
 2. The signatures are valid
 3. That it hasn't heard of any updates to the auth graph that would revoke the claimed capability
 
-My interest, and our shared interest at [[Muni Town]] working on [[Roomy]], is ultimately in using Keyhive for encryption as well, but I guess 1. there are so many complex concepts wrapped up in this project that it's been genuinely a major challenge to just wrap my head around how to use it, so breaking it down helps with that, and 2. being able to split it out and think about, for example, a more centralised approach, helps make incrementally adopting Keyhive in [[Roomy]] feel more feasible. 
-
-
+My interest, and our shared interest at [[Muni Town]] working on [[Roomy]], is ultimately in using Keyhive for encryption as well, but I guess 1. there are so many complex concepts wrapped up in this project that it's been genuinely a major challenge to just wrap my head around how to use it, so breaking it down helps with that, and 2. being able to split it out and think about, for example, a more centralised approach, helps make incrementally adopting Keyhive in [[Roomy]] feel more feasible.

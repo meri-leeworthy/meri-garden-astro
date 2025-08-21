@@ -10,4 +10,3 @@ slug: 'roomy'
 ## Roomy Tasks
 - [ ] Work on UI design improvements
 - [ ] Social feed for tweets import
-

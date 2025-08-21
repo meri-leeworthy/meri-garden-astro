@@ -151,4 +151,3 @@ First, we represent the exponent in binary as follows:
 Applying the same process as we did in the previous example for exponentiated powers of 2, through deduction we can arrive at the following outcome:
 
 5117 mod 19=1
-

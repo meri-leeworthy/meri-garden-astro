@@ -27,4 +27,3 @@ It aims to find the optimal set of model parameters (weights and biases) that mi
 
 - **[[backpropagation]]** is used to efficiently compute the gradients of the loss function with respect to the network parameters.
 - **Gradient Descent** uses these gradients to update the parameters in order to minimize the loss function.
-

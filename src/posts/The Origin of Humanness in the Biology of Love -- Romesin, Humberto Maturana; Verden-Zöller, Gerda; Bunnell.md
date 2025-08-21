@@ -3,8 +3,6 @@ title: 'The Origin of Humanness in the Biology of Love -- Romesin, Humberto Matu
 slug: 'the-origin-of-humanness-in-the-biology-of-love-romesin-humberto-maturana-verden-zoller-gerda-bunnell'
 ---
 
-
-
 Humberto Maturana Romesín   and Gerda Verden-Zöller   Edited by Pille Bunnell
 
 Copyright Page
@@ -1415,4 +1413,3 @@ Varela, F., Maturana, H. R., Uribe, R. B. 1974. Autopoiesis: The organization of
 de Waal, F. 1982. Chimpanzee politics. Jonathan Cape, London
 
 Also Available from Imprint Academic and Andrews UK
-

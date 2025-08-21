@@ -4,4 +4,3 @@ slug: 'life-against-nature'
 ---
 
 [[4hnfonbxkz_file.pdf]]
-

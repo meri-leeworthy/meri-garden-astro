@@ -94,4 +94,4 @@ impl Verifiable for ContactCard {
 }
 ```
 
-My goal here is to extend this, and the WASM bindings wrapping it, so I can export and import ContactCard to and from JSON. What I'm not clear about, I guess, is how 
+My goal here is to extend this, and the WASM bindings wrapping it, so I can export and import ContactCard to and from JSON. What I'm not clear about, I guess, is how

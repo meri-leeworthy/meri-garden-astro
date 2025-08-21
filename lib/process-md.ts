@@ -25,7 +25,6 @@ function formatYamlValue(value: any): string {
   }
   return String(value)
 }
-
 function parseYamlValue(
   value: string,
   lines: string[],
@@ -37,13 +36,15 @@ function parseYamlValue(
     let i = currentIndex
 
     // Process the first item
-    items.push(value.trim().slice(1).trim())
+    let [parsedFirst] = parseYamlValue(value.trim().slice(1).trim(), lines, i)
+    items.push(parsedFirst)
 
     // Look ahead for more items in the sequence
     while (i + 1 < lines.length) {
       const nextLine = lines[i + 1].trim()
       if (nextLine.startsWith("-")) {
-        items.push(nextLine.slice(1).trim())
+        let [parsedNext] = parseYamlValue(nextLine.slice(1).trim(), lines, i + 1)
+        items.push(parsedNext)
         i++
       } else {
         break
@@ -61,6 +62,7 @@ function parseYamlValue(
   // Handle regular strings
   return [value, currentIndex]
 }
+
 
 function processMarkdownFiles() {
   const files = fs.readdirSync(POSTS_DIR)
