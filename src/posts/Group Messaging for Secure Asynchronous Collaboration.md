@@ -2,7 +2,7 @@
 title: 'Group Messaging for Secure Asynchronous Collaboration'
 slug: 'group-messaging-for-secure-asynchronous-collaboration'
 aliases:
-- '''Causal TreeKEM'''
+- 'Causal TreeKEM'
 ---
 
 **Abstract**
@@ -15,6 +15,6 @@ In total, this dissertation represents an important step towards developing end-
 ---
 
 
-> In the other direction, _[Causal TreeKEM](Group Messaging for Secure Asynchronous Collaboration)_ modifies TreeKEM to require only causally ordered message delivery (see Section 5.1), at the cost of even ==weaker forward secrecy== [41 , §4]. Like our work, ==Causal TreeKEM describes how to handle dynamic groups in the decentralized setting, although the protocol description is largely informal. Also, its post-compromise security is weaker than for our DCGKA protocol: after multiple compromises, all compromised group members must send PCS updates in _sequence_, while our protocol allows all but the last update to be concurrent.==
+undefined
 
 ![](https://static.meri.garden/005182a79698e9a90a5505b3b3199e9c.pdf)

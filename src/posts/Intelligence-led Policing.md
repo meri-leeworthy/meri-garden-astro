@@ -13,3 +13,4 @@ slug: 'intelligence-led-policing'
 ![](https://static.meri.garden/385f3efeb1bf170d6012e4e7bd4c7a6a.png)
 
 *it seems like the 'intelligence cycle' is more of a description of the process from the interior perspective of the analysts, whereas the 3-I model is a more high level model of its role within policing generally*
+

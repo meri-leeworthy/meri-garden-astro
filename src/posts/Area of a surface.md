@@ -13,3 +13,4 @@ If 𝑧=𝑓(𝑥,𝑦), where 𝑓𝑥 and 𝑓𝑦 are continuous over a 
 
 $$S=\iint_RdS$$
 $$=\iint_R\sqrt{1+f_x(x,y)^2+f_y(x,y)^2}dA$$
+
