@@ -2,7 +2,11 @@ import fs from "fs"
 import path from "path"
 import slugify from "slugify"
 
-const POSTS_DIR = path.join(process.cwd(), "src", "posts")
+const CONTENT_DIRS = [
+  path.join(process.cwd(), "src", "posts"),
+  path.join(process.cwd(), "src", "work"),
+  path.join(process.cwd(), "src", "notes"),
+]
 
 interface Frontmatter {
   [key: string]: any
@@ -54,9 +58,21 @@ function parseYamlValue(
     return [items, i]
   }
 
-  // Handle quoted strings
-  if (value.startsWith("'") && value.endsWith("'")) {
-    return [value.slice(1, -1).replace(/''/g, "'"), currentIndex]
+  // Handle quoted strings — strip YAML single-quote wrapping iteratively
+  // to undo any accumulated layers from previous runs
+  let v = value
+  while (v.length >= 2 && v.startsWith("'") && v.endsWith("'")) {
+    const stripped = v.slice(1, -1).replace(/''/g, "'")
+    if (stripped === v) break // no progress, avoid infinite loop
+    v = stripped
+  }
+  if (v !== value) {
+    return [v, currentIndex]
+  }
+
+  // Handle double-quoted strings
+  if (value.startsWith('"') && value.endsWith('"')) {
+    return [value.slice(1, -1), currentIndex]
   }
 
   // Handle regular strings
@@ -65,119 +81,122 @@ function parseYamlValue(
 
 
 function processMarkdownFiles() {
-  const files = fs.readdirSync(POSTS_DIR)
+  CONTENT_DIRS.forEach(dir => {
+    if (!fs.existsSync(dir)) return
+    const files = fs.readdirSync(dir)
 
-  files.forEach(file => {
-    if (!file.endsWith(".md")) return
+    files.forEach(file => {
+      if (!file.endsWith(".md")) return
 
-    const filePath = path.join(POSTS_DIR, file)
-    const content = fs.readFileSync(filePath, "utf-8")
+      const filePath = path.join(dir, file)
+      const content = fs.readFileSync(filePath, "utf-8")
 
-    // Get title from filename (remove .md extension)
-    const title = path.basename(file, ".md")
+      // Get title from filename (remove .md extension)
+      const title = path.basename(file, ".md")
 
-    // Create slug from title
-    const slug = slugify(title, {
-      lower: true,
-      strict: true,
-      trim: true,
-    })
+      // Create slug from title
+      const slug = slugify(title, {
+        lower: true,
+        strict: true,
+        trim: true,
+      })
 
-    let updatedContent: string
-    let updatedData: Frontmatter
+      let updatedContent: string
+      let updatedData: Frontmatter
 
-    if (hasFrontmatter(content)) {
-      try {
-        // Split the content into frontmatter and markdown
-        const parts = content.split("---")
-        if (parts.length >= 3) {
-          const frontmatterContent = parts[1].trim()
-          const markdownContent = parts.slice(2).join("---").trim()
+      if (hasFrontmatter(content)) {
+        try {
+          // Split the content into frontmatter and markdown
+          const parts = content.split("---")
+          if (parts.length >= 3) {
+            const frontmatterContent = parts[1].trim()
+            const markdownContent = parts.slice(2).join("---").trim()
 
-          // Parse the frontmatter manually to avoid YAML parsing issues
-          const frontmatterLines = frontmatterContent.split("\n")
-          const data: Frontmatter = {}
+            // Parse the frontmatter manually to avoid YAML parsing issues
+            const frontmatterLines = frontmatterContent.split("\n")
+            const data: Frontmatter = {}
 
-          for (let i = 0; i < frontmatterLines.length; i++) {
-            const line = frontmatterLines[i]
-            const [key, ...valueParts] = line.split(":")
-            if (key && valueParts.length > 0) {
-              const value = valueParts.join(":").trim()
-              const [parsedValue, newIndex] = parseYamlValue(
-                value,
-                frontmatterLines,
-                i
-              )
+            for (let i = 0; i < frontmatterLines.length; i++) {
+              const line = frontmatterLines[i]
+              const [key, ...valueParts] = line.split(":")
+              if (key && valueParts.length > 0) {
+                const value = valueParts.join(":").trim()
+                const [parsedValue, newIndex] = parseYamlValue(
+                  value,
+                  frontmatterLines,
+                  i
+                )
 
-              // Check if the next line is a block sequence for this key
-              if (newIndex + 1 < frontmatterLines.length) {
-                const nextLine = frontmatterLines[newIndex + 1].trim()
-                if (nextLine.startsWith("-")) {
-                  // If current value is empty string and next line is a block sequence,
-                  // use the block sequence instead
-                  if (parsedValue === "") {
-                    const [blockValue, blockIndex] = parseYamlValue(
-                      nextLine,
-                      frontmatterLines,
-                      newIndex + 1
-                    )
-                    data[key.trim()] = blockValue
-                    i = blockIndex
-                    continue
+                // Check if the next line is a block sequence for this key
+                if (newIndex + 1 < frontmatterLines.length) {
+                  const nextLine = frontmatterLines[newIndex + 1].trim()
+                  if (nextLine.startsWith("-")) {
+                    // If current value is empty string and next line is a block sequence,
+                    // use the block sequence instead
+                    if (parsedValue === "") {
+                      const [blockValue, blockIndex] = parseYamlValue(
+                        nextLine,
+                        frontmatterLines,
+                        newIndex + 1
+                      )
+                      data[key.trim()] = blockValue
+                      i = blockIndex
+                      continue
+                    }
                   }
                 }
+
+                data[key.trim()] = parsedValue
+                i = newIndex // Skip processed lines
               }
-
-              data[key.trim()] = parsedValue
-              i = newIndex // Skip processed lines
             }
+
+            // Update frontmatter
+            updatedData = {
+              title,
+              slug,
+              ...data,
+            }
+
+            // Replace paths in content
+            updatedContent = markdownContent.replace(
+              /\.\.\/\.\.\/\.\.\/\.\.\/meri-public\/garden\//g,
+              "https://static.meri.garden/"
+            )
+          } else {
+            throw new Error("Invalid frontmatter format")
           }
+        } catch (error) {
+          console.error(`Error processing frontmatter in ${file}:`, error)
+          return // Skip this file if there's an error
+        }
+      } else {
+        // No frontmatter, create new
+        updatedData = {
+          title,
+          slug,
+        }
 
-          // Update frontmatter
-          updatedData = {
-            title,
-            slug,
-            ...data,
+        // Replace paths in content
+        updatedContent = content.replace(
+          /\.\.\/\.\.\/\.\.\/\.\.\/meri-public\/garden\//g,
+          "https://static.meri.garden/"
+        )
+      }
+
+      // Write back to file with frontmatter
+      const frontmatter = Object.entries(updatedData)
+        .map(([key, value]) => {
+          if (Array.isArray(value)) {
+            return `${key}:\n${formatYamlValue(value)}`
           }
+          return `${key}: ${formatYamlValue(value)}`
+        })
+        .join("\n")
 
-          // Replace paths in content
-          updatedContent = markdownContent.replace(
-            /\.\.\/\.\.\/\.\.\/\.\.\/meri-public\/garden\//g,
-            "https://static.meri.garden/"
-          )
-        } else {
-          throw new Error("Invalid frontmatter format")
-        }
-      } catch (error) {
-        console.error(`Error processing frontmatter in ${file}:`, error)
-        return // Skip this file if there's an error
-      }
-    } else {
-      // No frontmatter, create new
-      updatedData = {
-        title,
-        slug,
-      }
-
-      // Replace paths in content
-      updatedContent = content.replace(
-        /\.\.\/\.\.\/\.\.\/\.\.\/meri-public\/garden\//g,
-        "https://static.meri.garden/"
-      )
-    }
-
-    // Write back to file with frontmatter
-    const frontmatter = Object.entries(updatedData)
-      .map(([key, value]) => {
-        if (Array.isArray(value)) {
-          return `${key}:\n${formatYamlValue(value)}`
-        }
-        return `${key}: ${formatYamlValue(value)}`
-      })
-      .join("\n")
-
-    const newContent = `---\n${frontmatter}\n---\n\n${updatedContent}`
-    fs.writeFileSync(filePath, newContent)
+      const newContent = `---\n${frontmatter}\n---\n\n${updatedContent}`
+      fs.writeFileSync(filePath, newContent)
+    })
   })
 }
 

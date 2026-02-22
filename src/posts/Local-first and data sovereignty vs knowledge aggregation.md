@@ -1,6 +1,8 @@
 ---
 title: 'Local-first and data sovereignty vs knowledge aggregation'
 slug: 'local-first-and-data-sovereignty-vs-knowledge-aggregation'
+date: '20240912'
+description: 'Militant data politics'
 ---
 
 there are two important paradigms for collecting and sharing data: 

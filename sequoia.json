@@ -1,0 +1,10 @@
+{
+  "siteUrl": "https://meri.garden",
+  "contentDir": "./src/posts",
+  "outputDir": "./dist",
+  "publicationUri": "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.publication/3mag7aqhzas2n",
+  "frontmatter": {
+    "publishDate": "date",
+    "coverImage": "hero"
+  }
+}

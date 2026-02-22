@@ -1,0 +1,23 @@
+---
+import Main from "../../layouts/Main.astro";
+import { getCollection } from 'astro:content';
+
+const items = await getCollection('work');
+const sortedItems = items.sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+<Main title="Work - Meri Leeworthy" description="Project writeups and work by Meri Leeworthy." image="https://static.meri.garden/mesh-gradient.png">
+  <div class="flex flex-col w-screen px-4 pt-16 isolate">
+    <section class="w-full max-w-lg mx-auto">
+      <h1 class="text-2xl font-title mb-8">Work</h1>
+      <ul class="flex flex-col gap-3 font-title list-['↠']">
+        {sortedItems.map((item) => (
+          <li class="link-list">
+            <a href={`/work/${item.data.slug}`}>
+              {item.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</Main>

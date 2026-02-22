@@ -1,8 +1,8 @@
 ---
 title: 'Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging'
-slug: 'analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging'
-author:
-- 'Meri Leeworthy'
+slug: 'metadata-decentralisation-secure-group-messaging'
+description: 'Research report on two papers'
+date: '20241118'
 ---
 
 # Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging

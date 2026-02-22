@@ -1,6 +1,8 @@
 ---
 title: 'A deep-dive explainer on Ink and Switch''s BeeKEM protocol'
 slug: 'a-deep-dive-explainer-on-beekem-protocol'
+description: 'A eventually consistent approach to scalable group key agreement'
+date: '20250615'
 ---
 
 I've spent the last year working on local-first apps, most recently with [Muni Town](https://muni.town/). For me, 'local-first' isn’t just a technical architecture — it’s a political and social stance. It’s about shifting control: from remote servers and top-down central authorities deciding how data, workflows, and communities operate, to individuals and communities reclaiming that control and gaining [[autonomy]]. Seen this way, privacy and consent aren’t add-ons — they’re foundational, just as critical as sync or data locality.

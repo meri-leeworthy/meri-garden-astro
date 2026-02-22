@@ -6,13 +6,18 @@ import slugify from "slugify"
 interface Backlink {
   slug: string
   title: string
+  path: string
 }
 
 interface BacklinksMap {
   [key: string]: Backlink[]
 }
 
-const POSTS_DIR = path.join(process.cwd(), "src", "posts")
+const CONTENT_DIRS = [
+  path.join(process.cwd(), "src", "posts"),
+  path.join(process.cwd(), "src", "work"),
+  path.join(process.cwd(), "src", "notes"),
+]
 const OUTPUT_FILE = path.join(process.cwd(), "public", "backlinks.json")
 
 function hasFrontmatter(content: string): boolean {
@@ -41,60 +46,66 @@ function extractUniqueLinks(content: string): string[] {
 
 function generateBacklinks(): void {
   const backlinksMap: BacklinksMap = {}
-  const files = fs.readdirSync(POSTS_DIR)
 
-  files.forEach(filename => {
-    if (!filename.endsWith(".md")) return
+  CONTENT_DIRS.forEach(dir => {
+    if (!fs.existsSync(dir)) return
+    const collection = path.basename(dir)
+    const files = fs.readdirSync(dir)
 
-    const filePath = path.join(POSTS_DIR, filename)
-    const content = fs.readFileSync(filePath, "utf8")
+    files.forEach(filename => {
+      if (!filename.endsWith(".md")) return
 
-    // Get title from filename (remove .md extension)
-    const title = path.basename(filename, ".md")
+      const filePath = path.join(dir, filename)
+      const content = fs.readFileSync(filePath, "utf8")
 
-    // Create slug from title
-    const slug = slugify(title, {
-      lower: true,
-      strict: true,
-      trim: true,
-    })
+      // Get title from filename (remove .md extension)
+      const title = path.basename(filename, ".md")
 
-    let markdownContent: string
-
-    if (hasFrontmatter(content)) {
-      try {
-        const { content: mdContent } = matter(content)
-        markdownContent = mdContent
-      } catch (error) {
-        console.error(`Error processing frontmatter in ${filename}:`, error)
-        return // Skip this file if there's an error
-      }
-    } else {
-      markdownContent = content
-    }
-
-    const links = extractUniqueLinks(markdownContent)
-
-    links.forEach(link => {
-      const normalizedLink = slugify(link, {
+      // Create slug from title
+      const slug = slugify(title, {
         lower: true,
         strict: true,
         trim: true,
       })
 
-      if (!backlinksMap[normalizedLink]) {
-        backlinksMap[normalizedLink] = []
+      let markdownContent: string
+
+      if (hasFrontmatter(content)) {
+        try {
+          const { content: mdContent } = matter(content)
+          markdownContent = mdContent
+        } catch (error) {
+          console.error(`Error processing frontmatter in ${filename}:`, error)
+          return // Skip this file if there's an error
+        }
+      } else {
+        markdownContent = content
       }
 
-      // Check if this slug is already in the backlinks array
-      if (
-        !backlinksMap[normalizedLink].some(backlink => backlink.slug === slug)
-      ) {
-        backlinksMap[normalizedLink].push({
-          slug,
-          title,
+      const links = extractUniqueLinks(markdownContent)
+
+      links.forEach(link => {
+        const normalizedLink = slugify(link, {
+          lower: true,
+          strict: true,
+          trim: true,
         })
-      }
+
+        if (!backlinksMap[normalizedLink]) {
+          backlinksMap[normalizedLink] = []
+        }
+
+        // Check if this slug is already in the backlinks array
+        if (
+          !backlinksMap[normalizedLink].some(backlink => backlink.slug === slug)
+        ) {
+          backlinksMap[normalizedLink].push({
+            slug,
+            title,
+            path: `/${collection}/${slug}`,
+          })
+        }
+      })
     })
   })
 

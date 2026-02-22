@@ -1,11 +1,13 @@
 ---
 title: 'Public research notes'
 slug: 'public-research-notes'
+date: '20240912'
+description: 'stuff i have been interested in recently'
 ---
 
 I've decided to start publishing parts of my notes collection as a kind of personal wiki, or what is sometimes called a [digital garden](https://maggieappleton.com/garden-history) (this is why my site is meri.garden). I've so far mostly shared the parts that are not original work, but rather collected and sometimes annotated literature by others where I have an interest in citing their work as part of my own personal research and writing. There is a pretty comprehensive list of these books, essays etc here: [[Literature]]. Some of these pages include the entire text or pdf of the original work, or samples from it. The most comprehensively integrated is [[Designs for the Pluriverse]] by [[Arturo Escobar]]. There are also significant parts of [[Endnotes]] journal included.
 
-There are also topic pages and author pages which are generally serving as ways of linking between different texts, and sometimes as places to place relevant quotes, and occasionally some original thoughts. Many exist but are empty. Some somewhat fleshed out topic pages worth checking out are [[autonomy]], [[political ontology]] and [[development]]. There is also a decent amount of course material copied from my computer science degree - see, e.g., [[Calculus]], [[Software engineering]], [[Multi-layer feed-forward neural network]].
+There are also topic pages and author pages which are generally serving as ways of linking between different texts, and sometimes as places to place relevant quotes, and occasionally some original thoughts. Many exist but are empty. Some somewhat fleshed out topic pages worth checking out are [[autonomy]], [[political ontology]] and [[development]].
 
 I write my notes in [Obsidian](https://obsidian.md/) and use the [markdown export](https://github.com/bingryan/obsidian-markdown-export-plugin) plugin to copy notes (with their linked assets) to the Git repo for my website. I then commit and push the files in the Git repo to [publish them to Github](https://github.com/meri-leeworthy/meri.garden), which triggers a static build of [my site](https://meri.garden) on Vercel. The code for rendering the Markdown uses [Unified.js](https://unifiedjs.com/) with some small [customisations](https://github.com/meri-leeworthy/meri.garden/blob/main/components/Markdown.tsx).
 

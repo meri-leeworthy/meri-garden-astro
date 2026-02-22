@@ -1,7 +1,17 @@
 ---
 title: 'Leaf Render Update 0'
 slug: 'leaf-render-update-0'
+date: '20250526'
+description: 'A generic templating system in Rust and WASM'
 ---
+
+<video
+  src="https://static.meri.garden/leaf-render-0.mp4"
+  controls
+  className="w-full rounded"
+  preload="metadata">
+  (It's meant to show a video here, but if you're seeing this, something went wrong)
+</video>
 
 I've created a simple render module which I'm calling `leaf-render`. It applies the Minijinja templating engine (a slightly constrained Rust implementation of Jinja2) to [[Leaf]] entities. 
 
