@@ -1,8 +1,9 @@
 ---
 title: 'Leaf Render Update 0'
 slug: 'leaf-render-update-0'
-date: '20250526'
+date: '2025-05-26T00:00:00.000Z'
 description: 'A generic templating system in Rust and WASM'
+atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcekmbpl2e"
 ---
 
 <video

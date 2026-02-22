@@ -1,11 +1,12 @@
 ---
 title: 'Design Justice - A Reading List'
 slug: 'design-justice-a-reading-list'
-date: '20230613'
+date: '2023-06-13T00:00:00.000Z'
 description: 'Introductory essay for a reading group I was part of'
 tags:
 - 'design'
 - 'political'
+atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcelzwhr2q"
 ---
 
 “\[Design is] an ethical praxis of worldmaking” - Escobar, Designs for the Pluriverse

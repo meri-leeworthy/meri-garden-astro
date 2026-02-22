@@ -4,7 +4,7 @@ slug: 'customising-a-cargo-portfolio-site'
 isPublished: 'true'
 image: 'archie2.png'
 alt: 'A screenshot of Archie''s website'
-date: '20220801'
+date: '2022-08-01T00:00:00.000Z'
 tags:
 - 'freelance'
 - 'recent'

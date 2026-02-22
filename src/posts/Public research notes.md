@@ -1,8 +1,9 @@
 ---
 title: 'Public research notes'
 slug: 'public-research-notes'
-date: '20240912'
+date: '2024-09-12T00:00:00.000Z'
 description: 'stuff i have been interested in recently'
+atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgceld6wj2q"
 ---
 
 I've decided to start publishing parts of my notes collection as a kind of personal wiki, or what is sometimes called a [digital garden](https://maggieappleton.com/garden-history) (this is why my site is meri.garden). I've so far mostly shared the parts that are not original work, but rather collected and sometimes annotated literature by others where I have an interest in citing their work as part of my own personal research and writing. There is a pretty comprehensive list of these books, essays etc here: [[Literature]]. Some of these pages include the entire text or pdf of the original work, or samples from it. The most comprehensively integrated is [[Designs for the Pluriverse]] by [[Arturo Escobar]]. There are also significant parts of [[Endnotes]] journal included.

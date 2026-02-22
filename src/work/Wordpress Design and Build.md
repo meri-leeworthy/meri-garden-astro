@@ -4,7 +4,7 @@ slug: 'wordpress-design-and-build'
 isPublished: 'true'
 image: 'sound.png'
 alt: 'A screenshot of the Sound Osteo ''about'' page'
-date: '20230115'
+date: '2023-01-15T00:00:00.000Z'
 tags:
 - 'freelance'
 - 'recent'

@@ -27,7 +27,7 @@ export async function getStaticPaths() {
 const { post, backlinks } = Astro.props;
 const { Content } = await render(post);
 ---
-<Main title={post.data.title} description={post.data.description} image={post.data.image}>
+<Main title={post.data.title} description={post.data.description} image={post.data.image} atUri={post.data.atUri}>
   <article
   class={`prose flex flex-col items-center mx-auto max-w-4xl w-full post pt-16`}>
   <div

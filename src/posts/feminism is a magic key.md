@@ -2,7 +2,8 @@
 title: 'feminism is a magic key'
 slug: 'feminism-is-a-magic-key'
 description: 'Some trans IWD thoughts'
-date: '20230308'
+date: '2023-03-08T00:00:00.000Z'
+atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcembklt2x"
 ---
 
 Its International Womens Day and I feel grateful for feminism - particularly Bla(c)k and indigenous feminist thought and practice around the world - and conscious of the urgency of the broad struggle against patriarchal violence and domination in all the diverse contexts we find ourselves in. These lineages have helped me to see feminism less as a 'women's movement' (though it also can be that) and more as a horizon of relationality, interconnection; and an ethics rooted in (grassroots) lived experience. Likewise, patriarchy less as 'men being bad' (though it also can be that) and more as a social structure that reproduces itself through violence, domination and coercion - cycles of trauma and rupture repeating through history.

@@ -151,6 +151,15 @@ function processMarkdownFiles() {
               }
             }
 
+            // Convert date fields from YYYYMMDD to ISO datetime
+            if (data.date && /^\d{8}$/.test(String(data.date))) {
+              const d = String(data.date)
+              const year = d.slice(0, 4)
+              const month = d.slice(4, 6)
+              const day = d.slice(6, 8)
+              data.date = `${year}-${month}-${day}T00:00:00.000Z`
+            }
+
             // Update frontmatter
             updatedData = {
               title,
