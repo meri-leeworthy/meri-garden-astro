@@ -60,20 +60,13 @@ const { Content } = await render(item)
     >
         <main class="w-full max-w-prose">
             <Content />
-            {
-                backlinks.length > 0 && (
-                    <section class="backlinks">
-                        <h2>Backlinks</h2>
-                        <ul>
-                            {backlinks.map((backlink) => (
-                                <li>
-                                    <a href={backlink.path}>{backlink.title}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </section>
-                )
-            }
+            <div class="w-full flex justify-center mt-12">
+                <p class="w-40 text-center">
+                    contact me at <a href="mailto:hello@meri.garden"
+                        >hello@meri.garden</a
+                    >
+                </p>
+            </div>
         </main>
     </article>
 </Main>
