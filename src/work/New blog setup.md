@@ -1,7 +1,7 @@
 ---
 title: 'New blog setup'
 slug: 'new-blog-setup'
-isPublished: 'false'
+isPublished: false
 date: '2022-02-01T00:00:00.000Z'
 tags: '[]'
 ---

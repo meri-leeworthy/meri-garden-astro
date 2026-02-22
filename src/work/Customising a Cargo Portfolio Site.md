@@ -1,7 +1,7 @@
 ---
 title: 'Customising a Cargo Portfolio Site'
 slug: 'customising-a-cargo-portfolio-site'
-isPublished: 'true'
+isPublished: true
 image: 'archie2.png'
 alt: 'A screenshot of Archie''s website'
 date: '2022-08-01T00:00:00.000Z'

@@ -1,7 +1,7 @@
 ---
 title: 'Installing Matrix with matrix-ansible-docker-deploy'
 slug: 'installing-matrix-with-matrix-ansible-docker-deploy'
-isPublished: 'true'
+isPublished: true
 date: '2021-11-08T00:00:00.000Z'
 image: 'element.png'
 alt: 'Element login screen showing an option to log in with Keycloak'

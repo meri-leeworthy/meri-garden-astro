@@ -23,6 +23,11 @@ function formatYamlValue(value: any): string {
     return value.map(v => `- ${formatYamlValue(v)}`).join("\n")
   }
 
+  if (typeof value === "boolean") {
+    // Booleans should be unquoted in YAML
+    return String(value)
+  }
+
   if (typeof value === "string") {
     // Always quote strings in YAML to avoid parsing issues
     return `'${value.replace(/'/g, "''")}'`
@@ -67,13 +72,23 @@ function parseYamlValue(
     v = stripped
   }
   if (v !== value) {
+    // After stripping quotes, check if it's a boolean
+    if (v === "true") return [true, currentIndex]
+    if (v === "false") return [false, currentIndex]
     return [v, currentIndex]
   }
 
   // Handle double-quoted strings
   if (value.startsWith('"') && value.endsWith('"')) {
-    return [value.slice(1, -1), currentIndex]
+    const unquoted = value.slice(1, -1)
+    if (unquoted === "true") return [true, currentIndex]
+    if (unquoted === "false") return [false, currentIndex]
+    return [unquoted, currentIndex]
   }
+
+  // Handle boolean strings (unquoted true/false)
+  if (value === "true") return [true, currentIndex]
+  if (value === "false") return [false, currentIndex]
 
   // Handle regular strings
   return [value, currentIndex]

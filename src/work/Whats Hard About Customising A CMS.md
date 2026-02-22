@@ -1,7 +1,7 @@
 ---
 title: 'What''s Hard About Customising A CMS?'
 slug: 'whats-hard-about-customising-a-cms'
-isPublished: 'false'
+isPublished: false
 date: '2021-11-08T00:00:00.000Z'
 image: 'keystone.png'
 alt: 'A screenshot of the Keystone UI'

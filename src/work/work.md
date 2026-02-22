@@ -1,7 +1,7 @@
 ---
 title: 'work'
 slug: 'work'
-isPublished: 'true'
+isPublished: true
 tags: 'freelance,recent'
 ---
 

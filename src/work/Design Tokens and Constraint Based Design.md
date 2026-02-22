@@ -1,7 +1,7 @@
 ---
 title: 'Design Tokens and Constraint Based Design'
 slug: 'design-tokens-and-constraint-based-design'
-isPublished: 'true'
+isPublished: true
 date: '2021-11-06T00:00:00.000Z'
 image: 'metal-type.png'
 alt: 'A box of metal movable type characters sorted by letter'

@@ -1,7 +1,7 @@
 ---
 title: 'Womens Legal Service Victoria'
 slug: 'womens-legal-service-victoria'
-portfolio: 'true'
+portfolio: true
 image: 'wlsv.png'
 alt: 'Womens Legal Service Victoria website'
 date: '2025-04-01T00:00:00.000Z'

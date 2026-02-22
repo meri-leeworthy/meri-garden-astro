@@ -1,7 +1,7 @@
 ---
 title: 'Sound Osteopathy'
 slug: 'sound-osteopathy'
-portfolio: 'true'
+portfolio: true
 image: 'sound.png'
 alt: 'A screenshot of the Sound Osteo ''about'' page'
 date: '2023-01-15T00:00:00.000Z'

@@ -1,7 +1,7 @@
 ---
 title: 'Roomy'
 slug: 'roomy'
-portfolio: 'true'
+portfolio: true
 image: 'roomy.png'
 alt: 'Roomy application interface'
 date: '2026-02-22T00:00:00.000Z'
