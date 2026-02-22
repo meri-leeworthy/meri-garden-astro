@@ -83,14 +83,6 @@ p {
     padding: 0.4rem 0;
 }
 
-a {
-    text-decoration: underline;
-
-    :hover {
-        text-decoration: none;
-    }
-}
-
 code {
     @apply bg-white/50 px-1 box-decoration-clone rounded;
 }
@@ -148,13 +140,6 @@ article:hover .whitefilter {
     }
 }
 
-.title {
-    @apply relative text-3xl isolate w-52 font-title;
-    text-decoration-line: none;
-    text-decoration-color: transparent;
-    text-decoration-thickness: 0px;
-}
-
 /* .title::before {
   content: "";
   background-color: #fffe9b;
@@ -167,10 +152,10 @@ article:hover .whitefilter {
 
 a {
     text-decoration: none;
+}
 
-    :hover {
-        text-decoration: none;
-    }
+a:hover:not(.projectcard, .title-no-underline) {
+    text-decoration: underline;
 }
 
 .post blockquote {
@@ -235,6 +220,11 @@ a {
     background-repeat: no-repeat;
     opacity: 0.8;
     transform: rotate(-20deg);
+    transition: all 100ms;
+}
+
+.title-flower:hover::before {
+    transform: rotate(-25deg);
 }
 
 .emojilist li {
@@ -319,4 +309,16 @@ mark {
 
 .link-list a:hover {
     @apply bg-purple-300/50;
+}
+
+.title {
+    @apply relative text-3xl isolate w-52 font-title no-underline;
+    text-decoration: none !important;
+    /*text-decoration-line: none;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 0px;*/
+}
+
+.title a:hover {
+    text-decoration: none !important;
 }

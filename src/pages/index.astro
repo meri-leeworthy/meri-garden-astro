@@ -13,27 +13,29 @@ const sortedItems = items
     )
 
 function stripMarkdown(md: string): string {
-    return md
-        // Remove headers
-        .replace(/^#{1,6}\s+/gm, '')
-        // Remove bold/italic
-        .replace(/\*\*\*/g, '')
-        .replace(/\*\*/g, '')
-        .replace(/\*/g, '')
-        .replace(/___/g, '')
-        .replace(/__/g, '')
-        .replace(/_/g, '')
-        // Remove strikethrough
-        .replace(/~~/g, '')
-        // Remove inline code
-        .replace(/`/g, '')
-        // Remove links but keep text
-        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-        // Remove images
-        .replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
-        // Clean up extra whitespace
-        .replace(/\s+/g, ' ')
-        .trim()
+    return (
+        md
+            // Remove headers
+            .replace(/^#{1,6}\s+/gm, "")
+            // Remove bold/italic
+            .replace(/\*\*\*/g, "")
+            .replace(/\*\*/g, "")
+            .replace(/\*/g, "")
+            .replace(/___/g, "")
+            .replace(/__/g, "")
+            .replace(/_/g, "")
+            // Remove strikethrough
+            .replace(/~~/g, "")
+            // Remove inline code
+            .replace(/`/g, "")
+            // Remove links but keep text
+            .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+            // Remove images
+            .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
+            // Clean up extra whitespace
+            .replace(/\s+/g, " ")
+            .trim()
+    )
 }
 
 function getSnippet(item: any) {
@@ -57,6 +59,34 @@ function getSnippet(item: any) {
                 I'm a programmer, designer, writer and artist.<br /><br />
                 I make tools for community autonomy, creativity, and resistance.
             </aside>
+        </section>
+
+        <section class="w-full max-w-3xl mx-auto mt-32 flex flex-col">
+            <div class="flex justify-between">
+                <h2 class="text-2xl font-title mb-2">Projects</h2>
+                <p
+                    class="text-black/70 text-sm text-right w-60 max-w-1/2 self-end mb-8"
+                >
+                    Contact me at <a
+                        href="mailto:hello@meri.garden"
+                        class="text-black">hello@meri.garden</a
+                    > to discuss design and technical consulting projects.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {
+                    sortedItems.map((item) => (
+                        <ProjectCard
+                            title={item.data.title}
+                            slug={item.data.slug}
+                            image={item.data.image}
+                            alt={item.data.alt}
+                            tags={item.data.tags}
+                            snippet={getSnippet(item)}
+                        />
+                    ))
+                }
+            </div>
         </section>
         <section class="w-full max-w-lg mx-auto mt-32">
             <h2 class="text-2xl font-title mb-8">Writing</h2>
@@ -94,38 +124,11 @@ function getSnippet(item: any) {
                         and decentralisation in Secure Group Messaging
                     </a>
                 </li>
-                <li class="link-list">
-                    <a href="/posts/public-research-notes">
-                        Public research notes
-                    </a>
-                </li>
             </ul>
-        </section>
-        <section class="w-full max-w-3xl mx-auto mt-32 flex flex-col">
-            <div class="flex justify-between">
-                <h2 class="text-2xl font-title mb-2">Projects</h2>
-                <p
-                    class="text-black/70 text-sm text-right w-60 max-w-1/2 self-end mb-8"
+            <div class="w-full my-4">
+                <a href="/posts" class="font-title underline text-sm"
+                    >See more</a
                 >
-                    Contact me at <a
-                        href="mailto:hello@meri.garden"
-                        class="text-black">hello@meri.garden</a
-                    > to discuss design and technical consulting projects.
-                </p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {
-                    sortedItems.map((item) => (
-                        <ProjectCard
-                            title={item.data.title}
-                            slug={item.data.slug}
-                            image={item.data.image}
-                            alt={item.data.alt}
-                            tags={item.data.tags}
-                            snippet={getSnippet(item)}
-                        />
-                    ))
-                }
             </div>
         </section>
     </div>
