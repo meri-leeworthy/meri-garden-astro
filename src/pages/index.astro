@@ -12,11 +12,36 @@ const sortedItems = items
             (a.data.date ? new Date(a.data.date).valueOf() : 1)
     )
 
+function stripMarkdown(md: string): string {
+    return md
+        // Remove headers
+        .replace(/^#{1,6}\s+/gm, '')
+        // Remove bold/italic
+        .replace(/\*\*\*/g, '')
+        .replace(/\*\*/g, '')
+        .replace(/\*/g, '')
+        .replace(/___/g, '')
+        .replace(/__/g, '')
+        .replace(/_/g, '')
+        // Remove strikethrough
+        .replace(/~~/g, '')
+        // Remove inline code
+        .replace(/`/g, '')
+        // Remove links but keep text
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+        // Remove images
+        .replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
+        // Clean up extra whitespace
+        .replace(/\s+/g, ' ')
+        .trim()
+}
+
 function getSnippet(item: any) {
-    const text =
+    const rawText =
         item.body?.split("\n\n")[0]?.trim() ||
         item.data.description ||
         "Project writeup coming soon."
+    const text = stripMarkdown(rawText)
     return text.length > 150 ? text.slice(0, 147) + "..." : text
 }
 ---
