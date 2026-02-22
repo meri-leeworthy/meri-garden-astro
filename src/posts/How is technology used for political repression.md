@@ -3,7 +3,7 @@ title: 'How is technology used for political repression?'
 slug: 'how-is-technology-used-for-political-repression'
 description: 'A research project'
 date: '2023-11-03T00:00:00.000Z'
-atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcelsi6r2q"
+atUri: 'at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcelsi6r2q'
 ---
 
 I’m sharing this writing as a first step towards what I hope will become a collectivised grassroots-led research project on the use of digital technologies for political repression. My focus up until now has been on online communications platforms and social media, but my aim is that this project can also encompass research into mass surveillance and targeted police surveillance against activists in so-called Australia and abroad.

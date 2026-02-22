@@ -1,72 +1,127 @@
 ---
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import "../styles/global.css";
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro"
+import "../styles/global.css"
 interface Props {
-  title: string;
-  description: string;
-  image: string;
-  atUri?: string;
+    title: string
+    description: string
+    image: string
+    atUri?: string
 }
-let { title, description, image, atUri }: Props = Astro.props;
-const fallbackTitle = "Meri Leeworthy";
-const fallbackDescription = "I'm a programmer, designer, writer and artist. I try to make tools for community autonomy, creativity, and resistance.";
-const fallbackImage = "https://static.meri.garden/mesh-gradient.png";
-title = title || fallbackTitle;
-description = description || fallbackDescription;
-image = image || fallbackImage;
+let { title, description, image, atUri }: Props = Astro.props
+const fallbackTitle = "Meri Leeworthy"
+const fallbackDescription =
+    "I'm a programmer, designer, writer and artist. I try to make tools for community autonomy, creativity, and resistance."
+const fallbackImage = "https://static.meri.garden/mesh-gradient.png"
+title = title || fallbackTitle
+description = description || fallbackDescription
+image = image || fallbackImage
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="preload" href="/fonts/sligoil/fonts/web/Sligoil-Micro.woff2" as="font" type="font/woff2" crossorigin />
-		<link rel="preload" href="/fonts/vercetti/OpenType/Vercetti-Regular.woff2" as="font" type="font/woff2" crossorigin />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="description" content={description} />
+    <head>
+        <meta charset="utf-8" />
+        <link
+            rel="preload"
+            href="/fonts/sligoil/fonts/web/Sligoil-Micro.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/vercetti/OpenType/Vercetti-Regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content={description} />
 
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content={`${Astro.site}${Astro.url.pathname}`} />
+        <!-- Open Graph Tags -->
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={image} />
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:url"
+            content={`${Astro.site}${Astro.url.pathname}`}
+        />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={image} />
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={image} />
 
-		<!-- Favicons -->
-		<link rel="icon" type="image/x-icon" href="/favicon.ico">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-		<link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
-		<link rel="manifest" href="/site.webmanifest">
-		{atUri && <link rel="site.standard.document" href={atUri} />}
-		<title>Meri Leeworthy</title>
-	</head>
-	<head />
-	<body class="relative flex flex-col items-center w-screen">
-		<Header />
-    <slot />
-    <Footer />
-		<svg class="w-0 h-0">
-			<filter id="white-alpha">
-				<feColorMatrix
-					type="matrix"
-					values="0 1 0 0 0
+        <!-- Favicons -->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="48x48"
+            href="/favicon-48x48.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="128x128"
+            href="/favicon-128x128.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/android-chrome-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="512x512"
+            href="/android-chrome-512x512.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        {atUri && <link rel="site.standard.document" href={atUri} />}
+        <title>Meri Leeworthy</title>
+    </head>
+
+    <body class="relative flex flex-col items-center w-screen">
+        <Header />
+        <slot />
+        <Footer />
+        <svg class="w-0 h-0">
+            <filter id="white-alpha">
+                <feColorMatrix
+                    type="matrix"
+                    values="0 1 0 0 0
 					0 1 0 0 0
 					0 1 0 0 0
 					-1 -1 -1 1 0 "
-				/>
-			</filter>
-		</svg>
-	</body>
+                ></feColorMatrix>
+            </filter>
+        </svg>
+    </body>
 </html>

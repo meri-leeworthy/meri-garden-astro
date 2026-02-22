@@ -1,8 +1,8 @@
 ---
 title: 'Customising Discourse to do non-forum things'
 slug: 'customising-discourse-to-do-non-forum-things'
-isPublished: 'true'
-date: '"20211008"'
+isPublished: 'false'
+date: '2021-10-08T00:00:00.000Z'
 image: 'discourse.png'
 alt: ''
 tags:

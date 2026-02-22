@@ -5,34 +5,36 @@ import { glob } from "astro/loaders"
 const schema = z.object({
   title: z.string(),
   slug: z.string(),
+  date: z.coerce.date().optional(),
   description: z.string().optional(),
   image: z.string().optional(),
   alt: z.string().optional(),
   author: z.union([z.string(), z.array(z.string())]).optional(),
   type: z.string().optional(),
   year: z.string().optional(),
-  // date: z.coerce.date().optional(),
   tags: z.union([z.string(), z.array(z.string())]).optional(),
   draft: z.boolean().optional(),
+  portfolio: z.boolean().optional(),
+  atUri: z.string().optional()
 })
 
 const posts = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/posts" }),
-  schema,
+  schema
 })
 
 const work = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/work" }),
-  schema,
+  schema
 })
 
 const notes = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/notes" }),
-  schema,
+  schema
 })
 
 export const collections = {
   posts,
   work,
-  notes,
+  notes
 }

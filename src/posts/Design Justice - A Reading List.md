@@ -6,7 +6,7 @@ description: 'Introductory essay for a reading group I was part of'
 tags:
 - 'design'
 - 'political'
-atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcelzwhr2q"
+atUri: 'at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcelzwhr2q'
 ---
 
 “\[Design is] an ethical praxis of worldmaking” - Escobar, Designs for the Pluriverse

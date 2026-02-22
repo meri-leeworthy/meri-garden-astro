@@ -33,32 +33,31 @@ const { Content } = await render(item)
     description={item.data.description || ""}
     image={item.data.image || ""}
 >
+    <div
+        class={`relative mx-auto max-w-4xl w-full lg:w-[48rem] mb-12 group bg-teal-800 bg-opacity-80 ${
+            item.data.image ? "" : "h-10"
+        }`}
+    >
+        {
+            item.data.image && (
+                <img
+                    src={`/images/${item.data.image}`}
+                    alt={item.data.alt || item.data.title}
+                    class="aspect-video w-full h-full inset-0 object-cover whitefilter p-0 m-0"
+                />
+            )
+        }
+        <div class="absolute -bottom-6 w-4/5 left-4">
+            <h1
+                class="inline px-2 py-2 text-lg sm:text-xl leading-8 bg-purple-300 rounded-lg shadow-xl lg:text-2xl font-title box-decoration-clone"
+            >
+                {item.data.title}
+            </h1>
+        </div>
+    </div>
     <article
         class={`prose flex flex-col items-center mx-auto max-w-4xl w-full post pt-16`}
     >
-        <div
-            class={`relative w-full lg:w-[48rem] mb-12 ${
-                item.data.image ? "aspect-video" : "h-10"
-            }`}
-        >
-            {
-                item.data.image && (
-                    <div class="absolute top-0 right-3 w-[calc(100%-30px)] lg:w-[calc(48rem-40px)] bg-teal-800  aspect-video">
-                        <img
-                            src={`/images/${item.data.image}`}
-                            alt={item.data.alt || item.data.title}
-                        />
-                    </div>
-                )
-            }
-            <div class="absolute bottom-0 w-4/5 left-1">
-                <h1
-                    class="inline px-2 py-2 text-lg leading-8 bg-purple-300 rounded-lg shadow-xl lg:text-2xl font-title box-decoration-clone"
-                >
-                    {item.data.title}
-                </h1>
-            </div>
-        </div>
         <main class="w-full max-w-prose">
             <Content />
             {

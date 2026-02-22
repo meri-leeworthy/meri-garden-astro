@@ -2,7 +2,7 @@
 title: 'Netlify CMS and Jekyll'
 slug: 'netlify-cms-and-jekyll'
 isPublished: 'true'
-date: '"20200503"'
+date: '2020-05-03T00:00:00.000Z'
 image: 'markdown.png'
 alt: ''
 tags:

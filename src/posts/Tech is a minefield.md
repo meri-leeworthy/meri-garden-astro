@@ -3,7 +3,7 @@ title: 'Tech is a minefield'
 slug: 'tech-is-a-minefield'
 date: '2022-12-16T00:00:00.000Z'
 description: 'But then again, so is all modern life I guess?'
-atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcemiue22k"
+atUri: 'at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcemiue22k'
 ---
 
 **Hi! This is the first edition of *Boids*, a new newsletter. I'm starting it with the hope of giving myself a space to share reflections and ideas about political technologies and technological politics, and maybe some stuff about design, theory, and creative practice?

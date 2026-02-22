@@ -2,7 +2,7 @@
 title: 'Storing Rich Text'
 slug: 'storing-rich-text'
 isPublished: 'true'
-date: '"20210325"'
+date: '2021-03-25T00:00:00.000Z'
 image: 'microsoft-word.png'
 alt: 'A historical screenshot of Microsoft Word for Mac 1995'
 tags:

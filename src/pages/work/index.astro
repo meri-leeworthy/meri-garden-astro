@@ -1,32 +1,80 @@
 ---
 import Main from "../../layouts/Main.astro"
 import { getCollection } from "astro:content"
+import { render } from "astro:content"
 
 const items = await getCollection("work")
 const sortedItems = items
-    .filter((p) => "publish" in p && p.publish)
-    .sort((a, b) => a.data.title.localeCompare(b.data.title))
+    .filter((p) => !!p.data.portfolio)
+    .sort(
+        (a, b) =>
+            (b.data.date ? new Date(b.data.date).valueOf() : 1) -
+            (a.data.date ? new Date(a.data.date).valueOf() : 1)
+    )
+
+function getSnippet(item: any) {
+    const { Content } = render(item)
+    const text =
+        item.body?.split("\n\n")[0]?.trim() ||
+        item.data.description ||
+        "Project writeup coming soon."
+    return text.length > 150 ? text.slice(0, 147) + "..." : text
+}
 ---
 
 <Main
-    title="Work - Meri Leeworthy"
+    title="Projects - Meri Leeworthy"
     description="Project writeups and work by Meri Leeworthy."
     image="https://static.meri.garden/mesh-gradient.png"
 >
     <div class="flex flex-col w-screen px-4 pt-16 isolate">
-        <section class="w-full max-w-lg mx-auto">
-            <h1 class="text-2xl font-title mb-8">Work</h1>
-            <ul class="flex flex-col gap-3 font-title list-['↠']">
+        <section class="w-full max-w-3xl mx-auto">
+            <h1 class="text-2xl font-title mb-8">Projects</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {
                     sortedItems.map((item) => (
-                        <li class="link-list">
-                            <a href={`/work/${item.data.slug}`}>
-                                {item.data.title}
-                            </a>
-                        </li>
+                        <a href={`/work/${item.data.slug}`} class="group block">
+                            <article
+                                class="h-full flex flex-col border border-current rounded-lg overflow-hidden transition-opacity
+                           opacity-80 hover:opacity-100"
+                            >
+                                {item.data.image && (
+                                    <div class="aspect-video w-full bg-teal-800 overflow-hidden">
+                                        <img
+                                            src={"/images/" + item.data.image}
+                                            alt={
+                                                item.data.alt || item.data.title
+                                            }
+                                            class="w-full h-full object-cover whitefilter"
+                                            loading="lazy"
+                                        />
+                                    </div>
+                                )}
+                                <div class="p-4 flex flex-col flex-1">
+                                    <h2 class="text-lg font-title mb-2 group-hover:underline">
+                                        {item.data.title}
+                                    </h2>
+                                    <p class="text-sm opacity-70 mb-4 flex-1">
+                                        {getSnippet(item)}
+                                    </p>
+                                    {item.data.tags && (
+                                        <div class="flex flex-wrap gap-2">
+                                            {(Array.isArray(item.data.tags)
+                                                ? item.data.tags
+                                                : [item.data.tags]
+                                            ).map((tag: string) => (
+                                                <span class="text-xs px-2 py-1 bg-neutral-100 dark:bg-neutral-800 rounded-full">
+                                                    {tag}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+                            </article>
+                        </a>
                     ))
                 }
-            </ul>
+            </div>
         </section>
     </div>
 </Main>

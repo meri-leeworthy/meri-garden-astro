@@ -3,7 +3,7 @@ title: 'Using Keyhive in WASM to model capability groups'
 slug: 'using-keyhive-in-wasm-to-model-capability-groups'
 date: '2025-08-21T00:00:00.000Z'
 description: 'Demo/POC of using just the delegation parts, in the browser'
-atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcek5kst2x"
+atUri: 'at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcek5kst2x'
 ---
 
 I wanted to see if I could try out _just_ the group management parts of Ink & Switch's [[Keyhive]] in a web app - that is, without worrying about sync, key agreement or encryption. I'm not going to explain what Keyhive is here but recommend the [Ink & Switch lab notebooks](https://www.inkandswitch.com/keyhive/) or [Brooklyn Zelenka's talk about it at Local-First Conf](https://www.youtube.com/watch?v=iLp2xBMud10).

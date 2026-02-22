@@ -2870,11 +2870,6 @@
       "slug": "roomy-sync-server",
       "title": "Roomy Sync Server",
       "path": "/work/roomy-sync-server"
-    },
-    {
-      "slug": "roomy",
-      "title": "Roomy",
-      "path": "/work/roomy"
     }
   ],
   "jazz": [
@@ -3163,20 +3158,6 @@
       "path": "/work/organ-pages"
     }
   ],
-  "roomy-sync-server": [
-    {
-      "slug": "roomy",
-      "title": "Roomy",
-      "path": "/work/roomy"
-    }
-  ],
-  "roomy-services": [
-    {
-      "slug": "roomy",
-      "title": "Roomy",
-      "path": "/work/roomy"
-    }
-  ],
   "weird-dns-server-discussion": [
     {
       "slug": "weird",
@@ -3189,13 +3170,6 @@
       "slug": "weird",
       "title": "Weird",
       "path": "/work/weird"
-    }
-  ],
-  "httpssoundosteopathycomau": [
-    {
-      "slug": "wordpress-design-and-build",
-      "title": "Wordpress Design and Build",
-      "path": "/work/wordpress-design-and-build"
     }
   ],
   "moth-projects": [
@@ -3526,11 +3500,6 @@
       "slug": "unthought",
       "title": "Unthought",
       "path": "/notes/unthought"
-    },
-    {
-      "slug": "new-materialism",
-      "title": "new materialism",
-      "path": "/notes/new-materialism"
     },
     {
       "slug": "new-materialisms",
@@ -4171,138 +4140,6 @@
       "slug": "crdt-sync",
       "title": "CRDT Sync",
       "path": "/notes/crdt-sync"
-    }
-  ],
-  "via-jr-ross-1967": [
-    {
-      "slug": "crdts-2-turtles-all-the-way-down",
-      "title": "CRDTs 2 - Turtles All the Way Down",
-      "path": "/notes/crdts-2-turtles-all-the-way-down"
-    }
-  ],
-  "intro-post": [
-    {
-      "slug": "crdts-2-turtles-all-the-way-down",
-      "title": "CRDTs 2 - Turtles All the Way Down",
-      "path": "/notes/crdts-2-turtles-all-the-way-down"
-    }
-  ],
-  "fill-in-below": [
-    {
-      "slug": "crdts-2-turtles-all-the-way-down",
-      "title": "CRDTs 2 - Turtles All the Way Down",
-      "path": "/notes/crdts-2-turtles-all-the-way-down"
-    }
-  ],
-  "below": [
-    {
-      "slug": "crdts-2-turtles-all-the-way-down",
-      "title": "CRDTs 2 - Turtles All the Way Down",
-      "path": "/notes/crdts-2-turtles-all-the-way-down"
-    }
-  ],
-  "fsm-divergence-diagram": [
-    {
-      "slug": "crdts-2-turtles-all-the-way-down",
-      "title": "CRDTs 2 - Turtles All the Way Down",
-      "path": "/notes/crdts-2-turtles-all-the-way-down"
-    }
-  ],
-  "lexical-product": [
-    {
-      "slug": "crdts-2-turtles-all-the-way-down",
-      "title": "CRDTs 2 - Turtles All the Way Down",
-      "path": "/notes/crdts-2-turtles-all-the-way-down"
-    }
-  ],
-  "functions": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    }
-  ],
-  "lhopitals-rule": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    },
-    {
-      "slug": "limits",
-      "title": "Limits",
-      "path": "/notes/limits"
-    }
-  ],
-  "limits": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    }
-  ],
-  "continuity": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    },
-    {
-      "slug": "limits",
-      "title": "Limits",
-      "path": "/notes/limits"
-    }
-  ],
-  "derivatives-and-differentiation": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    }
-  ],
-  "chain-rule": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    },
-    {
-      "slug": "rules-of-differentiation",
-      "title": "Rules of Differentiation",
-      "path": "/notes/rules-of-differentiation"
-    },
-    {
-      "slug": "backpropagation",
-      "title": "backpropagation",
-      "path": "/notes/backpropagation"
-    }
-  ],
-  "optimisation": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    }
-  ],
-  "integrals-and-integration": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    }
-  ],
-  "partial-derivatives": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
-    }
-  ],
-  "vector-calculus": [
-    {
-      "slug": "calculus",
-      "title": "Calculus",
-      "path": "/notes/calculus"
     }
   ],
   "an-introduction-to-the-three-volumes-of-karl-marxs-capital": [
@@ -5927,11 +5764,6 @@
       "path": "/notes/designs-for-the-pluriverse"
     },
     {
-      "slug": "disciplining-the-savages-savaging-the-disciplines",
-      "title": "Disciplining the Savages, Savaging the Disciplines",
-      "path": "/notes/disciplining-the-savages-savaging-the-disciplines"
-    },
-    {
       "slug": "the-white-possessive",
       "title": "The White Possessive",
       "path": "/notes/the-white-possessive"
@@ -6101,27 +5933,6 @@
       "path": "/notes/designs-for-the-pluriverse"
     }
   ],
-  "eigenvalues-and-eigenvectorsoreigenvalues": [
-    {
-      "slug": "diagonalization",
-      "title": "Diagonalization",
-      "path": "/notes/diagonalization"
-    }
-  ],
-  "eigenvalues-and-eigenvectorsoreigenvector": [
-    {
-      "slug": "diagonalization",
-      "title": "Diagonalization",
-      "path": "/notes/diagonalization"
-    }
-  ],
-  "inverse-matrixorinvertible": [
-    {
-      "slug": "diagonalization",
-      "title": "Diagonalization",
-      "path": "/notes/diagonalization"
-    }
-  ],
   "rsa": [
     {
       "slug": "diffie-hellman-key-exchange",
@@ -6158,27 +5969,6 @@
       "slug": "diffie-hellman-key-exchange",
       "title": "Diffie-Hellman key exchange",
       "path": "/notes/diffie-hellman-key-exchange"
-    }
-  ],
-  "eulers-totient-function-and-eulers-theoremoreulers-totient-function": [
-    {
-      "slug": "discrete-logarithm-problem",
-      "title": "Discrete logarithm problem",
-      "path": "/notes/discrete-logarithm-problem"
-    }
-  ],
-  "dlogapx-dlogapy": [
-    {
-      "slug": "discrete-logarithm-problem",
-      "title": "Discrete logarithm problem",
-      "path": "/notes/discrete-logarithm-problem"
-    }
-  ],
-  "r-dlogapy": [
-    {
-      "slug": "discrete-logarithm-problem",
-      "title": "Discrete logarithm problem",
-      "path": "/notes/discrete-logarithm-problem"
     }
   ],
   "metadata-private-messaging": [
@@ -6219,11 +6009,6 @@
       "slug": "eigenvalues-and-eigenvectors",
       "title": "Eigenvalues and Eigenvectors",
       "path": "/notes/eigenvalues-and-eigenvectors"
-    },
-    {
-      "slug": "matrix-algebra-glossary",
-      "title": "Matrix algebra glossary",
-      "path": "/notes/matrix-algebra-glossary"
     }
   ],
   "linear-systemsorsystem": [
@@ -6809,11 +6594,6 @@
       "slug": "exponential-distribution",
       "title": "Exponential distribution",
       "path": "/notes/exponential-distribution"
-    },
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
     }
   ],
   "123-p1": [
@@ -7772,20 +7552,6 @@
       "path": "/notes/technology"
     }
   ],
-  "euclidean-distance": [
-    {
-      "slug": "k-nearest-neighbour",
-      "title": "K nearest neighbour",
-      "path": "/notes/k-nearest-neighbour"
-    }
-  ],
-  "jaccard-indexorjaccard-coefficient": [
-    {
-      "slug": "k-nearest-neighbour",
-      "title": "K nearest neighbour",
-      "path": "/notes/k-nearest-neighbour"
-    }
-  ],
   "01-welcome-to-the-keyhive": [
     {
       "slug": "keyhive",
@@ -7940,6 +7706,20 @@
       "slug": "place",
       "title": "place",
       "path": "/notes/place"
+    }
+  ],
+  "continuity": [
+    {
+      "slug": "limits",
+      "title": "Limits",
+      "path": "/notes/limits"
+    }
+  ],
+  "lhopitals-rule": [
+    {
+      "slug": "limits",
+      "title": "Limits",
+      "path": "/notes/limits"
     }
   ],
   "factoring-quadratic-equations": [
@@ -8474,81 +8254,6 @@
       "path": "/notes/subsumption"
     }
   ],
-  "the-division-algorithm": [
-    {
-      "slug": "mathematical-foundations-in-cryptography",
-      "title": "Mathematical foundations in cryptography",
-      "path": "/notes/mathematical-foundations-in-cryptography"
-    }
-  ],
-  "matrix-addition": [
-    {
-      "slug": "matrix-algebra-glossary",
-      "title": "Matrix algebra glossary",
-      "path": "/notes/matrix-algebra-glossary"
-    }
-  ],
-  "matrix-multiplication": [
-    {
-      "slug": "matrix-algebra-glossary",
-      "title": "Matrix algebra glossary",
-      "path": "/notes/matrix-algebra-glossary"
-    }
-  ],
-  "cofactor-matrix": [
-    {
-      "slug": "matrix-algebra-glossary",
-      "title": "Matrix algebra glossary",
-      "path": "/notes/matrix-algebra-glossary"
-    }
-  ],
-  "adjugate-adjoint-matrix": [
-    {
-      "slug": "matrix-algebra-glossary",
-      "title": "Matrix algebra glossary",
-      "path": "/notes/matrix-algebra-glossary"
-    }
-  ],
-  "inverse-matrix": [
-    {
-      "slug": "matrix-algebra-glossary",
-      "title": "Matrix algebra glossary",
-      "path": "/notes/matrix-algebra-glossary"
-    }
-  ],
-  "eigenvalues-and-eigenvectors": [
-    {
-      "slug": "matrix-algebra-glossary",
-      "title": "Matrix algebra glossary",
-      "path": "/notes/matrix-algebra-glossary"
-    },
-    {
-      "slug": "matrix-transformations-glossary",
-      "title": "Matrix transformations glossary",
-      "path": "/notes/matrix-transformations-glossary"
-    }
-  ],
-  "diagonalization": [
-    {
-      "slug": "matrix-algebra-glossary",
-      "title": "Matrix algebra glossary",
-      "path": "/notes/matrix-algebra-glossary"
-    }
-  ],
-  "linear-transformation": [
-    {
-      "slug": "matrix-transformations-glossary",
-      "title": "Matrix transformations glossary",
-      "path": "/notes/matrix-transformations-glossary"
-    }
-  ],
-  "inverse-matrixorinverse": [
-    {
-      "slug": "matrix-transformations-glossary",
-      "title": "Matrix transformations glossary",
-      "path": "/notes/matrix-transformations-glossary"
-    }
-  ],
   "merkle-tree": [
     {
       "slug": "merkle-search-tree",
@@ -8731,46 +8436,6 @@
       "slug": "multicast-encryption",
       "title": "Multicast encryption",
       "path": "/notes/multicast-encryption"
-    }
-  ],
-  "perceptronorperceptrons": [
-    {
-      "slug": "multi-layer-feed-forward-neural-network",
-      "title": "Multi-layer feed-forward neural network",
-      "path": "/notes/multi-layer-feed-forward-neural-network"
-    }
-  ],
-  "gradient-descent": [
-    {
-      "slug": "multi-layer-feed-forward-neural-network",
-      "title": "Multi-layer feed-forward neural network",
-      "path": "/notes/multi-layer-feed-forward-neural-network"
-    }
-  ],
-  "derivatives-and-differentiationorderivative": [
-    {
-      "slug": "multi-layer-feed-forward-neural-network",
-      "title": "Multi-layer feed-forward neural network",
-      "path": "/notes/multi-layer-feed-forward-neural-network"
-    }
-  ],
-  "rules-of-differentiationorsum-rule": [
-    {
-      "slug": "multi-layer-feed-forward-neural-network",
-      "title": "Multi-layer feed-forward neural network",
-      "path": "/notes/multi-layer-feed-forward-neural-network"
-    }
-  ],
-  "backpropagation": [
-    {
-      "slug": "multi-layer-feed-forward-neural-network",
-      "title": "Multi-layer feed-forward neural network",
-      "path": "/notes/multi-layer-feed-forward-neural-network"
-    },
-    {
-      "slug": "gradient-descent",
-      "title": "gradient descent",
-      "path": "/notes/gradient-descent"
     }
   ],
   "tigris": [
@@ -9030,11 +8695,6 @@
       "slug": "naive-bayes",
       "title": "Naïve-Bayes",
       "path": "/notes/naive-bayes"
-    },
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
     }
   ],
   "pgp": [
@@ -9082,53 +8742,6 @@
       "slug": "pgp",
       "title": "PGP",
       "path": "/notes/pgp"
-    }
-  ],
-  "activation-function": [
-    {
-      "slug": "perceptron",
-      "title": "Perceptron",
-      "path": "/notes/perceptron"
-    }
-  ],
-  "feed-forward-neural-network": [
-    {
-      "slug": "perceptron",
-      "title": "Perceptron",
-      "path": "/notes/perceptron"
-    }
-  ],
-  "multiclass-perceptron": [
-    {
-      "slug": "perceptron",
-      "title": "Perceptron",
-      "path": "/notes/perceptron"
-    }
-  ],
-  "training-perceptrons": [
-    {
-      "slug": "perceptron",
-      "title": "Perceptron",
-      "path": "/notes/perceptron"
-    }
-  ],
-  "worked-example-on-perceptrons": [
-    {
-      "slug": "perceptron",
-      "title": "Perceptron",
-      "path": "/notes/perceptron"
-    }
-  ],
-  "wikipedia": [
-    {
-      "slug": "perceptron",
-      "title": "Perceptron",
-      "path": "/notes/perceptron"
-    },
-    {
-      "slug": "backpropagation",
-      "title": "backpropagation",
-      "path": "/notes/backpropagation"
     }
   ],
   "pluriversal-politics-the-real-and-the-possible-arturo-escobar-latin-america-in-translation-2020-duke-university-press-9781478007937-442404d3bd55adc136e3a858e86a4ea8-annas-archivepdf": [
@@ -9273,125 +8886,6 @@
       "slug": "primitive-accumulation",
       "title": "Primitive Accumulation",
       "path": "/notes/primitive-accumulation"
-    }
-  ],
-  "introduction-to-probability-theory": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "probability-terminology": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "addition-rule": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "complement-rule": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "conditional-rule": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "multiplication-rule": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "chain-rule-probability": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "binomial-distribution": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "gaussian-distribution": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "exponential-distribution": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "introduction-to-random-variables": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "expectation-of-a-random-variable": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "linearity-of-expectation": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "variances": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "covariances": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "maximum-likelihood-estimation-mle": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
-    }
-  ],
-  "mle-for-gaussian-distribution": [
-    {
-      "slug": "probability-theory",
-      "title": "Probability Theory",
-      "path": "/notes/probability-theory"
     }
   ],
   "web-design": [
@@ -9806,6 +9300,18 @@
       "slug": "rules-of-differentiation",
       "title": "Rules of Differentiation",
       "path": "/notes/rules-of-differentiation"
+    }
+  ],
+  "chain-rule": [
+    {
+      "slug": "rules-of-differentiation",
+      "title": "Rules of Differentiation",
+      "path": "/notes/rules-of-differentiation"
+    },
+    {
+      "slug": "backpropagation",
+      "title": "backpropagation",
+      "path": "/notes/backpropagation"
     }
   ],
   "licpdf": [
@@ -12256,20 +11762,6 @@
       "path": "/notes/unthought"
     }
   ],
-  "vector-fields": [
-    {
-      "slug": "vector-calculus",
-      "title": "Vector Calculus",
-      "path": "/notes/vector-calculus"
-    }
-  ],
-  "gradient-functions": [
-    {
-      "slug": "vector-calculus",
-      "title": "Vector Calculus",
-      "path": "/notes/vector-calculus"
-    }
-  ],
   "political-ecologyorpolitical-ecology": [
     {
       "slug": "vibrant-matter",
@@ -12546,6 +12038,13 @@
       "path": "/notes/backpropagation"
     }
   ],
+  "wikipedia": [
+    {
+      "slug": "backpropagation",
+      "title": "backpropagation",
+      "path": "/notes/backpropagation"
+    }
+  ],
   "differentiable": [
     {
       "slug": "backpropagation",
@@ -12623,6 +12122,13 @@
       "path": "/notes/development"
     }
   ],
+  "backpropagation": [
+    {
+      "slug": "gradient-descent",
+      "title": "gradient descent",
+      "path": "/notes/gradient-descent"
+    }
+  ],
   "telecommunications-interception-and-access-act-1979": [
     {
       "slug": "mass-surveillance-in-australia",
@@ -12691,20 +12197,6 @@
       "slug": "relationality",
       "title": "relationality",
       "path": "/notes/relationality"
-    }
-  ],
-  "topic-1": [
-    {
-      "slug": "requirement-analysis-and-documentation",
-      "title": "requirement analysis and documentation",
-      "path": "/notes/requirement-analysis-and-documentation"
-    }
-  ],
-  "invest-mnemonic": [
-    {
-      "slug": "requirement-analysis-and-documentation",
-      "title": "requirement analysis and documentation",
-      "path": "/notes/requirement-analysis-and-documentation"
     }
   ],
   "friedrich-hayek": [

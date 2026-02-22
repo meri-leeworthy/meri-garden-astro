@@ -3,7 +3,7 @@ title: 'What happened to the earlier version of Organ?'
 slug: 'what-happened-to-the-earlier-version-of-organ'
 date: '2025-02-19T00:00:00.000Z'
 description: 'Postmortem for an activist social network project'
-atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgceku7qm2k"
+atUri: 'at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgceku7qm2k'
 ---
 
 In early 2024 I shared some early work on a **privacy-preserving social media network oriented around event organising** that I'm now calling `organ-social`. My work on this project was motivated by a desire to support activists and community organisers to become less reliant on corporate social media. I've since indefinitely suspended work on this project and wanted to share why. 

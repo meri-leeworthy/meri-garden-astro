@@ -3,7 +3,7 @@ title: 'Analysis of proposed protocols for metadata protection and decentralisat
 slug: 'metadata-decentralisation-secure-group-messaging'
 description: 'Research report on two papers'
 date: '2024-11-18T00:00:00.000Z'
-atUri: "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcel3vus2k"
+atUri: 'at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.document/3mfgcel3vus2k'
 ---
 
 # Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging
