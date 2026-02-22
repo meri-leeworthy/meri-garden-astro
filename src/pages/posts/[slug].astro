@@ -24,6 +24,16 @@ export async function getStaticPaths() {
     }))
 }
 
+function formatDate(date: string | Date | undefined) {
+    if (!date) return ""
+    const d = typeof date === "string" ? new Date(date) : date
+    return d.toLocaleDateString("en-AU", {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+    })
+}
+
 const { post, backlinks } = Astro.props
 const { Content } = await render(post)
 ---
@@ -60,33 +70,15 @@ const { Content } = await render(post)
                 </h1>
             </div>
         </div>
+        {
+            post.data.date && (
+                <div class="font-title px-8 text-right w-full lg:w-[48rem] text-sm text-neutral-600 pb-8">
+                    {formatDate(post.data.date)}
+                </div>
+            )
+        }
+
         <main class="w-full max-w-prose">
-            <table>
-                {
-                    "author" in post.data && (
-                        <tr>
-                            <th>Author</th>
-                            <td>{post.data.author}</td>
-                        </tr>
-                    )
-                }
-                {
-                    "type" in post.data && (
-                        <tr>
-                            <th>Type</th>
-                            <td>{post.data.type}</td>
-                        </tr>
-                    )
-                }
-                {
-                    "year" in post.data && (
-                        <tr>
-                            <th>Year</th>
-                            <td>{post.data.year}</td>
-                        </tr>
-                    )
-                }
-            </table>
             <Content />
             {
                 backlinks.length > 0 && (

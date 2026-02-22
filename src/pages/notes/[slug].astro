@@ -1,86 +1,125 @@
 ---
-import Main from "../../layouts/Main.astro";
-import { getCollection, render } from 'astro:content';
-import fs from 'fs';
-import path from 'path';
+import Main from "../../layouts/Main.astro"
+import { getCollection, render } from "astro:content"
+import fs from "fs"
+import path from "path"
 
 interface Backlink {
-  slug: string;
-  title: string;
-  path: string;
+    slug: string
+    title: string
+    path: string
 }
 
 export async function getStaticPaths() {
-  const items = await getCollection('notes');
-  const backlinksPath = path.join(process.cwd(), 'public', 'backlinks.json');
-  const backlinksData = JSON.parse(fs.readFileSync(backlinksPath, 'utf-8'));
+    const items = await getCollection("notes")
+    const backlinksPath = path.join(process.cwd(), "public", "backlinks.json")
+    const backlinksData = JSON.parse(fs.readFileSync(backlinksPath, "utf-8"))
 
-  return items.map((item) => ({
-    params: { slug: item.data.slug },
-    props: {
-      item,
-      backlinks: (backlinksData[item.data.slug] || []) as Backlink[]
-    },
-  }));
+    return items.map((item) => ({
+        params: { slug: item.data.slug },
+        props: {
+            item,
+            backlinks: (backlinksData[item.data.slug] || []) as Backlink[]
+        }
+    }))
 }
 
-const { item, backlinks } = Astro.props;
-const { Content } = await render(item);
+function formatDate(date: string | Date | undefined) {
+    if (!date) return ""
+    const d = typeof date === "string" ? new Date(date) : date
+    return d.toLocaleDateString("en-AU", {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+    })
+}
+
+const { item, backlinks } = Astro.props
+const { Content } = await render(item)
 ---
-<Main title={item.data.title} description={item.data.description} image={item.data.image}>
-  <article
-  class={`prose flex flex-col items-center mx-auto max-w-4xl w-full post pt-16`}>
-  <div
-    class={`relative w-full lg:w-[48rem] mb-12 ${
-      item.data.image ? "aspect-video" : "h-10"
-    }`}>
-    {item.data.image && (
-      <div class="absolute top-0 right-3 w-[calc(100%-30px)] lg:w-[calc(48rem-40px)] bg-teal-800  aspect-video">
-        <img
-          src={`/images/${item.data.image}`}
-          alt={item.data.alt || item.data.title}
-        />
-      </div>
-    )}
-    <div class="absolute bottom-0 w-4/5 left-1">
-      <h1 class="inline px-2 py-2 text-lg leading-8 bg-purple-300 rounded-lg shadow-xl lg:text-2xl font-title box-decoration-clone">
-        {item.data.title}
-      </h1>
-    </div>
-  </div>
-  <main class="w-full max-w-prose">
-    <table>
-      {"author" in item.data && (
-        <tr>
-          <th>Author</th>
-          <td>{item.data.author}</td>
-        </tr>
-      )}
-      {"type" in item.data && (
-        <tr>
-          <th>Type</th>
-          <td>{item.data.type}</td>
-        </tr>
-      )}
-      {"year" in item.data && (
-        <tr>
-          <th>Year</th>
-          <td>{item.data.year}</td>
-        </tr>
-      )}
-    </table>
-    <Content />
-    {backlinks.length > 0 && (
-      <section class="backlinks">
-        <h2>Backlinks</h2>
-        <ul>
-          {backlinks.map((backlink) => (
-            <li>
-              <a href={backlink.path}>{backlink.title}</a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
-  </main>
+
+<Main
+    title={item.data.title}
+    description={item.data.description || ""}
+    image={item.data.image || ""}
+>
+    <article
+        class={`prose flex flex-col items-center mx-auto max-w-4xl w-full post pt-16`}
+    >
+        <div
+            class={`relative w-full lg:w-[48rem] mb-12 ${
+                item.data.image ? "aspect-video" : "h-10"
+            }`}
+        >
+            {
+                item.data.image && (
+                    <div class="absolute top-0 right-3 w-[calc(100%-30px)] lg:w-[calc(48rem-40px)] bg-teal-800  aspect-video">
+                        <img
+                            src={`/images/${item.data.image}`}
+                            alt={item.data.alt || item.data.title}
+                        />
+                    </div>
+                )
+            }
+            <div class="absolute bottom-0 w-4/5 left-1">
+                <h1
+                    class="inline px-2 py-2 text-lg leading-8 bg-purple-300 rounded-lg shadow-xl lg:text-2xl font-title box-decoration-clone"
+                >
+                    {item.data.title}
+                </h1>
+            </div>
+        </div>
+        {
+            item.data.date && (
+                <div class="text-center text-sm text-gray-600 mb-8 mt-4">
+                    {formatDate(item.data.date)}
+                </div>
+            )
+        }
+        <main class="w-full max-w-prose">
+            <div class="flex w-full justify-end">
+                <table class="max-w-60 font-title">
+                    {
+                        "author" in item.data && (
+                            <tr>
+                                <th>Author</th>
+                                <td>{item.data.author}</td>
+                            </tr>
+                        )
+                    }
+                    {
+                        "type" in item.data && (
+                            <tr>
+                                <th>Type</th>
+                                <td>{item.data.type}</td>
+                            </tr>
+                        )
+                    }
+                    {
+                        "year" in item.data && (
+                            <tr>
+                                <th>Year</th>
+                                <td>{item.data.year}</td>
+                            </tr>
+                        )
+                    }
+                </table>
+            </div>
+            <Content />
+            {
+                backlinks.length > 0 && (
+                    <section class="backlinks">
+                        <h2>Backlinks</h2>
+                        <ul>
+                            {backlinks.map((backlink) => (
+                                <li>
+                                    <a href={backlink.path}>{backlink.title}</a>
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+                )
+            }
+        </main>
+    </article>
 </Main>
