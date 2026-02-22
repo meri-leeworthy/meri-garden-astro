@@ -1,51 +1,107 @@
 ---
-import Main from "../layouts/Main.astro";
+import Main from "../layouts/Main.astro"
+import { getCollection } from "astro:content"
+import ProjectCard from "../components/ProjectCard.astro"
+
+const items = await getCollection("work")
+const sortedItems = items
+    .filter((p) => !!p.data.portfolio)
+    .sort(
+        (a, b) =>
+            (b.data.date ? new Date(b.data.date).valueOf() : 1) -
+            (a.data.date ? new Date(a.data.date).valueOf() : 1)
+    )
+
+function getSnippet(item: any) {
+    const text =
+        item.body?.split("\n\n")[0]?.trim() ||
+        item.data.description ||
+        "Project writeup coming soon."
+    return text.length > 150 ? text.slice(0, 147) + "..." : text
+}
 ---
 
-<Main title="Meri Leeworthy" description="I'm a programmer, designer, writer and artist. I try to make tools for community autonomy, creativity, and resistance." image="https://static.meri.garden/mesh-gradient.png">
-	<div class="flex flex-col w-screen px-4 pt-16 isolate">
-		<section class="flex flex-col w-full max-w-sm gap-4 pl-20 mx-auto">
-			<aside class="text-xl">
-				I'm a programmer, designer, writer and artist.<br /><br />
-				I make tools for community autonomy, creativity, and resistance.
-			</aside>
-		</section>
-		<section class="w-full max-w-lg mx-auto mt-32">
-			<p>
-				This site is structured like a 'digital garden' - an explorable collection of notes, some fleshed out, some not. Here are some recent highlights/entrypoints:
-			</p>
-			<ul class="flex flex-col gap-3 mt-6 font-title list-['↠'] ">
-    			<li class="link-list">
-    				<a href="/posts/using-keyhive-in-wasm-to-model-capability-groups">
-    					Using Keyhive in WASM to model capability groups
-    				</a>
-    			</li>
-				<li class="link-list">
-					<a href="/posts/a-deep-dive-explainer-on-beekem-protocol">
-						A deep-dive explainer on Ink and Switch's BeeKEM protocol
-					</a>
-				</li>
-				<li class="link-list">
-					<a href="/posts/leaf-render-update-0">
-						Leaf Render Update 0
-					</a>
-				</li>
-				<li class="link-list">
-					<a href="/posts/what-happened-to-the-earlier-version-of-organ">
-						What happened to the earlier version of Organ?
-					</a>
-				</li>
-				<li class="link-list">
-					<a href="/posts/analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging">
-						Analysis of proposed protocols for metadata protection and decentralisation in Secure Group Messaging
-					</a>
-				</li>
-				<li class="link-list">
-					<a href="/posts/public-research-notes">
-						Public research notes
-					</a>
-				</li>
-			</ul>
-		</section>
-	</div>
+<Main
+    title="Meri Leeworthy"
+    description="I'm a programmer, designer, writer and artist. I try to make tools for community autonomy, creativity, and resistance."
+    image="https://static.meri.garden/mesh-gradient.png"
+>
+    <div class="flex flex-col w-screen px-4 pt-16 isolate">
+        <section class="flex flex-col w-full max-w-sm gap-4 pl-20 mx-auto">
+            <aside class="text-xl">
+                I'm a programmer, designer, writer and artist.<br /><br />
+                I make tools for community autonomy, creativity, and resistance.
+            </aside>
+        </section>
+        <section class="w-full max-w-lg mx-auto mt-32">
+            <h2 class="text-2xl font-title mb-8">Writing</h2>
+            <ul class="flex flex-col gap-3 mt-6 font-title list-['↠']">
+                <li class="link-list">
+                    <a
+                        href="/posts/using-keyhive-in-wasm-to-model-capability-groups"
+                    >
+                        Using Keyhive in WASM to model capability groups
+                    </a>
+                </li>
+                <li class="link-list">
+                    <a href="/posts/a-deep-dive-explainer-on-beekem-protocol">
+                        A deep-dive explainer on Ink and Switch's BeeKEM
+                        protocol
+                    </a>
+                </li>
+                <li class="link-list">
+                    <a href="/posts/leaf-render-update-0">
+                        Leaf Render Update 0
+                    </a>
+                </li>
+                <li class="link-list">
+                    <a
+                        href="/posts/what-happened-to-the-earlier-version-of-organ"
+                    >
+                        What happened to the earlier version of Organ?
+                    </a>
+                </li>
+                <li class="link-list">
+                    <a
+                        href="/posts/analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging"
+                    >
+                        Analysis of proposed protocols for metadata protection
+                        and decentralisation in Secure Group Messaging
+                    </a>
+                </li>
+                <li class="link-list">
+                    <a href="/posts/public-research-notes">
+                        Public research notes
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="w-full max-w-3xl mx-auto mt-32 flex flex-col">
+            <div class="flex justify-between">
+                <h2 class="text-2xl font-title mb-2">Projects</h2>
+                <p
+                    class="text-black/70 text-sm text-right w-60 max-w-1/2 self-end mb-8"
+                >
+                    Contact me at <a
+                        href="mailto:hello@meri.garden"
+                        class="text-black">hello@meri.garden</a
+                    > to discuss design and technical consulting projects.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {
+                    sortedItems.map((item) => (
+                        <ProjectCard
+                            title={item.data.title}
+                            slug={item.data.slug}
+                            image={item.data.image}
+                            alt={item.data.alt}
+                            tags={item.data.tags}
+                            snippet={getSnippet(item)}
+                        />
+                    ))
+                }
+            </div>
+        </section>
+    </div>
 </Main>

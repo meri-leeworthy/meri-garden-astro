@@ -1,7 +1,7 @@
 ---
 import Main from "../../layouts/Main.astro"
 import { getCollection } from "astro:content"
-import { render } from "astro:content"
+import ProjectCard from "../../components/ProjectCard.astro"
 
 const items = await getCollection("work")
 const sortedItems = items
@@ -32,45 +32,14 @@ function getSnippet(item: any) {
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {
                     sortedItems.map((item) => (
-                        <a href={`/work/${item.data.slug}`} class="group block">
-                            <article
-                                class="h-full flex flex-col border border-current rounded-lg overflow-hidden transition-opacity
-                           opacity-80 hover:opacity-100"
-                            >
-                                {item.data.image && (
-                                    <div class="aspect-video w-full bg-teal-800 overflow-hidden">
-                                        <img
-                                            src={"/images/" + item.data.image}
-                                            alt={
-                                                item.data.alt || item.data.title
-                                            }
-                                            class="w-full h-full object-cover whitefilter"
-                                            loading="lazy"
-                                        />
-                                    </div>
-                                )}
-                                <div class="p-4 flex flex-col flex-1">
-                                    <h2 class="text-lg font-title mb-2 group-hover:underline">
-                                        {item.data.title}
-                                    </h2>
-                                    <p class="text-sm opacity-70 mb-4 flex-1">
-                                        {getSnippet(item)}
-                                    </p>
-                                    {item.data.tags && (
-                                        <div class="flex flex-wrap gap-2">
-                                            {(Array.isArray(item.data.tags)
-                                                ? item.data.tags
-                                                : [item.data.tags]
-                                            ).map((tag: string) => (
-                                                <span class="text-xs px-2 py-1 text-neutral-300 group-hover:text-white bg-neutral-100 dark:bg-neutral-800 rounded-full">
-                                                    {tag}
-                                                </span>
-                                            ))}
-                                        </div>
-                                    )}
-                                </div>
-                            </article>
-                        </a>
+                        <ProjectCard
+                            title={item.data.title}
+                            slug={item.data.slug}
+                            image={item.data.image}
+                            alt={item.data.alt}
+                            tags={item.data.tags}
+                            snippet={getSnippet(item)}
+                        />
                     ))
                 }
             </div>

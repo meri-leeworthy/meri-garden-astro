@@ -1,0 +1,47 @@
+---
+export interface Props {
+    title: string
+    slug: string
+    image?: string
+    alt?: string
+    tags?: string | string[]
+    snippet: string
+}
+
+const { title, slug, image, alt, tags, snippet } = Astro.props
+---
+
+<a href={`/work/${slug}`} class="group block">
+    <article
+        class="h-full flex flex-col border border-current rounded-lg overflow-hidden transition-opacity
+        opacity-80 hover:opacity-100"
+    >
+        {image && (
+            <div class="aspect-video w-full bg-teal-800 overflow-hidden">
+                <img
+                    src={"/images/" + image}
+                    alt={alt || title}
+                    class="w-full h-full object-cover whitefilter"
+                    loading="lazy"
+                />
+            </div>
+        )}
+        <div class="p-4 flex flex-col flex-1">
+            <h2 class="text-lg font-title mb-2 group-hover:underline">
+                {title}
+            </h2>
+            <p class="text-sm opacity-70 mb-4 flex-1">
+                {snippet}
+            </p>
+            {tags && (
+                <div class="flex flex-wrap gap-2">
+                    {(Array.isArray(tags) ? tags : [tags]).map((tag: string) => (
+                        <span class="text-xs px-2 py-1 text-neutral-300 group-hover:text-white bg-neutral-100 dark:bg-neutral-800 rounded-full">
+                            {tag}
+                        </span>
+                    ))}
+                </div>
+            )}
+        </div>
+    </article>
+</a>
