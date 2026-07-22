@@ -238,8 +238,18 @@ export function renderLeafletPage(page: LeafletPage): string {
 }
 
 export function renderDocumentContent(doc: PdsDocument): string {
-  if (!doc.content?.pages?.[0]) return "";
-  return renderLeafletPage(doc.content.pages[0]);
+  if (doc.content?.pages?.[0]) {
+    return renderLeafletPage(doc.content.pages[0]);
+  }
+  // Fallback: render textContent as simple paragraphs
+  if (doc.textContent) {
+    return doc.textContent
+      .split("\n\n")
+      .filter((p) => p.trim())
+      .map((p) => `<p>${escapeHtml(p.trim())}</p>`)
+      .join("\n");
+  }
+  return "";
 }
 
 export function getDocumentSnippet(doc: PdsDocument, maxLength = 200): string {

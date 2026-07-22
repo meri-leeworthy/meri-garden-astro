@@ -3,7 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "prebuild": "tsx lib/seed-cache.ts && tsx lib/process-md.ts",
+    "prebuild": "tsx lib/prebuild.ts",
+    "prebuild:seed": "tsx lib/seed-cache.ts && tsx lib/process-md.ts",
     "prebuild:pds": "tsx lib/prebuild-pds.ts && tsx lib/process-md.ts",
     "build": "astro build",
     "preview": "astro preview",
