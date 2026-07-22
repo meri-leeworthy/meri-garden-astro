@@ -1,13 +1,14 @@
 ---
-import Main from "../../layouts/Main.astro"
-import { getCollection } from "astro:content"
+import Main from "../../layouts/Main.astro";
+import { readCache } from "../../../lib/pds"
 
-const items = await getCollection("posts")
-const sortedItems = items.sort(
+const docs = readCache();
+const sortedItems = docs
+  .filter((d) => d.content || d.textContent)
+  .sort(
     (a, b) =>
-        (b.data.date ? new Date(b.data.date).valueOf() : 1) -
-        (a.data.date ? new Date(a.data.date).valueOf() : 1)
-)
+      new Date(b.publishedAt).valueOf() - new Date(a.publishedAt).valueOf()
+  );
 ---
 
 <Main
@@ -22,8 +23,8 @@ const sortedItems = items.sort(
                 {
                     sortedItems.map((item) => (
                         <li class="link-list">
-                            <a href={`/posts/${item.data.slug}`}>
-                                {item.data.title}
+                            <a href={`/posts/${item.slug.replace("posts/", "")}`}>
+                                {item.title}
                             </a>
                         </li>
                     ))

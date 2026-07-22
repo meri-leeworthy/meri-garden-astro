@@ -1,6 +1,7 @@
 ---
 import Main from "../../layouts/Main.astro"
-import { getCollection, render } from "astro:content"
+import { readCache } from "../../../lib/pds"
+import { renderDocumentContent, getDocumentSnippet } from "../../../lib/render-leaflet"
 import fs from "fs"
 import path from "path"
 
@@ -11,17 +12,19 @@ interface Backlink {
 }
 
 export async function getStaticPaths() {
-    const posts = await getCollection("posts")
+    const docs = readCache()
     const backlinksPath = path.join(process.cwd(), "public", "backlinks.json")
     const backlinksData = JSON.parse(fs.readFileSync(backlinksPath, "utf-8"))
 
-    return posts.map((post) => ({
-        params: { slug: post.data.slug },
-        props: {
-            post,
-            backlinks: (backlinksData[post.data.slug] || []) as Backlink[]
-        }
-    }))
+    return docs
+        .filter((d) => d.content || d.textContent)
+        .map((doc) => ({
+            params: { slug: doc.slug.replace("posts/", "") },
+            props: {
+                doc,
+                backlinks: (backlinksData[doc.slug] || []) as Backlink[]
+            }
+        }))
 }
 
 function formatDate(date: string | Date | undefined) {
@@ -34,30 +37,30 @@ function formatDate(date: string | Date | undefined) {
     })
 }
 
-const { post, backlinks } = Astro.props
-const { Content } = await render(post)
+const { doc, backlinks } = Astro.props
+const html = renderDocumentContent(doc)
 ---
 
 <Main
-    title={post.data.title}
-    description={post.data.description || ""}
-    image={post.data.image || ""}
-    atUri={post.data.atUri || ""}
+    title={doc.title}
+    description={doc.description || ""}
+    image=""
+    atUri={doc.uri}
 >
     <article
         class={`prose flex flex-col items-center mx-auto max-w-4xl w-full post pt-16`}
     >
         <div
             class={`relative w-full lg:w-[48rem] mb-12 ${
-                post.data.image ? "aspect-video" : "h-10"
+                doc.coverImage ? "aspect-video" : "h-10"
             }`}
         >
             {
-                post.data.image && (
+                doc.coverImage && (
                     <div class="absolute top-0 right-3 w-[calc(100%-30px)] lg:w-[calc(48rem-40px)] bg-teal-800  aspect-video">
                         <img
-                            src={`/images/${post.data.image}`}
-                            alt={post.data.alt || post.data.title}
+                            src={`/images/${doc.coverImage}`}
+                            alt={doc.title}
                         />
                     </div>
                 )
@@ -66,20 +69,20 @@ const { Content } = await render(post)
                 <h1
                     class="inline px-2 py-2 text-lg leading-8 bg-purple-300 rounded-lg shadow-xl lg:text-2xl font-title box-decoration-clone"
                 >
-                    {post.data.title}
+                    {doc.title}
                 </h1>
             </div>
         </div>
         {
-            post.data.date && (
+            doc.publishedAt && (
                 <div class="font-title px-8 text-right w-full lg:w-[48rem] text-sm text-neutral-600 pb-8">
-                    {formatDate(post.data.date)}
+                    {formatDate(doc.publishedAt)}
                 </div>
             )
         }
 
         <main class="w-full max-w-prose">
-            <Content />
+            <div set:html={html} />
             {
                 backlinks.length > 0 && (
                     <section class="backlinks">

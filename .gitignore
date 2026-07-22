@@ -24,3 +24,12 @@ pnpm-debug.log*
 .idea/
 
 .sequoia-state.json
+
+# PDS cache (fetched during prebuild)
+.pds-cache/
+
+# Local PDS records (originals and converted)
+pds-records/
+
+# pnpm store
+.pnpm-store/

@@ -3,9 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "prebuild": "tsx lib/process-md.ts",
-    "generate-backlinks": "tsx lib/generate-backlinks.ts",
+    "prebuild": "tsx lib/seed-cache.ts && tsx lib/process-md.ts",
+    "prebuild:pds": "tsx lib/prebuild-pds.ts && tsx lib/process-md.ts",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -13,11 +12,13 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
     "@astrojs/react": "^4.3.0",
+    "@atproto/api": "^0.20.30",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.10",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "astro": "^5.9.3",
+    "marked": "^18.0.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-player": "^2.16.0",

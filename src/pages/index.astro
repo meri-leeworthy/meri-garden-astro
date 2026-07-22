@@ -2,6 +2,7 @@
 import Main from "../layouts/Main.astro"
 import { getCollection } from "astro:content"
 import ProjectCard from "../components/ProjectCard.astro"
+import { readCache } from "../../lib/pds"
 
 const items = await getCollection("work")
 const sortedItems = items
@@ -11,6 +12,15 @@ const sortedItems = items
             (b.data.date ? new Date(b.data.date).valueOf() : 1) -
             (a.data.date ? new Date(a.data.date).valueOf() : 1)
     )
+
+const pdsDocs = readCache()
+const recentPosts = pdsDocs
+    .filter((d) => d.content || d.textContent)
+    .sort(
+        (a, b) =>
+            new Date(b.publishedAt).valueOf() - new Date(a.publishedAt).valueOf()
+    )
+    .slice(0, 5)
 
 function stripMarkdown(md: string): string {
     return (
@@ -91,39 +101,15 @@ function getSnippet(item: any) {
         <section class="w-full max-w-lg mx-auto mt-32">
             <h2 class="text-2xl font-title mb-8">Writing</h2>
             <ul class="flex flex-col gap-3 mt-6 font-title list-['↠']">
-                <li class="link-list">
-                    <a
-                        href="/posts/using-keyhive-in-wasm-to-model-capability-groups"
-                    >
-                        Using Keyhive in WASM to model capability groups
-                    </a>
-                </li>
-                <li class="link-list">
-                    <a href="/posts/a-deep-dive-explainer-on-beekem-protocol">
-                        A deep-dive explainer on Ink and Switch's BeeKEM
-                        protocol
-                    </a>
-                </li>
-                <li class="link-list">
-                    <a href="/posts/leaf-render-update-0">
-                        Leaf Render Update 0
-                    </a>
-                </li>
-                <li class="link-list">
-                    <a
-                        href="/posts/what-happened-to-the-earlier-version-of-organ"
-                    >
-                        What happened to the earlier version of Organ?
-                    </a>
-                </li>
-                <li class="link-list">
-                    <a
-                        href="/posts/analysis-of-proposed-protocols-for-metadata-protection-and-decentralisation-in-secure-group-messaging"
-                    >
-                        Analysis of proposed protocols for metadata protection
-                        and decentralisation in Secure Group Messaging
-                    </a>
-                </li>
+                {
+                    recentPosts.map((post) => (
+                        <li class="link-list">
+                            <a href={`/posts/${post.slug.replace("posts/", "")}`}>
+                                {post.title}
+                            </a>
+                        </li>
+                    ))
+                }
             </ul>
             <div class="w-full my-4">
                 <a href="/posts" class="font-title underline text-sm"
