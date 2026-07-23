@@ -218,8 +218,12 @@ function renderOrderedListItem(item: LeafletOrderedListItem): string {
 function renderImageBlock(block: LeafletImageBlock): string {
   const alt = block.alt ? escapeAttr(block.alt) : "";
   const ref = block.image?.ref as { $link?: string } | undefined;
-  const src = ref?.$link;
-  if (src) {
+  const cid = ref?.$link;
+  if (cid) {
+    // Blob refs store a CID; resolve via PDS sync.getBlob endpoint
+    const PDS = "https://shimeji.us-east.host.bsky.network";
+    const DID = "did:plc:mmyj7mk7kh3jqhw6zs4prbuk";
+    const src = `${PDS}/xrpc/com.atproto.sync.getBlob?did=${encodeURIComponent(DID)}&cid=${encodeURIComponent(cid)}`;
     return `<p><img src="${escapeAttr(src)}" alt="${alt}" loading="lazy" /></p>`;
   }
   if (alt) {
