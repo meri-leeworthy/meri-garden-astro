@@ -204,6 +204,86 @@ a:hover:not(.projectcard, .title-no-underline) {
     @apply mx-2 sm:mx-0;
 }
 
+.bsky-embed {
+    @apply my-4;
+}
+
+.bsky-embed-card {
+    @apply rounded-lg border border-slate-300 bg-white p-4 max-w-prose;
+}
+
+.bsky-embed-header {
+    @apply flex items-center gap-3 text-slate-900;
+}
+
+.bsky-embed-avatar {
+    @apply h-11 w-11 shrink-0 rounded-full;
+}
+
+.bsky-embed-author {
+    @apply flex flex-col leading-tight;
+}
+
+.bsky-embed-name {
+    @apply font-semibold;
+}
+
+.bsky-embed-handle {
+    @apply text-sm text-slate-500;
+}
+
+.bsky-embed-body {
+    @apply mt-2 text-slate-900;
+}
+
+.bsky-embed-body > p:first-child {
+    @apply mt-1;
+}
+
+.bsky-embed-images {
+    @apply mt-2 grid max-h-80 gap-1 overflow-hidden rounded-md;
+}
+
+.bsky-embed-images img {
+    @apply max-h-80 w-full object-cover;
+}
+
+.bsky-embed-external {
+    @apply mt-2 flex gap-3 overflow-hidden rounded-md border border-slate-200 no-underline;
+}
+
+.bsky-embed-ext-thumb {
+    @apply h-28 w-28 shrink-0 object-cover;
+}
+
+.bsky-embed-ext-text {
+    @apply flex flex-col gap-1 overflow-hidden p-3;
+}
+
+.bsky-embed-ext-title {
+    @apply line-clamp-1 text-sm font-semibold text-slate-900;
+}
+
+.bsky-embed-ext-desc {
+    @apply line-clamp-2 text-xs text-slate-500;
+}
+
+.bsky-embed-meta {
+    @apply mt-3 flex items-center gap-3 text-xs text-slate-500;
+}
+
+.bsky-embed-quote {
+    @apply mt-3 rounded-md border border-slate-200 p-3;
+}
+
+.bsky-embed-quote .bsky-embed-avatar {
+    @apply h-8 w-8;
+}
+
+.bsky-embed-count {
+    @apply whitespace-nowrap;
+}
+
 .title-flower {
     @apply relative;
 }

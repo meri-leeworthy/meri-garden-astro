@@ -46,7 +46,14 @@ export type LeafletBlock =
   | LeafletUnorderedListBlock
   | LeafletOrderedListBlock
   | LeafletHorizontalRuleBlock
-  | LeafletImageBlock;
+  | LeafletImageBlock
+  | LeafletBskyPostBlock;
+
+export interface LeafletBskyPostBlock {
+  $type: "pub.leaflet.blocks.bskyPost";
+  postRef: { cid: string; uri: string };
+  clientHost?: string;
+}
 
 export interface LeafletTextBlock {
   $type: "pub.leaflet.blocks.text";

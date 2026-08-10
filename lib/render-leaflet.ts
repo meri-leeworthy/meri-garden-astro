@@ -2,13 +2,12 @@
  * Renders Leaflet block content to HTML.
  *
  * Handles all block types and facet annotations (bold, italic, code,
- * links, strikethrough, highlight, underline, mentions).
+ * links, strikethrough, highlight, underline, mentions), plus
+ * `bskyPost` blocks which render as Bluesky post embeds.
  */
 
 import type {
   LeafletBlock,
-  LeafletFacet,
-  LeafletFacetFeature,
   LeafletPage,
   PdsDocument,
   LeafletTextBlock,
@@ -20,111 +19,14 @@ import type {
   LeafletListItem,
   LeafletOrderedListItem,
   LeafletImageBlock,
+  LeafletBskyPostBlock,
 } from "./pds";
-
-// --- Facet rendering ---
-
-function renderFacetedText(plaintext: string, facets?: LeafletFacet[]): string {
-  if (!facets || facets.length === 0) {
-    return escapeHtml(plaintext);
-  }
-
-  const textBytes = Buffer.byteLength(plaintext, "utf-8");
-  const starts: Record<number, LeafletFacetFeature[]> = {};
-  const ends: Record<number, LeafletFacetFeature[]> = {};
-  for (const facet of facets) {
-    const { byteStart, byteEnd } = facet.index;
-    for (const feature of facet.features) {
-      (starts[byteStart] ??= []).push(feature);
-      (ends[byteEnd] ??= []).push(feature);
-    }
-  }
-
-  const pointSet: Record<number, true> = { 0: true, [textBytes]: true };
-  for (const f of facets) {
-    pointSet[f.index.byteStart] = true;
-    pointSet[f.index.byteEnd] = true;
-  }
-  const sortedPoints = Object.keys(pointSet).map(Number).sort((a, b) => a - b);
-
-  const activeFeatures: LeafletFacetFeature[] = [];
-  const parts: string[] = [];
-
-  for (let i = 0; i < sortedPoints.length - 1; i++) {
-    const segStart = sortedPoints[i];
-    const segEnd = sortedPoints[i + 1];
-    if (segStart === segEnd) continue;
-
-    const ending = ends[segStart];
-    if (ending) {
-      for (const f of ending) {
-        const idx = activeFeatures.lastIndexOf(f);
-        if (idx >= 0) activeFeatures.splice(idx, 1);
-      }
-    }
-
-    const starting = starts[segStart];
-    if (starting) {
-      activeFeatures.push(...starting);
-    }
-
-    const isAscii = Buffer.byteLength(plaintext, "utf-8") === plaintext.length;
-    const segText = plaintext.slice(
-      isAscii ? segStart : Buffer.from(plaintext, "utf-8").subarray(0, segStart).toString("utf-8").length,
-      isAscii ? segEnd : Buffer.from(plaintext, "utf-8").subarray(0, segEnd).toString("utf-8").length,
-    );
-    if (!segText) continue;
-
-    let content = escapeHtml(segText);
-    for (const feature of activeFeatures) {
-      content = wrapFeature(content, feature);
-    }
-    parts.push(content);
-  }
-
-  return parts.join("");
-}
-
-function wrapFeature(content: string, feature: LeafletFacetFeature): string {
-  switch (feature.$type) {
-    case "pub.leaflet.richtext.facet#bold":
-      return `<strong>${content}</strong>`;
-    case "pub.leaflet.richtext.facet#italic":
-      return `<em>${content}</em>`;
-    case "pub.leaflet.richtext.facet#code":
-      return `<code>${content}</code>`;
-    case "pub.leaflet.richtext.facet#strikethrough":
-      return `<del>${content}</del>`;
-    case "pub.leaflet.richtext.facet#highlight":
-      return `<mark>${content}</mark>`;
-    case "pub.leaflet.richtext.facet#underline":
-      return `<u>${content}</u>`;
-    case "pub.leaflet.richtext.facet#link":
-      return `<a href="${escapeAttr(feature.uri)}">${content}</a>`;
-    case "pub.leaflet.richtext.facet#didMention":
-      return `<a href="https://bsky.app/profile/${feature.did}">${content}</a>`;
-    case "pub.leaflet.richtext.facet#atMention":
-      return `<a href="${escapeAttr(feature.atURI)}">${content}</a>`;
-    default:
-      return content;
-  }
-}
-
-function escapeHtml(s: string): string {
-  return s
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
-function escapeAttr(s: string): string {
-  return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-}
+import { renderFacetedText, escapeHtml, escapeAttr } from "./richtext";
+import { renderBskyPostEmbed } from "./bsky-embed";
 
 // --- Block rendering ---
 
-function renderBlock(block: LeafletBlock): string {
+function renderBlock(block: LeafletBlock, embeds?: Map<string, string>): string {
   switch (block.$type) {
     case "pub.leaflet.blocks.text":
       return renderTextBlock(block);
@@ -135,13 +37,15 @@ function renderBlock(block: LeafletBlock): string {
     case "pub.leaflet.blocks.blockquote":
       return renderBlockquoteBlock(block);
     case "pub.leaflet.blocks.unorderedList":
-      return renderUnorderedList(block);
+      return renderUnorderedList(block, embeds);
     case "pub.leaflet.blocks.orderedList":
-      return renderOrderedList(block);
+      return renderOrderedList(block, embeds);
     case "pub.leaflet.blocks.horizontalRule":
       return '<hr class="my-8 border-slate-300" />';
     case "pub.leaflet.blocks.image":
       return renderImageBlock(block);
+    case "pub.leaflet.blocks.bskyPost":
+      return renderBskyPostBlock(block, embeds);
     default:
       return "";
   }
@@ -174,19 +78,19 @@ function renderBlockquoteBlock(block: LeafletBlockquoteBlock): string {
   return `<blockquote>${paragraphs}</blockquote>`;
 }
 
-function renderUnorderedList(block: LeafletUnorderedListBlock): string {
-  const items = block.children.map(renderUnorderedListItem).join("");
+function renderUnorderedList(block: LeafletUnorderedListBlock, embeds?: Map<string, string>): string {
+  const items = block.children.map((item) => renderUnorderedListItem(item, embeds)).join("");
   return `<ul>${items}</ul>`;
 }
 
-function renderUnorderedListItem(item: LeafletListItem): string {
-  const content = renderBlock(item.content);
+function renderUnorderedListItem(item: LeafletListItem, embeds?: Map<string, string>): string {
+  const content = renderBlock(item.content, embeds);
   let nested = "";
   if (item.children && item.children.length > 0) {
-    nested = `<ul>${item.children.map(renderUnorderedListItem).join("")}</ul>`;
+    nested = `<ul>${item.children.map((child) => renderUnorderedListItem(child, embeds)).join("")}</ul>`;
   }
   if (item.orderedListChildren) {
-    nested = `<ol>${item.orderedListChildren.children.map(renderOrderedListItem).join("")}</ol>`;
+    nested = `<ol>${item.orderedListChildren.children.map((child) => renderOrderedListItem(child, embeds)).join("")}</ol>`;
   }
   const checkbox = item.checked !== undefined
     ? `<input type="checkbox" ${item.checked ? "checked" : ""} disabled /> `
@@ -194,20 +98,20 @@ function renderUnorderedListItem(item: LeafletListItem): string {
   return `<li>${checkbox}${content}${nested}</li>`;
 }
 
-function renderOrderedList(block: LeafletOrderedListBlock): string {
+function renderOrderedList(block: LeafletOrderedListBlock, embeds?: Map<string, string>): string {
   const start = block.startIndex && block.startIndex !== 1 ? ` start="${block.startIndex}"` : "";
-  const items = block.children.map(renderOrderedListItem).join("");
+  const items = block.children.map((item) => renderOrderedListItem(item, embeds)).join("");
   return `<ol${start}>${items}</ol>`;
 }
 
-function renderOrderedListItem(item: LeafletOrderedListItem): string {
-  const content = renderBlock(item.content);
+function renderOrderedListItem(item: LeafletOrderedListItem, embeds?: Map<string, string>): string {
+  const content = renderBlock(item.content, embeds);
   let nested = "";
   if (item.children && item.children.length > 0) {
-    nested = `<ol>${item.children.map(renderOrderedListItem).join("")}</ol>`;
+    nested = `<ol>${item.children.map((child) => renderOrderedListItem(child, embeds)).join("")}</ol>`;
   }
   if (item.unorderedListChildren) {
-    nested = `<ul>${item.unorderedListChildren.children.map(renderUnorderedListItem).join("")}</ul>`;
+    nested = `<ul>${item.unorderedListChildren.children.map((child) => renderUnorderedListItem(child, embeds)).join("")}</ul>`;
   }
   const checkbox = item.checked !== undefined
     ? `<input type="checkbox" ${item.checked ? "checked" : ""} disabled /> `
@@ -232,18 +136,23 @@ function renderImageBlock(block: LeafletImageBlock): string {
   return "";
 }
 
+function renderBskyPostBlock(block: LeafletBskyPostBlock, embeds?: Map<string, string>): string {
+  const card = renderBskyPostEmbed(block.postRef.uri, embeds);
+  return card ? `<div class="bsky-embed">${card}</div>` : "";
+}
+
 // --- Public API ---
 
-export function renderLeafletPage(page: LeafletPage): string {
+export function renderLeafletPage(page: LeafletPage, embeds?: Map<string, string>): string {
   return page.blocks
-    .map((wrapper) => renderBlock(wrapper.block))
+    .map((wrapper) => renderBlock(wrapper.block, embeds))
     .filter(Boolean)
     .join("\n");
 }
 
-export function renderDocumentContent(doc: PdsDocument): string {
+export function renderDocumentContent(doc: PdsDocument, embeds?: Map<string, string>): string {
   if (doc.content?.pages?.[0]) {
-    return renderLeafletPage(doc.content.pages[0]);
+    return renderLeafletPage(doc.content.pages[0], embeds);
   }
   // Fallback: render textContent as simple paragraphs
   if (doc.textContent) {
@@ -254,6 +163,22 @@ export function renderDocumentContent(doc: PdsDocument): string {
       .join("\n");
   }
   return "";
+}
+
+/**
+ * Collect the URIs of every bskyPost block in a document, in document order.
+ */
+export function collectBskyPostUris(doc: PdsDocument): string[] {
+  const page = doc.content?.pages?.[0];
+  if (!page) return [];
+  const uris: string[] = [];
+  for (const wrapper of page.blocks) {
+    const b = wrapper.block;
+    if (b.$type === "pub.leaflet.blocks.bskyPost") {
+      uris.push(b.postRef.uri);
+    }
+  }
+  return uris;
 }
 
 export function getDocumentSnippet(doc: PdsDocument, maxLength = 200): string {
