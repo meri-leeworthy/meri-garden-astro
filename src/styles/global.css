@@ -212,8 +212,12 @@ a:hover:not(.projectcard, .title-no-underline) {
     @apply rounded-lg border border-slate-300 bg-white p-4 max-w-prose;
 }
 
-.bsky-embed-header {
-    @apply flex items-center gap-3 text-slate-900;
+.post .bsky-embed-header {
+    @apply flex items-center gap-3 text-slate-900 no-underline;
+}
+
+.post a.bsky-embed-header[target="_blank"]::after {
+    content: none;
 }
 
 .bsky-embed-avatar {
@@ -241,11 +245,11 @@ a:hover:not(.projectcard, .title-no-underline) {
 }
 
 .bsky-embed-images {
-    @apply mt-2 grid max-h-80 gap-1 overflow-hidden rounded-md;
+    @apply mt-2 grid gap-1 overflow-hidden rounded-md;
 }
 
 .bsky-embed-images img {
-    @apply max-h-80 w-full object-cover;
+    @apply w-full object-cover;
 }
 
 .bsky-embed-external {

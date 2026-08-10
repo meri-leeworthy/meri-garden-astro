@@ -136,6 +136,14 @@ function renderPostText(record: BskyPostView["record"]): string {
   return renderFacetedText(record.text, facets);
 }
 
+function imageAspectRatio(img: Record<string, unknown>): string {
+  const ratio = img.aspectRatio;
+  if (!isRecord(ratio)) return "";
+  const { width, height } = ratio;
+  if (typeof width !== "number" || typeof height !== "number" || width <= 0 || height <= 0) return "";
+  return ` style="aspect-ratio: ${width} / ${height};"`;
+}
+
 // --- Embed view rendering ---
 
 function renderMedia(embed: unknown, depth: number): string {
@@ -150,7 +158,8 @@ function renderMedia(embed: unknown, depth: number): string {
         const thumb = typeof img.thumb === "string" ? img.thumb : "";
         if (!thumb) return "";
         const alt = typeof img.alt === "string" ? img.alt : "";
-        return `<img src="${escapeAttr(thumb)}" alt="${escapeAttr(alt)}" loading="lazy" />`;
+        const ratio = imageAspectRatio(img);
+        return `<img src="${escapeAttr(thumb)}" alt="${escapeAttr(alt)}" loading="lazy"${ratio} />`;
       })
       .filter(Boolean)
       .join("");
@@ -202,9 +211,8 @@ function renderQuoteCard(recordView: Record<string, unknown>, depth: number): st
   const leafletFacets = isFacetArray(facets) ? facets.map(toLeafletFacet) : undefined;
   const body = text ? `<p>${renderFacetedText(text, leafletFacets)}</p>` : "";
   const media = renderMedia(recordView.embed, depth + 1);
-  return `<div class="bsky-embed-quote"><a class="bsky-embed-header" href="${escapeAttr(postHref)}" target="_blank" rel="noopener noreferrer">${avatarHtml}<span class="bsky-embed-author"><span class="bsky-embed-name">${escapeHtml(name)}</span><span class="bsky-embed-handle">@${escapeHtml(author.handle)}</span></span></a>${body}${media}</div>`;
+  return `<div class="bsky-embed-quote not-prose"><a class="bsky-embed-header" href="${escapeAttr(postHref)}" target="_blank" rel="noopener noreferrer">${avatarHtml}<span class="bsky-embed-author"><span class="bsky-embed-name">${escapeHtml(name)}</span><span class="bsky-embed-handle">@${escapeHtml(author.handle)}</span></span></a>${body}${media}</div>`;
 }
-
 // --- Top-level post card ---
 
 function bskyPostHref(uri: string, handle: string): string {
@@ -234,7 +242,7 @@ function renderPostCard(post: BskyPostView): string {
   const date = renderDate(post.indexedAt);
   const dateHtml = date ? `<span class="bsky-embed-date">${date}</span>` : "";
   const media = renderMedia(post.embed, 0);
-  return `<div class="bsky-embed-card"><a class="bsky-embed-header" href="${escapeAttr(bskyPostHref(post.uri, author.handle))}" target="_blank" rel="noopener noreferrer">${avatarHtml}<span class="bsky-embed-author"><span class="bsky-embed-name">${escapeHtml(name)}</span><span class="bsky-embed-handle">@${escapeHtml(author.handle)}</span></span></a><div class="bsky-embed-body"><p>${renderPostText(post.record)}</p>${media}</div><div class="bsky-embed-meta">${renderCounts(post)}${dateHtml}</div></div>`;
+  return `<div class="bsky-embed-card not-prose"><a class="bsky-embed-header" href="${escapeAttr(bskyPostHref(post.uri, author.handle))}" target="_blank" rel="noopener noreferrer">${avatarHtml}<span class="bsky-embed-author"><span class="bsky-embed-name">${escapeHtml(name)}</span><span class="bsky-embed-handle">@${escapeHtml(author.handle)}</span></span></a><div class="bsky-embed-body"><p>${renderPostText(post.record)}</p>${media}</div><div class="bsky-embed-meta">${renderCounts(post)}${dateHtml}</div></div>`;
 }
 
 // --- Public API ---
