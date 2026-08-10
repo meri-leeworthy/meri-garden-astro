@@ -10,6 +10,8 @@ interface Props {
 }
 let { title, description, image, atUri }: Props = Astro.props
 const fallbackTitle = "Meri Leeworthy"
+const publicationUri =
+    "at://did:plc:mmyj7mk7kh3jqhw6zs4prbuk/site.standard.publication/3mag7aqhzas2n"
 const fallbackDescription =
     "I'm a programmer, designer, writer and artist. I try to make tools for community autonomy, creativity, and resistance."
 const fallbackImage = "https://static.meri.garden/mesh-gradient.png"
@@ -105,6 +107,7 @@ image = image || fallbackImage
         />
         <link rel="manifest" href="/site.webmanifest" />
         {atUri && <link rel="site.standard.document" href={atUri} />}
+        <link rel="site.standard.publication" href={publicationUri} />
         <title>Meri Leeworthy</title>
     </head>
 
